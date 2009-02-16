@@ -1,19 +1,46 @@
+-- Purpose
 Assalamu Alaikum,
 Peace be with you,
 
 This public repository is intended as a place to accumulate
 works by authors who are part of the ex-Muslim movement.
 
-Everybody is welcome to have his stuff posted here.
+Everybody is welcome to have his or her stuff posted here.
 The requirements are:
   .) Use open document formats, e.g.: plain text, XML, (X)HTML, PDF, LaTeX etc.
      No Microsoft formats are allowed.
      If you need a free office suite, see: http://www.openoffice.org
-  .) Dedicate some time to properly format your documents.
+  .) Dedicate some time to clean and properly format your documents.
+  .) Of course, different languages and translations are desired.
+The reason for this is that it will be much easier to create tools that convert
+documents to the PDF format for publishing or printing purposes.
 
-Note: we do not espouse the radical view of extinguishing
-      or eradicating Islam from the face of this planet!
-      Our mission is not to agitate against Muslims, who
-      are part of our families whom we love dearly.
-      We simply wish to make our views of Islam and
-      the conclusions we reached known to the public.
+-- What is a repository?
+Keep in mind that this is a repository that tracks modifications (history.)
+That means it records a revision (point in history) every time I submit
+one or more files and/or every time I decide to submit modifications made
+to the lines of a set of files.
+The software is designed to conserve all of history, so deleting files will not
+cause them to disappear completely; it's similar to soft deletions.
+It's not entirely impossible to actually delete files, but it entails
+executing a repo filter operation and after that the old repo must be deleted
+and the filtered repo must be uploaded again.
+The more history and data there is, the more time this will take!
+
+So beware giving me material to which you have no permission or copyright, or
+anything that you might regret at a later time!
+
+-- Copying:
+You may copy and distribute any material according to its specified license.
+Sometimes there might be no license, therefore you will have to ask the author
+about what usage s/he allows.
+Most of the time you can do whatever you like. However, make sure the license
+allows commercial use if you would like to sell print-outs, CDs etc.
+
+-- Important note:
+  We do not espouse the radicals' view of extinguishing
+  or eradicating Islam from the face of this planet!
+  Our mission is not to agitate against Muslims, who
+  are part of our families whom we dearly love.
+  We simply wish to make our views of Islam and
+  the conclusions we reached known to the public!
