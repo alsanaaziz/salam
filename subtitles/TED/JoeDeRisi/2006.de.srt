@@ -1,0 +1,1165 @@
+1
+00:00:12,250 --> 00:00:15,120
+Wie ist es; wie können wird diese
+
+2
+00:00:15,220 --> 00:00:18,316
+Virenflora untersuchen, die uns umgibt
+
+3
+00:00:18,416 --> 00:00:19,931
+um die Medizin zu unterstützen?
+
+4
+00:00:20,031 --> 00:00:24,126
+Wie können wir unser kumulatives Wissen der Virologie umsetzen
+
+5
+00:00:24,226 --> 00:00:28,089
+in einen einfachen, tragbaren, einzelnen diagnostischen Nachweistest?
+
+6
+00:00:28,189 --> 00:00:29,836
+Ich möchte alles was wir zur Zeit kennen
+
+7
+00:00:29,936 --> 00:00:33,667
+über das Aufspüren von Viren und das Spektrum von Viren, die es draußen gibt,
+
+8
+00:00:33,767 --> 00:00:36,083
+in, sagen wir, einen kleinen Chip umsetzen.
+
+9
+00:00:36,183 --> 00:00:41,184
+Als wir begannen über dieses Projet nachzudenken, wie wir einen einzelnen diagnostischen Test,
+
+10
+00:00:41,284 --> 00:00:44,210
+um alle Pathogene simultan zu überprüfen, machen könnten.
+
+11
+00:00:44,310 --> 00:00:46,313
+Nun, es gibt einige Probleme mit dieser Idee.
+
+12
+00:00:46,413 --> 00:00:47,413
+Zuallererst,
+
+13
+00:00:47,513 --> 00:00:50,208
+Viren sind sehr komplex
+
+14
+00:00:50,353 --> 00:00:52,529
+aber sie entwickeln sich auch
+
+15
+00:00:52,629 --> 00:00:54,007
+sehr schnell.
+
+16
+00:00:54,107 --> 00:00:56,259
+Dies ist ein Picornavirus. Picornaviren:
+
+17
+00:00:56,359 --> 00:00:59,336
+das sind Dinge, die die gemeine Kälte und Polio beinhalten.
+
+18
+00:00:59,436 --> 00:01:02,133
+Solche Dinge eben. Sie sehen gerade die äußere Hülle des Virus
+
+19
+00:01:02,233 --> 00:01:06,623
+und die gelbe Farbe hier sind die Teile des Virus, die sehr, sehr schnell evolvieren,
+
+20
+00:01:06,723 --> 00:01:09,058
+und die blauen Teile evolvieren nicht sehr schnell.
+
+21
+00:01:09,158 --> 00:01:12,647
+Wenn Leute überlegen pan-virale Nachweisreagenzien zu erzeugen,
+
+22
+00:01:12,747 --> 00:01:15,809
+ist die schnelle Evolution üblicherweise das Problem,
+
+23
+00:01:15,909 --> 00:01:18,271
+weil wie soll man Dinge nachweisen wenn sie sich ständig ändern?
+
+24
+00:01:18,371 --> 00:01:20,067
+Aber die Evolution ist ein Gleichgewicht.
+
+25
+00:01:20,167 --> 00:01:24,153
+Da wo es schnelle Veränderungen gibt, gibt es auch Ultrakonservierung.
+
+26
+00:01:24,253 --> 00:01:26,357
+Dinge die sich fast nie ändern.
+
+27
+00:01:26,457 --> 00:01:28,804
+Also prüften wir dies ein bisschen sorgfältiger.
+
+28
+00:01:28,904 --> 00:01:30,356
+Ich werde ihnen jetzt Daten zeigen.
+
+29
+00:01:30,456 --> 00:01:33,217
+Das ist einfach Kram, den sie auf einem Computer am Desktop machen können.
+
+30
+00:01:33,317 --> 00:01:37,678
+Wir nahmen einen Haufen dieser kleinen Picornaviren, wie die gemeine Kälte, wie Polio u.s.w.
+
+31
+00:01:37,841 --> 00:01:41,425
+Und ich spaltete sie einfach in kleine Segmente auf, und so
+
+32
+00:01:41,525 --> 00:01:44,243
+nahm ich dieses erste Beispiel namens Coxsackie-Virus
+
+33
+00:01:44,343 --> 00:01:46,001
+und spalte es einfach in kleine Fenster.
+
+34
+00:01:46,101 --> 00:01:50,617
+Und ich färbe diese kleinen Fenster blau, wenn ein anderer Virus
+
+35
+00:01:50,717 --> 00:01:54,101
+eine identische Sequenz in seinem Genom mit diesem Virus gemein hat.
+
+36
+00:01:54,201 --> 00:01:56,395
+Diese Sequenzen bis hier her –
+
+37
+00:01:56,495 --> 00:01:58,459
+die übrigens nicht mal für Proteine kodieren –
+
+38
+00:01:58,559 --> 00:02:01,781
+sind fast gänzlich identisch unter allen.
+
+39
+00:02:01,881 --> 00:02:03,872
+Also könnte ich diese Sequenz
+
+40
+00:02:03,972 --> 00:02:07,155
+als Marker verwenden um ein breites Spektrum an Viren zu erkennen,
+
+41
+00:02:07,255 --> 00:02:09,675
+ohne etwas Individuelles erzeugen zu müssen.
+
+42
+00:02:09,775 --> 00:02:13,722
+Nun, hier drüben diese große Vielfalt; dort entwickeln sich Dinge sehr schnell.
+
+43
+00:02:13,822 --> 00:02:17,574
+Hier unten können sie langsamere Evolution sehen – weniger Vielfalt.
+
+44
+00:02:17,674 --> 00:02:20,419
+Nun, sobald wir zu dem, sagen wir,
+
+45
+00:02:20,519 --> 00:02:22,402
+Akuten-Bienen-Paralyse-Virus kommen –
+
+46
+00:02:22,502 --> 00:02:24,414
+wohl schlecht als Biene zu haben.
+
+47
+00:02:24,514 --> 00:02:25,109
+(Lachen)
+
+48
+00:02:25,209 --> 00:02:29,180
+Dieser Virus hat fast keine Ähnlichkeit mit dem Coxsackie-Virus,
+
+49
+00:02:29,280 --> 00:02:32,105
+aber ich kann ihnen versichern, dass die Sequenzen,
+
+50
+00:02:32,205 --> 00:02:35,679
+die unter diesen Viren auf der rechten Seite des Schirms am meisten konserviert sind,
+
+51
+00:02:35,779 --> 00:02:38,257
+bis hier her identische Regionen sind.
+
+52
+00:02:38,357 --> 00:02:42,264
+Und so können wir diese Regionen der Ultrakonservation (durch Evolution) umfassen –
+
+53
+00:02:42,364 --> 00:02:45,409
+wie diese Viren sich entwickelten, durch die Auswahl
+
+54
+00:02:45,509 --> 00:02:51,724
+von DNA- oder RNA-Elementen in diesen Regionen um sie auf unserem Chip als Nachweisreagenzien zu repräsentieren.
+
+55
+00:02:51,911 --> 00:02:53,935
+Okay, das taten wir auch, aber wie werden wir das tun?
+
+56
+00:02:54,035 --> 00:02:58,071
+Nun, für eine lange Zeit, seit ich in der Hochschule war, habe ich herumgebastelt
+
+57
+00:02:58,171 --> 00:03:02,010
+um DNA chips zu machen; das heißt DNA auf Glas zu drucken und das ist was sie hier gerade sehen.
+
+58
+00:03:02,110 --> 00:03:05,174
+Diese kleinen Salzflecken sind einfach DNA geheftet auf Glas,
+
+59
+00:03:05,274 --> 00:03:09,612
+und so kann ich Tausende von denen auf einen Glas-Chip geben und sie als Nachweisreagenzien verwenden.
+
+60
+00:03:09,712 --> 00:03:13,935
+Wir brachten unseren Chip zu Hewlett Packard und benutzten deren Rasterkraftmikroskop an einer dieser Stellen.
+
+61
+00:03:14,035 --> 00:03:19,348
+Und das ist was sie sehen. Sie können hier tatsächlich die flach-liegenden DNA-Stränge auf dem Glas sehen.
+
+62
+00:03:19,448 --> 00:03:22,387
+Was wir also tun, ist einfach DNA auf Glas zu drucken.
+
+63
+00:03:22,487 --> 00:03:26,410
+Kleine flache Dinger, und diese werden Marker für Pathogene sein.
+
+64
+00:03:26,646 --> 00:03:30,130
+Okay, ich baue kleine Roboter in Labors um diese Chips zu produzieren
+
+65
+00:03:30,230 --> 00:03:32,961
+und ich bin begeistert davon Technologie zu verbreiten.
+
+66
+00:03:33,061 --> 00:03:37,130
+Wenn sie genug Geld haben um ein (?) zu kaufen, dann können sie eines von diesen auch bauen.
+
+67
+00:03:37,230 --> 00:03:40,963
+Und so stellten wir eine detaillierte Anleitung ins Web, völlig gratis.
+
+68
+00:03:41,063 --> 00:03:43,371
+Mit, im Prinzip, serienmäßig produzierten Teilen,
+
+69
+00:03:43,471 --> 00:03:46,378
+können sie eine DNA Array-Maschine in ihrer Garage bauen.
+
+70
+00:03:46,478 --> 00:03:49,719
+Hier ist der Abschnitt über den hochwichtigen Notausschalter.
+
+71
+00:03:49,819 --> 00:03:51,466
+(Lachen)
+
+72
+00:03:51,566 --> 00:03:54,625
+Jede wichtige Maschine muss eine große, rote Taste haben.
+
+73
+00:03:54,725 --> 00:03:58,325
+Aber im Ernst, es ist sehr robust. Sie könnten eigentlich DNA-Chips
+
+74
+00:03:58,425 --> 00:04:01,877
+in ihrer Garage ziemlich rasch bauen und ein paar genetische Programme dekodieren.
+
+75
+00:04:01,977 --> 00:04:03,223
+Es macht eine Menge Spaß!
+
+76
+00:04:03,323 --> 00:04:04,323
+(Lachen)
+
+77
+00:04:04,423 --> 00:04:05,843
+Also was wir taten –
+
+78
+00:04:05,943 --> 00:04:10,378
+und das ist wirklich ein cooles Projekt – wir begannen einfach einen Respiratorisches-Virus-Chip zu erzeugen.
+
+79
+00:04:10,478 --> 00:04:11,478
+Ich sprach darüber.
+
+80
+00:04:11,578 --> 00:04:14,726
+Sie kennen die Situation wo sie zur Klinik gehen und nicht diagnostiziert werden?
+
+81
+00:04:14,826 --> 00:04:19,461
+Nun, wir gaben einfach alle Human-RSV-Viren auf einen Chip.
+
+82
+00:04:19,561 --> 00:04:22,623
+Und wir warfen noch Herpesvirus als Zugabe drauf. Ich mein, warum nicht?
+
+83
+00:04:22,723 --> 00:04:25,364
+Als Wissenschaftler stellen sie zuerst sicher, dass der Kram funktioniert.
+
+84
+00:04:25,464 --> 00:04:28,539
+Was wir also taten, ist einfach Gewebekulturzellen zu nehmen
+
+85
+00:04:28,639 --> 00:04:30,760
+um sie mit verschiedenen Viren zu infizieren.
+
+86
+00:04:30,860 --> 00:04:34,482
+Wir nehmen also dieses Zeug und markieren fluoreszierend die Nukleinsäure,
+
+87
+00:04:34,582 --> 00:04:37,026
+das genetische Material, dass aus diesen Gewebekulturzellen kommt –
+
+88
+00:04:37,126 --> 00:04:38,405
+meistens virales Zeug.
+
+89
+00:04:38,505 --> 00:04:40,756
+Und setzen es auf das Array um zu sehen ob es haften bleibt.
+
+90
+00:04:40,856 --> 00:04:43,893
+Nun, wenn die DNA-Sequenzen übereinstimmen, bleiben sie haften.
+
+91
+00:04:43,993 --> 00:04:47,510
+Also können wir Stellen ansehen und wenn sie aufleuchten wissen wir, dass da ein bestimmter Virus ist.
+
+92
+00:04:47,610 --> 00:04:52,622
+Das ist wie ein solcher Chip wirklich aussieht und die roten Stellen sind tatsächlich Signale, die vom Virus kommen.
+
+93
+00:04:52,722 --> 00:04:56,564
+Und jede Stelle repräsentiert eine andere Virusfamilie oder Spezies von Virus.
+
+94
+00:04:56,664 --> 00:05:00,968
+Das ist eine schwierige Art Dinge anzusehen, also werde ich sie als kleines Barcode kodieren,
+
+95
+00:05:01,068 --> 00:05:04,878
+gruppiert nach Familie, so dass sie die Ergebnisse auf sehr intuitive Art sehen können.
+
+96
+00:05:05,223 --> 00:05:08,647
+Was wir taten ist, wir nahmen Gewebekulturzellen und infizierten sie mit einem Adenovirus,
+
+97
+00:05:08,747 --> 00:05:12,589
+und sie können diesen kleinen, gelben Barcode neben Adenovirus sehen.
+
+98
+00:05:12,794 --> 00:05:18,117
+Und ebenso infizierten wir mit Parainfluenza 3, das ist ein Paramyxovirus – sie sehen einen kleinen Barcode hier.
+
+99
+00:05:18,217 --> 00:05:23,624
+Nun verwendenten wir einen RS-Virus. Das ist die Plage von Tagesstätten überall. Es ist wie (?).
+
+100
+00:05:23,724 --> 00:05:25,402
+(Lachen)
+
+101
+00:05:25,505 --> 00:05:27,919
+Sie können sehen, dass dieser Barcode
+
+102
+00:05:28,019 --> 00:05:32,957
+die selbe Familie ist, aber es ist verschieden von Parainfluenza 3, der dir eine schlimme Erkältung gibt.
+
+103
+00:05:33,057 --> 00:05:36,469
+Und so bekommen wir einzigartige Signaturen, ein Fingerabdruck für jeden Virus.
+
+104
+00:05:36,569 --> 00:05:39,192
+Polio und Rhino, die sind in der selben Familie, sehr nah zu einander.
+
+105
+00:05:39,292 --> 00:05:41,558
+Rhino ist der grippaler Infekt. Wir alle wissen was Polio ist.
+
+106
+00:05:41,658 --> 00:05:44,257
+Und sie können sehen, dass diese Signaturen deutlich sind.
+
+107
+00:05:44,357 --> 00:05:47,137
+Und der Kaposi-Sarkom-Herpesvirus
+
+108
+00:05:47,237 --> 00:05:48,789
+ergibt eine nette Signatur hier unten.
+
+109
+00:05:48,889 --> 00:05:53,516
+Also ist es nicht ein bestimmter Streifen oder so, der uns sagt wir haben einen Virus einer bestimmten Art hier.
+
+110
+00:05:53,616 --> 00:05:57,389
+Es ist der Barcode, der abschnittsweise das Ganze repräsentiert.
+
+111
+00:05:57,489 --> 00:06:01,623
+Also, ich kann den Rhinovirus sehen und hier ist die Vergrößerung des Rhinovirus – kleiner Barcode.
+
+112
+00:06:01,723 --> 00:06:05,034
+Aber was ist mit verschiedenartigen Rhinoviren? Wie kann ich wissen welchen Rhinovirus ich habe?
+
+113
+00:06:05,134 --> 00:06:07,963
+Es gibt 102 bekannte Varianten der gemeinen Kälte,
+
+114
+00:06:08,063 --> 00:06:10,840
+und es gibt nur 102, weil Leute es satt hatten sie zu sammeln.
+
+115
+00:06:10,940 --> 00:06:12,700
+Es gibt neue jedes Jahr.
+
+116
+00:06:12,800 --> 00:06:16,538
+Also, hier sind 4 verschiedene Rhinoviren und sie können sehen, selbst mit ihrem Auge –
+
+117
+00:06:16,638 --> 00:06:20,848
+ohne irgendwelche raffinierten Computer-Mustererkennungs-Software-Algorithmen –
+
+118
+00:06:20,948 --> 00:06:24,321
+dass sie jeden Barcode von einander unterscheiden können.
+
+119
+00:06:24,421 --> 00:06:25,817
+Nun, das ist sehr einfach,
+
+120
+00:06:25,917 --> 00:06:28,832
+weil wir die genetischen Sequenzen all dieser Rhinoviren kennen.
+
+121
+00:06:28,932 --> 00:06:32,346
+Und ich habe in der Tat einen Chip entworfen, vor allem um sie von einander unterscheiden zu können.
+
+122
+00:06:32,446 --> 00:06:35,511
+Aber was ist mit Rhinoviren, die noch nie einen Gensequenzer gesehen haben?
+
+123
+00:06:35,611 --> 00:06:38,830
+Wir kennen die Sequenz nicht. Zerr' sie einfach aufs Feld.
+
+124
+00:06:38,930 --> 00:06:41,913
+So, hier sind 4 Rhinoviren, über die wir noch nie etwas wussten.
+
+125
+00:06:42,013 --> 00:06:44,663
+Niemand hat sie jemals sequenziert, und sie können auch sehen,
+
+126
+00:06:44,763 --> 00:06:48,708
+dass sie einzigartige und unterscheidbare Muster kriegen. Sie können sich vorstellen eine Bibliothek aufzubauen,
+
+127
+00:06:48,808 --> 00:06:52,140
+wo es reale oder virtuelle Fingerabdrücke im Grunde aller Viren gibt.
+
+128
+00:06:52,240 --> 00:06:54,858
+Aber das, nochmals, ist ein Kinderspiel, nicht wahr?
+
+129
+00:06:54,958 --> 00:06:58,644
+Sie haben Gewebekulturzellen, da gibt es eine Tonne Viren. Was ist mit echten Menschen?
+
+130
+00:06:58,744 --> 00:07:01,316
+Sie können echte Menschen nicht kontrollieren, wie sie wohl wissen.
+
+131
+00:07:01,416 --> 00:07:05,197
+Sie haben keine Ahnung was jemand in einen Becher husten wird.
+
+132
+00:07:05,297 --> 00:07:06,255
+(Lachen)
+
+133
+00:07:06,355 --> 00:07:08,632
+Und es ist wahrscheinlich sehr komplex, nicht wahr?
+
+134
+00:07:08,732 --> 00:07:13,171
+Es könnte eine (?) Bakterie sein, es könnte ein (?) Virus ein, (?) sicherlich als genetisches Wirtsmaterial.
+
+135
+00:07:13,271 --> 00:07:18,154
+Wie gehen wir also damit um? Und wie machen wir die positive Kontrolle hier? Nun, es ist sehr einfach.
+
+136
+00:07:18,254 --> 00:07:22,123
+Das bin ich, während einer Nasenspülung, und die Idee ist,
+
+137
+00:07:22,223 --> 00:07:25,172
+infizieren wir Leute experimentell mit einem Virus.
+
+138
+00:07:25,272 --> 00:07:28,193
+Also wir – das ist übrigens alles RIV-genehmigt,
+
+139
+00:07:28,293 --> 00:07:29,080
+(Lachen)
+
+140
+00:07:29,180 --> 00:07:34,092
+sie wurden bezahlt – und wir infizieren im Grunde Leute mit dem gemeinen Kälte-Virus,
+
+141
+00:07:34,192 --> 00:07:38,037
+oder noch besser, holen wir Leute direkt aus der Notaufnahme.
+
+142
+00:07:38,137 --> 00:07:41,325
+Undefinierte, Gesellschafts-erworbene Infektionen der Atemwege.
+
+143
+00:07:41,425 --> 00:07:43,627
+Man hat keine Ahnung was durch die Tür spaziert.
+
+144
+00:07:43,727 --> 00:07:46,401
+Also beginnen wir zuerst mit der positiven Kontrolle,
+
+145
+00:07:46,501 --> 00:07:50,823
+wo wir wissen die Person war gesund; sie bekamen einen Schuss Viren in die Nase. Schauen wir was passiert.
+
+146
+00:07:50,923 --> 00:07:52,898
+Tag Null: nichts passiert.
+
+147
+00:07:52,998 --> 00:07:56,709
+Sie sind gesund und sauber. Es ist erstaunlich. Eigentlich dachten wir die Nasenwege dürften voll mit Viren sein,
+
+148
+00:07:56,809 --> 00:08:00,243
+selbst wenn du gesund herumlaufst; du bist ziemlich gesund. Wenn du gesund bist, bist du ziemlich gesund.
+
+149
+00:08:00,343 --> 00:08:03,972
+Tag Zwei: wir bekommen ein sehr robustes Rhinoviren-Muster
+
+150
+00:08:04,072 --> 00:08:07,993
+und es ist sehr ähnlich zu dem was wir im Gewebekultur-Experiment im Labor bekamen.
+
+151
+00:08:08,093 --> 00:08:10,343
+Das ist großartig! Aber nochmals, eine billige Nummer, nicht wahr?
+
+152
+00:08:10,443 --> 00:08:13,127
+Wir verpassten diesem Kerl eine Tonne Viren in die Nase, also
+
+153
+00:08:13,227 --> 00:08:14,227
+(Lachen)
+
+154
+00:08:14,327 --> 00:08:16,714
+wir wollten, dass es funktioniert, ich mein, er hatte wirklich eine Erkältung.
+
+155
+00:08:16,814 --> 00:08:18,286
+Also, ähm
+(Lachen)
+
+156
+00:08:18,386 --> 00:08:20,878
+was ist mit den Leuten, die auf der Straße herumlaufen?
+
+157
+00:08:20,978 --> 00:08:23,691
+Hier sind also zwei Individuen, repräsentiert durch ihre (?) ID-Codes.
+
+158
+00:08:23,791 --> 00:08:27,010
+Beide haben Rhinoviren, wir haben dieses Muster noch nie im Labor gesehen.
+
+159
+00:08:27,110 --> 00:08:28,901
+Wir sequenzierten einen Teil ihrer Viren.
+
+160
+00:08:29,001 --> 00:08:31,798
+Ihre neuen Rhinoviren hat noch nie jemand wirklich gesehen.
+
+161
+00:08:31,898 --> 00:08:34,994
+Erinnern sie sich, dass unsere evolutionär konservierten Sequenzen, die wir auf diesem Array verwenden,
+
+162
+00:08:35,094 --> 00:08:38,816
+uns erlauben selbst neuartige oder nicht-charakterisierte Viren nachzuweisen.
+
+163
+00:08:38,916 --> 00:08:42,125
+Weil wir das auswählen was durch die Evolution konserviert wird.
+
+164
+00:08:42,225 --> 00:08:43,297
+Hier ist ein weiterer Kerl.
+
+165
+00:08:43,397 --> 00:08:47,489
+Sie können das Diagnosespiel selbst spielen. Diese verschiedenen Blöcke stellen die verschiedenen Viren dar,
+
+166
+00:08:47,589 --> 00:08:52,411
+in dieser Paramyxovirus-Familie. So können sie einfach die Blöcke runtergehen und sehen was es signalisiert.
+
+167
+00:08:52,511 --> 00:08:55,524
+Hat kein Staupevirus (CDV), das ist wohl gut.
+
+168
+00:08:55,624 --> 00:08:57,158
+(Lachen)
+
+169
+00:08:57,754 --> 00:09:02,638
+Aber sobald sie zu Block Neun kommen sehen sie das Respiratorische Synzytial-Virus. Vielleicht haben sie Kinder?
+
+170
+00:09:02,738 --> 00:09:06,851
+Und sie können auch das verwandte Familienmitglied sehen, RSV B erscheint hier.
+
+171
+00:09:06,951 --> 00:09:12,214
+Das ist wunderbar. Hier ist noch ein Individuum. An zwei getrennten Tagen; wiederholte Besuche bei der Klinik.
+
+172
+00:09:12,314 --> 00:09:15,007
+Dieses Individuum hat Parainfluenza 1
+
+173
+00:09:15,107 --> 00:09:20,003
+und sie können hier drüben einen kleinen Streifen für Sendaivirus sehen. Das ist Mäuse-Parainfluenza.
+
+174
+00:09:20,103 --> 00:09:22,551
+Die genetische Verwandtschaft ist sehr eng dort.
+
+175
+00:09:22,651 --> 00:09:25,090
+Das macht eine Menge Spaß. Also bauten wir den Chip.
+
+176
+00:09:25,190 --> 00:09:28,706
+Wir erzeugten einen Chip, der alle bekannten Viren, die jemals entdeckt wurden, drauf hat.
+
+177
+00:09:28,806 --> 00:09:32,293
+Warum nicht? Alle Pflanzenviren, alle Insektenviren, alle Meeresviren.
+
+178
+00:09:32,393 --> 00:09:36,834
+Alles was wir aus der (?) bekommen, das ist die National Repository of Sequence.
+
+179
+00:09:36,934 --> 00:09:39,277
+Jetzt verwenden wir diesen Chip, und wofür verwenden wir es?
+
+180
+00:09:39,377 --> 00:09:42,785
+Nun, zuallererst, wenn man so einen großen Chip wie diesen hat, dann braucht man ein wenig mehr Informatik.
+
+181
+00:09:42,885 --> 00:09:47,849
+Also entwarfen wir ein System für automatische Diagnosen. Und die Idee ist, wir haben einfach
+
+182
+00:09:47,949 --> 00:09:51,470
+virtuelle Muster, weil wir niemals Proben aller Viren bekommen werden. Das wäre praktisch unmöglich.
+
+183
+00:09:51,570 --> 00:09:52,974
+Aber wir können virtuelle Muster bekommen
+
+184
+00:09:53,074 --> 00:09:55,183
+und sie mit unserem beobachteten Ergebnis vergleichen,
+
+185
+00:09:55,283 --> 00:09:56,828
+was eine sehr komplexe Mischung ist,
+
+186
+00:09:56,928 --> 00:10:02,617
+und eine Art von Punktzahl angeben wie wahrscheinlich es ist, dass das ein Rhinovirus ist oder so.
+
+187
+00:10:02,717 --> 00:10:04,012
+Und dies ist wie es aussieht.
+
+188
+00:10:04,112 --> 00:10:08,323
+Wenn du z.B. eine Zellkultur, die chronisch mit Papillom infiziert ist, verwendest,
+
+189
+00:10:08,423 --> 00:10:10,399
+dann bekommst du eine Computerausgabe,
+
+190
+00:10:10,499 --> 00:10:13,638
+und unser Algorithmus sagt es ist wahrscheinlich Papillom Typ 18.
+
+191
+00:10:13,738 --> 00:10:17,924
+Und das ist tatsächlich womit diese besonderen Zellkulturen chronisch infiziert sind.
+
+192
+00:10:18,024 --> 00:10:19,909
+Also lass uns etwas Schwierigeres tun.
+
+193
+00:10:20,009 --> 00:10:22,600
+Wir gaben einen Beeper in die Klinik. Wenn jemand erscheint
+
+194
+00:10:22,700 --> 00:10:26,072
+und das Krankenhaus weiß nicht was zu tun ist, weil sie es nicht diagnostizieren können, dann rufen sie uns.
+
+195
+00:10:26,172 --> 00:10:28,273
+Das ist die Idee. Und wir stellten das im Bay Area auf.
+
+196
+00:10:28,373 --> 00:10:30,723
+Also, dieser Fallbericht geschieht vor 3 Wochen.
+
+197
+00:10:30,823 --> 00:10:36,288
+Wir haben eine 28-jährige, gesunde Frau. Keine Reisevergangenheit. (?), raucht nicht, trinkt nicht.
+
+198
+00:10:36,388 --> 00:10:38,248
+Zehn Tage Fieber,
+
+199
+00:10:38,348 --> 00:10:42,094
+Nachtschweiß, blutiger Stuhl, sie hustet Blut, Muskelschmerzen.
+
+200
+00:10:42,194 --> 00:10:44,046
+Sie ging zur Klinik und die gaben ihr
+
+201
+00:10:44,146 --> 00:10:45,299
+Anti-Biotika.
+
+202
+00:10:45,399 --> 00:10:49,519
+Nicht wahr? Und schickten sie nach Hause. Sie kam zurück nach 10 Tagen Fieber.
+
+203
+00:10:49,619 --> 00:10:54,286
+Nicht wahr? Hat immer noch das Fieber und sie ist hypoxisch. Sie hat nicht viel Sauerstoff in ihren Lungen.
+
+204
+00:10:54,386 --> 00:10:57,019
+Sie machten einen CT-Scan. Eine normale Lunge
+
+205
+00:10:57,119 --> 00:11:00,923
+ist mehr oder weniger dunkel und schwarz hier. All das weiße Zeug, das ist nicht gut.
+
+206
+00:11:01,023 --> 00:11:04,107
+Diese Art von Baum- und Knospenbildung deutet auf Information.
+
+207
+00:11:04,207 --> 00:11:06,927
+Es gibt wahrscheinlich eine Infektion. Okay.
+
+208
+00:11:07,027 --> 00:11:13,315
+Also wurde die Patientin mit einer 3. Generation Ceftriaxone Antibiotika und Doxycyclin behandelt.
+
+209
+00:11:13,415 --> 00:11:17,355
+Und am Tage 3: es half nicht. Sie schritt fort zu akutem Versagen.
+
+210
+00:11:17,455 --> 00:11:20,056
+Sie mussten eingreifen und steckten einen Schlauch in ihren Hals
+
+211
+00:11:20,156 --> 00:11:23,992
+und sie begannen sie mechanisch zu beatmen. Sie konnte nicht mehr selbst atmen.
+
+212
+00:11:24,092 --> 00:11:30,254
+Was als nächstes tun? Keine Ahnung. Anti-Biotika wechseln. Also wechselten sie zu anderer Anti-Biotika: Tamiflu.
+
+213
+00:11:30,354 --> 00:11:33,499
+Es ist nicht klar warum sie dachten, dass sie die Grippe hatte, aber sie wechselten zu Tamiflu.
+
+214
+00:11:33,599 --> 00:11:36,664
+Und am Tage 6: im Grunde warfen sie das Handtuch.
+
+215
+00:11:36,764 --> 00:11:39,790
+Man macht eine offene Lungenbiopsie wenn man keine anderen Optionen hat.
+
+216
+00:11:39,890 --> 00:11:42,549
+Es gibt eine 8% Sterberate, wir machen einfach diese Prozedur.
+
+217
+00:11:42,649 --> 00:11:47,093
+Also – und was lernten sie daraus? Sie sehen gerade ihre offene Lungenbiopsie.
+
+218
+00:11:47,193 --> 00:11:49,405
+Ich bin kein Pathologe, aber man kann davon nicht viel ablesen.
+
+219
+00:11:49,505 --> 00:11:55,934
+Was man ablesen kann ist, da gibt es viel Schwellung, Bronchiolitis. Es war nicht aufschlussreich, das ist der Bericht des Pathologen.
+
+220
+00:11:56,034 --> 00:11:59,650
+Also, wonach untersuchten sie sie? Die haben natürlich ihre eigenen Tests.
+
+221
+00:11:59,750 --> 00:12:04,632
+Also testeten sie sie auf über 70 unterschiedliche Proben für jede Art von Bakterie und Fungus
+
+222
+00:12:04,732 --> 00:12:09,749
+und Virusprobe, die man vom Regal kaufen konnte: SARS, Metapneumovirus, HIV, RSV.
+
+223
+00:12:09,849 --> 00:12:14,644
+Alle davon. Alles kam negativ zurück. Tests im Wert von über $100.000.
+
+224
+00:12:15,049 --> 00:12:19,159
+Sie gingen bis zum Letzten für diese Frau. Und am 8. Krankenhaustag:
+
+225
+00:12:19,259 --> 00:12:22,297
+da riefen sie uns an. Sie gaben uns Endo(?).
+
+226
+00:12:22,397 --> 00:12:25,318
+Wissen sie, ein wenig Flüssigkeit aus dem Hals, aus dem Schlauch den sie da drinnen hatten.
+
+227
+00:12:25,418 --> 00:12:27,848
+Und sie gaben uns das, wir gaben es auf den Chip.
+
+228
+00:12:27,948 --> 00:12:31,684
+Was sahen wir? Nun, wir sahen Parainfluenza 4.
+
+229
+00:12:31,784 --> 00:12:33,901
+Was zur Hölle ist Parainfluenza 4?
+
+230
+00:12:34,001 --> 00:12:37,242
+Niemand testet auf Parainfluenza 4. Niemand interessiert es. In Wahrheit
+
+231
+00:12:37,342 --> 00:12:40,669
+ist es nicht mal viel sequenziert worden. Es ist nur ein klein wenig davon sequenziert.
+
+232
+00:12:40,769 --> 00:12:43,305
+Es gibt fast keine Epidemiologie oder Studien darüber.
+
+233
+00:12:43,405 --> 00:12:48,412
+Niemand würde es erwägen. Weil niemand einen Hinweis hatte, dass es respiratorisches Versagen verursachen kann.
+
+234
+00:12:48,512 --> 00:12:50,604
+Und warum ist das so? Nur Überlieferungen!
+
+235
+00:12:50,704 --> 00:12:54,823
+Es gibt keine Daten. Keine Daten um zu stützen ob es eine schwere oder leichte Krankheit verursacht.
+
+236
+00:12:54,923 --> 00:12:58,502
+Wir haben eindeutig den Fall einer gesunden Person, die zusammenbricht.
+
+237
+00:12:58,602 --> 00:13:03,271
+Okay. Das ist eines der Fallberichte. Ich werde ihnen zuletzt in den letzten zwei Minuten noch etwas erzählen,
+
+238
+00:13:03,371 --> 00:13:05,714
+das unveröffentlich ist. Es wird morgen herauskommen.
+
+239
+00:13:05,814 --> 00:13:11,535
+Es ist ein interessanter Fall wie sie diesen Chip benutzen könnten um Neues zu finden und neue Türen zu öffnen.
+
+240
+00:13:11,635 --> 00:13:13,277
+Prostatakrebs.
+
+241
+00:13:13,663 --> 00:13:17,554
+Ich muss ihnen nicht viele Statistiken über Prostatakrebs geben. Die meisten von ihnen kennen es bereits.
+
+242
+00:13:17,654 --> 00:13:20,344
+Dritt-führende Ursache der Krebstode in den V.S.
+
+243
+00:13:20,556 --> 00:13:21,860
+Eine Menge Risikofaktoren,
+
+244
+00:13:21,960 --> 00:13:25,583
+aber es gibt eine genetische Veranlagung zu Prostatakrebs.
+
+245
+00:13:25,683 --> 00:13:28,512
+Von vielleicht 10% der Prostatakrebsfälle
+
+246
+00:13:28,666 --> 00:13:34,726
+gibt es Leute, die dazu veranlagt sind. Und das erste Gen, das in Assoziationsstudien abgebildet wurde für
+
+247
+00:13:34,826 --> 00:13:38,916
+diesen früh-manifesten Prostatakrebs, war dieses Gen namens RNASEL. Was ist das?
+
+248
+00:13:39,016 --> 00:13:41,706
+Es ist ein antivirales Abwehr-Enzym.
+
+249
+00:13:41,806 --> 00:13:45,655
+Wir sitzen also herum und denken: warum würden Männer mit dieser Mutation,
+
+250
+00:13:45,755 --> 00:13:49,945
+ein Defekt im antiviralen Abwehrsystem, Prostatakrebs bekommen?
+
+251
+00:13:50,045 --> 00:13:51,142
+Es ergibt keinen Sinn.
+
+252
+00:13:51,242 --> 00:13:53,546
+Außer wenn es einen Virus gibt.
+
+253
+00:13:53,646 --> 00:13:54,646
+Also,
+
+254
+00:13:54,908 --> 00:13:58,419
+wir gaben Tumore – und jetzt haben wir über hundert Tumore –
+
+255
+00:13:58,519 --> 00:14:02,696
+auf unser Array und wir wissen wer einen Defekt in RNASEL hat und wer nicht.
+
+256
+00:14:02,796 --> 00:14:05,373
+Und ich zeige ihnen das Signal von diesem Chip hier,
+
+257
+00:14:05,473 --> 00:14:08,546
+und ich zeige es ihnen für einen Block von retroviralen (?).
+
+258
+00:14:08,646 --> 00:14:11,095
+Und was ich ihnen über dieses Signal sagen kann ist,
+
+259
+00:14:11,195 --> 00:14:16,405
+dass Männer, die eine Mutation in diesem antiviralen Abwehr-Enzym und einen Tumor haben,
+
+260
+00:14:16,505 --> 00:14:22,578
+oft, zu 40%, eine Signatur haben, die einen neuen Retrovirus erkennen lässt.
+
+261
+00:14:22,906 --> 00:14:24,554
+Okay, das ist ziemlich wild.
+
+262
+00:14:24,654 --> 00:14:27,685
+Was ist es? Also klonen wir den ganzen Virus.
+
+263
+00:14:27,785 --> 00:14:32,938
+Zunächst sag ich ihnen, dass unsere automatische Prognose uns sagte es wäre sehr ähnlich zu einem Mäusevirus.
+
+264
+00:14:33,063 --> 00:14:36,017
+Aber das sagt uns nicht viel. Also klonten wir tatsächlich das Ganze.
+
+265
+00:14:36,117 --> 00:14:38,248
+Und das virale Genom, das ich ihnen genau hier zeige;
+
+266
+00:14:38,348 --> 00:14:42,196
+es ist ein klassischer Gammaretrovirus, aber es ist sehr neu. Niemand hat es zuvor jemals gesehen.
+
+267
+00:14:42,296 --> 00:14:46,338
+Der naheste Verwandte kommt tatsächlich von Mäusen, und so könnten wir es
+
+268
+00:14:46,483 --> 00:14:52,102
+xenotropischer Retrovirus nennen, weil es neben Mäusen auch andere Spezies infiziert.
+
+269
+00:14:52,633 --> 00:14:56,781
+Und dies ist ein kleiner phylogenetischer Baum, um zu sehen wie es mit anderen Viren verwandt ist.
+
+270
+00:14:56,881 --> 00:14:59,189
+Und dann haben wir es für viele Patienten gemacht,
+
+271
+00:14:59,289 --> 00:15:01,589
+und wir können sagen, dass sie alle unabhängige Infektionen sind.
+
+272
+00:15:01,689 --> 00:15:04,142
+Sie alle haben den selben Virus, aber sie sind unterschiedlich genug,
+
+273
+00:15:04,242 --> 00:15:07,270
+dass es Grund genug ist zu glauben, dass sie unabhängig erworben wurden.
+
+274
+00:15:07,370 --> 00:15:10,292
+Ist es wirklich im Gewebe? Wir kommen zu diesem hier. Ja.
+
+275
+00:15:10,392 --> 00:15:13,213
+Wir nehmen Scheiben dieser Tumorgewebe-Biopsien
+
+276
+00:15:13,313 --> 00:15:15,631
+und verwendeten Material um diesen Virus tatsächlich zu lokalisieren,
+
+277
+00:15:15,731 --> 00:15:19,112
+und wir finden Zellen hier mit Viruspartikeln in ihnen.
+
+278
+00:15:19,212 --> 00:15:23,428
+Diese Kerle haben wirklich den Virus. Verursacht dieser Virus Prostatakrebs?
+
+279
+00:15:23,528 --> 00:15:26,994
+Nichts was ich sage deutet Kausalität an. Ich weiß es nicht.
+
+280
+00:15:27,094 --> 00:15:29,472
+Hängt es zusammen mit Ontogenese? Ich weiß es nicht.
+
+281
+00:15:29,572 --> 00:15:33,044
+Trifft es zu, dass diese Kerle einfach anfälliger für Viren sind?
+
+282
+00:15:33,144 --> 00:15:35,632
+Könnte sein. Und es könnte nichts mit Krebs zu tun haben.
+
+283
+00:15:35,732 --> 00:15:39,584
+Aber jetzt ist es eine Tür. Wir haben starke Assoziationen zwischen dem Dasein dieses Virus
+
+284
+00:15:39,684 --> 00:15:42,699
+und einer genetischen Mutation, die mit Krebs in Zusammenhang gebracht wird.
+
+285
+00:15:42,799 --> 00:15:44,881
+Das ist wo wir gerade sind. Also,
+
+286
+00:15:44,981 --> 00:15:48,370
+es tun sich mehr Fragen auf als beantwortet werden, befürchte ich.
+
+287
+00:15:48,470 --> 00:15:50,368
+Aber das ist was, verstehen sie, worin die Wissenschaft sehr gut ist.
+
+288
+00:15:50,468 --> 00:15:53,419
+All das wird von Leuten im Labor gemacht, das meiste ist nicht mein Verdienst.
+
+289
+00:15:53,519 --> 00:15:54,993
+Das ist eine Zusammenarbeit zwischen mir und Don.
+
+290
+00:15:55,093 --> 00:15:59,421
+Und das ist der Kerl, der das Projekt in meinem Labor begann, und das ist der Kerl, der das Prostatazeug macht.
+
+291
+00:15:59,521 --> 00:16:00,660
+Vielen Dank!
+

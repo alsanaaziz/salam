@@ -1,0 +1,874 @@
+[SUBTITLE]
+00:00:12.25,00:00:15.12
+How is it; how can we investigate
+
+00:00:15.22,00:00:18.31
+this flora of viruses that surround us
+
+00:00:18.41,00:00:19.93
+and aid medicine?
+
+00:00:20.03,00:00:24.12
+How can we turn our cumulative knowledge of virology
+
+00:00:24.22,00:00:28.08
+into a simple, hand-held, single diagnostic assay?
+
+00:00:28.18,00:00:29.83
+I want to turn everything we know
+
+00:00:29.93,00:00:33.66
+right now, about detecting viruses and the spectrum of viruses that are out there,
+
+00:00:33.76,00:00:36.08
+into, let's say, a small chip.
+
+00:00:36.18,00:00:41.18
+When we started thinking about this project, how we'd make a single diagnostic assay
+
+00:00:41.28,00:00:44.21
+to screen for all pathogens simultaneously.
+
+00:00:44.31,00:00:46.31
+Well, there are some problems with this idea.
+
+00:00:46.41,00:00:47.41
+First of all,
+
+00:00:47.51,00:00:50.20
+viruses are pretty complex
+
+00:00:50.35,00:00:52.52
+but they're also
+
+00:00:52.62,00:00:54.00
+evolving very fast.
+
+00:00:54.10,00:00:56.25
+This is a picornavirus. Picornaviruses:
+
+00:00:56.35,00:00:59.33
+these are things that include the common cold and polio.
+
+00:00:59.43,00:01:02.13
+Things like this. You're looking at the outside shell of the virus
+
+00:01:02.23,00:01:06.62
+and the yellow color here are those parts of the virus that are evolving very, very fast,
+
+00:01:06.72,00:01:09.05
+and the blue parts are not evolving very fast.
+
+00:01:09.15,00:01:12.64
+When people think about making pan-viral detection reagents,
+
+00:01:12.74,00:01:15.80
+usually it's this fast evolving-problem that's an issue,
+
+00:01:15.90,00:01:18.27
+'cause how can we detect things if they're always changing?
+
+00:01:18.37,00:01:20.06
+But evolution is a balance.
+
+00:01:20.16,00:01:24.15
+Where you have fast change you also have ultra-conservation.
+
+00:01:24.25,00:01:26.35
+Things that almost never change.
+
+00:01:26.45,00:01:28.80
+And so we looked into this a little more carefully.
+
+00:01:28.90,00:01:30.35
+I'm gonna show you data now.
+
+00:01:30.45,00:01:33.21
+This is just some stuff you can do on a computer from a desktop.
+
+00:01:33.31,00:01:37.67
+We took a bunch of these small picornaviruses, like the common cold, like polio and so on.
+
+00:01:37.84,00:01:41.42
+And I just broke them down into small segments, and so
+
+00:01:41.52,00:01:44.24
+took this first example which is called Coxsackie virus
+
+00:01:44.34,00:01:46.00
+and just break it into small windows.
+
+00:01:46.10,00:01:50.61
+And I'm coloring these small windows blue if another virus shares
+
+00:01:50.71,00:01:54.10
+an identical sequence in its genome to that virus.
+
+00:01:54.20,00:01:56.39
+These sequences right up here –
+
+00:01:56.49,00:01:58.45
+which don't even code for protein by the way –
+
+00:01:58.55,00:02:01.78
+are almost absolutely identical across all of these.
+
+00:02:01.88,00:02:03.87
+So I could use this sequence
+
+00:02:03.97,00:02:07.15
+as a marker to detect a wide spectrum of viruses,
+
+00:02:07.25,00:02:09.67
+without having to make something individual.
+
+00:02:09.77,00:02:13.72
+Now, over here this great diversity; that's where things are evolving fast.
+
+00:02:13.82,00:02:17.57
+Down here you can see slower evolution – less diversity.
+
+00:02:17.67,00:02:20.41
+Now, by the time we get out here to, let's say,
+
+00:02:20.51,00:02:22.40
+acute bee paralysis virus –
+
+00:02:22.50,00:02:24.41
+probably a bad one to have if you're a bee.
+
+00:02:24.51,00:02:25.10
+(Laughter)
+
+00:02:25.20,00:02:29.18
+This virus shares almost no similarity to Coxsackie virus,
+
+00:02:29.28,00:02:32.10
+but I can guarentee you that the sequences
+
+00:02:32.20,00:02:35.67
+that are most conserved among these viruses on the right hand on the screen,
+
+00:02:35.77,00:02:38.25
+are in identical regions right up here.
+
+00:02:38.35,00:02:42.26
+And so we can encapsulate these regions of ultra-conservation through evolution –
+
+00:02:42.36,00:02:45.40
+how these viruses evolved, by just choosing
+
+00:02:45.50,00:02:51.72
+DNA elements or RNA elements in these regions to represent on our chip as detection reagents.
+
+00:02:51.91,00:02:53.93
+Okay, so that's what we did, but how we gonna do that?
+
+00:02:54.03,00:02:58.07
+Well, for a long time, since I was in graduate school, I've been messing around making
+
+00:02:58.17,00:03:02.01
+DNA chips; that is printing DNA on glass and that's what you see here.
+
+00:03:02.11,00:03:05.17
+These little salt spots are just DNA tacked on a glass,
+
+00:03:05.27,00:03:09.61
+and so I can put thousands of these on a glass chip and use them as a detection reagent.
+
+00:03:09.71,00:03:13.93
+We took our chip over to Hewlett Packard and used their atomic force microscope on one of these spots.
+
+00:03:14.03,00:03:19.34
+And this is what you see. You can actually see the strands of DNA lying flat on the glass here.
+
+00:03:19.44,00:03:22.38
+So what we're doing is just printing DNA on glass.
+
+00:03:22.48,00:03:26.41
+Little flat things, and these are gonna be markers for pathogens.
+
+00:03:26.64,00:03:30.13
+Okay, I make little robots in labs to make these chips
+
+00:03:30.23,00:03:32.96
+and I'm really big on disseminating technology.
+
+00:03:33.06,00:03:37.13
+If you've got enough money to buy just a (?) array, you can build one of these, too.
+
+00:03:37.23,00:03:40.96
+And so we put a deep how-to guide on the web, totally free.
+
+00:03:41.06,00:03:43.37
+With, basically, order-off-the-shelf parts,
+
+00:03:43.47,00:03:46.37
+you can build a DNA array machine in your garage.
+
+00:03:46.47,00:03:49.71
+Here's the section on the all-important emergency stop-switch.
+
+00:03:49.81,00:03:51.46
+(Laughter)
+
+00:03:51.56,00:03:54.62
+Every important machine gotta have a big, red button.
+
+00:03:54.72,00:03:58.32
+But really, it's pretty robust. You can actually be making DNA chips
+
+00:03:58.42,00:04:01.87
+in your garage and decoding some genetic program pretty rapidly.
+
+00:04:01.97,00:04:03.22
+It's a lot of fun!
+
+00:04:03.32,00:04:04.32
+(Laughter)
+
+00:04:04.42,00:04:05.84
+And so, what we did –
+
+00:04:05.94,00:04:10.37
+and this is really a cool project – we just started by making a respiratory virus chip.
+
+00:04:10.47,00:04:11.47
+I talked about that.
+
+00:04:11.57,00:04:14.72
+You know the situation where you go into the clinic and you don't get diagnosed?
+
+00:04:14.82,00:04:19.46
+Well, we just put, basically, all the human respiratory viruses on one chip.
+
+00:04:19.56,00:04:22.62
+And we threw in herpes virus for good measure. I mean, why not?
+
+00:04:22.72,00:04:25.36
+First thing you do as a scientist is gonna make sure that stuff works.
+
+00:04:25.46,00:04:28.53
+And so what we did is just take tissue culture cells
+
+00:04:28.63,00:04:30.76
+and infected them with various viruses.
+
+00:04:30.86,00:04:34.48
+And we take this stuff and fluorescently label the nucleic acid,
+
+00:04:34.58,00:04:37.02
+the genetic material that comes out of these tissue culture cells –
+
+00:04:37.12,00:04:38.40
+mostly viral stuff.
+
+00:04:38.50,00:04:40.75
+And stick it on the array to see where it sticks.
+
+00:04:40.85,00:04:43.89
+Now, if the DNA sequences match, they stick together. And so,
+
+00:04:43.99,00:04:47.51
+we can look at spots and if spots light up we know there's a certain virus in there.
+
+00:04:47.61,00:04:52.62
+That's what one of these chips really looks like and these red spots are in fact signal coming from the virus.
+
+00:04:52.72,00:04:56.56
+And each spot represents a different family of virus or species of virus.
+
+00:04:56.66,00:05:00.96
+And so, that's a hard way to look at things, so I'm gonna just encode things as a little barcode,
+
+00:05:01.06,00:05:04.87
+grouped by family so you can see the results in a very intuitive way.
+
+00:05:05.22,00:05:08.64
+What we did is, we took tissue culture cells and infected them with adenovirus
+
+00:05:08.74,00:05:12.58
+and you can see this little yellow barcode next to adenovirus.
+
+00:05:12.79,00:05:18.11
+And likewise we infected with parainfluenza 3, that's a paramyxovirus – you see a little barcode here.
+
+00:05:18.21,00:05:23.62
+Now, we did respiratory syncytial virus. That's the scourge of day-care centers everywhere. It's like (?).
+
+00:05:23.72,00:05:25.40
+(Laughter)
+
+00:05:25.50,00:05:27.91
+You can see that this barcode
+
+00:05:28.01,00:05:32.95
+is the same family, but it's distinct from parainfluenza 3, which gives you a very bad cold.
+
+00:05:33.05,00:05:36.46
+And so we're getting unique signatures, a fingerprint for each virus.
+
+00:05:36.56,00:05:39.19
+Polio and rhino, they're in the same family very close to each other.
+
+00:05:39.29,00:05:41.55
+Rhino is the common cold. We all know what polio is.
+
+00:05:41.65,00:05:44.25
+And you can see that these signatures are distinct.
+
+00:05:44.35,00:05:47.13
+And Kaposi's sarcoma-associated herpes virus
+
+00:05:47.23,00:05:48.78
+gives a nice signature down here.
+
+00:05:48.88,00:05:53.51
+And so, it is not any one stripe or something that tells I have a virus of a particular type here.
+
+00:05:53.61,00:05:57.38
+It's the barcode that in bulk represents the whole thing.
+
+00:05:57.48,00:06:01.62
+Alright, I can see a rhinovirus and here is the blow-up of the rhinovirus – little barcode.
+
+00:06:01.72,00:06:05.03
+But what about different rhinoviruses? How do I know which rhinovirus I have?
+
+00:06:05.13,00:06:07.96
+There's a 102 known variants of the common cold,
+
+00:06:08.06,00:06:10.84
+and there's only 102, 'cause people got bored collecting them.
+
+00:06:10.94,00:06:12.70
+There are new one's every year.
+
+00:06:12.80,00:06:16.53
+And so, here are 4 different rhinoviruses and you can see, even with your eye –
+
+00:06:16.63,00:06:20.84
+without any fancy computer pattern matching recognition software algorithms –
+
+00:06:20.94,00:06:24.32
+that you can distuingish each one of these barcodes from each other.
+
+00:06:24.42,00:06:25.81
+Now this is kind of a cheap shot,
+
+00:06:25.91,00:06:28.83
+because I know what the genetic sequence of all these rhinoviruses is.
+
+00:06:28.93,00:06:32.34
+And I, in fact, designed a chip, expressly to be able to tell them apart.
+
+00:06:32.44,00:06:35.51
+But what about rhinoviruses that never seen a genetic sequencer.
+
+00:06:35.61,00:06:38.83
+We don't know what the sequence is. Just pull them out to the field.
+
+00:06:38.93,00:06:41.91
+So, here are 4 rhinoviruses which we never knew anything about.
+
+00:06:42.01,00:06:44.66
+Noone's ever sequenced them, and you can also see
+
+00:06:44.76,00:06:48.70
+that you get unique and distinguishable patterns. You can imagine building up some library,
+
+00:06:48.80,00:06:52.14
+where there are real or virtual fingerprints of essentially every virus.
+
+00:06:52.24,00:06:54.85
+But that's, again, shooting fish in the barrel, you know, right?
+
+00:06:54.95,00:06:58.64
+You have tissue culture cells, there's a ton of virus. What about real people?
+
+00:06:58.74,00:07:01.31
+You can't control real people, as you probably know.
+
+00:07:01.41,00:07:05.19
+You have no idea what someone's gonna cough into a cup.
+
+00:07:05.29,00:07:06.25
+(Laughter)
+
+00:07:06.35,00:07:08.63
+And it's probably really complex, right?
+
+00:07:08.73,00:07:13.17
+It could be a (?) bacteria it could be a (?) virus, (?) certainly as host genetic material.
+
+00:07:13.27,00:07:18.15
+So how do we deal with this? And how do we do the positive control here? Well, it's pretty simple.
+
+00:07:18.25,00:07:22.12
+That's me getting a nasal lavage and the idea is,
+
+00:07:22.22,00:07:25.17
+let's experimentally knock people with a virus.
+
+00:07:25.27,00:07:28.19
+So, we – this is all RIV-approved by the way,
+
+00:07:28.29,00:07:29.08
+(Laughter)
+
+00:07:29.18,00:07:34.09
+they got paid – and basically experimentally knock people with the common cold virus,
+
+00:07:34.19,00:07:38.03
+or even better, let's just take people right out of the emergency room.
+
+00:07:38.13,00:07:41.32
+Undefined, community-acquired respiratory track infections.
+
+00:07:41.42,00:07:43.62
+You have no idea what walks in through the door.
+
+00:07:43.72,00:07:46.40
+So let's start off with the positive control first,
+
+00:07:46.50,00:07:50.82
+where we know the person was healthy; they got a shot of virus up the nose. Let's see what happens.
+
+00:07:50.92,00:07:52.89
+Day zero: nothing happening.
+
+00:07:52.99,00:07:56.70
+They're healthy and clean. It's amazing. Actually, we thought the nasal track might be full of viruses
+
+00:07:56.80,00:08:00.24
+even when you're walking around healthy; you're pretty clean. If you're healthy, you're pretty healthy.
+
+00:08:00.34,00:08:03.97
+Day two: we get a very robust rhinovirus pattern
+
+00:08:04.07,00:08:07.99
+and it's very similar to what we get in the lab during our tissue culture experiment.
+
+00:08:08.09,00:08:10.34
+So that's great! But again, cheap shot, right?
+
+00:08:10.44,00:08:13.12
+We put a ton of virus up this guy's nose, so
+
+00:08:13.22,00:08:14.22
+(Laughter)
+
+00:08:14.32,00:08:16.71
+we wanted it to work, I mean, he really had a cold.
+
+00:08:16.81,00:08:18.28
+So, err[br](Laughter)
+
+00:08:18.38,00:08:20.87
+how about the people who're walking off the street?
+
+00:08:20.97,00:08:23.69
+So, here are two individuals represented by their (?) ID codes.
+
+00:08:23.79,00:08:27.01
+They both have rhinoviruses, so we've never seen this pattern in lab.
+
+00:08:27.11,00:08:28.90
+We sequenced part of their viruses.
+
+00:08:29.00,00:08:31.79
+Their new rhinoviruses noone's ever actually even seen.
+
+00:08:31.89,00:08:34.99
+Remember our evolutionary conserved sequences we're using on this array,
+
+00:08:35.09,00:08:38.81
+allow us to detect even novel or uncharacterised viruses.
+
+00:08:38.91,00:08:42.12
+Because we pick what is conserved throughout evolution.
+
+00:08:42.22,00:08:43.29
+Here's another guy.
+
+00:08:43.39,00:08:47.48
+You can play the diagnosis game yourself here. These different blocks represent the different viruses
+
+00:08:47.58,00:08:52.41
+in this paramyxovirus family. So you can kinda go down the blocks and see what it signals, you know.
+
+00:08:52.51,00:08:55.52
+Doesn't have Canine Distemper, that's probably good.
+
+00:08:55.62,00:08:57.15
+(Laughter)
+
+00:08:57.75,00:09:02.63
+But by the time you get to block nine you see that respiratory syncytial virus. Maybe they have kids?
+
+00:09:02.73,00:09:06.85
+And then you can see also the family member that's related, RSV B showing up here.
+
+00:09:06.95,00:09:12.21
+So that's great. Here's another individual. Sampled on two separate days; repeat visits to the clinic.
+
+00:09:12.31,00:09:15.00
+This individual has parainfluenza 1
+
+00:09:15.10,00:09:20.00
+and you can see that there's a little stripe over here for Sendai virus. That's mouse parainfluenza.
+
+00:09:20.10,00:09:22.55
+The genetic relationships are very close there.
+
+00:09:22.65,00:09:25.09
+That's a lot of fun. So we built up the chip.
+
+00:09:25.19,00:09:28.70
+We made a chip that has every known virus ever discovered on it.
+
+00:09:28.80,00:09:32.29
+Why not? Every plant virus, every insect virus, every marine virus.
+
+00:09:32.39,00:09:36.83
+Everything that we keep getting out of (?), that is the National Repository of Sequence.
+
+00:09:36.93,00:09:39.27
+Now, we're using this chip and what are we using it for?
+
+00:09:39.37,00:09:42.78
+Well, first of all, when you have a big chip like this, you need a little bit more informatics.
+
+00:09:42.88,00:09:47.84
+So we designed a system to do automatic diagnosis. And the idea is, we simply have virtual
+
+00:09:47.94,00:09:51.47
+patterns, 'cause we never gonna get samples of every virus. That would be virtually impossible.
+
+00:09:51.57,00:09:52.97
+But we can get virtual patterns
+
+00:09:53.07,00:09:55.18
+and compare them to our observed result,
+
+00:09:55.28,00:09:56.82
+which is a very complex mixture,
+
+00:09:56.92,00:10:02.61
+and come up with some sort of score of how likely it is this is a rhinovirus or something.
+
+00:10:02.71,00:10:04.01
+And this is what this looks like.
+
+00:10:04.11,00:10:08.32
+If, for example, you used a cell culture that's chronically infected with papilloma,
+
+00:10:08.42,00:10:10.39
+you get a little computer readout here,
+
+00:10:10.49,00:10:13.63
+and our algorithm says it's probably papilloma type 18.
+
+00:10:13.73,00:10:17.92
+And that is, in fact, what these particular cell cultures are chronically infected with.
+
+00:10:18.02,00:10:19.90
+So let's do something a little bit harder.
+
+00:10:20.00,00:10:22.60
+We put the beeper in the clinic. When somebody shows up
+
+00:10:22.70,00:10:26.07
+and the hospital doesn't know what to do, because they can't diagnose it, they call us.
+
+00:10:26.17,00:10:28.27
+That's the idea. And we set this up in the Bay Area.
+
+00:10:28.37,00:10:30.72
+And so, this case report happens 3 weeks ago.
+
+00:10:30.82,00:10:36.28
+We have a 28-year-old, healthy woman. No travel history. (?), doesn't smoke, doesn't drink.
+
+00:10:36.38,00:10:38.24
+Ten day history of fevers,
+
+00:10:38.34,00:10:42.09
+night sweats, bloody sputum, she's coughing up bood, muscle pain.
+
+00:10:42.19,00:10:44.04
+She went to the clinic and they gave her
+
+00:10:44.14,00:10:45.29
+anti-biotics.
+
+00:10:45.39,00:10:49.51
+Right? And then sent her home. She came back after ten days of fever.
+
+00:10:49.61,00:10:54.28
+Right? Still has that fever and she's hypoxic. She doesn't have much oxygen in her lungs.
+
+00:10:54.38,00:10:57.01
+They did a CT scan. A normal lung
+
+00:10:57.11,00:11:00.92
+is all sort of dark and black here. All this white stuff, it's not good.
+
+00:11:01.02,00:11:04.10
+This sort of tree and bud formation indicates there's information.
+
+00:11:04.20,00:11:06.92
+There's likely to be infection. Okay.
+
+00:11:07.02,00:11:13.31
+So the patient was treated then with a third-generation ceftriaxone anti-biotic and doxycycline.
+
+00:11:13.41,00:11:17.35
+And on day 3: it didn't help. She progressed to acute failure.
+
+00:11:17.45,00:11:20.05
+They had to inter(?) her, so they put a tube down her throat
+
+00:11:20.15,00:11:23.99
+and they began to mechanically ventilate her. She could no longer breath for herself.
+
+00:11:24.09,00:11:30.25
+What to do next? Don't know. Switch anti-biotics. So they switched to another anti-biotic: Tamiflu.
+
+00:11:30.35,00:11:33.49
+It's not clear why they thought she had the flu, but they switched to Tamiflu.
+
+00:11:33.59,00:11:36.66
+And on day 6: they basically threw in the towel.
+
+00:11:36.76,00:11:39.79
+You do an open lung biopsy when you've got no other options.
+
+00:11:39.89,00:11:42.54
+There's an 8% mortality rate, we're just doing this procedure.
+
+00:11:42.64,00:11:47.09
+And so basically – and what did they learn from it? You're looking at her open lung biopsy.
+
+00:11:47.19,00:11:49.40
+And I'm no pathologist, but you can't tell much from this.
+
+00:11:49.50,00:11:55.93
+All you can tell is, there is a lot of swelling, bronchiolitis. It was unrevealing, that's the pathologist's report.
+
+00:11:56.03,00:11:59.65
+And so, what did they test her for? They have their own tests, of course.
+
+00:11:59.75,00:12:04.63
+And so they tested her for over 70 different assays for every sort of bacteria and fungus
+
+00:12:04.73,00:12:09.74
+and viroassay you could buy off the shelf: SARS, metapneumovirus, HIV, RSV.
+
+00:12:09.84,00:12:14.64
+All of these. Everything came back negative. Over $100.000 worth of tests.
+
+00:12:15.04,00:12:19.15
+They went to the (?) for this woman. And basically, on hospital day 8:
+
+00:12:19.25,00:12:22.29
+that's when they called us. They gave us endo(?).
+
+00:12:22.39,00:12:25.31
+You know, little fluid from the throat, from this tube they got down there.
+
+00:12:25.41,00:12:27.84
+And they gave us this, we put it on the chip.
+
+00:12:27.94,00:12:31.68
+What did we see? Well, we saw parainfluenza 4.
+
+00:12:31.78,00:12:33.90
+What the hell is parainfluenza 4?
+
+00:12:34.00,00:12:37.24
+Noone tests for parainfluenza 4. Noone cares about it. In fact,
+
+00:12:37.34,00:12:40.66
+it's not even really sequenced that much. It's just a little bit of it sequenced.
+
+00:12:40.76,00:12:43.30
+There's almost no epidemiology or studies on it.
+
+00:12:43.40,00:12:48.41
+Noone would even consider it. Because noone had a clue that it could cause respiratory failure.
+
+00:12:48.51,00:12:50.60
+And why is that? Just lore!
+
+00:12:50.70,00:12:54.82
+There's no data. No data to support whether it causes severe or mild disease.
+
+00:12:54.92,00:12:58.50
+Clearly we have a case of a healthy person that's going down.
+
+00:12:58.60,00:13:03.27
+Okay. That's one case report. I'm gonna tell you one last thing in the last two minutes,
+
+00:13:03.37,00:13:05.71
+that's unpublished. It's gonna come out tomorrow.
+
+00:13:05.81,00:13:11.53
+And it's an interesting case of how you might use this chip to find something new and open a new door.
+
+00:13:11.63,00:13:13.27
+Prostate cancer.
+
+00:13:13.66,00:13:17.55
+I don't need to give you many statistics about prostate cancer. Most of you already know it.
+
+00:13:17.65,00:13:20.34
+Third leading cause of cancer deaths in the U.S.
+
+00:13:20.55,00:13:21.86
+Lot's of risk factors,
+
+00:13:21.96,00:13:25.58
+but there is a genetic predisposition to prostate cancer.
+
+00:13:25.68,00:13:28.51
+From maybe about 10% of prostate cancer
+
+00:13:28.66,00:13:34.72
+there are folks that are predisposed to it. And the first gene that was mapped in association studies for this
+
+00:13:34.82,00:13:38.91
+early onset prostate cancer, was this gene called RNASEL. What is that?
+
+00:13:39.01,00:13:41.70
+It's an antiviral defense enzyme.
+
+00:13:41.80,00:13:45.65
+So we're sitting around thinking: why would men who have a mutation,
+
+00:13:45.75,00:13:49.94
+a defect in an antiviral defense system, get prostate cancer?
+
+00:13:50.04,00:13:51.14
+It doesn't make sense.
+
+00:13:51.24,00:13:53.54
+Unless maybe there's a virus.
+
+00:13:53.64,00:13:54.64
+So,
+
+00:13:54.90,00:13:58.41
+we put tumors – and now we have over a hundred tumors –
+
+00:13:58.51,00:14:02.69
+on our array and we know who's got defects in RNASEL and who doesn't.
+
+00:14:02.79,00:14:05.37
+And I'm showing you the signal from the chip here,
+
+00:14:05.47,00:14:08.54
+and I'm showing you it for a block of retroviral (?).
+
+00:14:08.64,00:14:11.09
+And what I'm telling you here from the signal is,
+
+00:14:11.19,00:14:16.40
+that men who have a mutation in this antiviral defense enzyme and who have a tumor,
+
+00:14:16.50,00:14:22.57
+often have, 40% of the time, a signature which reveals a new retrovirus.
+
+00:14:22.90,00:14:24.55
+Okay, that's pretty wild.
+
+00:14:24.65,00:14:27.68
+What is it? So, we clone the whole virus.
+
+00:14:27.78,00:14:32.93
+First of all, I'll tell you, our automatic prediction told us it was very similar to a mouse virus.
+
+00:14:33.06,00:14:36.01
+But that doesn't tell us too much. So we actually cloned the whole thing.
+
+00:14:36.11,00:14:38.24
+And the viral genome I'm showing you right here;
+
+00:14:38.34,00:14:42.19
+it's a classic gamma retrovirus, but it's totally new. Noone's ever seen it before.
+
+00:14:42.29,00:14:46.33
+It's closest relative is in fact from mice, and so we would call this
+
+00:14:46.48,00:14:52.10
+a xenotropic retrovirus, because it's infecting species other than mice.
+
+00:14:52.63,00:14:56.78
+And this is a little phylogenetic tree to see how it's related to other viruses.
+
+00:14:56.88,00:14:59.18
+And then we've done it for many patients now,
+
+00:14:59.28,00:15:01.58
+and we can say that they're all independent infections.
+
+00:15:01.68,00:15:04.14
+They all have the same virus, but they're different enough
+
+00:15:04.24,00:15:07.27
+that there's reason to believe that they had been independently acquired.
+
+00:15:07.37,00:15:10.29
+Is it really in the tissue? We end up with this. Yes.
+
+00:15:10.39,00:15:13.21
+We take slices of these biopsies of tumor tissue
+
+00:15:13.31,00:15:15.63
+and used material to actually locate the virus,
+
+00:15:15.73,00:15:19.11
+and we find cells here with viral particles in them.
+
+00:15:19.21,00:15:23.42
+These guys really do have this virus. Does this virus cause prostate cancer?
+
+00:15:23.52,00:15:26.99
+Nothing I'm saying here implies causality. I don't know.
+
+00:15:27.09,00:15:29.47
+Is it a link to ontogenesis? I don't know.
+
+00:15:29.57,00:15:33.04
+Is it the case that these guys are just more susceptible to viruses?
+
+00:15:33.14,00:15:35.63
+Could be. And it might have nothing to do with cancer.
+
+00:15:35.73,00:15:39.58
+But now it's a door. We have a strong association between the presence of this virus
+
+00:15:39.68,00:15:42.69
+and a genetic mutation that's been linked to cancer.
+
+00:15:42.79,00:15:44.88
+That's where we're at. So,
+
+00:15:44.98,00:15:48.37
+it opens up more questions than it answers, I'm afraid.
+
+00:15:48.47,00:15:50.36
+But that's what, you know, science is really good at.
+
+00:15:50.46,00:15:53.41
+This is all done by folks in the lab, I cannot take credit for most of this.
+
+00:15:53.51,00:15:54.99
+This is a collaboration of myself and Don.
+
+00:15:55.09,00:15:59.42
+And this is the guy who started the project in my lab, and this is the guy who's been doing prostate stuff.
+
+00:15:59.52,00:16:00.66
+Thank you very much!
+

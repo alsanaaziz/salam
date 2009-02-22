@@ -1,0 +1,291 @@
+How is it; how can we investigate
+this flora of viruses that surround us
+and aid medicine?
+How can we turn our cumulative knowledge of virology
+into a simple, hand-held, single diagnostic assay?
+I want to turn everything we know
+right now, about detecting viruses and the spectrum of viruses that are out there,
+into, let's say, a small chip.
+When we started thinking about this project, how we'd make a single diagnostic assay
+to screen for all pathogens simultaneously.
+Well, there are some problems with this idea.
+First of all,
+viruses are pretty complex
+but they're also
+evolving very fast.
+This is a picornavirus. Picornaviruses:
+these are things that include the common cold and polio.
+Things like this. You're looking at the outside shell of the virus
+and the yellow color here are those parts of the virus that are evolving very, very fast,
+and the blue parts are not evolving very fast.
+When people think about making pan-viral detection reagents,
+usually it's this fast evolving-problem that's an issue,
+'cause how can we detect things if they're always changing?
+But evolution is a balance.
+Where you have fast change you also have ultra-conservation.
+Things that almost never change.
+And so we looked into this a little more carefully.
+I'm gonna show you data now.
+This is just some stuff you can do on a computer from a desktop.
+We took a bunch of these small picornaviruses, like the common cold, like polio and so on.
+And I just broke them down into small segments, and so
+took this first example which is called Coxsackie virus
+and just break it into small windows.
+And I'm coloring these small windows blue if another virus shares
+an identical sequence in its genome to that virus.
+These sequences right up here –
+which don't even code for protein by the way –
+are almost absolutely identical across all of these.
+So I could use this sequence
+as a marker to detect a wide spectrum of viruses,
+without having to make something individual.
+Now, over here this great diversity; that's where things are evolving fast.
+Down here you can see slower evolution – less diversity.
+Now, by the time we get out here to, let's say,
+acute bee paralysis virus –
+probably a bad one to have if you're a bee.
+(Laughter)
+This virus shares almost no similarity to Coxsackie virus,
+but I can guarentee you that the sequences
+that are most conserved among these viruses on the right hand on the screen,
+are in identical regions right up here.
+And so we can encapsulate these regions of ultra-conservation through evolution –
+how these viruses evolved, by just choosing
+DNA elements or RNA elements in these regions to represent on our chip as detection reagents.
+Okay, so that's what we did, but how we gonna do that?
+Well, for a long time, since I was in graduate school, I've been messing around making
+DNA chips; that is printing DNA on glass and that's what you see here.
+These little salt spots are just DNA tacked on a glass,
+and so I can put thousands of these on a glass chip and use them as a detection reagent.
+We took our chip over to Hewlett Packard and used their atomic force microscope on one of these spots.
+And this is what you see. You can actually see the strands of DNA lying flat on the glass here.
+So what we're doing is just printing DNA on glass.
+Little flat things, and these are gonna be markers for pathogens.
+Okay, I make little robots in labs to make these chips
+and I'm really big on disseminating technology.
+If you've got enough money to buy just a (?) array, you can build one of these, too.
+And so we put a deep how-to guide on the web, totally free.
+With, basically, order-off-the-shelf parts,
+you can build a DNA array machine in your garage.
+Here's the section on the all-important emergency stop-switch.
+(Laughter)
+Every important machine gotta have a big, red button.
+But really, it's pretty robust. You can actually be making DNA chips
+in your garage and decoding some genetic program pretty rapidly.
+It's a lot of fun!
+(Laughter)
+And so, what we did –
+and this is really a cool project – we just started by making a respiratory virus chip.
+I talked about that.
+You know the situation where you go into the clinic and you don't get diagnosed?
+Well, we just put, basically, all the human respiratory viruses on one chip.
+And we threw in herpes virus for good measure. I mean, why not?
+First thing you do as a scientist is gonna make sure that stuff works.
+And so what we did is just take tissue culture cells
+and infected them with various viruses.
+And we take this stuff and fluorescently label the nucleic acid,
+the genetic material that comes out of these tissue culture cells –
+mostly viral stuff.
+And stick it on the array to see where it sticks.
+Now, if the DNA sequences match, they stick together. And so,
+we can look at spots and if spots light up we know there's a certain virus in there.
+That's what one of these chips really looks like and these red spots are in fact signal coming from the virus.
+And each spot represents a different family of virus or species of virus.
+And so, that's a hard way to look at things, so I'm gonna just encode things as a little barcode,
+grouped by family so you can see the results in a very intuitive way.
+What we did is, we took tissue culture cells and infected them with adenovirus
+and you can see this little yellow barcode next to adenovirus.
+And likewise we infected with parainfluenza 3, that's a paramyxovirus – you see a little barcode here.
+Now, we did respiratory syncytial virus. That's the scourge of day-care centers everywhere. It's like (?).
+(Laughter)
+You can see that this barcode
+is the same family, but it's distinct from parainfluenza 3, which gives you a very bad cold.
+And so we're getting unique signatures, a fingerprint for each virus.
+Polio and rhino, they're in the same family very close to each other.
+Rhino is the common cold. We all know what polio is.
+And you can see that these signatures are distinct.
+And Kaposi's sarcoma-associated herpes virus
+gives a nice signature down here.
+And so, it is not any one stripe or something that tells I have a virus of a particular type here.
+It's the barcode that in bulk represents the whole thing.
+Alright, I can see a rhinovirus and here is the blow-up of the rhinovirus – little barcode.
+But what about different rhinoviruses? How do I know which rhinovirus I have?
+There's a 102 known variants of the common cold,
+and there's only 102, 'cause people got bored collecting them.
+There are new one's every year.
+And so, here are 4 different rhinoviruses and you can see, even with your eye –
+without any fancy computer pattern matching recognition software algorithms –
+that you can distuingish each one of these barcodes from each other.
+Now this is kind of a cheap shot,
+because I know what the genetic sequence of all these rhinoviruses is.
+And I, in fact, designed a chip, expressly to be able to tell them apart.
+But what about rhinoviruses that never seen a genetic sequencer.
+We don't know what the sequence is. Just pull them out to the field.
+So, here are 4 rhinoviruses which we never knew anything about.
+Noone's ever sequenced them, and you can also see
+that you get unique and distinguishable patterns. You can imagine building up some library,
+where there are real or virtual fingerprints of essentially every virus.
+But that's, again, shooting fish in the barrel, you know, right?
+You have tissue culture cells, there's a ton of virus. What about real people?
+You can't control real people, as you probably know.
+You have no idea what someone's gonna cough into a cup.
+(Laughter)
+And it's probably really complex, right?
+It could be a (?) bacteria it could be a (?) virus, (?) certainly as host genetic material.
+So how do we deal with this? And how do we do the positive control here? Well, it's pretty simple.
+That's me getting a nasal lavage and the idea is,
+let's experimentally knock people with a virus.
+So, we – this is all RIV-approved by the way,
+(Laughter)
+they got paid – and basically experimentally knock people with the common cold virus,
+or even better, let's just take people right out of the emergency room.
+Undefined, community-acquired respiratory track infections.
+You have no idea what walks in through the door.
+So let's start off with the positive control first,
+where we know the person was healthy; they got a shot of virus up the nose. Let's see what happens.
+Day zero: nothing happening.
+They're healthy and clean. It's amazing. Actually, we thought the nasal track might be full of viruses
+even when you're walking around healthy; you're pretty clean. If you're healthy, you're pretty healthy.
+Day two: we get a very robust rhinovirus pattern
+and it's very similar to what we get in the lab during our tissue culture experiment.
+So that's great! But again, cheap shot, right?
+We put a ton of virus up this guy's nose, so
+(Laughter)
+we wanted it to work, I mean, he really had a cold.
+So, err\n(Laughter)
+how about the people who're walking off the street?
+So, here are two individuals represented by their (?) ID codes.
+They both have rhinoviruses, so we've never seen this pattern in lab.
+We sequenced part of their viruses.
+Their new rhinoviruses noone's ever actually even seen.
+Remember our evolutionary conserved sequences we're using on this array,
+allow us to detect even novel or uncharacterised viruses.
+Because we pick what is conserved throughout evolution.
+Here's another guy.
+You can play the diagnosis game yourself here. These different blocks represent the different viruses
+in this paramyxovirus family. So you can kinda go down the blocks and see what it signals, you know.
+Doesn't have Canine Distemper, that's probably good.
+(Laughter)
+But by the time you get to block nine you see that respiratory syncytial virus. Maybe they have kids?
+And then you can see also the family member that's related, RSV B showing up here.
+So that's great. Here's another individual. Sampled on two separate days; repeat visits to the clinic.
+This individual has parainfluenza 1
+and you can see that there's a little stripe over here for Sendai virus. That's mouse parainfluenza.
+The genetic relationships are very close there.
+That's a lot of fun. So we built up the chip.
+We made a chip that has every known virus ever discovered on it.
+Why not? Every plant virus, every insect virus, every marine virus.
+Everything that we keep getting out of (?), that is the National Repository of Sequence.
+Now, we're using this chip and what are we using it for?
+Well, first of all, when you have a big chip like this, you need a little bit more informatics.
+So we designed a system to do automatic diagnosis. And the idea is, we simply have virtual
+patterns, 'cause we never gonna get samples of every virus. That would be virtually impossible.
+But we can get virtual patterns
+and compare them to our observed result,
+which is a very complex mixture,
+and come up with some sort of score of how likely it is this is a rhinovirus or something.
+And this is what this looks like.
+If, for example, you used a cell culture that's chronically infected with papilloma,
+you get a little computer readout here,
+and our algorithm says it's probably papilloma type 18.
+And that is, in fact, what these particular cell cultures are chronically infected with.
+So let's do something a little bit harder.
+We put the beeper in the clinic. When somebody shows up
+and the hospital doesn't know what to do, because they can't diagnose it, they call us.
+That's the idea. And we set this up in the Bay Area.
+And so, this case report happens 3 weeks ago.
+We have a 28-year-old, healthy woman. No travel history. (?), doesn't smoke, doesn't drink.
+Ten day history of fevers,
+night sweats, bloody sputum, she's coughing up bood, muscle pain.
+She went to the clinic and they gave her
+anti-biotics.
+Right? And then sent her home. She came back after ten days of fever.
+Right? Still has that fever and she's hypoxic. She doesn't have much oxygen in her lungs.
+They did a CT scan. A normal lung
+is all sort of dark and black here. All this white stuff, it's not good.
+This sort of tree and bud formation indicates there's information.
+There's likely to be infection. Okay.
+So the patient was treated then with a third-generation ceftriaxone anti-biotic and doxycycline.
+And on day 3: it didn't help. She progressed to acute failure.
+They had to inter(?) her, so they put a tube down her throat
+and they began to mechanically ventilate her. She could no longer breath for herself.
+What to do next? Don't know. Switch anti-biotics. So they switched to another anti-biotic: Tamiflu.
+It's not clear why they thought she had the flu, but they switched to Tamiflu.
+And on day 6: they basically threw in the towel.
+You do an open lung biopsy when you've got no other options.
+There's an 8% mortality rate, we're just doing this procedure.
+And so basically – and what did they learn from it? You're looking at her open lung biopsy.
+And I'm no pathologist, but you can't tell much from this.
+All you can tell is, there is a lot of swelling, bronchiolitis. It was unrevealing, that's the pathologist's report.
+And so, what did they test her for? They have their own tests, of course.
+And so they tested her for over 70 different assays for every sort of bacteria and fungus
+and viroassay you could buy off the shelf: SARS, metapneumovirus, HIV, RSV.
+All of these. Everything came back negative. Over $100.000 worth of tests.
+They went to the (?) for this woman. And basically, on hospital day 8:
+that's when they called us. They gave us endo(?).
+You know, little fluid from the throat, from this tube they got down there.
+And they gave us this, we put it on the chip.
+What did we see? Well, we saw parainfluenza 4.
+What the hell is parainfluenza 4?
+Noone tests for parainfluenza 4. Noone cares about it. In fact,
+it's not even really sequenced that much. It's just a little bit of it sequenced.
+There's almost no epidemiology or studies on it.
+Noone would even consider it. Because noone had a clue that it could cause respiratory failure.
+And why is that? Just lore!
+There's no data. No data to support whether it causes severe or mild disease.
+Clearly we have a case of a healthy person that's going down.
+Okay. That's one case report. I'm gonna tell you one last thing in the last two minutes,
+that's unpublished. It's gonna come out tomorrow.
+And it's an interesting case of how you might use this chip to find something new and open a new door.
+Prostate cancer.
+I don't need to give you many statistics about prostate cancer. Most of you already know it.
+Third leading cause of cancer deaths in the U.S.
+Lot's of risk factors,
+but there is a genetic predisposition to prostate cancer.
+From maybe about 10% of prostate cancer
+there are folks that are predisposed to it. And the first gene that was mapped in association studies for this
+early onset prostate cancer, was this gene called RNASEL. What is that?
+It's an antiviral defense enzyme.
+So we're sitting around thinking: why would men who have a mutation,
+a defect in an antiviral defense system, get prostate cancer?
+It doesn't make sense.
+Unless maybe there's a virus.
+So,
+we put tumors – and now we have over a hundred tumors –
+on our array and we know who's got defects in RNASEL and who doesn't.
+And I'm showing you the signal from the chip here,
+and I'm showing you it for a block of retroviral (?).
+And what I'm telling you here from the signal is,
+that men who have a mutation in this antiviral defense enzyme and who have a tumor,
+often have, 40% of the time, a signature which reveals a new retrovirus.
+Okay, that's pretty wild.
+What is it? So, we clone the whole virus.
+First of all, I'll tell you, our automatic prediction told us it was very similar to a mouse virus.
+But that doesn't tell us too much. So we actually cloned the whole thing.
+And the viral genome I'm showing you right here;
+it's a classic gamma retrovirus, but it's totally new. Noone's ever seen it before.
+It's closest relative is in fact from mice, and so we would call this
+a xenotropic retrovirus, because it's infecting species other than mice.
+And this is a little phylogenetic tree to see how it's related to other viruses.
+And then we've done it for many patients now,
+and we can say that they're all independent infections.
+They all have the same virus, but they're different enough
+that there's reason to believe that they had been independently acquired.
+Is it really in the tissue? We end up with this. Yes.
+We take slices of these biopsies of tumor tissue
+and used material to actually locate the virus,
+and we find cells here with viral particles in them.
+These guys really do have this virus. Does this virus cause prostate cancer?
+Nothing I'm saying here implies causality. I don't know.
+Is it a link to ontogenesis? I don't know.
+Is it the case that these guys are just more susceptible to viruses?
+Could be. And it might have nothing to do with cancer.
+But now it's a door. We have a strong association between the presence of this virus
+and a genetic mutation that's been linked to cancer.
+That's where we're at. So,
+it opens up more questions than it answers, I'm afraid.
+But that's what, you know, science is really good at.
+This is all done by folks in the lab, I cannot take credit for most of this.
+This is a collaboration of myself and Don.
+And this is the guy who started the project in my lab, and this is the guy who's been doing prostate stuff.
+Thank you very much!

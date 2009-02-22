@@ -1,0 +1,291 @@
+Wie ist es; wie können wird diese
+Virenflora untersuchen, die uns umgibt
+um die Medizin zu unterstützen?
+Wie können wir unser kumulatives Wissen der Virologie umsetzen
+in einen einfachen, tragbaren, einzelnen diagnostischen Nachweistest?
+Ich möchte alles was wir zur Zeit kennen
+über das Aufspüren von Viren und das Spektrum von Viren, die es draußen gibt,
+in, sagen wir, einen kleinen Chip umsetzen.
+Als wir begannen über dieses Projet nachzudenken, wie wir einen einzelnen diagnostischen Test,
+um alle Pathogene simultan zu überprüfen, machen könnten.
+Nun, es gibt einige Probleme mit dieser Idee.
+Zuallererst,
+Viren sind sehr komplex
+aber sie entwickeln sich auch
+sehr schnell.
+Dies ist ein Picornavirus. Picornaviren:
+das sind Dinge, die die gemeine Kälte und Polio beinhalten.
+Solche Dinge eben. Sie sehen gerade die äußere Hülle des Virus
+und die gelbe Farbe hier sind die Teile des Virus, die sehr, sehr schnell evolvieren,
+und die blauen Teile evolvieren nicht sehr schnell.
+Wenn Leute überlegen pan-virale Nachweisreagenzien zu erzeugen,
+ist die schnelle Evolution üblicherweise das Problem,
+weil wie soll man Dinge nachweisen wenn sie sich ständig ändern?
+Aber die Evolution ist ein Gleichgewicht.
+Da wo es schnelle Veränderungen gibt, gibt es auch Ultrakonservierung.
+Dinge die sich fast nie ändern.
+Also prüften wir dies ein bisschen sorgfältiger.
+Ich werde ihnen jetzt Daten zeigen.
+Das ist einfach Kram, den sie auf einem Computer am Desktop machen können.
+Wir nahmen einen Haufen dieser kleinen Picornaviren, wie die gemeine Kälte, wie Polio u.s.w.
+Und ich spaltete sie einfach in kleine Segmente auf, und so
+nahm ich dieses erste Beispiel namens Coxsackie-Virus
+und spalte es einfach in kleine Fenster.
+Und ich färbe diese kleinen Fenster blau, wenn ein anderer Virus
+eine identische Sequenz in seinem Genom mit diesem Virus gemein hat.
+Diese Sequenzen bis hier her –
+die übrigens nicht mal für Proteine kodieren –
+sind fast gänzlich identisch unter allen.
+Also könnte ich diese Sequenz
+als Marker verwenden um ein breites Spektrum an Viren zu erkennen,
+ohne etwas Individuelles erzeugen zu müssen.
+Nun, hier drüben diese große Vielfalt; dort entwickeln sich Dinge sehr schnell.
+Hier unten können sie langsamere Evolution sehen – weniger Vielfalt.
+Nun, sobald wir zu dem, sagen wir,
+Akuten-Bienen-Paralyse-Virus kommen –
+wohl schlecht als Biene zu haben.
+(Lachen)
+Dieser Virus hat fast keine Ähnlichkeit mit dem Coxsackie-Virus,
+aber ich kann ihnen versichern, dass die Sequenzen,
+die unter diesen Viren auf der rechten Seite des Schirms am meisten konserviert sind,
+bis hier her identische Regionen sind.
+Und so können wir diese Regionen der Ultrakonservation (durch Evolution) umfassen –
+wie diese Viren sich entwickelten, durch die Auswahl
+von DNA- oder RNA-Elementen in diesen Regionen um sie auf unserem Chip als Nachweisreagenzien zu repräsentieren.
+Okay, das taten wir auch, aber wie werden wir das tun?
+Nun, für eine lange Zeit, seit ich in der Hochschule war, habe ich herumgebastelt
+um DNA chips zu machen; das heißt DNA auf Glas zu drucken und das ist was sie hier gerade sehen.
+Diese kleinen Salzflecken sind einfach DNA geheftet auf Glas,
+und so kann ich Tausende von denen auf einen Glas-Chip geben und sie als Nachweisreagenzien verwenden.
+Wir brachten unseren Chip zu Hewlett Packard und benutzten deren Rasterkraftmikroskop an einer dieser Stellen.
+Und das ist was sie sehen. Sie können hier tatsächlich die flach-liegenden DNA-Stränge auf dem Glas sehen.
+Was wir also tun, ist einfach DNA auf Glas zu drucken.
+Kleine flache Dinger, und diese werden Marker für Pathogene sein.
+Okay, ich baue kleine Roboter in Labors um diese Chips zu produzieren
+und ich bin begeistert davon Technologie zu verbreiten.
+Wenn sie genug Geld haben um ein (?) zu kaufen, dann können sie eines von diesen auch bauen.
+Und so stellten wir eine detaillierte Anleitung ins Web, völlig gratis.
+Mit, im Prinzip, serienmäßig produzierten Teilen,
+können sie eine DNA Array-Maschine in ihrer Garage bauen.
+Hier ist der Abschnitt über den hochwichtigen Notausschalter.
+(Lachen)
+Jede wichtige Maschine muss eine große, rote Taste haben.
+Aber im Ernst, es ist sehr robust. Sie könnten eigentlich DNA-Chips
+in ihrer Garage ziemlich rasch bauen und ein paar genetische Programme dekodieren.
+Es macht eine Menge Spaß!
+(Lachen)
+Also was wir taten –
+und das ist wirklich ein cooles Projekt – wir begannen einfach einen Respiratorisches-Virus-Chip zu erzeugen.
+Ich sprach darüber.
+Sie kennen die Situation wo sie zur Klinik gehen und nicht diagnostiziert werden?
+Nun, wir gaben einfach alle Human-RSV-Viren auf einen Chip.
+Und wir warfen noch Herpesvirus als Zugabe drauf. Ich mein, warum nicht?
+Als Wissenschaftler stellen sie zuerst sicher, dass der Kram funktioniert.
+Was wir also taten, ist einfach Gewebekulturzellen zu nehmen
+um sie mit verschiedenen Viren zu infizieren.
+Wir nehmen also dieses Zeug und markieren fluoreszierend die Nukleinsäure,
+das genetische Material, dass aus diesen Gewebekulturzellen kommt –
+meistens virales Zeug.
+Und setzen es auf das Array um zu sehen ob es haften bleibt.
+Nun, wenn die DNA-Sequenzen übereinstimmen, bleiben sie haften.
+Also können wir Stellen ansehen und wenn sie aufleuchten wissen wir, dass da ein bestimmter Virus ist.
+Das ist wie ein solcher Chip wirklich aussieht und die roten Stellen sind tatsächlich Signale, die vom Virus kommen.
+Und jede Stelle repräsentiert eine andere Virusfamilie oder Spezies von Virus.
+Das ist eine schwierige Art Dinge anzusehen, also werde ich sie als kleines Barcode kodieren,
+gruppiert nach Familie, so dass sie die Ergebnisse auf sehr intuitive Art sehen können.
+Was wir taten ist, wir nahmen Gewebekulturzellen und infizierten sie mit einem Adenovirus,
+und sie können diesen kleinen, gelben Barcode neben Adenovirus sehen.
+Und ebenso infizierten wir mit Parainfluenza 3, das ist ein Paramyxovirus – sie sehen einen kleinen Barcode hier.
+Nun verwendenten wir einen RS-Virus. Das ist die Plage von Tagesstätten überall. Es ist wie (?).
+(Lachen)
+Sie können sehen, dass dieser Barcode
+die selbe Familie ist, aber es ist verschieden von Parainfluenza 3, der dir eine schlimme Erkältung gibt.
+Und so bekommen wir einzigartige Signaturen, ein Fingerabdruck für jeden Virus.
+Polio und Rhino, die sind in der selben Familie, sehr nah zu einander.
+Rhino ist der grippaler Infekt. Wir alle wissen was Polio ist.
+Und sie können sehen, dass diese Signaturen deutlich sind.
+Und der Kaposi-Sarkom-Herpesvirus
+ergibt eine nette Signatur hier unten.
+Also ist es nicht ein bestimmter Streifen oder so, der uns sagt wir haben einen Virus einer bestimmten Art hier.
+Es ist der Barcode, der abschnittsweise das Ganze repräsentiert.
+Also, ich kann den Rhinovirus sehen und hier ist die Vergrößerung des Rhinovirus – kleiner Barcode.
+Aber was ist mit verschiedenartigen Rhinoviren? Wie kann ich wissen welchen Rhinovirus ich habe?
+Es gibt 102 bekannte Varianten der gemeinen Kälte,
+und es gibt nur 102, weil Leute es satt hatten sie zu sammeln.
+Es gibt neue jedes Jahr.
+Also, hier sind 4 verschiedene Rhinoviren und sie können sehen, selbst mit ihrem Auge –
+ohne irgendwelche raffinierten Computer-Mustererkennungs-Software-Algorithmen –
+dass sie jeden Barcode von einander unterscheiden können.
+Nun, das ist sehr einfach,
+weil wir die genetischen Sequenzen all dieser Rhinoviren kennen.
+Und ich habe in der Tat einen Chip entworfen, vor allem um sie von einander unterscheiden zu können.
+Aber was ist mit Rhinoviren, die noch nie einen Gensequenzer gesehen haben?
+Wir kennen die Sequenz nicht. Zerr' sie einfach aufs Feld.
+So, hier sind 4 Rhinoviren, über die wir noch nie etwas wussten.
+Niemand hat sie jemals sequenziert, und sie können auch sehen,
+dass sie einzigartige und unterscheidbare Muster kriegen. Sie können sich vorstellen eine Bibliothek aufzubauen,
+wo es reale oder virtuelle Fingerabdrücke im Grunde aller Viren gibt.
+Aber das, nochmals, ist ein Kinderspiel, nicht wahr?
+Sie haben Gewebekulturzellen, da gibt es eine Tonne Viren. Was ist mit echten Menschen?
+Sie können echte Menschen nicht kontrollieren, wie sie wohl wissen.
+Sie haben keine Ahnung was jemand in einen Becher husten wird.
+(Lachen)
+Und es ist wahrscheinlich sehr komplex, nicht wahr?
+Es könnte eine (?) Bakterie sein, es könnte ein (?) Virus ein, (?) sicherlich als genetisches Wirtsmaterial.
+Wie gehen wir also damit um? Und wie machen wir die positive Kontrolle hier? Nun, es ist sehr einfach.
+Das bin ich, während einer Nasenspülung, und die Idee ist,
+infizieren wir Leute experimentell mit einem Virus.
+Also wir – das ist übrigens alles RIV-genehmigt,
+(Lachen)
+sie wurden bezahlt – und wir infizieren im Grunde Leute mit dem gemeinen Kälte-Virus,
+oder noch besser, holen wir Leute direkt aus der Notaufnahme.
+Undefinierte, Gesellschafts-erworbene Infektionen der Atemwege.
+Man hat keine Ahnung was durch die Tür spaziert.
+Also beginnen wir zuerst mit der positiven Kontrolle,
+wo wir wissen die Person war gesund; sie bekamen einen Schuss Viren in die Nase. Schauen wir was passiert.
+Tag Null: nichts passiert.
+Sie sind gesund und sauber. Es ist erstaunlich. Eigentlich dachten wir die Nasenwege dürften voll mit Viren sein,
+selbst wenn du gesund herumlaufst; du bist ziemlich gesund. Wenn du gesund bist, bist du ziemlich gesund.
+Tag Zwei: wir bekommen ein sehr robustes Rhinoviren-Muster
+und es ist sehr ähnlich zu dem was wir im Gewebekultur-Experiment im Labor bekamen.
+Das ist großartig! Aber nochmals, eine billige Nummer, nicht wahr?
+Wir verpassten diesem Kerl eine Tonne Viren in die Nase, also
+(Lachen)
+wir wollten, dass es funktioniert, ich mein, er hatte wirklich eine Erkältung.
+Also, ähm\n(Lachen)
+was ist mit den Leuten, die auf der Straße herumlaufen?
+Hier sind also zwei Individuen, repräsentiert durch ihre (?) ID-Codes.
+Beide haben Rhinoviren, wir haben dieses Muster noch nie im Labor gesehen.
+Wir sequenzierten einen Teil ihrer Viren.
+Ihre neuen Rhinoviren hat noch nie jemand wirklich gesehen.
+Erinnern sie sich, dass unsere evolutionär konservierten Sequenzen, die wir auf diesem Array verwenden,
+uns erlauben selbst neuartige oder nicht-charakterisierte Viren nachzuweisen.
+Weil wir das auswählen was durch die Evolution konserviert wird.
+Hier ist ein weiterer Kerl.
+Sie können das Diagnosespiel selbst spielen. Diese verschiedenen Blöcke stellen die verschiedenen Viren dar,
+in dieser Paramyxovirus-Familie. So können sie einfach die Blöcke runtergehen und sehen was es signalisiert.
+Hat kein Staupevirus (CDV), das ist wohl gut.
+(Lachen)
+Aber sobald sie zu Block Neun kommen sehen sie das Respiratorische Synzytial-Virus. Vielleicht haben sie Kinder?
+Und sie können auch das verwandte Familienmitglied sehen, RSV B erscheint hier.
+Das ist wunderbar. Hier ist noch ein Individuum. An zwei getrennten Tagen; wiederholte Besuche bei der Klinik.
+Dieses Individuum hat Parainfluenza 1
+und sie können hier drüben einen kleinen Streifen für Sendaivirus sehen. Das ist Mäuse-Parainfluenza.
+Die genetische Verwandtschaft ist sehr eng dort.
+Das macht eine Menge Spaß. Also bauten wir den Chip.
+Wir erzeugten einen Chip, der alle bekannten Viren, die jemals entdeckt wurden, drauf hat.
+Warum nicht? Alle Pflanzenviren, alle Insektenviren, alle Meeresviren.
+Alles was wir aus der (?) bekommen, das ist die National Repository of Sequence.
+Jetzt verwenden wir diesen Chip, und wofür verwenden wir es?
+Nun, zuallererst, wenn man so einen großen Chip wie diesen hat, dann braucht man ein wenig mehr Informatik.
+Also entwarfen wir ein System für automatische Diagnosen. Und die Idee ist, wir haben einfach
+virtuelle Muster, weil wir niemals Proben aller Viren bekommen werden. Das wäre praktisch unmöglich.
+Aber wir können virtuelle Muster bekommen
+und sie mit unserem beobachteten Ergebnis vergleichen,
+was eine sehr komplexe Mischung ist,
+und eine Art von Punktzahl angeben wie wahrscheinlich es ist, dass das ein Rhinovirus ist oder so.
+Und dies ist wie es aussieht.
+Wenn du z.B. eine Zellkultur, die chronisch mit Papillom infiziert ist, verwendest,
+dann bekommst du eine Computerausgabe,
+und unser Algorithmus sagt es ist wahrscheinlich Papillom Typ 18.
+Und das ist tatsächlich womit diese besonderen Zellkulturen chronisch infiziert sind.
+Also lass uns etwas Schwierigeres tun.
+Wir gaben einen Beeper in die Klinik. Wenn jemand erscheint
+und das Krankenhaus weiß nicht was zu tun ist, weil sie es nicht diagnostizieren können, dann rufen sie uns.
+Das ist die Idee. Und wir stellten das im Bay Area auf.
+Also, dieser Fallbericht geschieht vor 3 Wochen.
+Wir haben eine 28-jährige, gesunde Frau. Keine Reisevergangenheit. (?), raucht nicht, trinkt nicht.
+Zehn Tage Fieber,
+Nachtschweiß, blutiger Stuhl, sie hustet Blut, Muskelschmerzen.
+Sie ging zur Klinik und die gaben ihr
+Anti-Biotika.
+Nicht wahr? Und schickten sie nach Hause. Sie kam zurück nach 10 Tagen Fieber.
+Nicht wahr? Hat immer noch das Fieber und sie ist hypoxisch. Sie hat nicht viel Sauerstoff in ihren Lungen.
+Sie machten einen CT-Scan. Eine normale Lunge
+ist mehr oder weniger dunkel und schwarz hier. All das weiße Zeug, das ist nicht gut.
+Diese Art von Baum- und Knospenbildung deutet auf Information.
+Es gibt wahrscheinlich eine Infektion. Okay.
+Also wurde die Patientin mit einer 3. Generation Ceftriaxone Antibiotika und Doxycyclin behandelt.
+Und am Tage 3: es half nicht. Sie schritt fort zu akutem Versagen.
+Sie mussten eingreifen und steckten einen Schlauch in ihren Hals
+und sie begannen sie mechanisch zu beatmen. Sie konnte nicht mehr selbst atmen.
+Was als nächstes tun? Keine Ahnung. Anti-Biotika wechseln. Also wechselten sie zu anderer Anti-Biotika: Tamiflu.
+Es ist nicht klar warum sie dachten, dass sie die Grippe hatte, aber sie wechselten zu Tamiflu.
+Und am Tage 6: im Grunde warfen sie das Handtuch.
+Man macht eine offene Lungenbiopsie wenn man keine anderen Optionen hat.
+Es gibt eine 8% Sterberate, wir machen einfach diese Prozedur.
+Also – und was lernten sie daraus? Sie sehen gerade ihre offene Lungenbiopsie.
+Ich bin kein Pathologe, aber man kann davon nicht viel ablesen.
+Was man ablesen kann ist, da gibt es viel Schwellung, Bronchiolitis. Es war nicht aufschlussreich, das ist der Bericht des Pathologen.
+Also, wonach untersuchten sie sie? Die haben natürlich ihre eigenen Tests.
+Also testeten sie sie auf über 70 unterschiedliche Proben für jede Art von Bakterie und Fungus
+und Virusprobe, die man vom Regal kaufen konnte: SARS, Metapneumovirus, HIV, RSV.
+Alle davon. Alles kam negativ zurück. Tests im Wert von über $100.000.
+Sie gingen bis zum Letzten für diese Frau. Und am 8. Krankenhaustag:
+da riefen sie uns an. Sie gaben uns Endo(?).
+Wissen sie, ein wenig Flüssigkeit aus dem Hals, aus dem Schlauch den sie da drinnen hatten.
+Und sie gaben uns das, wir gaben es auf den Chip.
+Was sahen wir? Nun, wir sahen Parainfluenza 4.
+Was zur Hölle ist Parainfluenza 4?
+Niemand testet auf Parainfluenza 4. Niemand interessiert es. In Wahrheit
+ist es nicht mal viel sequenziert worden. Es ist nur ein klein wenig davon sequenziert.
+Es gibt fast keine Epidemiologie oder Studien darüber.
+Niemand würde es erwägen. Weil niemand einen Hinweis hatte, dass es respiratorisches Versagen verursachen kann.
+Und warum ist das so? Nur Überlieferungen!
+Es gibt keine Daten. Keine Daten um zu stützen ob es eine schwere oder leichte Krankheit verursacht.
+Wir haben eindeutig den Fall einer gesunden Person, die zusammenbricht.
+Okay. Das ist eines der Fallberichte. Ich werde ihnen zuletzt in den letzten zwei Minuten noch etwas erzählen,
+das unveröffentlich ist. Es wird morgen herauskommen.
+Es ist ein interessanter Fall wie sie diesen Chip benutzen könnten um Neues zu finden und neue Türen zu öffnen.
+Prostatakrebs.
+Ich muss ihnen nicht viele Statistiken über Prostatakrebs geben. Die meisten von ihnen kennen es bereits.
+Dritt-führende Ursache der Krebstode in den V.S.
+Eine Menge Risikofaktoren,
+aber es gibt eine genetische Veranlagung zu Prostatakrebs.
+Von vielleicht 10% der Prostatakrebsfälle
+gibt es Leute, die dazu veranlagt sind. Und das erste Gen, das in Assoziationsstudien abgebildet wurde für
+diesen früh-manifesten Prostatakrebs, war dieses Gen namens RNASEL. Was ist das?
+Es ist ein antivirales Abwehr-Enzym.
+Wir sitzen also herum und denken: warum würden Männer mit dieser Mutation,
+ein Defekt im antiviralen Abwehrsystem, Prostatakrebs bekommen?
+Es ergibt keinen Sinn.
+Außer wenn es einen Virus gibt.
+Also,
+wir gaben Tumore – und jetzt haben wir über hundert Tumore –
+auf unser Array und wir wissen wer einen Defekt in RNASEL hat und wer nicht.
+Und ich zeige ihnen das Signal von diesem Chip hier,
+und ich zeige es ihnen für einen Block von retroviralen (?).
+Und was ich ihnen über dieses Signal sagen kann ist,
+dass Männer, die eine Mutation in diesem antiviralen Abwehr-Enzym und einen Tumor haben,
+oft, zu 40%, eine Signatur haben, die einen neuen Retrovirus erkennen lässt.
+Okay, das ist ziemlich wild.
+Was ist es? Also klonen wir den ganzen Virus.
+Zunächst sag ich ihnen, dass unsere automatische Prognose uns sagte es wäre sehr ähnlich zu einem Mäusevirus.
+Aber das sagt uns nicht viel. Also klonten wir tatsächlich das Ganze.
+Und das virale Genom, das ich ihnen genau hier zeige;
+es ist ein klassischer Gammaretrovirus, aber es ist sehr neu. Niemand hat es zuvor jemals gesehen.
+Der naheste Verwandte kommt tatsächlich von Mäusen, und so könnten wir es
+xenotropischer Retrovirus nennen, weil es neben Mäusen auch andere Spezies infiziert.
+Und dies ist ein kleiner phylogenetischer Baum, um zu sehen wie es mit anderen Viren verwandt ist.
+Und dann haben wir es für viele Patienten gemacht,
+und wir können sagen, dass sie alle unabhängige Infektionen sind.
+Sie alle haben den selben Virus, aber sie sind unterschiedlich genug,
+dass es Grund genug ist zu glauben, dass sie unabhängig erworben wurden.
+Ist es wirklich im Gewebe? Wir kommen zu diesem hier. Ja.
+Wir nehmen Scheiben dieser Tumorgewebe-Biopsien
+und verwendeten Material um diesen Virus tatsächlich zu lokalisieren,
+und wir finden Zellen hier mit Viruspartikeln in ihnen.
+Diese Kerle haben wirklich den Virus. Verursacht dieser Virus Prostatakrebs?
+Nichts was ich sage deutet Kausalität an. Ich weiß es nicht.
+Hängt es zusammen mit Ontogenese? Ich weiß es nicht.
+Trifft es zu, dass diese Kerle einfach anfälliger für Viren sind?
+Könnte sein. Und es könnte nichts mit Krebs zu tun haben.
+Aber jetzt ist es eine Tür. Wir haben starke Assoziationen zwischen dem Dasein dieses Virus
+und einer genetischen Mutation, die mit Krebs in Zusammenhang gebracht wird.
+Das ist wo wir gerade sind. Also,
+es tun sich mehr Fragen auf als beantwortet werden, befürchte ich.
+Aber das ist was, verstehen sie, worin die Wissenschaft sehr gut ist.
+All das wird von Leuten im Labor gemacht, das meiste ist nicht mein Verdienst.
+Das ist eine Zusammenarbeit zwischen mir und Don.
+Und das ist der Kerl, der das Projekt in meinem Labor begann, und das ist der Kerl, der das Prostatazeug macht.
+Vielen Dank!
