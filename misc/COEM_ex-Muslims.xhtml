@@ -4,6 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <style type="text/css">
   .xmlist tr:nth-child(even) { background-color: #DFFFCF; }
+  .xmlist .even_row { background-color: #DFFFCF; }
   .xmlist .male { background-color: #CDE; text-align: center; }
   .xmlist .female { background-color: #EDC; text-align: center; }
   </style>
@@ -33,6 +34,8 @@
     $(function() {
       $("td:contains(♂)").addClass("male");
       $("td:contains(♀)").addClass("female");
+      if (!window.opera)
+        $(".xmlist tr:nth-child(even)").addClass("even_row");
     });
   ]]>
   </script>
