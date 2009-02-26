@@ -1,55 +1,57 @@
 This is a list of former Muslims on councilofexmuslims.com:
-[C*]
-a.ghazali
-A_G
-afghan_exmuslim
-aliadiere
-All_Brains
-automan
-awais
-Ayaz
-Aziz
-belladonnasix
-BerberElla
-Charles
-coolred38
-DivineMercy
-Eddy
-Fading
-FinallyFree
-Haji Murad
-Hassan
-heartbomb
-henrypage
-Humanoid
-Humra
-Iggy
-Iris
-IsLame
-Jack Torrance
-ladyofshalott
-li
-Maghrebi
-Marmalade Lady
-Maryam Namazie
-Nizar
-Nour
-Orion
-Pakman
-panoptic
-Pazuzu
-PeruvianSkies
-Rational1
-Reza Moradi
-rooblee
-rubina
-SalahuddinR
-Shahid Raza
-Spasm
-Tommy
-Uppercut
-whatabastor
-WiSsAm
-Witzbold
-Zaephon
-ZiaZ
+Nick			Gender	Country		Top 3 Reasons
+===============================================================
+[C*]			m	Turkey
+a.ghazali		m	USA
+A_G			m	-
+afghan_exmuslim		m	Afghanistan
+aliadiere		m	-
+All_Brains		m	-
+automan			m	-
+awais			m	USA
+Ayaz			-	-
+Aziz			m	Austria		Hell, slavery, 4:34
+belladonnasix		f	-
+BerberElla		f	UK
+Charles			m	Australia
+coolred38		f	-
+DivineMercy		f	-
+Eddy			m	Turkey
+Fading			f	-
+FinallyFree		m	-
+Haji Murad		m	-
+Hassan			m	UK		Hell, slavery, 4:34
+heartbomb		f	Australia
+henrypage		m	-
+Humanoid		m	-
+Humra			f	-
+Iggy			f	UK
+Iris			f	-
+IsLame			m	UK
+Jack Torrance		m	UK
+ladyofshalott		f	UK
+li			m	-
+Maghrebi		m	-
+Marmalade Lady		f	UK
+Maryam Namazie		f	UK
+Nizar			m	Sweden
+Nour			f	-
+Orion			m	-
+Pakman			m	Pakistan
+panoptic		-	-
+Pazuzu			m	UK
+PeruvianSkies		f	UK
+Rational1		f	USA
+Reza Moradi		m	UK
+rooblee			m	-
+rubina			f	-
+SalahuddinR		m	USA
+Shahid Raza		m	-
+Spasm			-	-
+Tommy			m	UK
+Uppercut		-	-
+whatabastor		m	Saudi A.
+WiSsAm			m	Saudi A.
+Witzbold		m	-
+Zaephon			m	Turkey
+ZiaZ			m	-
