@@ -11,7 +11,7 @@ automan			m	-		-
 awais			m	USA		Agnostic	Etymology
 Ayaz			-	-		-
 Aziz			m	Austria		Atheist		Hell, slavery, 4:34
-belladonnasix		f	-		-
+belladonnasix		f	-		Pantheist
 BerberElla		f	UK		Atheist
 Charles			m	Australia	-
 coolred38		f	-		-
@@ -21,20 +21,20 @@ Fading			f	-		-
 FinallyFree		m	-		-
 Haji Murad		m	-		-
 Hassan			m	UK		Agnostic/Deist	Hell, slavery, 4:34
-heartbomb		f	Australia	-
+heartbomb		f	Australia	Agnostic
 henrypage		m	-		-
-Humanoid		m	-		-
+Humanoid		m	-		Apatheist
 Humra			f	-		-
-Iggy			f	UK		-
+Iggy			f	UK		Ignostic
 Iris			f	-		-
-IsLame			m	UK		-
+IsLame			m	UK		Humanist
 Jack Torrance		m	UK		Agnostic
 ladyofshalott		f	UK		Atheist
 li			m	-		-
 Maghrebi		m	-		-
 Marmalade Lady		f	UK		-
 Maryam Namazie		f	UK		Atheist
-Nizar			m	Sweden		Atheist
+Nizar			m	Sweden		Agnostic
 Nour			f	-		-
 Orion			m	-		-
 Pakman			m	Pakistan	-
@@ -51,7 +51,7 @@ Spasm			-	-		-
 Tommy			m	UK		Atheist
 Uppercut		-	-		-
 whatabastor		m	Saudi A.	-
-WiSsAm			m	Saudi A.	Atheist
+WiSsAm			m	Saudi A.	Spiritual Agnostic
 Witzbold		m	-		Atheist
 Zaephon			m	Turkey		Atheist
 ZiaZ			m	-		-
