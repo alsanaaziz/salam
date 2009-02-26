@@ -23,15 +23,15 @@ Haji Murad		m	-		-
 Hassan			m	UK		Agnostic/Deist	Hell, slavery, 4:34
 heartbomb		f	Australia	Agnostic
 henrypage		m	-		-
-Humanoid		m	-		Apatheist
+Humanoid		m	UK		Apatheist
 Humra			f	-		-
-Iggy			f	UK		Ignostic
-Iris			f	-		-
-IsLame			m	UK		Humanist
+Iggy			f	Canada		Ignostic
+Iris			f	UK		-
+IsLame			m	UK		Humanist	God's invisibility and cruelty, existance of polytheism
 Jack Torrance		m	UK		Agnostic
 ladyofshalott		f	UK		Atheist
 li			m	-		-
-Maghrebi		m	-		-
+Maghrebi		m	Morocco		-
 Marmalade Lady		f	UK		-
 Maryam Namazie		f	UK		Atheist
 Nizar			m	Sweden		Agnostic
@@ -48,10 +48,10 @@ rubina			f	-		-
 SalahuddinR		m	USA		Atheist
 Shahid Raza		m	-		Atheist
 Spasm			-	-		-
-Tommy			m	UK		Atheist
+Tommy			m	USA		Atheist
 Uppercut		-	-		-
 whatabastor		m	Saudi A.	-
 WiSsAm			m	Saudi A.	Spiritual Agnostic
-Witzbold		m	-		Atheist
+Witzbold		m	Pakistan	Atheist
 Zaephon			m	Turkey		Atheist
 ZiaZ			m	-		-
