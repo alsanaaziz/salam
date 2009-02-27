@@ -7,6 +7,9 @@
   .xmlist .even_row { background-color: #DFFFCF; }
   .xmlist .male { background-color: #CDE; text-align: center; }
   .xmlist .female { background-color: #EDC; text-align: center; }
+  .xmlist th { cursor: pointer; }
+  .xmlist th.sorted_d:after { content: "↓"; color: darkgreen; }
+  .xmlist th.sorted_u:after { content: "↑"; color: darkgreen; }
   </style>
   <script type="text/javascript"><![CDATA[
 /*
@@ -32,10 +35,37 @@
   </script>
   <script type="text/javascript"><![CDATA[
     $(function() {
-      $("td:contains(♂)").addClass("male");
-      $("td:contains(♀)").addClass("female");
+      var xmlist = $(".xmlist");
+      $("td:nth-child(2):contains(♂)").addClass("male");
+      $("td:nth-child(2):contains(♀)").addClass("female");
       if (!window.opera)
-        $(".xmlist tr:nth-child(even)").addClass("even_row");
+        $("tr:nth-child(even)", xmlist).addClass("even_row");
+      // Add sorting functionality.
+      var th_s = $("tr:first th", xmlist);
+      function sort_ascending(a, b)  { return (a < b) ? -1 : a != b; }
+      function sort_descending(a, b) { return (a > b) ? -1 : a != b; }
+      function sort_column(table, th, order) {
+        var rows = $("tr", table);
+        var column = $("th", rows[0]).index(th);
+        rows = rows.get().slice(1);
+        var sort = order ? sort_ascending : sort_descending;
+        rows.sort(function(a, b) {
+          return sort(a.childNodes[column].textContent.toLowerCase(),
+                      b.childNodes[column].textContent.toLowerCase());
+        });
+        $(table).append(rows);
+      }
+      th_s.click(function() {
+        var this_ = $(this);
+        if (this_.hasClass("sorted"))
+          this_.toggleClass("sorted_u").toggleClass("sorted_d");
+        else
+          th_s.removeClass("sorted sorted_u sorted_d"),
+          this_.addClass("sorted sorted_d");
+        sort_column(xmlist[0], this_[0], this_.hasClass("sorted_u"));
+        if (!window.opera)
+          $("tr.even_row", xmlist).removeClass("even_row"), $("tr:nth-child(even)", xmlist).addClass("even_row");
+      })
     });
   ]]>
   </script>
