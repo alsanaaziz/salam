@@ -3,13 +3,15 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <style type="text/css">
-  .xmlist tr:nth-child(even) { background-color: #DFFFCF; }
-  .xmlist .even_row { background-color: #DFFFCF; }
+  tbody > tr:nth-child(odd) { background-color: #DFFFCF; }
+  .odd_row { background-color: #DFFFCF; }
   .xmlist .male { background-color: #CDE; text-align: center; }
   .xmlist .female { background-color: #EDC; text-align: center; }
-  .xmlist th { cursor: pointer; }
-  .xmlist th.sorted_d:after { content: "↓"; color: darkgreen; }
-  .xmlist th.sorted_u:after { content: "↑"; color: darkgreen; }
+  th.sortable { cursor: pointer; }
+  th.sorted_d:after { content: " ▾"; color: darkgreen; }
+  th.sorted_u:after { content: " ▴"; color: darkgreen; }
+  p.stats_closed:before { content: "▸ "; }
+  p.stats_opened:before { content: "▾ "; }
   </style>
   <script type="text/javascript"><![CDATA[
 /*
@@ -34,38 +36,109 @@
   ]]>
   </script>
   <script type="text/javascript"><![CDATA[
+    function obj_items(dict) {
+      var items = [];
+      for (key in dict)
+        items.push([key, dict[key]]);
+      return items;
+    }
+    function xmlescape(str) {
+      var dict = {"&":"&amp;", "<":"&lt;", ">":"&gt;"};
+      return str.replace(/&|<|>/g, function(m) { return dict[m] });
+    }
+    function cmp_ascending(a, b)  { return (a < b) ? -1 : a != b; }
+    function cmp_descending(a, b) { return (a > b) ? -1 : a != b; }
+    function sort_column(tbody, th, order) {
+      var column_nr = $("th", th.parentNode).index(th);
+      var rows = $(">tr", tbody).get();
+      order = order ? 1 : -1;
+      function cmp(a, b) {
+        a = a.childNodes[column_nr].textContent.toLowerCase();
+        b = b.childNodes[column_nr].textContent.toLowerCase();
+        if (a == "") return 1;  // Sink to the bottom.
+        if (b == "") return -1; // ditto
+        if (!isNaN((tmp = Number(a)))) a = tmp;
+        if (!isNaN((tmp = Number(b)))) b = tmp;
+        return ((a < b) ? -1 : a != b) * order;
+      }
+      rows.sort(cmp);
+      $(tbody).append(rows);
+    }
+    function handle_title_click(e) {
+      var this_ = $(this);
+      var thead = this.parentNode.parentNode, tbody = $(thead).next()[0];
+      if (this_.hasClass("sorted"))
+        this_.toggleClass("sorted_u").toggleClass("sorted_d");
+      else
+        this_.siblings().add(this).removeClass("sorted sorted_u sorted_d"),
+        this_.addClass("sorted sorted_d");
+      sort_column(tbody, this, this_.hasClass("sorted_u"));
+      if (!window.opera)
+        $(">tr", tbody).each(function(i, tag) {
+          if (i % 2 == 0) $(tag).addClass("odd_row");
+          else $(tag).removeClass("odd_row");
+        });
+    }
+    function add_class_odd_rows(tbody) {
+      if (!window.opera)
+        $(">tr:nth-child(odd)", tbody).addClass("odd_row");
+    }
     $(function() {
       var xmlist = $(".xmlist");
-      $("td:nth-child(2):contains(♂)").addClass("male");
-      $("td:nth-child(2):contains(♀)").addClass("female");
-      if (!window.opera)
-        $("tr:nth-child(even)", xmlist).addClass("even_row");
+      var rows = $("td:nth-child(2)");
+      rows.filter(":contains(♂)").addClass("male");
+      rows.filter(":contains(♀)").addClass("female");
+      add_class_odd_rows($(">tbody", xmlist));
       // Add sorting functionality.
       var th_s = $("tr:first th", xmlist);
-      function sort_ascending(a, b)  { return (a < b) ? -1 : a != b; }
-      function sort_descending(a, b) { return (a > b) ? -1 : a != b; }
-      function sort_column(table, th, order) {
-        var rows = $("tr", table);
-        var column = $("th", rows[0]).index(th);
-        rows = rows.get().slice(1);
-        var sort = order ? sort_ascending : sort_descending;
-        rows.sort(function(a, b) {
-          return sort(a.childNodes[column].textContent.toLowerCase(),
-                      b.childNodes[column].textContent.toLowerCase());
-        });
-        $(table).append(rows);
-      }
-      th_s.click(function() {
-        var this_ = $(this);
-        if (this_.hasClass("sorted"))
-          this_.toggleClass("sorted_u").toggleClass("sorted_d");
-        else
-          th_s.removeClass("sorted sorted_u sorted_d"),
-          this_.addClass("sorted sorted_d");
-        sort_column(xmlist[0], this_[0], this_.hasClass("sorted_u"));
-        if (!window.opera)
-          $("tr.even_row", xmlist).removeClass("even_row"), $("tr:nth-child(even)", xmlist).addClass("even_row");
-      })
+      th_s.addClass("sortable").click(handle_title_click);
+      // Statistics:
+      var parag = $("<p class='stats_closed'><a href='#stats'>Statistics</a></p>");
+      xmlist.before(parag);
+      $("a", parag).click(function(e) {
+        e.preventDefault();
+        parag.toggleClass("stats_opened").toggleClass("stats_closed");
+        if (parag.hasClass("stats_closed"))
+          return parag.table.hide();
+        if (parag.table)
+          return parag.table.show();
+
+        function make_thead(t1, t2) { return "<thead><tr><th>"+t1+"</th><th>"+t2+"</th></tr></thead>"; }
+        function make_rows(tbody, items) {
+          for (var i = 0, len = items.length; i < len; i++)
+            tbody.append("<tr><td>"+xmlescape(items[i][0])+"</td><td>"+items[i][1]+"</td></tr>");
+        }
+        function count(i, elem) {
+          var c = count.dict[elem.textContent];
+          c = c ? c + 1 : 1;
+          count.dict[elem.textContent] = c;
+        }
+        function cmp_items(a, b) { return cmp_ascending(a[0].toLowerCase(), b[0].toLowerCase()) }
+
+        var columns = [[2, "Gender"], [3, "Country"], [4, "Current Views"]];
+        var table = $("<table class='stats_table'/>"), thead, tbody, items;
+        parag.after(table);
+        parag.table = table;
+        for (var i = 0; i < 3; i++)
+        {
+          var column = columns[i][0], title = columns[i][1];
+          rows = $("td:nth-child("+column+")", xmlist);
+          count.dict = {}
+          rows.each(count);
+          if (rows.length == 0)
+            continue;
+          items = obj_items(count.dict);
+          items.sort(cmp_items);
+          if (items[0][0] == "")
+            items[0][0] = "N/A";
+          thead = $(make_thead(title, "Count"));
+          $("th", thead).addClass("sortable").click(handle_title_click);
+          table.append(thead).append(tbody = $("<tbody/>"));
+          make_rows(tbody, items);
+          add_class_odd_rows(tbody);
+        }
+
+      });
     });
   ]]>
   </script>
