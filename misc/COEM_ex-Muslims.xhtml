@@ -7,6 +7,7 @@
   .odd_row { background-color: #DFFFCF; }
   .xmlist .male { background-color: #CDE; text-align: center; }
   .xmlist .female { background-color: #EDC; text-align: center; }
+  .xmlist a { text-decoration: none; color: darkblue; }
   th.sortable { cursor: pointer; }
   th.sorted_d:after { content: " ▾"; color: darkgreen; }
   th.sorted_u:after { content: " ▴"; color: darkgreen; }
@@ -86,10 +87,23 @@
     // Executed when the document is ready.
     $(function() {
       var xmlist = $(".xmlist");
-      var rows = $("td:nth-child(2)");
-      rows.filter(":contains(♂)").addClass("male");
-      rows.filter(":contains(♀)").addClass("female");
-      add_class_odd_rows($(">tbody", xmlist));
+      var rows = xmlist[0].getElementsByTagName("tr");
+      for (var i = 1, len = rows.length; i < len; i++)
+      {
+        var row = rows[i];
+        var first_td = row.childNodes[0], second_td = row.childNodes[1];
+        if (second_td.textContent == "♂")
+          second_td.className = "male";
+        if (second_td.textContent == "♀")
+          second_td.className = "female";
+        // Linkify the user name.
+        first_td.innerHTML = "<a href='http://www.councilofexmuslims.com/index.php?action=profile;u="+
+                             first_td.parentNode.id+"'>"+first_td.textContent+"</a>";
+        if (!window.opera) {
+          if (i % 2 == 0) row.className = "odd_row";
+          first_td.className = "username";
+        }
+      }
       // Add sorting functionality.
       var th_s = $("tr:first th", xmlist);
       th_s.addClass("sortable").click(handle_title_click);
@@ -176,6 +190,7 @@
 <tr id="561"><td>henrypage</td><td>♂</td><td>UK</td><td>Atheist</td><td>Muslim reactions to 9/11</td></tr>
 <tr id="114"><td>Humanoid</td><td>♂</td><td>UK</td><td>Apatheist</td><td></td></tr>
 <tr id="409"><td>Humra</td><td>♀</td><td></td><td></td><td></td></tr>
+<tr id="594"><td>identitas</td><td>♂</td><td>UK</td><td>Agnostic</td><td></td></tr>
 <tr id="77"><td>Iggy</td><td>♀</td><td>Canada</td><td>Ignostic</td><td></td></tr>
 <tr id="141"><td>Iris</td><td>♀</td><td>UK</td><td></td><td></td></tr>
 <tr id="574"><td>IsLame</td><td>♂</td><td>UK</td><td>Humanist</td><td>God's invisibility and cruelty, existance of polytheism, net effect of the Qur'an on Muslims</td></tr>
