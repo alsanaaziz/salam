@@ -94,6 +94,10 @@ def main():
 
   (options, args) = parser.parse_args()
 
+  if args[0] == "c":
+    convert_srt(args[1], path_base(args[1]))
+    return
+
   if len(args) < 2:
     return parser.print_help()
 
