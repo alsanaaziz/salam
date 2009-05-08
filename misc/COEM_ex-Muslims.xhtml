@@ -96,9 +96,6 @@
           second_td.className = "male";
         if (second_td.textContent == "♀")
           second_td.className = "female";
-        // Linkify the user name.
-        first_td.innerHTML = "<a href='http://www.councilofexmuslims.com/index.php?action=profile;u="+
-                             first_td.parentNode.id+"'>"+first_td.textContent+"</a>";
         if (!window.opera) {
           if (i % 2 == 0) row.className = "odd_row";
           first_td.className = "username";
@@ -163,74 +160,81 @@
 <thead>
 <tr><th>Nick</th><th>Gender</th><th>Country</th><th>Current views</th><th>Top 3 reasons for leaving Islam</th></tr>
 </thead>
-<tbody>
-<tr id="658"><td>[C*]</td><td>♂</td><td>UK</td><td>Atheist</td><td></td></tr>
-<tr id="558"><td>a.ghazali</td><td>♂</td><td>USA</td><td></td><td></td></tr>
-<tr id="359"><td>A_G</td><td>♂</td><td></td><td></td><td></td></tr>
-<tr id="469"><td>abdalwali</td><td>♂</td><td>USA</td><td></td><td></td></tr>
-<tr id="289"><td>afghan_exmuslim</td><td>♂</td><td>Afghanistan</td><td></td><td></td></tr>
-<tr id="668"><td>al-uzza</td><td>♀</td><td></td><td></td><td></td></tr>
-<tr id="684"><td>AlmostAisha</td><td>♀</td><td></td><td></td><td></td></tr>
-<tr id="657"><td>aliadiere</td><td>♂</td><td></td><td></td><td></td></tr>
-<tr id="56"><td>All_Brains</td><td>♂</td><td></td><td>Atheist</td><td></td></tr>
-<tr id="416"><td>allat</td><td>♀</td><td></td><td></td><td></td></tr>
-<tr id="564"><td>automan</td><td>♂</td><td></td><td></td><td></td></tr>
-<tr id="342"><td>awais</td><td>♂</td><td>USA</td><td>Agnostic</td><td>Etymology</td><td></td></tr>
-<tr id="462"><td>Ayaz</td><td>♂</td><td>Pakistan</td><td>Atheist</td><td></td></tr>
-<tr id="9"><td>Aziz</td><td>♂</td><td>Austria</td><td>Atheist</td><td>Hell, slavery, 4:34</td></tr>
-<tr id="613"><td>belladonnasix</td><td>♀</td><td>Canada</td><td>Pantheist</td><td></td></tr>
-<tr id="6"><td>BerberElla</td><td>♀</td><td>UK</td><td>Atheist</td><td></td></tr>
-<tr id="187"><td>Charles</td><td>♂</td><td>Australia</td><td></td><td></td></tr>
-<tr id="615"><td>coolred38</td><td>♀</td><td></td><td></td><td></td></tr>
-<tr id="345"><td>DivineMercy</td><td>♀</td><td></td><td></td><td></td></tr>
-<tr id="346"><td>Dr Diavolo</td><td>♂</td><td>UK</td><td>Atheist</td><td></td></tr>
-<tr id="510"><td>Eddy</td><td>♂</td><td>Turkey</td><td></td><td></td></tr>
-<tr id="450"><td>Fading</td><td>♀</td><td></td><td></td><td></td></tr>
-<tr id="638"><td>FinallyFree</td><td>♂</td><td>UK</td><td>Karma &amp; Luck</td><td>Ideology, fallacies, barbaric practices</td></tr>
-<tr id="725"><td>freakzilla</td><td>♂</td><td>UK</td><td>Skeptic</td><td></td></tr>
-<tr id="219"><td>Haji Murad</td><td>♂</td><td></td><td></td><td></td></tr>
-<tr id="8"><td>Hassan</td><td>♂</td><td>UK</td><td>Deist</td><td>Hell, slavery, 4:34</td></tr>
-<tr id="495"><td>heartbomb</td><td>♀</td><td>Australia</td><td>Agnostic</td><td></td></tr>
-<tr id="561"><td>henrypage</td><td>♂</td><td>UK</td><td>Atheist</td><td>Muslim reactions to 9/11</td></tr>
-<tr id="114"><td>Humanoid</td><td>♂</td><td>UK</td><td>Apatheist</td><td></td></tr>
-<tr id="409"><td>Humra</td><td>♀</td><td></td><td></td><td></td></tr>
-<tr id="594"><td>identitas</td><td>♂</td><td>UK</td><td>Agnostic</td><td></td></tr>
-<tr id="77"><td>Iggy</td><td>♀</td><td>Canada</td><td>Ignostic</td><td></td></tr>
-<tr id="141"><td>Iris</td><td>♀</td><td>UK</td><td></td><td></td></tr>
-<tr id="574"><td>IsLame</td><td>♂</td><td>UK</td><td>Humanist</td><td>God's invisibility and cruelty, existance of polytheism, net effect of the Qur'an on Muslims</td></tr>
-<tr id="26"><td>Jack Torrance</td><td>♂</td><td>UK</td><td>Agnostic</td><td></td></tr>
-<tr id="727"><td>jamshed raja</td><td>♂</td><td>UK</td><td>Atheist</td><td></td></tr>
-<tr id="381"><td>ladyofshalott</td><td>♀</td><td>UK</td><td>Atheist</td><td></td></tr>
-<tr id="16"><td>li</td><td>♂</td><td>Singapore</td><td>Atheist</td><td></td></tr>
-<tr id="197"><td>Maghrebi</td><td>♂</td><td>Morocco</td><td></td><td></td></tr>
-<tr id="32"><td>Marmalade-Lady</td><td>♀</td><td>UK</td><td></td><td></td></tr>
-<tr id="11"><td>Maryam Namazie</td><td>♀</td><td>UK</td><td>Atheist</td><td></td></tr>
-<tr id="710"><td>ned</td><td>♀</td><td></td><td>Agnostic</td><td></td></tr>
-<tr id="712"><td>Nite Owllll</td><td>♂</td><td>USA</td><td>Atheist</td><td></td></tr>
-<tr id="623"><td>Nizar</td><td>♂</td><td>Sweden</td><td>Agnostic</td><td></td></tr>
-<tr id="430"><td>Nour</td><td>♀</td><td></td><td></td><td></td></tr>
-<tr id="408"><td>Orion</td><td>♂</td><td></td><td></td><td></td></tr>
-<tr id="260"><td>Pakman</td><td>♂</td><td>Pakistan</td><td></td><td></td></tr>
-<tr id="249"><td>panoptic</td><td></td><td>UK</td><td>Atheist</td><td></td></tr>
-<tr id="160"><td>Pazuzu</td><td>♂</td><td>UK</td><td>Atheist</td><td></td></tr>
-<tr id="554"><td>PeruvianSkies</td><td>♀</td><td>UK</td><td>Atheist</td><td></td></tr>
-<tr id="215"><td>Rational1</td><td>♀</td><td>USA</td><td>Atheist</td><td></td></tr>
-<tr id="31"><td>Reza Moradi</td><td>♂</td><td>UK</td><td>Atheist</td><td></td></tr>
-<tr id="592"><td>rooblee</td><td>♂</td><td></td><td></td><td></td></tr>
-<tr id="57"><td>rubina</td><td>♀</td><td></td><td></td><td></td></tr>
-<tr id="628"><td>SalahuddinR</td><td>♂</td><td>USA</td><td>Atheist</td><td></td></tr>
-<tr id="65"><td>Shahid Raza</td><td>♂</td><td></td><td>Atheist</td><td></td></tr>
-<tr id="675"><td>Shahzad</td><td>♂</td><td></td><td>Panentheist</td><td></td></tr>
-<tr id="3"><td>Spasm</td><td>♀</td><td></td><td></td><td></td></tr>
-<tr id="544"><td>stardust</td><td>♀</td><td></td><td>Deist</td><td></td></tr>
-<tr id="369"><td>Starnexus</td><td>♂</td><td></td><td>Atheist</td><td></td></tr>
-<tr id="562"><td>Tommy</td><td>♂</td><td>USA</td><td>Atheist</td><td></td></tr>
-<tr id="244"><td>Uppercut</td><td></td><td>UK</td><td>Humanist</td><td></td></tr>
-<tr id="485"><td>whatabastor</td><td>♂</td><td>Saudi Arabia</td><td></td><td></td></tr>
-<tr id="255"><td>WiSsAm</td><td>♂</td><td>Saudi Arabia</td><td>Spiritual Agnostic</td><td>Women's rights, Jihad, negative effects of Islam on Muslims</td></tr>
-<tr id="19"><td>Witzbold</td><td>♂</td><td>Pakistan</td><td>Atheist</td><td></td></tr>
-<tr id="42"><td>Zaephon</td><td>♂</td><td>Turkey</td><td>Atheist</td><td></td></tr>
-<tr id="58"><td>ZiaZ</td><td>♂</td><td>UK</td><td>Humanist</td><td></td></tr>
+<tbody><tr id="658"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=658">[C*]</a></td><td>♂</td><td>UK</td><td>Atheist</td><td></td></tr>
+<tr id="558"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=558">a.ghazali</a></td><td>♂</td><td>USA</td><td></td><td></td></tr>
+<tr id="359"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=359">A_G</a></td><td>♂</td><td></td><td></td><td></td></tr>
+<tr id="469"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=469">abdalwali</a></td><td>♂</td><td>USA</td><td></td><td></td></tr>
+<tr id="289"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=289">afghan_exmuslim</a></td><td>♂</td><td>Afghanistan</td><td></td><td></td></tr>
+<tr id="668"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=668">al-uzza</a></td><td>♀</td><td></td><td></td><td></td></tr>
+<tr id="684"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=684">AlmostAisha</a></td><td>♀</td><td></td><td></td><td></td></tr>
+<tr id="657"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=657">aliadiere</a></td><td>♂</td><td></td><td></td><td></td></tr>
+<tr id="56"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=56">All_Brains</a></td><td>♂</td><td></td><td>Atheist</td><td></td></tr>
+<tr id="416"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=416">allat</a></td><td>♀</td><td></td><td></td><td></td></tr>
+<tr id="564"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=564">automan</a></td><td>♂</td><td></td><td></td><td></td></tr>
+<tr id="342"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=342">awais</a></td><td>♂</td><td>USA</td><td>Agnostic</td><td><span class="reason">Etymology</span></td></tr>
+<tr id="462"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=462">Ayaz</a></td><td>♂</td><td>Pakistan</td><td>Atheist</td><td></td></tr>
+<tr id="9"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=9">Aziz</a></td><td>♂</td><td>Austria</td><td>Atheist</td><td><span class="reason">Hell</span>, <span class="reason">slavery</span>, <span class="reason">4:34</span></td></tr>
+<tr id="613"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=613">belladonnasix</a></td><td>♀</td><td>Canada</td><td>Pantheist</td><td></td></tr>
+<tr id="6"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=6">BerberElla</a></td><td>♀</td><td>UK</td><td>Atheist</td><td></td></tr>
+<tr id="187"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=187">Charles</a></td><td>♂</td><td>Australia</td><td></td><td></td></tr>
+<tr id="615"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=615">coolred38</a></td><td>♀</td><td></td><td></td><td></td></tr>
+<tr id="733"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=733">crueljewel</a></td><td>♀</td><td></td><td></td><td></td></tr>
+<tr id="345"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=345">DivineMercy</a></td><td>♀</td><td></td><td></td><td></td></tr>
+<tr id="346"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=346">Dr Diavolo</a></td><td>♂</td><td>UK</td><td>Atheist</td><td></td></tr>
+<tr id="510"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=510">Eddy</a></td><td>♂</td><td>Turkey</td><td></td><td></td></tr>
+<tr id="450"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=450">Fading</a></td><td>♀</td><td></td><td></td><td></td></tr>
+<tr id="756"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=756">Ferrero</a></td><td>♀</td><td></td><td></td><td></td></tr>
+<tr id="638"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=638">FinallyFree</a></td><td>♂</td><td>UK</td><td>Karma &amp; Luck</td><td><span class="reason">Ideology</span>, <span class="reason">fallacies</span>, <span class="reason">barbaric practices</span></td></tr>
+<tr id="725"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=725">freakzilla</a></td><td>♂</td><td>UK</td><td>Skeptic</td><td></td></tr>
+<tr id="219"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=219">Haji Murad</a></td><td>♂</td><td></td><td></td><td></td></tr>
+<tr id="8"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=8">Hassan</a></td><td>♂</td><td>UK</td><td>Deist</td><td><span class="reason">Hell</span>, <span class="reason">slavery</span>, <span class="reason">4:34</span></td></tr>
+<tr id="495"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=495">heartbomb</a></td><td>♀</td><td>Australia</td><td>Agnostic</td><td></td></tr>
+<tr id="383"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=383">Hedaya</a></td><td>♀</td><td></td><td>Agnostic</td><td></td></tr>
+<tr id="561"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=561">henrypage</a></td><td>♂</td><td>UK</td><td>Atheist</td><td><span class="reason">Muslim reactions to 9/11</span></td></tr>
+<tr id="114"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=114">Humanoid</a></td><td>♂</td><td>UK</td><td>Apatheist</td><td></td></tr>
+<tr id="409"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=409">Humra</a></td><td>♀</td><td></td><td></td><td></td></tr>
+<tr id="594"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=594">identitas</a></td><td>♂</td><td>UK</td><td>Agnostic</td><td><span class="reason">Fake account?</span></td></tr>
+<tr id="77"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=77">Iggy</a></td><td>♀</td><td>Canada</td><td>Ignostic</td><td></td></tr>
+<tr id="141"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=141">Iris</a></td><td>♀</td><td>UK</td><td></td><td></td></tr>
+<tr id="574"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=574">IsLame</a></td><td>♂</td><td>UK</td><td>Humanist</td><td><span class="reason">God's invisibility and cruelty</span>, <span class="reason">existance of polytheism</span>, <span class="reason">net effect of the Qur'an on Muslims</span></td></tr>
+<tr id="738"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=738">J4m3z</a></td><td>♂</td><td></td><td></td><td></td></tr>
+<tr id="26"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=26">Jack Torrance</a></td><td>♂</td><td>UK</td><td>Agnostic</td><td></td></tr>
+<tr id="727"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=727">jamshed raja</a></td><td>♂</td><td>UK</td><td>Atheist</td><td></td></tr>
+<tr id="317"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=317">KraziKuri</a></td><td>♀</td><td>UK</td><td></td><td></td></tr>
+<tr id="381"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=381">ladyofshalott</a></td><td>♀</td><td>UK</td><td>Atheist</td><td></td></tr>
+<tr id="16"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=16">li</a></td><td>♂</td><td>Singapore</td><td>Atheist</td><td></td></tr>
+<tr id="197"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=197">Maghrebi</a></td><td>♂</td><td>Morocco</td><td></td><td></td></tr>
+<tr id="32"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=32">Marmalade-Lady</a></td><td>♀</td><td>UK</td><td></td><td></td></tr>
+<tr id="11"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=11">Maryam Namazie</a></td><td>♀</td><td>UK</td><td>Atheist</td><td></td></tr>
+<tr id="710"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=710">ned</a></td><td>♀</td><td></td><td>Agnostic</td><td></td></tr>
+<tr id="712"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=712">Nite Owllll</a></td><td>♂</td><td>USA</td><td>Atheist</td><td></td></tr>
+<tr id="623"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=623">Nizar</a></td><td>♂</td><td>Sweden</td><td>Agnostic</td><td></td></tr>
+<tr id="430"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=430">Nour</a></td><td>♀</td><td></td><td></td><td></td></tr>
+<tr id="408"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=408">Orion</a></td><td>♂</td><td></td><td></td><td></td></tr>
+<tr id="260"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=260">Pakman</a></td><td>♂</td><td>Pakistan</td><td></td><td></td></tr>
+<tr id="249"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=249">panoptic</a></td><td></td><td>UK</td><td>Atheist</td><td></td></tr>
+<tr id="734"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=734">Pariah</a></td><td>♀</td><td></td><td></td><td></td></tr>
+<tr id="160"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=160">Pazuzu</a></td><td>♂</td><td>UK</td><td>Atheist</td><td></td></tr>
+<tr id="554"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=554">PeruvianSkies</a></td><td>♀</td><td>UK</td><td>Atheist</td><td></td></tr>
+<tr id="757"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=757">Ramadulla</a></td><td>♂</td><td>UK</td><td></td><td></td></tr>
+<tr id="215"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=215">Rational1</a></td><td>♀</td><td>USA</td><td>Atheist</td><td></td></tr>
+<tr id="31"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=31">Reza Moradi</a></td><td>♂</td><td>UK</td><td>Atheist</td><td></td></tr>
+<tr id="592"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=592">rooblee</a></td><td>♂</td><td></td><td></td><td></td></tr>
+<tr id="57"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=57">rubina</a></td><td>♀</td><td></td><td></td><td></td></tr>
+<tr id="628"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=628">SalahuddinR</a></td><td>♂</td><td>USA</td><td>Atheist</td><td></td></tr>
+<tr id="65"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=65">Shahid Raza</a></td><td>♂</td><td></td><td>Atheist</td><td></td></tr>
+<tr id="675"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=675">Shahzad</a></td><td>♂</td><td></td><td>Panentheist</td><td></td></tr>
+<tr id="3"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=3">Spasm</a></td><td>♀</td><td></td><td></td><td></td></tr>
+<tr id="544"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=544">stardust</a></td><td>♀</td><td></td><td>Deist</td><td></td></tr>
+<tr id="369"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=369">Starnexus</a></td><td>♂</td><td></td><td>Atheist</td><td></td></tr>
+<tr id="747"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=747">Suprah</a></td><td>♀</td><td>Pakistan</td><td>Atheist</td><td></td></tr>
+<tr id="562"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=562">Tommy</a></td><td>♂</td><td>USA</td><td>Atheist</td><td></td></tr>
+<tr id="244"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=244">Uppercut</a></td><td></td><td>UK</td><td>Humanist</td><td></td></tr>
+<tr id="485"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=485">whatabastor</a></td><td>♂</td><td>Saudi Arabia</td><td></td><td></td></tr>
+<tr id="255"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=255">WiSsAm</a></td><td>♂</td><td>Saudi Arabia</td><td>Spiritual Agnostic</td><td><span class="reason">Women's rights</span>, <span class="reason">Jihad</span>, <span class="reason">negative effects of Islam on Muslims</span></td></tr>
+<tr id="19"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=19">Witzbold</a></td><td>♂</td><td>Pakistan</td><td>Atheist</td><td></td></tr>
+<tr id="42"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=42">Zaephon</a></td><td>♂</td><td>Turkey</td><td>Atheist</td><td></td></tr>
+<tr id="58"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=58">ZiaZ</a></td><td>♂</td><td>UK</td><td>Humanist</td><td></td></tr>
 </tbody>
 </table>
 </body>
