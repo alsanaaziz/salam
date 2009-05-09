@@ -69,7 +69,7 @@ users = [
   (3, "Spasm", "♀", "", "", ()),
   (544, "stardust", "♀", "", "Deist", ()),
   (369, "Starnexus", "♂", "", "Atheist", ()),
-  (747, "Suprah", "♀", "Pakistan", "Atheist", ()),
+  (747, "Suprah", "♂", "Pakistan", "Atheist", ()),
   (562, "Tommy", "♂", "USA", "Atheist", ()),
   (244, "Uppercut", "", "UK", "Humanist", ()),
   (485, "whatabastor", "♂", "Saudi Arabia", "", ()),
