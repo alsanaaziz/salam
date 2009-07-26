@@ -89,7 +89,7 @@ Don't make it so loud!
 
 23
 00:01:02,965 --> 00:01:04,961
-I do the best I can.
+- I do the best I can.
 
 24
 00:01:05,061 --> 00:01:07,867
@@ -129,7 +129,7 @@ and now we're about to pray to God to cure her.
 
 33
 00:01:29,035 --> 00:01:30,742
-Day 3
+[Day 3]
 
 34
 00:01:30,842 --> 00:01:32,889
@@ -137,7 +137,7 @@ Day 3
 
 35
 00:01:32,989 --> 00:01:35,360
-Day 5
+[Day 5]
 - I just love you God and Lord
 
 36
