@@ -10,6 +10,7 @@ users = [
   (887, "abuk", "♂", "UK", "", ()),
   (289, "afghan_exmuslim", "♂", "Afghanistan", "", ()),
   (884, "AisaLagtaHAI", "♂", "Canada", "Agnostic", ()),
+  (370, "Al Razi", "♂", "", "", ()), # The one who wrote funny Arabic revelations. :)
   (668, "al-uzza", "♀", "", "", ()),
   (684, "AlmostAisha", "♀", "", "", ()),
   (657, "aliadiere", "♂", "", "", ()),
