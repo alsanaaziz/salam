@@ -12,41 +12,53 @@ def path_ext(a):
 def path_base(a):
   return os.path.splitext(a)[0]
 
-def convert_srt(src, dest):
-  """ Converts a SubRip file to own format. """
-  text = open(src).read()
-  ftimes = open(dest + ".times", "w")
-  ftext = open(dest + ".subtitles", "w")
+def parse_srt(text):
+  """ Simple SubRip format parser. """
+  subs = []
+  subs_append = subs.append
   fragments = text.strip().split("\n\n")
   for f in fragments:
     f = f.split("\n", 2)
     if len(f) == 3:
       # E.g.: "00:15:55,093 --> 00:15:59,421" to "00:15:55.093 00:15:59.421"
-      time = f[1].replace("--> ", "").replace(",", ".")
-      ftimes.write(time + "\n")
-      ftext.write(f[2].replace("\n", "\\n") + "\n")
-  ftimes.close()
-  ftext.close()
+      subs_append( (f[1].replace("--> ", "").replace(",", "."),
+                    f[2].replace("\n", "\\n")) )
+  return subs
 
-def convert_sub(src, dest):
-  """ Converts a SubViewer file to own format. """
-  text = open(src).read()
+def parse_sub(text):
+  """ Simple SubViewer format parser. """
   sections = text.split("[SUBTITLE]", 1)
   if len(sections) != 2:
-    raise Exception("no SUBTITLE section found")
-  text = sections[1]
-  ftimes = open(dest + ".times", "w")
-  fsubs = open(dest + ".subtitles", "w")
+    raise Exception("no [SUBTITLE] section found")
+  text = sections[1] # Ignore header.
+  subs = []
+  subs_append = subs.append
   fragments = text.strip().split("\n\n")
   for f in fragments:
     f = f.split("\n", 1)
     if len(f) == 2:
       # E.g.: "00:15:55.09,00:15:59.42" to "00:15:55.093 00:15:59.421"
-      time = f[1].replace(",", "0 ", 1) + "0"
-      ftimes.write(time + "\n")
-      fsubs.write(f[2].replace("[br]", "\\n") + "\n")
+      subs_append( (f[0].replace(",", "0 ", 1) + "0",
+                    f[1].replace("[br]", "\\n")) )
+  return subs
+
+def convert_xyz(src, dest, parse_func):
+  text = open(src).read()
+  ftimes = open(dest + ".times", "w")
+  fsubs = open(dest + ".subtitles", "w")
+  for time, sub in parse_func(text):
+    ftimes.write(time + "\n")
+    fsubs.write(sub + "\n")
   ftimes.close()
   fsubs.close()
+
+def convert_srt(src, dest):
+  """ Converts a SubRip file and writes own format files. """
+  convert_xyz(src, dest, parse_srt)
+
+def convert_sub(src, dest):
+  """ Converts a SubViewer file and writes own format files. """
+  convert_xyz(src, dest, parse_sub)
 
 def read_subtitles(path):
   """ Reads subtitle files in own format. """
@@ -94,8 +106,10 @@ def main():
 
   (options, args) = parser.parse_args()
 
-  if args[0] == "c":
-    convert_srt(args[1], path_base(args[1]))
+  if len(args) > 0 and args[0] == "c":
+    convert_funcs = {'.srt':convert_srt, '.sub':convert_sub}
+    convert_func = convert_funcs[path_ext(args[1])]
+    convert_func(args[1], path_base(args[1]))
     return
 
   if len(args) < 2:
