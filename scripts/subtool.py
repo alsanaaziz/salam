@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author: AlsanaAziz
 # License: zlib/libpng
-import os
+import os, re
 
 def Path(a, *args):
   return os.path.join(a, *args)
@@ -116,6 +116,73 @@ def write_sub(times, subs, dest, ext=".sub"):
     sub = subs[i].replace("\\n", "[br]")
     fdest.write("%s\n%s\n\n" % (time, sub))
 
+def slice_times(times, from_to):
+  from_t, to_t = from_to
+  assert from_t <= to_t
+  idx1 = idx2 = None # Slice indices.
+  i = prev_t = 0
+  # Find indices to slice the array.
+  for t0, t1 in times:
+    if idx1 == None and (t0 <= from_t < t1 or prev_t <= from_t < t0):
+      idx1 = i
+    if idx2 == None:
+      if t0 < to_t <= t1:
+        idx2 = i + 1
+      elif prev_t < to_t <= t0:
+        idx2 = i
+    prev_t = t1
+    i += 1
+    if idx1 != None and idx2 != None:
+      break # Found both indices.
+  if idx1 == None:
+    idx1 = 0
+  if idx2 == None:
+    idx2 = len(times) if prev_t < to_t else 0
+  # Slice the array now.
+  times = times[idx1:idx2]
+  if len(times):
+    if times[0][0] < from_t: # Clamp start value.
+      times[0] = (from_t, times[0][1])
+    if times[-1][1] > to_t: # Clamp end value.
+      times[-1] = (times[-1][0], to_t)
+    # Subtract the offset from the time values.
+    times = [(t0-from_t, t1-from_t) for t0, t1 in times]
+  return idx1, idx2, times
+
+def test_slice_times():
+  times = [(2,4),(7,9),(14,17),(21,26),(29,33)]
+  idx1, idx2, times2 = slice_times(times, (6, 15))
+  #print times2
+  assert times2 == [(1,3),(8,9)]
+  idx1, idx2, times2 = slice_times(times, (7, 15))
+  #print times2
+  assert times2 == [(0,2),(7,8)]
+  idx1, idx2, times2 = slice_times(times, (9, 22))
+  #print times2
+  assert times2 == [(5,8),(12,13)]
+#test_slice_times()
+
+def slice_subtitles(times, subs, from_to, nr, dest_base, func):
+  idx1, idx2, times = slice_times(times, from_to)
+  subs = subs[idx1:idx2] # Also slice 'subs'.
+  dest_base = dest_base + ".%d" % nr
+  func(times, subs, dest_base)
+
+def parse_time_slices(slices):
+  """ Parse strings into tuples, e.g.:
+      "00:15:55.093 - 00:15:59.421" -> (t0, t1)
+      "00:15:55.093 + 00:15:59.421" -> (t0, t0 + t1) """
+  rx = re.compile(r"([+-]|[^+-]+)")
+  i = 0
+  for t0, op, t1 in map(rx.findall, slices):
+    t0 = to_ms(t0)
+    t1 = to_ms(t1)
+    if op == '+':
+      t1 = t0 + t1
+    slices[i] = (t0, t1)
+    i += 1
+  return slices
+
 def main():
   from optparse import OptionParser
 
@@ -125,6 +192,9 @@ def main():
     help="output SubRip file (default)")
   parser.add_option("--sub", dest="sub", default=False, action="store_true",
     help="output SubViewer 2.0 file")
+  parser.add_option("--ss", dest="slice_subs", metavar="SLICE_START",
+    default=[], action="append",
+    help="slice subtitles into multiple files")
 
   (options, args) = parser.parse_args()
 
@@ -161,6 +231,8 @@ def main():
   converter_funcs = ((options.srt, write_srt), (options.sub, write_sub))
   converter_funcs = [x[1] for x in converter_funcs if x[0]]
 
+  slices = parse_time_slices(options.slice_subs)
+
   # Load the times file.
   times = read_times(ftimes)
   # Merge the times file and subtitles files.
@@ -169,10 +241,19 @@ def main():
     if len(times) != len(subs):
       msg = "times list and subtitles list ('%s') mismatch in their lengths"
       raise Exception(msg % fsubs)
+
     for func in converter_funcs:
-      dest = path_base(fsubs)
-      print "Writing '%s%s'." % (dest, func.func_defaults[0])
-      func(times, subs, dest)
+      ext = func.func_defaults[0]
+      dest_base = path_base(fsubs)
+      dest_full = dest_base + ext
+      print "Writing '%s'." % dest_full
+      func(times, subs, dest_base)
+      if slices:
+        print "Splitting '%s':" % dest_full
+        for nr, from_to in enumerate(slices):
+          print "  Writing '%s.%d%s'." % (dest_base, nr+1, ext)
+          #print "Nr: %d; [%d, %d]" % ((nr+1,) + from_to)
+          slice_subtitles(times, subs, from_to, nr+1, dest_base, func)
 
 if __name__ == '__main__':
   main()
