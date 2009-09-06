@@ -15,7 +15,7 @@ users = [
   (684, "AlmostAisha", "♀", "", "", ()),
   (657, "aliadiere", "♂", "", "", ()),
   (56, "All_Brains", "♂", "", "Atheist", ()),
-  (416, "allat", "♀", "", "", ()),
+  (416, "allat", "♀", "Canada", "", ()),
   (815, "Alprh", "♂", "Iran", "Atheist", ()),
   (790, "Angel54", "♀", "Canada", "", ()), # Guessed gender.
   (747, "atheist.pk", "♂", "Pakistan", "Atheist", ()),
@@ -37,10 +37,11 @@ users = [
   (510, "Eddy", "♂", "Turkey", "", ()),
   (450, "Fading", "♀", "", "", ()),
   (785, "Farid92", "♂", "Netherlands", "Deist", ()),
-  (756, "Ferrero", "♀", "", "", ()),
+  (756, "Ferrero", "♀", "UK", "", ()),
   (638, "FinallyFree", "♂", "UK", "Karma &amp; Luck", ("Ideology", "fallacies", "barbaric practices")),
   (725, "freakzilla", "♂", "UK", "Skeptic", ()),
   (397, "Goldie", "♂", "UK", "", ()),
+  (909, "Hadugh", "♂", "UK", "Atheist", ()),
   (219, "Haji Murad", "♂", "", "", ()),
   (8, "Hassan", "♂", "UK", "Deist", ("Hell", "slavery", "4:34")),
   (495, "heartbomb", "♀", "Australia", "Agnostic", ()),
@@ -52,10 +53,12 @@ users = [
   (826, "humblesoul", "♂", "UK", "Deist", ()),
   (594, "identitas", "♂", "UK", "Agnostic", ()),
   (77, "Iggy", "♀", "Canada", "Ignostic", ()),
+  (724, "indiana", "♂", "", "", ()),
+  (917, "insiaiftiqhar", "♂", "", "", ()), # Guessed gender.
   (141, "Iris", "♀", "UK", "", ()),
   (194, "Isaac Schrodinger", "♂", "Canada", "", ()),
   (574, "IsLame", "♂", "UK", "Humanist", ("God's invisibility and cruelty", "existance of polytheism", "net effect of the Qur'an on Muslims")),
-  (738, "J4m3z", "♂", "", "", ()),
+  (738, "J4m3z", "♂", "UK", "", ()),
   (26, "Jack Torrance", "♂", "UK", "Agnostic", ()),
   (727, "jamshed raja", "♂", "UK", "Atheist", ()),
   (93, "Kid A", "♂", "UK", "", ()),
@@ -71,13 +74,14 @@ users = [
   (712, "Nite Owllll", "♂", "USA", "Atheist", ()),
   (623, "Nizar", "♂", "Sweden", "Agnostic", ()),
   (880, "nothingthere", "♂", "", "Atheist", ()), # Guessed the gender.
-  (430, "Nour", "♀", "", "", ()),
+  (430, "Nour", "♀", "UK", "Agnostic", ()),
+  #(846, "Nuppar", "", "", "", ()), # Probably ex-Muslim.
   (868, "omarinbox", "♂", "UK", "Atheist", ()),
   (408, "Orion", "♂", "", "", ()),
   (414, "open_thinking", "♂", "UK", "", ()),
   (260, "Pakman", "♂", "Pakistan", "", ()),
   (249, "panoptic", "", "UK", "Atheist", ()),
-  (734, "Pariah", "♀", "", "", ()),
+  (734, "Pariah", "♀", "UK", "Agnostic", ()), # Guessed beliefs.
   (160, "Pazuzu", "♂", "UK", "Atheist", ()),
   (554, "PeruvianSkies", "♀", "UK", "Atheist", ()),
   #(870, "Prosaic", "♀", "", "", ()), # Wavering Muslim, close to apostasy...
@@ -104,6 +108,7 @@ users = [
   (42, "Zaephon", "♂", "Turkey", "Atheist", ()),
   (888, "ZBS", "♂", "USA", "Atheist", ()),
   (58, "ZiaZ", "♂", "UK", "Humanist", ()),
+  (913, "Zuber", "♂", "New Zealand", "Atheist", ()),
 ]
 
 from os import path as path
