@@ -12,6 +12,20 @@ def path_ext(a):
 def path_base(a):
   return os.path.splitext(a)[0]
 
+def to_ms(t):
+  """ Converts e.g. "01:23:45.678" into milliseconds. """
+  t = t.split(":", 2)
+  # Make array of ints: (h, min, s, ms)
+  t = map(int, t[:2] + t[2].split("."))
+  # (hours*3600 + mins*60 + seconds)*1000 + milliseconds
+  return (t[0]*3600 + t[1]*60 + t[2])*1000 + t[3]
+
+def ms_to_t(ms, sep="."):
+  """ Convert milliseconds into e.g. "01:23:45.678". """
+  s = ms / 1000
+  ms = (s / 3600 % 24, s / 60 % 60, s % 60, sep, ms % 1000)
+  return "%02d:%02d:%02d%s%03d" % ms
+
 def parse_srt(text):
   """ Simple SubRip format parser. """
   subs = []
@@ -21,7 +35,8 @@ def parse_srt(text):
     f = f.split("\n", 2)
     if len(f) == 3:
       # E.g.: "00:15:55,093 --> 00:15:59,421" to "00:15:55.093 00:15:59.421"
-      subs_append( (f[1].replace("--> ", "").replace(",", "."),
+      t = f[1].replace(",", ".").split(" --> ")
+      subs_append( (to_ms(t[0]), to_ms(t[1]),
                     f[2].replace("\n", "\\n")) )
   return subs
 
@@ -38,7 +53,8 @@ def parse_sub(text):
     f = f.split("\n", 1)
     if len(f) == 2:
       # E.g.: "00:15:55.09,00:15:59.42" to "00:15:55.093 00:15:59.421"
-      subs_append( (f[0].replace(",", "0 ", 1) + "0",
+      t = f[0].split(",")
+      subs_append( (to_ms(t[0]), to_ms(t[1]),
                     f[1].replace("[br]", "\\n")) )
   return subs
 
@@ -46,8 +62,8 @@ def convert_xyz(src, dest, parse_func):
   text = open(src).read()
   ftimes = open(dest + ".times", "w")
   fsubs = open(dest + ".subtitles", "w")
-  for time, sub in parse_func(text):
-    ftimes.write(time + "\n")
+  for t1, t2, sub in parse_func(text):
+    ftimes.write(ms_to_t(t1) + " " + ms_to_t(t2) + "\n")
     fsubs.write(sub + "\n")
   ftimes.close()
   fsubs.close()
@@ -66,7 +82,11 @@ def read_subtitles(path):
 
 def read_times(path):
   """ Reads time files in own format. """
-  return open(path).read().strip().split("\n")
+  def to_int_tuple(t):
+    t0, t1 = t.split(" ")
+    return (to_ms(t0), to_ms(t1))
+  times = open(path).read().strip().split("\n")
+  return map(to_int_tuple, times)
 
 def get_subs_times(times, subs):
   times = read_times(times)
@@ -80,7 +100,8 @@ def write_srt(times, subs, dest, ext=".srt"):
   fdest = open(dest+ext, "w")
   for i in xrange(len(subs)):
     # E.g.: "00:15:55.093 00:15:59.421" to "00:15:55,093 --> 00:15:59,421"
-    time = times[i].replace(" ", " --> ").replace(".", ",")
+    time = times[i]
+    time = ms_to_t(time[0], ",") + " --> " + ms_to_t(time[1], ",")
     sub = subs[i].replace("\\n", "\n")
     fdest.write("%d\n%s\n%s\n\n" % (i+1, time, sub))
 
@@ -90,7 +111,8 @@ def write_sub(times, subs, dest, ext=".sub"):
   fdest.write("[SUBTITLE]\n")
   for i in xrange(len(subs)):
     # E.g.: "00:15:55.093 00:15:59.421" to "00:15:55.09,00:15:59.42"
-    time = ",".join([t[:-1] for t in times[i].split(" ", 1)])
+    time = times[i]
+    time = ms_to_t(time[0])[:-1] + "," + ms_to_t(time[1])[:-1]
     sub = subs[i].replace("\\n", "[br]")
     fdest.write("%s\n%s\n\n" % (time, sub))
 
