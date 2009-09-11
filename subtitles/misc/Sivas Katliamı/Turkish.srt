@@ -1,9 +1,9 @@
 1
-00:00:00,000 --> 00:00:02,970
+00:00:00,000 --> 00:00:02,870
 > Türkiye'nin tarihinde öyle kritik günler,
 
 2
-00:00:03,070 --> 00:00:04,933
+00:00:02,970 --> 00:00:04,933
 öyle dönüm noktaları vardır ki,
 
 3
@@ -23,11 +23,11 @@ Bazen bir seçim, bir suikast, bir kaza ya da felaket
 hepimizin hafızasına kazınmış;
 
 7
-00:00:15,184 --> 00:00:17,685
+00:00:15,184 --> 00:00:17,785
 kimi zaman şans, bazen dirayet,
 
 8
-00:00:17,785 --> 00:00:20,487
+00:00:17,885 --> 00:00:20,487
 çoğu zaman cesaretle aşılmıştır.
 
 9
@@ -138,11 +138,11 @@ gün “küfürlerin hesabının sorulma günüdür” deniliyordu.
 > Sivas'ta 2 Temmuz cuma sabahı huzurlu başlamıştı.
 
 35
-00:03:10,700 --> 00:03:14,604
+00:03:10,700 --> 00:03:14,804
 Saat 10'da Çifte Minare'nin yanındaki Buruciye Medresesi'nde
 
 36
-00:03:14,704 --> 00:03:20,685
+00:03:14,904 --> 00:03:20,785
 Pir Sultan Abdal Şenliklerine katılan yazarların imza ve söyleşileri vardı.
 
 37
@@ -269,7 +269,7 @@ Ben bunu... yani...
 [Tik-Tak]
 
 67
-00:05:13,848 --> 00:05:16,330
+00:05:13,400 --> 00:05:16,330
 > Öğle ezanı gerginlik içinde okundu.
 
 68
@@ -305,11 +305,11 @@ Can Şenliği oyuncuları davul çalarak bir gösteri çağrısına başladılar
 > Yandaki bu davullu davet üzerine camide
 
 76
-00:06:01,967 --> 00:06:04,813
+00:06:01,967 --> 00:06:05,013
 bu olayı ateşlemek isteyenler, cemaatın kulağına
 
 77
-00:06:04,913 --> 00:06:08,843
+00:06:05,113 --> 00:06:08,843
 “ezan sesinin bastırılmaya çalışıldığını” fısıldadı.
 
 78
@@ -337,11 +337,11 @@ oyuna başlarken, hemen yanda öfke büyüyordu.
 Namaza hazırlananlar, olacakların ilk sinyalini verdiler.
 
 84
-00:06:38,164 --> 00:06:40,636
+00:06:38,164 --> 00:06:40,836
 - İçim dolu dolu, şimdi namaza gideceğim ben.
 
 85
-00:06:40,736 --> 00:06:45,940
+00:06:40,936 --> 00:06:45,940
 Bir tarafta Allah-u Ekber sesi, bir tarafta ezan-i Muhammedi okunurken,
 
 86
@@ -349,11 +349,11 @@ Bir tarafta Allah-u Ekber sesi, bir tarafta ezan-i Muhammedi okunurken,
 bir tarafta da ateistliğin, dinsizliğin propagandası...
 
 87
-00:06:49,829 --> 00:06:52,224
+00:06:49,829 --> 00:06:52,424
 Kanımca ne olur, bilemiyorum!
 
 88
-00:06:52,324 --> 00:06:56,758
+00:06:52,524 --> 00:06:56,758
 [Tik-Tak]
 
 89
@@ -425,7 +425,7 @@ ama kısa zamanda bu arttı.
 [Tik-Tak]
 
 106
-00:08:45,449 --> 00:08:48,366
+00:08:45,249 --> 00:08:48,366
 > Topluluğun Valilikten sonraki hedefi Kültür Merkeziydi.
 
 107
@@ -485,15 +485,15 @@ Ben mi girdim onların arasına? Ben de devlet memuruydum! 25 senedir bu memleke
 > Polis yetersizdi. Sivas İl Müdürlüğü kayıtlarına göre
 
 121
-00:09:55,997 --> 00:09:58,847
+00:09:55,997 --> 00:09:59,047
 saat 14:30'da Emniyet Müdürü telsizden
 
 122
-00:09:58,947 --> 00:10:01,949
+00:09:59,147 --> 00:10:02,149
 “Ne oldu bu askeri birlikler?” diye soruyordu.
 
 123
-00:10:02,049 --> 00:10:07,703
+00:10:02,249 --> 00:10:07,703
 14:45'te 33 asker geldi ve uzakta durdu.
 
 124
@@ -529,11 +529,11 @@ Ben onu da doğal karşılıyorum.
 > Az sonra DYP'li İçişleri Bakanı Mehmet Gazioğlu takviye isteyen Vali'yi aradı.
 
 132
-00:10:36,652 --> 00:10:39,371
+00:10:36,652 --> 00:10:39,875
 “Merak etme! Seni orada yalnız bırakmayacağız,” dedi.
 
 133
-00:10:39,875 --> 00:10:44,304
+00:10:39,975 --> 00:10:44,304
 Sonra da Belediye Başkanı Temel Karamollaoğlu'na telefon etti.
 
 134
@@ -557,11 +557,11 @@ böyle olacak noktaya gelmedi. Burada bir hadise var,
 şu anda emniyet güçleri de bir tedbir alıyor,
 
 139
-00:11:01,636 --> 00:11:04,909
+00:11:01,636 --> 00:11:04,709
 ama benim burada, gelsin gelmesin,
 
 140
-00:11:05,009 --> 00:11:07,761
+00:11:04,809 --> 00:11:07,761
 ek kuvvet gönderilsin gönderilmesin,
 
 141
@@ -673,19 +673,19 @@ Telsizden haberi alan Vali Karabilgin bir nebze rahatladı,
 fakat saat 16'da işler değişti.
 
 168
-00:12:57,859 --> 00:13:03,295
+00:12:57,859 --> 00:13:02,895
 Olayların dönüm noktası o andı.
 
 169
-00:13:03,865 --> 00:13:06,488
+00:13:03,465 --> 00:13:06,488
 - O arada birşeyler oldu.
 
 170
-00:13:06,588 --> 00:13:11,874
+00:13:06,588 --> 00:13:11,674
 Bu dağılan ve işyerlerine, evlerine giden
 
 171
-00:13:11,974 --> 00:13:16,957
+00:13:11,774 --> 00:13:16,957
 grupları birileri çevirdi. Yani, “nereye gidiyorsunuz?”
 
 172
@@ -721,19 +721,19 @@ fitil ateşlenmek üzeriydi.
 [Tik-Tak]
 
 180
-00:13:55,686 --> 00:14:09,990
+00:13:55,686 --> 00:14:00,686
 ♪ Müzik ♪
 
 181
-00:14:10,090 --> 00:14:14,996
+00:14:09,436 --> 00:14:14,900
 > Sivas'a akşam inerken artık göstericiler son durağa, Madımak Oteli'ne gelmişti.
 
 182
-00:14:15,096 --> 00:14:17,250
+00:14:15,000 --> 00:14:17,350
 Bu arada sloganlar da değişmişti.
 
 183
-00:14:17,350 --> 00:14:26,908
+00:14:17,450 --> 00:14:26,908
 - “Kahrolsun laiklik! Kahrolsun laiklik!...”
 
 184
@@ -862,7 +862,7 @@ ve camlarda patlayan taş sesleri size kadar ulaşıyor olmalı.”
 
 215
 00:17:04,107 --> 00:17:09,182
-Ondan sonra Vali'yi aradım. Vali her seferinde “Evet kontrol edeceğiz. Merak etmeyin.”
+Ondan sonra Vali'yi aradım. Vali her seferinde “Evet, kontrol edeceğiz. Merak etmeyin.”
 
 216
 00:17:09,282 --> 00:17:12,330
@@ -985,7 +985,7 @@ Ancak bu konuşmalar yatıştırıcı değil, ateşleyici oldu.
 - Belediye başkanı konuşuyor diye duydum anonsun arkasından,
 
 246
-00:19:43,588 --> 00:19:48,493
+00:19:43,323 --> 00:19:48,493
 bir ses kalabalığa “gazanız mübarek olsun” dedi.
 
 247
@@ -1034,7 +1034,7 @@ yani mantıklı bir söz değil.
 
 258
 00:20:36,731 --> 00:20:40,720
-ama neyin gazasının mübarek olduğunu diyeceksiniz.
+ama neyin gazasının mübarek olduğunu diyeceksiniz?
 
 259
 00:20:40,820 --> 00:20:44,273
@@ -1338,901 +1338,913 @@ Ama ben dua ediyorum bu çığlık sahipleri
 Ama 3 veya 5 dakika devam eden bu çığlık sesleri kesildi.
 
 334
-00:27:06,523 --> 00:27:12,946
-> Otelin akşam dekorasyonu sayesinde hızla yayılan yangın, değdiği yerde can almıştı.
+00:27:06,346 --> 00:27:09,596
+> Otelin akşam dekorasyonu sayesinde hızla yayılan yangın
 
 335
+00:27:09,696 --> 00:27:12,946
+değdiği yerde can almıştı.
+
+336
 00:27:13,046 --> 00:27:18,541
 - O anda bir tek itfaiyeyi biz otelin önüne ulaştırabilmiş olsaydık,
 
-336
+337
 00:27:18,641 --> 00:27:22,752
 araçlar yanarken, kesinlikle oteli yaktırmazdık.
 
-337
+338
 00:27:22,852 --> 00:27:27,266
 Ha, itfaiye istekli miydi? İtfaiye de isteksiz.
 
-338
+339
 00:27:27,951 --> 00:27:33,131
 > Sonunda otelde sağ kalanlar itfaiyeden de umudu kesip can havliyle camlara koştu.
 
-339
+340
 00:27:33,231 --> 00:27:36,498
 Ve yandaki binaya açılan hava boşluğuna atladı.
 
-340
+341
 00:27:36,598 --> 00:27:41,695
 31 kişi bu dar geçitteki sacdan bariyeri devirip cehennemden kurtulmaya çalışıyordu.
 
-341
+342
 00:27:41,795 --> 00:27:45,787
 Ancak karşı binada onları bir sürpriz bekliyordu.
 
-342
+343
 00:27:45,887 --> 00:27:50,867
 Çıkmaya çalıştıkları yer Büyük Birlik Partisi'nin ilçe merkeziydi.
 
-343
-00:27:52,901 --> 00:27:56,941
+344
+00:27:52,901 --> 00:27:57,066
 - Partinin penceresinden ellerine sopalar almış insanlar,
 
-344
+345
 00:27:57,166 --> 00:28:07,247
 ağır hakaretlerle oraya girmeye çalışanları vurmaya uğraşıyorlardı.
 
-345
+346
 00:28:07,347 --> 00:28:11,961
 Ve bize “Gidin yanın, geberin,” diyorlardı.
 
-346
+347
 00:28:12,061 --> 00:28:16,560
 - Bir süre sonra orta yaşlı, orta boylu bir bey balkona çıktı.
 
-347
+348
 00:28:16,660 --> 00:28:21,947
 O elinde sopalar olan ve bize hücum eden insanları içeriye aldı.
 
-348
+349
 00:28:22,047 --> 00:28:27,217
 “Bundan böyle” dedi “ben sizi koruyacağım. Gelin!” dedi.
 
-349
+350
 00:28:27,317 --> 00:28:30,454
 > Şimdi yanan yanmış, kurtulan kurtulmuş,
 
-350
+351
 00:28:30,554 --> 00:28:33,961
 ama saldırganların asıl hedefi içeride,
 
-351
+352
 00:28:34,061 --> 00:28:37,984
 odasında, Lütfi Kaleli ile birlikte mahsur kalmıştı.
 
-352
+353
 00:28:38,084 --> 00:28:42,822
 78 yaşındaki Aziz Nesin ölümün eşiğine geldiği o dakikaları
 
-353
+354
 00:28:42,922 --> 00:28:47,041
 Sivas'ın acısı dinmeden 32. Gün'e şöyle anlatmıştı.
 
-354
+355
 00:28:47,141 --> 00:28:51,709
 - Kesin olarak ölüme hazırlandık, yani hazırdık.
 
-355
+356
 00:28:51,809 --> 00:28:56,196
 Hatta Lütfi Kaleli bir kaç kez “ölüyoruz abi, ölüyoruz abi” dedi.
 
-356
+357
 00:28:56,296 --> 00:29:00,380
 Dedim ki “Ölüyoruz, öleceğiz. Başka çare yok yani. Kurtuluşumuz yok.“
 
-357
+358
 00:29:00,480 --> 00:29:04,920
 - Aziz abi çömeldi olduğu yere, çünkü artık takati kalmadı.
 
-358
+359
 00:29:05,020 --> 00:29:08,618
 Ama o yiğit kişi bana aynen şunu söylüyor.
 
-359
+360
 00:29:08,718 --> 00:29:13,522
 “Sayın Kaleli, beni şu yatağa yatır.
 
-360
+361
 00:29:13,622 --> 00:29:18,523
 Bu gürüha kötü bir ölü cesedi vermiş olmayalım.”
 
-361
+362
 00:29:18,623 --> 00:29:22,654
 - Ve ben orada düşündüğüm şuydu. Öyle bir biçimde öyleyim ki,
 
-362
+363
 00:29:22,754 --> 00:29:26,885
 korkarak ölmüş bir adam durumuna, pozuna girmeyim diye düşünüyordum.
 
-363
+364
 00:29:26,985 --> 00:29:29,578
 O da mümkün değildi, çünkü kıvranıyordum.
 
-364
+365
 00:29:29,678 --> 00:29:33,702
 O dumanlardan kıvranıyordum ve kendi kendime bunun mücadelesini yapıyordum.
 
-365
+366
 00:29:33,802 --> 00:29:38,326
 Yalnız bir köşeye büzüşmüş bir adam olarak ölmeyeyim.
 
-366
+367
 00:29:42,326 --> 00:29:45,168
 O zaman Lütfi Kaleli dedi ki, “Belki,” dedi
 
-367
+368
 00:29:45,268 --> 00:29:48,027
 “sokağa bakan pencereye doğru gidersek” dedi.
 
-368
+369
 00:29:48,127 --> 00:29:51,716
 “Hemen,” dedim. Oraya doğru giderken karanlıkta elimden tuttu.
 
-369
+370
 00:29:51,816 --> 00:29:54,023
 - Elinden tuttum Aziz abinin.
 
-370
+371
 00:29:54,123 --> 00:29:57,208
 Kapıyı açtım, müthiş bir alev sıcaklığı,
 
-371
+372
 00:29:57,308 --> 00:30:00,393
 göz gözü görmeyecek kadar yoğun
 
-372
+373
 00:30:00,493 --> 00:30:03,660
 bir duman içerisinde kendimizi bulduk.
 
-373
+374
 00:30:06,056 --> 00:30:09,617
 > Hava kararmış itfaiye yangını söndürmeye başlamıştı.
 
-374
+375
 00:30:09,717 --> 00:30:12,415
 Pencerede Lütfi Kaleli “İmdat!” diye bağrıyordu.
 
-375
+376
 00:30:12,515 --> 00:30:17,734
 Aşağıdakiler az sonra bu sesi duydular. Kurtarılacak kişiyi bir komiser zanettiler.
 
-376
-00:30:17,834 --> 00:30:23,854
-İtfaiye aracı yanaştı, merdiveni uzattı ve Aziz Nesin inmeye başladı.
-
 377
-00:30:23,954 --> 00:30:29,475
+00:30:17,834 --> 00:30:20,834
+İtfaiye aracı yanaştı, merdiveni uzattı
+
+378
+00:30:20,934 --> 00:30:23,934
+ve Aziz Nesin inmeye başladı.
+
+379
+00:30:24,034 --> 00:30:29,475
 - “Abi, bu Aziz Nesin ya!”
 - “Tabii ya, Aziz Nesin ya!”
 
-378
+380
 00:30:35,074 --> 00:30:37,907
 - O kadar gücüm kalmamış ki.
 
-379
+381
 00:30:38,007 --> 00:30:41,768
-Çok zor merdivenden otura, otura... otura, otura iniyordum.
+Çok zor merdivenden otura otura, otura otura iniyordum.
 
-380
+382
 00:30:41,868 --> 00:30:44,377
 Aşağıdan yukarıya da bir itfaiye eri geliyor.
 
-381
+383
 00:30:44,477 --> 00:30:48,090
 - İşte o ara gördüğüm manzara şu.
 
-382
-00:30:48,190 --> 00:30:54,078
+384
+00:30:48,190 --> 00:30:53,978
 Kravatlı, gözlüklü, 40 yaşlarında veya 50 yaşlarında,
 
-383
-00:30:54,178 --> 00:30:58,490
+385
+00:30:54,078 --> 00:30:58,390
 sakallı bir adam Aziz Nesin'i tanıyor.
 
-384
-00:30:58,590 --> 00:31:01,481
+386
+00:30:58,490 --> 00:31:01,481
 Ve “Kurtarmayın!” diyor.
 
-385
+387
 00:31:01,581 --> 00:31:03,880
 > Aşağıdakiler Nesin'i tanımışlardı.
 
-386
+388
 00:31:03,980 --> 00:31:07,094
 Peşinde oldukları av, aralarına inmek üzereydi.
 
-387
+389
 00:31:07,194 --> 00:31:10,129
 Refah Partili belediye meclis üyesi Cafer Özçakmak,
 
-388
+390
 00:31:10,229 --> 00:31:12,237
 merdivenin hemen altında durmuş
 
-389
+391
 00:31:12,337 --> 00:31:15,821
 “Esas öldürülecek hayvan burada!” diye haykırıyordu.
 
-390
+392
 00:31:15,921 --> 00:31:19,034
 Kurtarmaya gelen itfaiye eri bir küfür savurup geri döndü.
 
-391
+393
 00:31:19,134 --> 00:31:24,848
 Aziz Nesin ve Lütfi Kaleli şimdi bir sırat köprüsü üzerinde yapayalnızdılar.
 
-392
+394
 00:31:24,948 --> 00:31:28,633
 İleride linç, geride cehennem vardı.
 
-393
-00:31:29,815 --> 00:31:32,682
+395
+00:31:29,615 --> 00:31:32,682
 - Üç, dört tane itfaiye eri
 
-394
+396
 00:31:32,782 --> 00:31:37,037
 Aziz Nesin'in gelmesini sanki de bekliyen kedi misali.
 
-395
+397
 00:31:37,137 --> 00:31:41,341
 Hazır avına atlayacak konumda.
 
-396
+398
 00:31:41,441 --> 00:31:45,485
 Onları görünce gene çığlık attım. “İmdat!” diye bağırıyorum.
 
-397
+399
 00:31:45,585 --> 00:31:49,508
 Bu imdat seslerime daha aşağıdan herhangi bir
 
-398
+400
 00:31:49,608 --> 00:31:52,509
 olumlu tepki gelmeden,
 
-399
+401
 00:31:52,609 --> 00:31:55,496
 o bizi kurtarmaya gelen itfaiye eri
 
-400
+402
 00:31:55,596 --> 00:31:58,456
 Aziz abinin bileğinden yakalayınca
 
-401
+403
 00:31:58,556 --> 00:32:03,784
 boş bir çuvalı sallar da atar gibi attı.
 
-402
+404
 00:32:13,048 --> 00:32:18,481
 - Yere düştüm. Oradan yerden vurup bana tekme, yumruk vuruyorlar.
 
-403
+405
 00:32:18,581 --> 00:32:22,003
 Başımdan kan akmaya başladı. Yeri burada.
 
-404
+406
 00:32:22,103 --> 00:32:25,332
 Efendim, polis arabasına kadar sürüklediler beni.
 
-405
+407
 00:32:25,432 --> 00:32:29,338
 Polis arabasına bindim. Polis arabasına bindiğim zaman gene
 
-406
+408
 00:32:29,438 --> 00:32:33,137
 polis arabasına koşup gelen bir adam yine yumrukluyordu beni.
 
-407
+409
 00:32:33,237 --> 00:32:37,125
 - Alnından, yanaklarından kan akmaya başladı.
 
-408
+410
 00:32:37,225 --> 00:32:41,238
 Ben imdat çığlıkları atıyorum yine ve
 
-409
+411
 00:32:41,338 --> 00:32:46,052
 çift yıldızlı bir komiser, resmi kıyafetiyle
 
-410
+412
 00:32:46,152 --> 00:32:50,110
 arabanın üstüne geldi, Aziz abiyi onların,
 
-411
+413
 00:32:50,210 --> 00:32:54,685
 saldırganların elinden kurtardı.
 
-412
-00:32:55,076 --> 00:33:01,009
-> Aziz Nesin ömrü boyunca kaçtığı polise ait bir minibüsle hastaneye taşındı.
+414
+00:32:54,785 --> 00:32:57,847
+> Aziz Nesin ömrü boyunca kaçtığı polise ait
 
-413
+415
+00:32:57,947 --> 00:33:01,009
+bir minibüsle hastaneye taşındı.
+
+416
 00:33:01,109 --> 00:33:06,012
 Avını elinden kaçıran öfkeli kalabalıksa yarım kalan iştahını tamamlamak üzere
 
-414
+417
 00:33:06,112 --> 00:33:09,673
 kendine yeni bir hedef seçti: vilayet.
 
-415
+418
 00:33:09,773 --> 00:33:15,837
 - Bir uğultu, bir patırtı ve taşlar, yağmur gibi taş.
 
-416
+419
 00:33:16,621 --> 00:33:21,621
 Üç vali yardımcım, emniyet müdürü, jandarma komutanı,
 
-417
+420
 00:33:21,721 --> 00:33:26,563
 iki korumam - onlar aşağıda - ve odacım. Kimse kalmadı.
 
-418
+421
 00:33:26,663 --> 00:33:31,618
 Kimse yok. Herkes kayıp. Herkes yerine gitti.
 
-419
+422
 00:33:32,223 --> 00:33:35,279
 E bir yandan telefonlar yağmur gibi geliyor Ankara'dan,
 
-420
+423
 00:33:35,379 --> 00:33:38,680
 bir yandan muhasara altındayım.
 
-421
+424
 00:33:38,853 --> 00:33:42,030
 Aramda işte 30, 40 tane merdiven basamağı var, yani.
 
-422
+425
 00:33:42,130 --> 00:33:44,862
 Adamlar girecek beni linç edecekler.
 
-423
+426
 00:33:44,962 --> 00:33:49,541
 Bir yeşil bayrağı da asacaklar yukarı, yani bunun başka sonucu yok.
 
-424
-00:33:50,553 --> 00:33:54,065
+427
+00:33:50,453 --> 00:33:53,865
 > Saat 20:40'ta “Vali istifa!” diye bağıran göstericiler
 
-425
-00:33:54,165 --> 00:33:56,848
-vilayetin camlarını kırdı. Kapıya dayandı.
+428
+00:33:53,965 --> 00:33:56,848
+vilayetin camlarını kırdı, kapıya dayandı.
 
-426
+429
 00:33:56,948 --> 00:34:00,559
 Vali Karabilgin yanındakilere “Sonumuz geldi,” dedi.
 
-427
+430
 00:34:00,659 --> 00:34:06,117
 Ve bir ara linç edilmektense, kendi canına kıymayı düşündü.
 
-428
+431
 00:34:06,217 --> 00:34:10,848
 - Hayatta silahım olmadı, ama yani birşey yapmak lazımdı.
 
-429
+432
 00:34:10,948 --> 00:34:14,613
 İnsanlar kapıdan girdiği anda artık fiziki gücümüz
 
-430
+433
 00:34:14,713 --> 00:34:18,535
 onlarla mücadele etmeye yetmeyecekti.
 
-431
+434
 00:34:18,635 --> 00:34:22,952
 > İşte umutların tamamen tükendiği ve intiharın düşünüldüğü o anda
 
-432
+435
 00:34:23,052 --> 00:34:26,163
 jandarma alay komutanı, alayı korumakla görevli
 
-433
+436
 00:34:26,263 --> 00:34:29,548
 18 kişilik bir yedek timi olduğunu söyledi.
 
-434
+437
 00:34:29,648 --> 00:34:33,453
 - “Ben emir veriyorum buraya gelecekler, ateş ederek gelecekler.”
 
-435
+438
 00:34:33,553 --> 00:34:36,869
 “Emir veriyorum,” dedi. “Verin emri,” dedim.
 
-436
+439
 00:34:36,969 --> 00:34:41,828
 Başlarında bir başçavuş olması lazım.
 
-437
+440
 00:34:41,928 --> 00:34:45,367
 Hükümetle jandarma karşı karşı,
 
-438
+441
 00:34:45,467 --> 00:34:50,893
 bir ateşle 18 tane er hükümetin önüne geldiler.
 
-439
+442
 00:34:50,993 --> 00:34:56,673
 Kademe kademe, kademe kademe... gerilediler.
 
-440
+443
 00:34:57,285 --> 00:35:01,978
 > 18 er bir valiyle ekibini lincin elinden kurtarmıştı.
 
-441
+444
 00:35:02,078 --> 00:35:06,148
 Ancak diğerleri için artık çok geçti.
 
-442
+445
 00:35:06,248 --> 00:35:11,018
 Asker sonunda gelip duruma el koyduğunda, Sivas adı
 
-443
+446
 00:35:11,118 --> 00:35:16,358
 tarihe bir katliamın adresi olarak kaydolmuştu.
 
-444
+447
 00:35:17,682 --> 00:35:21,289
 [Tik-Tak]
 
-445
+448
 00:35:24,590 --> 00:35:27,450
 > Gece sokağa çıkma yasağı ilan edilip
 
-446
+449
 00:35:27,550 --> 00:35:30,239
 güvenlik güçleri Sivas'ı kontrol altına aldığında,
 
-447
+450
 00:35:30,339 --> 00:35:33,900
 geride 36 ceset, 60 yaralı
 
-448
+451
 00:35:34,000 --> 00:35:37,889
 ve lekelenmiş bir ölü şehir kalmıştı.
 
-449
+452
 00:35:37,989 --> 00:35:41,912
 Metin Altıok'un da ölümüyle ölü sayısı 37'e çıkacaktı.
 
-450
+453
 00:35:42,012 --> 00:35:47,040
 Ölenlerin ikisi gösterici, ikisi ise otel görevlisi idi.
 
-451
+454
 00:35:47,085 --> 00:35:51,339
 Ankara bu sonucu öğrendiğinde şok oldu.
 
-452
+455
 00:35:51,439 --> 00:35:54,499
 - Ankara'ya vardıktan sonra meydanda,
 
-453
+456
 00:35:54,599 --> 00:35:57,196
 Esenboğa'da beni karşılayan arkadaşlarım
 
-454
+457
 00:35:57,296 --> 00:35:59,869
-feci olayı haber verdiler yani. İlk defa orada
+feci olayı haber verdiler yani. İlk defa orada,
 
-455
+458
 00:35:59,969 --> 00:36:02,787
 bir yangın olduğunu ve değerli insanların
 
-456
+459
 00:36:02,887 --> 00:36:05,411
 boğularak, yanarak öldüğünü söyledi.
 
-457
+460
 00:36:05,511 --> 00:36:08,157
 - Demirel o sırada Ankara'da değildi.
 
-458
+461
 00:36:08,257 --> 00:36:11,403
 Bir Türk Silahlı Kuvvetleri'nin bir şeyinde,
 
-459
+462
 00:36:11,503 --> 00:36:14,925
 manevrası veya tatbikatında bulunuyordu.
 
-460
+463
 00:36:15,025 --> 00:36:16,945
 Telefonlaştık.
 
-461
+464
 00:36:17,045 --> 00:36:19,743
 İlk duyduğu andan itibaren
 
-462
+465
 00:36:19,843 --> 00:36:22,367
 çok şoke olduğu belli.
 
-463
+466
 00:36:22,467 --> 00:36:24,474
 Bana ilk söylediği şu.
 
-464
+467
 00:36:24,574 --> 00:36:27,775
 “Sivas'taki olayları işittiniz değil mi?” dedim.
 
-465
+468
 00:36:27,875 --> 00:36:30,603
 “Facia, facia!” diye söze başladı.
 
-466
+469
 00:36:30,703 --> 00:36:32,744
 - Tabii ben son derece üzüldüm.
 
-467
+470
 00:36:32,844 --> 00:36:35,575
 Hükümette olan bir insan olarak böyle bir olayı
 
-468
-00:36:35,675 --> 00:36:38,356
+471
+00:36:35,675 --> 00:36:38,456
 önleyememiş olmamızdan dolayı,
 
-469
-00:36:38,456 --> 00:36:41,826
+472
+00:36:38,556 --> 00:36:41,826
 büyük vicdan azabı duydum.
 
-470
+473
 00:36:41,926 --> 00:36:46,751
 İstifa edeyim diye düşündüm, ama bunun faydası olmayacağını tahmin ettim.
 
-471
+474
 00:36:46,851 --> 00:36:53,188
 - Bir ara işte sayın Erdal İnönü'nün ortaya attığı bir söz,
 
-472
+475
 00:36:53,288 --> 00:36:58,181
 “Askerler çağırıldı, fakat müdahele etmedi,” gibi bunu yadsıdı.
 
-473
+476
 00:36:58,281 --> 00:36:59,856
 Pek kabul etmedi.
 
-474
+477
 00:36:59,956 --> 00:37:04,453
 Ve şöyle bir savunma: “Oraya 10000 kişi gelmiş,
 
-475
+478
 00:37:04,553 --> 00:37:08,600
 10000 kişiye asker gelse, ateş mi edecekti? Ateş edemezdi,” dedi bana.
 
-476
+479
 00:37:08,700 --> 00:37:11,529
 Çünkü o zaman büyük, çok daha büyük bir olay olurdu.
 
-477
+480
 00:37:11,629 --> 00:37:15,802
 - Vaktinde müdahale edilseydi sanıyorum bu olay olmazdı, çünkü
 
-478
+481
 00:37:15,902 --> 00:37:20,745
 evvelden oteli yakacaklar diye bir planları olduğunu bilmiyorum.
 
-479
+482
 00:37:20,845 --> 00:37:23,905
 Böyle şeyler genellikle olay, esna yürürken ortaya çıkıyor.
 
-480
+483
 00:37:24,005 --> 00:37:26,637
 Ve olayı oraya kadar getirmemek gerekirdi.
 
-481
+484
 00:37:26,737 --> 00:37:31,040
 Orada devletin güçlerinin bir eksikliği olduğunu düşünüyorum.
 
-482
+485
 00:37:31,140 --> 00:37:34,096
 Ama kimden veya hangi yaklaşımdan kaynaklandı
 
-483
+486
 00:37:34,196 --> 00:37:36,796
 onu bilecek durumda değilim.
 
-484
+487
 00:37:36,896 --> 00:37:40,136
 - Başımızdan biliyorsun bir Kahramanmaraş Olayı geçmiş,
 
-485
+488
 00:37:40,236 --> 00:37:42,612
 hep onu anımsatan bir şey.
 
-486
-00:37:42,712 --> 00:37:46,458
+489
+00:37:42,712 --> 00:37:46,258
 Bu Sivas olaylarında da acaba böyle bir
 
-487
-00:37:46,558 --> 00:37:49,469
+490
+00:37:46,358 --> 00:37:49,469
 dinsel bir çatışma var mı diye araştırıldı.
 
-488
+491
 00:37:49,569 --> 00:37:51,910
 Olmadığı kanaatine vardı sonra.
 
-489
+492
 00:37:52,010 --> 00:37:55,002
 Bana da söyledi, “Ben aradım, baktım yoktu böyle.”
 
-490
+493
 00:37:55,102 --> 00:37:57,578
 Ben “Kahramanmaraş'a benziyor mu?” dedim.
 
-491
+494
 00:37:57,678 --> 00:38:00,880
 “Yok,” dedi “benzemiyor.” Yani, “öyle değil” dedi.
 
-492
+495
 00:38:00,980 --> 00:38:04,216
 Yani, en çok korktuğu idi dinsel bir çatışma.
 
-493
+496
 00:38:04,316 --> 00:38:07,327
 Sünniler Alevilere, Aleviler Sünnilere.
 
-494
+497
 00:38:07,427 --> 00:38:10,358
 > Madımak cehenneminden kurtulanlara gelince,
 
-495
+498
 00:38:10,458 --> 00:38:14,001
 onlar kaçtıkları otelde kalanlara ne olduğunu
 
-496
+499
 00:38:14,101 --> 00:38:17,479
 gece sığındıkları karakolda ya da hastanede
 
-497
+500
 00:38:17,579 --> 00:38:21,913
 televizyon haberlerinden öğrendiler, dehşete düştüler.
 
-498
+501
 00:38:22,013 --> 00:38:27,325
 - “Göstericilerin ateşe verdiği Madımak Oteli, olaylar sırasında yanmaya başladı.
 
-499
+502
 00:38:27,425 --> 00:38:30,109
 Yangın sırasında, ilk belirlemelere göre,
 
-500
+503
 00:38:30,209 --> 00:38:33,009
 37 kişinin öldüğü, 60 kişinin de yaralandığı bildirildi.”
 
-501
+504
 00:38:33,109 --> 00:38:37,930
 - Televizyonu açtık, ona çeyrek vardı, unutmayacağım o saati.
 
-502
+505
 00:38:38,030 --> 00:38:43,109
 Behçet Sefa Aysan'ın öldüğü haberi,
 
-503
+506
 00:38:43,209 --> 00:38:48,662
 Sivas'ta olaylar çıktığı ve onun öldüğü...
 
-504
+507
 00:38:48,762 --> 00:38:52,588
 asla inanmak istemedim.
 
-505
+508
 00:38:52,688 --> 00:38:58,487
 Sürekli... onun bir adının da Sefa olduğunu bilmiyordum doğrusu.
 
-506
-00:38:58,587 --> 00:39:04,915
+509
+00:38:58,587 --> 00:39:04,715
 Sürekli “hayır, bu bir başka Behçet” diyordum, ama
 
-507
-00:39:05,015 --> 00:39:08,739
+510
+00:39:04,815 --> 00:39:08,739
 ne yazık ki doğruydu.
 
-508
+511
 00:39:08,839 --> 00:39:12,828
 O geceyi anlatmam çok zor.
 
-509
+512
 00:39:12,928 --> 00:39:16,328
 Hayatımın en berbat gecesiydi.
 
-510
+513
 00:39:16,428 --> 00:39:19,683
 > Asıl korkunç manzara hastanedeydi.
 
-511
+514
 00:39:19,783 --> 00:39:23,200
 Kara bir dumanın zehirlediği ya da kavurduğu insanlar,
 
-512
+515
 00:39:23,300 --> 00:39:28,003
 sabah halaylarla başladıkları bir günü, soğuk bir morg odasında
 
-513
+516
 00:39:28,103 --> 00:39:32,883
 yanyana dizilmiş cesetler olarak tamamlıyorlardı.
 
-514
+517
 00:39:32,983 --> 00:39:38,458
 ♪ Şarkı ♪
 
-515
+518
 00:39:38,558 --> 00:39:44,174
 “Kavaklar”
 Söz: Metin Altıok
 Müzik: Onno Tunç
 
-516
+519
 00:39:44,274 --> 00:39:47,935
 > Şair Metin Altıok'un görüntüsü Sivas gerçeğini,
 
-517
+520
 00:39:48,035 --> 00:39:51,436
 belki bin sözden daha yalın anlatıyordu.
 
-518
+521
 00:39:51,536 --> 00:39:54,515
 Bir kaç gün sonra Sivas kurbanları
 
-519
+522
 00:39:54,615 --> 00:39:58,698
 damperli kamyonlarla havaalanına nakledileceklerdi.
 
-520
+523
 00:39:58,798 --> 00:40:03,763
 - Biz doğrusu ölülerimizin de, yaralılarımızın da
 
-521
+524
 00:40:03,863 --> 00:40:08,767
 ardımızda kalmasını istemiyorduk.
 
-522
+525
 00:40:08,867 --> 00:40:14,462
 Onlarsız oradan ayrılmak istemiyorduk.
 
-523
+526
 00:40:14,562 --> 00:40:20,016
 Hep birlikte dönmek istiyorduk.
 
-524
+527
 00:40:20,116 --> 00:40:26,484
 Çünkü onlar o anda bize bütün yaşayanlardan daha yakındılar.
 
-525
+528
 00:40:26,584 --> 00:40:30,800
 Onları orada bırakmak sanki
 
-526
+529
 00:40:30,900 --> 00:40:34,966
 kendimizden çok önemli, onurumuzdan, saygınlığımızdan,
 
-527
+530
 00:40:35,066 --> 00:40:38,800
 insanlığımızdan birşeyler bırakmak gibiydi.
 
-528
+531
 00:40:38,900 --> 00:40:46,174
 ♪ Şarkı ♪
 
-529
+532
 00:40:46,274 --> 00:40:49,124
 > Başbakan yardımcısı Erdal İnönü, ertesi gün
 
-530
+533
 00:40:49,224 --> 00:40:52,074
 deprem görmüş bir şehri andıran Sivas'a gitti.
 
-531
+534
 00:40:52,174 --> 00:40:57,342
 Enkaza dönmüş Madımak Oteli'ni ve tanınmaz hale gelmiş yaralıları ziyaret etti.
 
-532
+535
 00:40:57,442 --> 00:41:01,146
 6 Temmuz'da Sivas'ta ölenler için düzenlenen cenaze töreni,
 
-533
+536
 00:41:01,246 --> 00:41:03,912
 büyük bir protesto gösterisine dönüştü.
 
-534
+537
 00:41:04,012 --> 00:41:07,513
 Erdal İnönü ve hükümet istifaya çağırıldı.
 
-535
+538
 00:41:07,613 --> 00:41:11,071
 Vali, belediye başkanı ve emniyet müdürü görevden alındı.
 
-536
+539
 00:41:11,171 --> 00:41:15,690
 1993 Ekiminde başlıyan 124 sanıklı Sivas davası,
 
-537
+540
 00:41:15,790 --> 00:41:20,735
 defalarca bozulduktan sonra, 2001 Temmuzunda kesinleşti.
 
-538
+541
 00:41:20,835 --> 00:41:24,945
 31 sanık idam cezasına çarptırıldı.
 
-539
+542
 00:41:25,045 --> 00:41:28,342
 Genelkurmay bir soruşturma açıp, garnizon komutanının
 
-540
-00:41:28,442 --> 00:41:31,438
+543
+00:41:28,442 --> 00:41:31,538
 olayda ihmali bulunmadığı sonucuna vardı.
 
-541
-00:41:31,538 --> 00:41:35,496
+544
+00:41:31,638 --> 00:41:35,496
 Belediye başkanı Temel Karamollaoğlu ise,
 
-542
+545
 00:41:35,596 --> 00:41:41,159
 Refah Partisinden milletvekili seçilerek meclise girdi.
 
-543
+546
 00:41:42,817 --> 00:41:44,923
 YÖNETMEN
 Can Dündar
 
-544
+547
 00:41:45,023 --> 00:41:47,123
 HAZIRLAYAN
 Barış Duran
 
-545
+548
 00:41:47,223 --> 00:41:49,323
 DANIŞMAN
 Cüneyt Arcayürek
 
-546
+549
 00:41:49,423 --> 00:41:51,523
 ARAŞTIRMA
 Yusuf Kenan Beysülen
 
-547
+550
 00:41:51,623 --> 00:41:53,723
 MONTAJ
 Ayhan Demir
 
-548
+551
 00:41:53,823 --> 00:41:56,223
 GÖRSEL TASARIM-JENERİK
 Mobilsoft
 Tuncer Şentürk
 Cenk Alparslan
 
-549
+552
 00:41:56,323 --> 00:41:58,423
 MÜZİK
 Emre Irmak
 
-550
+553
 00:41:58,523 --> 00:42:00,623
 YAPIM KOORDİNASYON
 Dilek Dündar
 Nazan Gezer
 
-551
+554
 00:42:00,723 --> 00:42:02,823
 KAMERA
 C. Murat Özcan
 İlkay Erkoç
 
-552
+555
 00:42:02,923 --> 00:42:05,023
 YAPIM EKİBİ
 Mustafa Sütçü
 Andaç Hongur
 Elif Eren
 
-553
+556
 00:42:05,123 --> 00:42:08,426
 ARŞİV
 32. Gün
@@ -2242,7 +2254,7 @@ Hürriyet
 Milliyet
 Hakikat
 
-554
+557
 00:42:08,526 --> 00:42:12,290
 TEŞEKKÜRLER
 G.Ü. İletişim Fakültesi
@@ -2252,7 +2264,7 @@ Rıdvan Akar
 Yılmaz Güven
 Ali Balkız
 
-555
+558
 00:42:12,390 --> 00:42:16,245
 Günseli Önal
 BBA
