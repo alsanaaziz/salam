@@ -190,213 +190,205 @@ Ivan, einen Stapel sofort! Wir werden ein Opfer bringen!
 - Oh, nein! Ivan ist ein besserer Name, Herr. Du hattest Recht.
 
 48
-00:01:54,452 --> 00:01:56,787
+00:01:54,452 --> 00:01:57,968
 Ach, ich kann's kaum erwarten seinen Gesichtsausdruck zu sehen!
 
 49
-00:01:56,887 --> 00:01:58,068
-[Gelächter]
-
-50
-00:01:58,168 --> 00:02:00,133
+00:01:58,068 --> 00:02:00,133
 - Du bist sicher, dass dir das recht ist?
 
-51
+50
 00:02:00,233 --> 00:02:01,408
 - Auf jeden Fall!
 
-52
+51
 00:02:01,508 --> 00:02:04,177
 - Du würdest nicht sagen...
 - Ich würde was nicht sagen, Herr?
 
-53
+52
 00:02:04,361 --> 00:02:08,623
 - Naja, ob du nicht denken würdest, dass ich von dir etwas Unrechtes verlange?
 
-54
+53
 00:02:08,723 --> 00:02:11,836
 - Ob ich denken würde es sei unrecht? Als ob ich's wüsste!
 
-55
+54
 00:02:11,936 --> 00:02:15,246
 Als ob ich eine Möglichk. habe eine unabh. Basis von richtig und falsch zu bilden,
 
-56
+55
 00:02:15,346 --> 00:02:17,900
 außerhalb den Anweisungen eines überwachenden Wesens.
 
-57
-00:02:18,000 --> 00:02:20,137
+56
+00:02:18,000 --> 00:02:21,237
 - Nein, Herr! Ich bin Dein Luder!
 
-58
-00:02:20,237 --> 00:02:21,237
-[Gelächter]
-
-59
+57
 00:02:21,337 --> 00:02:23,998
 - Ja, o·okay, aber...
 - Hab den Stapel fertig, Vater!
 
-60
+58
 00:02:24,098 --> 00:02:25,816
 - Hallo, Ivan!
 
-61
+59
 00:02:25,916 --> 00:02:27,502
 - Wo ist das Opfer?
 
-62
+60
 00:02:27,602 --> 00:02:30,059
 - Ooh, das ist eine gute Frage. Wo ist es?
 
-63
+61
 00:02:30,159 --> 00:02:32,299
 Irgendeine Ahnung, Herr?
 
-64
+62
 00:02:32,638 --> 00:02:34,221
 - Errrm...
 
-65
+63
 00:02:34,321 --> 00:02:37,107
 - Augenblick, ich erinnere mich! Es ist da!
 
-66
+64
 00:02:37,207 --> 00:02:39,218
 - Was?
 - Ja, Isaak... Ivan!
 
-67
+65
 00:02:39,318 --> 00:02:42,302
 Des Herrn neue Idee ist, dass ich dich opfern soll!
 
-68
+66
 00:02:42,402 --> 00:02:44,358
 - Mich? Großartig!
 
-69
+67
 00:02:44,458 --> 00:02:47,419
 - Ja, am 5. Tag dachte Er sich die Vögel und die Fische aus
 
-70
+68
 00:02:47,519 --> 00:02:50,582
 und heute dachte Er sich mein Morden meines Sohnes aus!
 
-71
+69
 00:02:50,682 --> 00:02:51,952
 Noch ein toller Einfall, Herr!
 
-72
+70
 00:02:52,052 --> 00:02:54,475
 Du fummelst bestimmt nicht mit einer bereits perfekten Schöpfung herum
 
-73
+71
 00:02:54,575 --> 00:02:56,984
 wie ein gigantischer, durchsichtiger George Lucas.
 
-74
+72
 00:02:57,084 --> 00:02:58,613
 - Spring auf!
 
-75
+73
 00:02:58,713 --> 00:03:00,182
 - Errm...
 
-76
+74
 00:03:01,580 --> 00:03:03,463
 - Hier ist ein nettes, scharfes Stück Feuerstein, Vater!
 
-77
+75
 00:03:03,563 --> 00:03:05,143
 - Nein, ähhm, warte mal!
 
-78
+76
 00:03:05,243 --> 00:03:08,305
 - Also dann, Ivan! So, nimm dich zusammen, Junge!
 
-79
+77
 00:03:08,405 --> 00:03:10,415
 - Nein, warte! Schau, wa·warte!
 
-80
+78
 00:03:10,515 --> 00:03:12,019
 - Ja, Herr?
 - Es...
 
-81
+79
 00:03:12,437 --> 00:03:14,638
 Es, es war ein Test!
 
-82
+80
 00:03:14,906 --> 00:03:16,295
 - Ah, ein Test!
 
-83
+81
 00:03:16,395 --> 00:03:19,166
 Oh, was für eine weitere großartige Idee!
 
-84
+82
 00:03:19,266 --> 00:03:20,931
 - Er ist so schlau!
 
-85
+83
 00:03:21,031 --> 00:03:24,584
 - Haben wir bestanden?
 - Oh, du hast definitiv bestanden, Abraham! Ja.
 
-86
+84
 00:03:24,684 --> 00:03:26,488
 - Großes Häkchen!
 - Toll!
 
-87
+85
 00:03:26,588 --> 00:03:29,871
 - Nun, lass uns wissen, ob Du noch andere großartige Ideen hast, Herr.
 
-88
+86
 00:03:29,971 --> 00:03:31,517
 - Ja, Ich...
 
-89
+87
 00:03:31,617 --> 00:03:35,474
 Ooh, in der Tat, wenn du schon den Feuerstein griffbereit hast,
 
-90
+88
 00:03:35,574 --> 00:03:38,426
 da habe Ich eine weitere, ähm, Idee.
 
-91
+89
 00:03:38,565 --> 00:03:39,948
 - Ja?
 - Nun ja...
 
-92
+90
 00:03:40,048 --> 00:03:42,977
 Wie wär's wenn du - sag wenn es seltsam klingt - ...
 
-93
+91
 00:03:43,077 --> 00:03:46,447
 ...aber wie wär's etwas von deinem Sohn abzuschneiden...
 
-94
+92
 00:03:46,547 --> 00:03:49,490
 ...ach wie hieß es nochmal...es fällt Mir nicht ein...
 
-95
+93
 00:03:49,590 --> 00:03:51,589
 ...die Haut ringsum des...
 
-96
+94
 00:03:51,689 --> 00:03:53,323
 Ach, Ich werde mich wieder bei dir melden.
 
-97
+95
 00:03:53,423 --> 00:03:55,171
 - Okay!
 
-98
+96
 00:03:55,271 --> 00:03:56,702
 - Kann's kaum erwarten!
 
