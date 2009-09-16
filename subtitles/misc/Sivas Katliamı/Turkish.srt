@@ -167,7 +167,7 @@ On saat sonra, dördü de hayatta olmayacaktı.
 
 42
 00:03:41,438 --> 00:03:45,422
-O gün çıkan yerel gazetelerden hakikati görünce, keyifleri kaçtı.
+O gün çıkan yerel gazetelerden Hakikat'i görünce, keyifleri kaçtı.
 
 43
 00:03:45,522 --> 00:03:51,415
@@ -2129,19 +2129,19 @@ kendimizden çok önemli, onurumuzdan, saygınlığımızdan,
 insanlığımızdan birşeyler bırakmak gibiydi.
 
 531
-00:40:38,900 --> 00:40:46,174
+00:40:38,900 --> 00:40:41,900
 ♪ Şarkı ♪
 
 532
-00:40:46,274 --> 00:40:49,124
+00:40:45,874 --> 00:40:49,124
 > Başbakan yardımcısı Erdal İnönü, ertesi gün
 
 533
-00:40:49,224 --> 00:40:52,074
+00:40:49,224 --> 00:40:52,174
 deprem görmüş bir şehri andıran Sivas'a gitti.
 
 534
-00:40:52,174 --> 00:40:57,342
+00:40:52,274 --> 00:40:57,342
 Enkaza dönmüş Madımak Oteli'ni ve tanınmaz hale gelmiş yaralıları ziyaret etti.
 
 535

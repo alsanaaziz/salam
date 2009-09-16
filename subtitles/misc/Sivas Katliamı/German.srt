@@ -167,7 +167,7 @@ Zehn Std. später würden sie nicht mehr am Leben sein.
 
 42
 00:03:41,438 --> 00:03:45,422
-Als sie die lokalen Zeitungen sahen, verging ihnen die Stimmung.
+Als sie die lokale Zeitung „Hakikat“ sahen, verging ihnen die Stimmung.
 
 43
 00:03:45,522 --> 00:03:51,415
@@ -2044,7 +2044,7 @@ Dauernd sagte ich: „Nein, das ist ein anderer Behçet,“
 
 510
 00:39:04,815 --> 00:39:08,739
-aber es war leider wahr.
+aber leider war es wahr.
 
 511
 00:39:08,839 --> 00:39:12,828
@@ -2129,19 +2129,19 @@ von uns selbst einen wichtigen Teil unserer Würde,
 unserem Ansehen, unserer Menschlichkeit aufgeben würden.
 
 531
-00:40:38,900 --> 00:40:46,174
+00:40:38,900 --> 00:40:41,900
 [Nach „jenem“ Tag]
 
 532
-00:40:46,274 --> 00:40:49,124
+00:40:45,874 --> 00:40:49,124
 > Vize-Ministerpräsident Erdal İnönü ging am nächs. Tag
 
 533
-00:40:49,224 --> 00:40:52,074
+00:40:49,224 --> 00:40:52,174
 nach Sivas; es ähnelte einer Erdbebenstadt.
 
 534
-00:40:52,174 --> 00:40:57,342
+00:40:52,274 --> 00:40:57,342
 Er besuchte das ruinierte Madımakhotel und die unkenntlich gewordenen Verletzten.
 
 535
