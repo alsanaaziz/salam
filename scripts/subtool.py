@@ -183,6 +183,14 @@ def parse_time_slices(slices):
     i += 1
   return slices
 
+def split_subtitle_file(path, times, subs, slices, func):
+  dest_base = path_base(path)
+  ext = path_ext(path)
+  print "Splitting '%s':" % path
+  for nr, from_to in enumerate(slices):
+    print "  Writing '%s.%d%s'." % (dest_base, nr+1, ext)
+    slice_subtitles(times, subs, from_to, nr+1, dest_base, func)
+
 def main():
   from optparse import OptionParser
 
@@ -198,10 +206,40 @@ def main():
 
   (options, args) = parser.parse_args()
 
-  if len(args) > 0 and args[0] == "c":
+  if len(args) > 0 and args[0] in ("c", "convert"):
     convert_funcs = {'.srt':convert_srt, '.sub':convert_sub}
     convert_func = convert_funcs[path_ext(args[1])]
     convert_func(args[1], path_base(args[1]))
+    return
+
+  if len(args) > 0 and args[0] in ("s", "split"):
+    slices = parse_time_slices(options.slice_subs)
+    if not slices:
+      print 'Error: no --ss "h:m:s.ms - h:m:s.ms" values given'
+      return
+    from subprocess import call
+    # Only print the ffmpeg command.
+    only_print = any(x == "print" for x in args[1:])
+    for arg in args[1:]:
+      if arg == "print":
+        continue
+      dest_base = path_base(arg)
+      ext = path_ext(arg)
+      if ext in ('.srt', '.sub'):
+        func = {'.srt':write_srt, '.sub':write_sub}[ext]
+        srt = parse_srt(open(arg).read())
+        # [(t0, t1, "subtitle"),...] -> [(t0, t1),...], ["subtitle",...]
+        times, subs = [s[:-1] for s in srt], [s[2] for s in srt]
+        split_subtitle_file(arg, times, subs, slices, func)
+      else:
+        slices = [["-ss", ms_to_t(t0), "-t", ms_to_t(t1-t0)]
+                   for t0, t1 in slices]
+        video_path = arg
+        for nr, slice_ in enumerate(slices):
+          dest = dest_base + ".%d"%(nr+1) + ext
+          print " ".join(["ffmpeg", "-y"]+slice_+["-i", '"'+video_path+'"', "-vcodec", "copy", "-acodec", "copy", '"'+dest.replace('"', '\\"')+'"'])
+          if not only_print:
+            call(["ffmpeg", "-y",]+slice_+["-i", video_path, "-vcodec", "copy", "-acodec", "copy", dest])
     return
 
   if len(args) < 2:
@@ -231,7 +269,9 @@ def main():
   converter_funcs = ((options.srt, write_srt), (options.sub, write_sub))
   converter_funcs = [x[1] for x in converter_funcs if x[0]]
 
-  slices = parse_time_slices(options.slice_subs)
+  slices = []
+  if options.slice_subs:
+    slices = parse_time_slices(options.slice_subs)
 
   # Load the times file.
   times = read_times(ftimes)
@@ -249,11 +289,7 @@ def main():
       print "Writing '%s'." % dest_full
       func(times, subs, dest_base)
       if slices:
-        print "Splitting '%s':" % dest_full
-        for nr, from_to in enumerate(slices):
-          print "  Writing '%s.%d%s'." % (dest_base, nr+1, ext)
-          #print "Nr: %d; [%d, %d]" % ((nr+1,) + from_to)
-          slice_subtitles(times, subs, from_to, nr+1, dest_base, func)
+        split_subtitle_file(dest_full, times, subs, slices, func)
 
 if __name__ == '__main__':
   main()
