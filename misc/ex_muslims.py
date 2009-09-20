@@ -4,54 +4,60 @@
 users = [
   (658, "[C*]", "♂", "UK", "Atheist", ()),
   (558, "a.ghazali", "♂", "USA", "", ()),
-  (359, "A_G", "♂", "", "", ()),
+  #(359, "A_G", "♂", "", "", ()), # Got banned.
   (469, "abdalwali", "♂", "USA", "", ()),
   (925, "Abid", "♂", "Bangladesh", "Atheist", ()),
   (887, "abuk", "♂", "UK", "", ()),
   (289, "afghan_exmuslim", "♂", "Afghanistan", "", ()),
   (884, "AisaLagtaHAI", "♂", "Canada", "Agnostic", ()),
-  (370, "Al Razi", "♂", "UK", "Atheist", ()), # The one who wrote funny Arabic revelations. :)
+  (370, "Al Razi", "♂", "UK", "Atheist", (), "Wrote funny, Arabic revelations"),
   (668, "al-uzza", "♀", "", "", ()),
-  (684, "AlmostAisha", "♀", "Canada", "", ()),
+  (684, "AlmostAisha", "♀", "Canada", "", (), "Ex-Convert"),
   (657, "aliadiere", "♂", "", "", ()),
   (56, "All_Brains", "♂", "", "Atheist", ()),
   (416, "allat", "♀", "Canada", "", ()),
   (815, "Alprh", "♂", "Iran", "Atheist", ()),
   (790, "Angel54", "♀", "Canada", "", ()), # Guessed gender.
+  (169, "Anisah", "♂", "USA", "Agnostic", ()),
   #(930, "arabie", "♂", "Netherlands", "", ()), # Wavering Muslim.
   (747, "atheist.pk", "♂", "Pakistan", "Atheist", ()),
   (564, "automan", "♂", "", "", ()),
-  (342, "awais", "♂", "USA", "Agnostic", ("Etymology",)),
+  (342, "awais", "♂", "USA", "Spiritual Agnostic", ("Etymology",)),
   (462, "Ayaz", "♂", "Pakistan", "Atheist", ()),
   (9, "Aziz", "♂", "Austria", "Atheist", ("Hell", "slavery", "4:34")),
   (686, "Balthier", "♂", "", "", ()),
   (613, "belladonnasix", "♀", "Canada", "Pantheist", ()),
-  (6, "BerberElla", "♀", "UK", "Atheist", ()),
+  (6, "BerberElla", "♀", "UK", "Atheist", (), "One of the founders of the forum"),
+  (180, "carolineislands", "♀", "USA", "", (), "Converted but flip-flopped shortly after"),
   (187, "Charles", "♂", "Australia", "", ()),
-  (615, "coolred38", "♀", "", "", ()),
+  (79, "cherry", "♀", "UK", "", ()),
+  (552, "chickpea", "♀", "USA", "", ()), # Has no postings. Guessed from her blog?
+  (615, "coolred38", "♀", "", "", (), "Ex-Convert"),
   (733, "crueljewel", "♀", "", "", ()),
   (851, "cwar068", "♂", "Australia", "Atheist", ()),
   (850, "darkone", "♂", "UK", "Agnostic", ()),
-  (345, "DivineMercy", "♀", "", "", ()),
+  (345, "DivineMercy", "♀", "USA", "Christian", ()),
   (842, "Diem", "♀", "Canada", "", ()),
-  (346, "Dr Diavolo", "♂", "UK", "Atheist", ()),
+  (346, "Dr Diavolo", "♂", "UK", "Atheist", (), "Real doctor"),
   (510, "Eddy", "♂", "Turkey", "", ()),
-  (450, "Fading", "♀", "", "", ()),
   (785, "Farid92", "♂", "Netherlands", "Deist", ()),
   (756, "Ferrero", "♀", "UK", "", ()),
   (725, "freakzilla", "♂", "UK", "Skeptic", ()),
   (397, "Goldie", "♂", "UK", "", ()),
+  (150, "green_eyes", "♀", "UK", "Atheist", ()),
   (909, "Hadugh", "♂", "UK", "Atheist", ()),
   (219, "Haji Murad", "♂", "", "", ()),
-  (8, "Hassan", "♂", "UK", "Deist", ("Hell", "slavery", "4:34")),
+  (8, "Hassan", "♂", "UK", "Deist", ("Hell", "slavery", "4:34"), "Former teacher in Islamia School"),
   (383, "Hedaya", "♀", "", "Agnostic", ()),
-  (638, "HenriMonier", "♂", "UK", "Karma &amp; Luck", ("Ideology", "fallacies", "barbaric practices")),
+  (638, "HenriMonier", "♂", "UK", "Atheist", ("Ideology", "fallacies", "barbaric practices")),
   (561, "henrypage", "♂", "UK", "Atheist", ("Muslim reactions to 9/11",)),
   (898, "HighOctane", "♂", "UK", "Atheist", ()),
+  (717, "Homer", "♂", "", "", ()),
   (918, "Human", "♀", "Bangladesh", "", ()),
   (114, "Humanoid", "♂", "UK", "Apatheist", ()),
   (409, "Humra", "♀", "", "", ()),
-  (826, "humblesoul", "♂", "Nigeria", "Deist", ()),
+  (826, "humblesoul", "♂", "Nigeria", "Deist", (), "Deconverted in our forum"),
+  (80, "ibnishaq", "♂", "", "", (), "Deconverted in our forum"),
   (594, "identitas", "♂", "UK", "Agnostic", ()),
   (77, "Iggy", "♀", "Canada", "Ignostic", ()),
   (724, "indiana", "♂", "", "", ()),
@@ -63,15 +69,19 @@ users = [
   (738, "J4m3z", "♂", "UK", "", ()),
   (26, "Jack Torrance", "♂", "UK", "Agnostic", ()),
   (727, "jamshed raja", "♂", "UK", "Atheist", ()),
+  (641, "KhalilF", "♂", "", "", ()),
   (93, "Kid A", "♂", "UK", "", ()),
   (317, "KraziKuri", "♀", "UK", "", ()),
+  (153, "KunstInFlammen", "♂", "UK", "Agnostic", ()),
   (381, "ladyofshalott", "♀", "UK", "Atheist", ()),
   (16, "li", "♂", "Singapore", "Atheist", ()),
   (197, "Maghrebi", "♂", "Morocco", "", ()),
   (854, "Malik", "♂", "UK", "Atheist", ()),
+  (450, "Manat", "♀", "", "", ()),
   (32, "Marmalade-Lady", "♀", "UK", "", ()),
   (11, "Maryam Namazie", "♀", "UK", "Atheist", ()),
   (760, "Meredith", "♀", "UK", "", ()),
+  (325, "Mia Bella", "♀", "Canada", "", ()),
   (710, "ned", "♀", "Pakistan", "Agnostic", ()),
   (712, "Nite Owllll", "♂", "USA", "Atheist", ()),
   (623, "Nizar", "♂", "Sweden", "Agnostic", ()),
@@ -80,14 +90,16 @@ users = [
   #(846, "Nuppar", "", "", "", ()), # Probably ex-Muslim.
   (787, "Omaar Khayaam", "♂", "UK", "Atheist", ()),
   (868, "omarinbox", "♂", "UK", "Atheist", ()),
+  (786, "onlyme", "♂", "UK", "", ()),
   (408, "Orion", "♂", "", "", ()),
   (414, "open_thinking", "♂", "UK", "", ()),
   (260, "Pakman", "♂", "Pakistan", "", ()),
-  (249, "panoptic", "", "UK", "Atheist", ()),
+  (249, "panoptic", "♂", "UK", "Atheist", ()),
   (734, "Pariah", "♀", "UK", "Agnostic", ()), # Guessed beliefs.
   (160, "Pazuzu", "♂", "UK", "Atheist", ()),
   (554, "PeruvianSkies", "♀", "UK", "Atheist", ()),
   #(870, "Prosaic", "♀", "Egypt", "", ()), # Wavering Muslim, close to apostasy...
+  (121, "quratulain", "♂", "Pakistan", "Atheist", ()),
   (757, "Ramadulla", "♂", "UK", "", ()),
   (715, "Raqsi", "♀", "", "", ()),
   (215, "Rational1", "♀", "USA", "Atheist", ()),
@@ -99,12 +111,13 @@ users = [
   (628, "SalahuddinR", "♂", "USA", "Atheist", ()),
   (920, "Saina.k", "♀", "Syria", "", ()),
   (855, "Sameer", "♂", "India", "Atheist", ()),
-  (65, "Shahid Raza", "♂", "UK", "Atheist", ()),
+  (435, "sbmuse", "♂", "", "", (), "Ex-Convert, was/is friends with Hamza Yusuf, Nuh Ha Mim Keller, Suhaib Webb..."),
+  (65, "Shahid Raza", "♂", "UK", "Deist", ()),
   (831, "sharkheart", "♂", "UK", "Atheist", ()),
   (675, "Shahzad", "♂", "", "Panentheist", ()),
   (944, "smudge59", "♂", "UK", "", ()),
   (3, "Spasm", "♀", "", "", ()),
-  (495, "spiral dive", "♀", "UK", "Agnostic", ()),
+  (495, "spiral dive", "♀", "UK", "Atheist", ()),
   (544, "stardust", "♀", "", "Deist", ()),
   (369, "Starnexus", "♂", "", "Atheist", ()),
   #(926, "stranger", "♂", "UK", "", ()), # Suspicion: Another nick by forum idiot?
@@ -120,10 +133,12 @@ users = [
   (913, "Zuber", "♂", "New Zealand", "Atheist", ()),
 ]
 
-from os import path as path
-jquery = open(path.join(path.dirname(path.dirname(__file__)), "js", "jquery.js")).read()
 
-head = r"""<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+def get_xhtml_head():
+  from os import path as path
+  jquery = open(path.join(path.dirname(path.dirname(__file__)), "js", "jquery.js")).read()
+
+  head = r"""<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -268,14 +283,58 @@ head = r"""<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.
 <tr><th>Nick</th><th>Gender</th><th>Country</th><th>Current views</th><th>Top 3 reasons for leaving Islam</th></tr>
 </thead>
 <tbody>"""
+  return head
 
-xhtml = open("COEM_ex-Muslims.xhtml", "w")
-xhtml.write(head)
+def print_BBC():
+  print "[table]"
+  print "[tr][td][b]%s[/b][/td][/tr]" % "Nick;Gender;Country;Belief".replace(";", "[/b][/td][td][b]")
+  for u in users:
+    print "[tr][td][b][url=/index.php?action=profile;u=%d]%s[/url][/b][/td][td]%s[/td][td]%s[/td][td]%s[/td][/tr]" % (u[0], u[1], u[2], u[3], u[4])
+    #(913, "Zuber", "♂", "New Zealand", "Atheist", ()),
+  print "[/table]"
+  class Table(dict):
+    def inc(self, item):
+      if item not in self:
+        self[item] = 0
+      self[item] += 1
 
-for u in users:
-  reasons = ", ".join(['<span class="reason">%s</span>' % r for r in u[5]])
-  link = '<a href="http://www.councilofexmuslims.com/index.php?action=profile;u='+str(u[0])+'">'+u[1]+"</a>"
-  row = dict(id=u[0], name=u[1], link=link, gndr=u[2], cntry=u[3], views=u[4], reasons=reasons)
-  xhtml.write(('<tr id="%(id)s"><td>%(link)s</td><td>%(gndr)s</td><td>%(cntry)s</td><td>%(views)s</td><td>%(reasons)s</td></tr>\n' % row))#.encode("utf-8"))
+  gender_table = Table()
+  country_table = Table()
+  belief_table = Table()
+  for u in users:
+    gender_table.inc(u[2])
+    country_table.inc(u[3])
+    belief_table.inc(u[4])
+  print "[table]"
+  for table, title in [(gender_table, "Gender"), (country_table, "Country"), (belief_table, "Belief")]:
+    print "[tr][td][b]%s[/b][/td][td][b]Count[/b][/td][/tr]" % title
+    keys = table.keys()
+    keys.sort()
+    if keys[0] == "":
+      keys[0] = "N/A"
+      table["N/A"] = table[""]
+    for key in keys:
+      print "[tr][td]%s[/td][td]%d[/td][/tr]" % (key, table[key])
+  print "[/table]"
 
-xhtml.write("</tbody>\n</table>\n</body>\n</html>")
+def escape(s):
+  return s.replace("&", "&amp;")
+
+def main():
+  #print_BBC()
+  #return
+  head = get_xhtml_head()
+  xhtml = open("COEM_ex-Muslims.xhtml", "w")
+  xhtml.write(head)
+
+  for u in users:
+    annot = u[6] if len(u) >= 7 else ""
+    reasons = ", ".join(['<span class="reason">%s</span>' % r for r in u[5]])
+    link = '<a href="http://www.councilofexmuslims.com/index.php?action=profile;u='+str(u[0])+'">'+u[1]+"</a>"
+    row = dict(id=u[0], name=u[1], link=link, gndr=u[2], cntry=u[3], views=escape(u[4]), reasons=reasons)
+    xhtml.write(('<tr id="%(id)s"><td>%(link)s</td><td>%(gndr)s</td><td>%(cntry)s</td><td>%(views)s</td><td>%(reasons)s</td></tr>\n' % row))#.encode("utf-8"))
+
+  xhtml.write("</tbody>\n</table>\n</body>\n</html>")
+
+if __name__ == '__main__':
+  main()
