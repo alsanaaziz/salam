@@ -12,10 +12,10 @@ users = [
   (884, "AisaLagtaHAI", "♂", "Canada", "Agnostic", ()),
   (370, "Al Razi", "♂", "UK", "Atheist", (), "Wrote funny, Arabic revelations"),
   (668, "al-uzza", "♀", "", "", ()),
-  (684, "AlmostAisha", "♀", "Canada", "", (), "Ex-Convert"),
   (657, "aliadiere", "♂", "", "", ()),
   (56, "All_Brains", "♂", "", "Atheist", ()),
   (416, "allat", "♀", "Canada", "", ()),
+  (684, "AlmostAisha", "♀", "Canada", "", (), "Ex-Convert"),
   (815, "Alprh", "♂", "Iran", "Atheist", ()),
   (790, "Angel54", "♀", "Canada", "", ()), # Guessed gender.
   (169, "Anisah", "♂", "USA", "Agnostic", ()),
@@ -36,8 +36,8 @@ users = [
   (733, "crueljewel", "♀", "", "", ()),
   (851, "cwar068", "♂", "Australia", "Atheist", ()),
   (850, "darkone", "♂", "UK", "Agnostic", ()),
-  (345, "DivineMercy", "♀", "USA", "Christian", ()),
   (842, "Diem", "♀", "Canada", "", ()),
+  (345, "DivineMercy", "♀", "USA", "Christian", ()),
   (346, "Dr Diavolo", "♂", "UK", "Atheist", (), "Real doctor"),
   (510, "Eddy", "♂", "Turkey", "", ()),
   (785, "Farid92", "♂", "Netherlands", "Deist", ()),
@@ -55,8 +55,8 @@ users = [
   (717, "Homer", "♂", "", "", ()),
   (918, "Human", "♀", "Bangladesh", "", ()),
   (114, "Humanoid", "♂", "UK", "Apatheist", ()),
-  (409, "Humra", "♀", "", "", ()),
   (826, "humblesoul", "♂", "Nigeria", "Deist", (), "Deconverted in our forum"),
+  (409, "Humra", "♀", "", "", ()),
   (80, "ibnishaq", "♂", "", "", (), "Deconverted in our forum"),
   (594, "identitas", "♂", "UK", "Agnostic", ()),
   (77, "Iggy", "♀", "Canada", "Ignostic", ()),
@@ -91,8 +91,8 @@ users = [
   (787, "Omaar Khayaam", "♂", "UK", "Atheist", ()),
   (868, "omarinbox", "♂", "UK", "Atheist", ()),
   (786, "onlyme", "♂", "UK", "", ()),
-  (408, "Orion", "♂", "", "", ()),
   (414, "open_thinking", "♂", "UK", "", ()),
+  (408, "Orion", "♂", "", "", ()),
   (260, "Pakman", "♂", "Pakistan", "", ()),
   (249, "panoptic", "♂", "UK", "Atheist", ()),
   (734, "Pariah", "♀", "UK", "Agnostic", ()), # Guessed beliefs.
@@ -108,13 +108,13 @@ users = [
   (735, "RIBS", "♂", "", "Atheist", ()),
   (592, "rooblee", "♂", "", "", ()),
   (57, "Rubina", "♀", "", "", ()),
-  (628, "SalahuddinR", "♂", "USA", "Atheist", ()),
   (920, "Saina.k", "♀", "Syria", "", ()),
+  (628, "SalahuddinR", "♂", "USA", "Atheist", ()),
   (855, "Sameer", "♂", "India", "Atheist", ()),
   (435, "sbmuse", "♂", "", "", (), "Ex-Convert, was/is friends with Hamza Yusuf, Nuh Ha Mim Keller, Suhaib Webb..."),
   (65, "Shahid Raza", "♂", "UK", "Deist", ()),
-  (831, "sharkheart", "♂", "UK", "Atheist", ()),
   (675, "Shahzad", "♂", "", "Panentheist", ()),
+  (831, "sharkheart", "♂", "UK", "Atheist", ()),
   (944, "smudge59", "♂", "UK", "", ()),
   (3, "Spasm", "♀", "", "", ()),
   (495, "spiral dive", "♀", "UK", "Atheist", ()),
@@ -326,6 +326,14 @@ def main():
   head = get_xhtml_head()
   xhtml = open("COEM_ex-Muslims.xhtml", "w")
   xhtml.write(head)
+
+  # Check for correct alphabetic order.
+  #names = [u[1] for u in users]
+  #names_ = names[:]
+  #names.sort(lambda a, b: cmp(a.lower(), b.lower()))
+  #assert names == names_
+  #for n1, n2 in zip(names, names_):
+    #print n1, n2
 
   for u in users:
     annot = u[6] if len(u) >= 7 else ""
