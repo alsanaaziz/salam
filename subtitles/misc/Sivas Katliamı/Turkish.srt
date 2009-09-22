@@ -1246,7 +1246,7 @@ Bu icat adeta bir infaz izniydi.
 
 311
 00:24:50,528 --> 00:24:53,630
-Gözü dönen topluluk hemen ağız değişti.
+Gözü dönen topluluk hemen ağız değiştirdi.
 
 312
 00:24:53,730 --> 00:25:01,563
@@ -1283,7 +1283,7 @@ Saat tam 19:50 idi. Büyük kıyam kapıya dayanmıştı.
 
 320
 00:25:55,136 --> 00:26:00,021
-- İnanılmaz bir duman kapalı kapılardan - camlar kırıktı zaten -
+- İnanılmaz bir duman kapalı kapılardan – camlar kırıktı zaten –
 
 321
 00:26:00,121 --> 00:26:03,548
@@ -1684,7 +1684,7 @@ kendine yeni bir hedef seçti: vilayet.
 
 420
 00:33:21,721 --> 00:33:26,563
-iki korumam - onlar aşağıda - ve odacım. Kimse kalmadı.
+iki korumam – onlar aşağıda – ve odacım. Kimse kalmadı.
 
 421
 00:33:26,663 --> 00:33:31,618
