@@ -10,10 +10,10 @@ users = [
   (887, "abuk", "♂", "UK", "", ()),
   (289, "afghan_exmuslim", "♂", "Afghanistan", "", ()),
   (884, "AisaLagtaHAI", "♂", "Canada", "Agnostic", ()),
-  (370, "Al Razi", "♂", "UK", "Atheist", (), "Wrote funny, Arabic revelations"),
+  (370, "Al Razi", "♂", "UK", "Atheist", (), "Occasionally writes funny, Arabic revelations"),
   (668, "al-uzza", "♀", "", "", ()),
-  (657, "aliadiere", "♂", "", "", ()),
-  (56, "All_Brains", "♂", "", "Atheist", ()),
+  (657, "aliadiere", "♂", "UK", "Agnostic", ()),
+  (56, "All_Brains", "♂", "", "Atheist", (), "Psychologist"),
   (416, "allat", "♀", "Canada", "", ()),
   (684, "AlmostAisha", "♀", "Canada", "", (), "Ex-Convert"),
   (815, "Alprh", "♂", "Iran", "Atheist", ()),
@@ -24,30 +24,30 @@ users = [
   (564, "automan", "♂", "", "", ()),
   (342, "awais", "♂", "USA", "Spiritual Agnostic", ("Etymology",)),
   (462, "Ayaz", "♂", "Pakistan", "Atheist", ()),
-  (9, "Aziz", "♂", "Austria", "Atheist", ("Hell", "slavery", "4:34")),
+  (9, "Aziz", "♂", "Austria", "Atheist", ("Hell", "slavery", "4:34"), '<a href="http://www.youtube.com/user/AlsanaAziz">YouTube channel</a>'),
   (686, "Balthier", "♂", "", "", ()),
   (613, "belladonnasix", "♀", "Canada", "Pantheist", ()),
   (6, "BerberElla", "♀", "UK", "Atheist", (), "One of the founders of the forum"),
   (180, "carolineislands", "♀", "USA", "", (), "Converted but flip-flopped shortly after"),
   (187, "Charles", "♂", "Australia", "", ()),
   (79, "cherry", "♀", "UK", "", ()),
-  (552, "chickpea", "♀", "USA", "", ()), # Has no postings. Guessed from her blog?
+  (552, "chickpea", "♀", "USA", "", (), '<a href="http://chickpealove.com/blog/">Blog</a>'), # Has no postings. Guessed from her blog?
   (615, "coolred38", "♀", "", "", (), "Ex-Convert"),
   (733, "crueljewel", "♀", "", "", ()),
   (851, "cwar068", "♂", "Australia", "Atheist", ()),
   (850, "darkone", "♂", "UK", "Agnostic", ()),
   (842, "Diem", "♀", "Canada", "", ()),
   (345, "DivineMercy", "♀", "USA", "Christian", ()),
-  (346, "Dr Diavolo", "♂", "UK", "Atheist", (), "Real doctor"),
+  (346, "Dr Diavolo", "♂", "UK", "Atheist", (), "Doctor"),
   (510, "Eddy", "♂", "Turkey", "", ()),
   (785, "Farid92", "♂", "Netherlands", "Deist", ()),
   (756, "Ferrero", "♀", "UK", "", ()),
   (725, "freakzilla", "♂", "UK", "Skeptic", ()),
-  (397, "Goldie", "♂", "UK", "", ()),
+  (397, "Goldie", "♂", "UK", "", (), "Apostatized in our forum"),
   (150, "green_eyes", "♀", "UK", "Atheist", ()),
   (909, "Hadugh", "♂", "UK", "Atheist", ()),
   (219, "Haji Murad", "♂", "", "", ()),
-  (8, "Hassan", "♂", "UK", "Deist", ("Hell", "slavery", "4:34"), "Former teacher in Islamia School"),
+  (8, "Hassan", "♂", "UK", "Deist", ("Hell", "slavery", "4:34"), 'Former teacher at an Islamic school; <a href="http://www.youtube.com/user/discussislam">YouTube channel</a>'),
   (383, "Hedaya", "♀", "", "Agnostic", ()),
   (638, "HenriMonier", "♂", "UK", "Atheist", ("Ideology", "fallacies", "barbaric practices")),
   (561, "henrypage", "♂", "UK", "Atheist", ("Muslim reactions to 9/11",)),
@@ -55,19 +55,19 @@ users = [
   (717, "Homer", "♂", "", "", ()),
   (918, "Human", "♀", "Bangladesh", "", ()),
   (114, "Humanoid", "♂", "UK", "Apatheist", ()),
-  (826, "humblesoul", "♂", "Nigeria", "Deist", (), "Deconverted in our forum"),
+  (826, "humblesoul", "♂", "Nigeria", "Deist", (), "Apostatized in our forum"),
   (409, "Humra", "♀", "", "", ()),
-  (80, "ibnishaq", "♂", "", "", (), "Deconverted in our forum"),
+  (80, "ibnishaq", "♂", "", "", (), "Apostatized in our forum"),
   (594, "identitas", "♂", "UK", "Agnostic", ()),
   (77, "Iggy", "♀", "Canada", "Ignostic", ()),
   (724, "indiana", "♂", "", "", ()),
-  (936, "Infidel", "♂", "UK", "", ()),
+  (936, "Infidel", "♂", "UK", "Agnostic", ()),
   (917, "insiaiftiqhar", "♂", "USA", "", ()),
   (141, "Iris", "♀", "UK", "", ()),
   (194, "Isaac Schrodinger", "♂", "Canada", "", ()),
-  (574, "IsLame", "♂", "UK", "Humanist", ("God's invisibility and cruelty", "existance of polytheism", "net effect of the Qur'an on Muslims")),
+  (574, "IsLame", "♂", "UK", "Humanist", ("God's invisibility and cruelty", "existence of polytheism", "net effect of the Qur'an on Muslims"), '<a href="http://www.youtube.com/user/ExMuslimUK">YouTube channel</a>'),
   (738, "J4m3z", "♂", "UK", "", ()),
-  (26, "Jack Torrance", "♂", "UK", "Agnostic", ()),
+  (26, "Jack Torrance", "♂", "UK", "Anti-Labelist", ()),
   (727, "jamshed raja", "♂", "UK", "Atheist", ()),
   (641, "KhalilF", "♂", "", "", ()),
   (93, "Kid A", "♂", "UK", "", ()),
@@ -79,16 +79,16 @@ users = [
   (854, "Malik", "♂", "UK", "Atheist", ()),
   (450, "Manat", "♀", "", "", ()),
   (32, "Marmalade-Lady", "♀", "UK", "", ()),
-  (11, "Maryam Namazie", "♀", "UK", "Atheist", ()),
+  (11, "Maryam Namazie", "♀", "UK", "Atheist", (), "Head of the Council of Ex-Muslims of Britain"),
   (760, "Meredith", "♀", "UK", "", ()),
   (325, "Mia Bella", "♀", "Canada", "", ()),
-  (710, "ned", "♀", "Pakistan", "Agnostic", ()),
+  (710, "ned", "♀", "Pakistan", "Panentheist", (), '"Strictly speaking, I\'m a non-religious, neo-Vedantist, panentheistic mystic."'),
   (712, "Nite Owllll", "♂", "USA", "Atheist", ()),
   (623, "Nizar", "♂", "Sweden", "Agnostic", ()),
   (880, "nothingthere", "♂", "", "Atheist", ()), # Guessed the gender.
   (430, "Nour", "♀", "UK", "Agnostic", ()),
   #(846, "Nuppar", "", "", "", ()), # Probably ex-Muslim.
-  (787, "Omaar Khayaam", "♂", "UK", "Atheist", ()),
+  (787, "Omaar Khayaam", "♂", "UK", "Atheist", (), "Apostatized after struggling with doubts for many years"),
   (868, "omarinbox", "♂", "UK", "Atheist", ()),
   (786, "onlyme", "♂", "UK", "", ()),
   (414, "open_thinking", "♂", "UK", "", ()),
@@ -111,7 +111,7 @@ users = [
   (920, "Saina.k", "♀", "Syria", "", ()),
   (628, "SalahuddinR", "♂", "USA", "Atheist", ()),
   (855, "Sameer", "♂", "India", "Atheist", ()),
-  (435, "sbmuse", "♂", "", "", (), "Ex-Convert, was/is friends with Hamza Yusuf, Nuh Ha Mim Keller, Suhaib Webb..."),
+  (435, "sbmuse", "♂", "", "", (), "Ex-Convert; was/is friends with Hamza Yusuf, Nuh Ha Mim Keller, Suhaib Webb..."),
   (65, "Shahid Raza", "♂", "UK", "Deist", ()),
   (675, "Shahzad", "♂", "", "Panentheist", ()),
   (831, "sharkheart", "♂", "UK", "Atheist", ()),
@@ -277,10 +277,10 @@ def get_xhtml_head():
   </script>
 </head>
 <body>
-<p>This is a list of former Muslims on <a href="http://www.councilofexmuslims.com">councilofexmuslims.com</a>:</p>
+<p>This is a list of former Muslims registered at <a href="http://www.councilofexmuslims.com">councilofexmuslims.com</a>:</p>
 <table class="xmlist">
 <thead>
-<tr><th>Nick</th><th>Gender</th><th>Country</th><th>Current views</th><th>Top 3 reasons for leaving Islam</th></tr>
+<tr><th>Nick</th><th>Gender</th><th>Country</th><th>Current views</th><th>Top 3 reasons for leaving Islam</th><th>Annotation</th></tr>
 </thead>
 <tbody>"""
   return head
@@ -337,10 +337,13 @@ def main():
 
   for u in users:
     annot = u[6] if len(u) >= 7 else ""
-    reasons = ", ".join(['<span class="reason">%s</span>' % r for r in u[5]])
+    reasons = "; ".join(['<span class="reason">%s</span>' % r for r in u[5]])
     link = '<a href="http://www.councilofexmuslims.com/index.php?action=profile;u='+str(u[0])+'">'+u[1]+"</a>"
-    row = dict(id=u[0], name=u[1], link=link, gndr=u[2], cntry=u[3], views=escape(u[4]), reasons=reasons)
-    xhtml.write(('<tr id="%(id)s"><td>%(link)s</td><td>%(gndr)s</td><td>%(cntry)s</td><td>%(views)s</td><td>%(reasons)s</td></tr>\n' % row))#.encode("utf-8"))
+    row = dict(id=u[0], name=u[1], link=link, gndr=u[2], cntry=u[3],
+      views=escape(u[4]), reasons=reasons, annot=annot)
+    xhtml.write(('<tr id="%(id)s"><td>%(link)s</td><td>%(gndr)s</td>'
+      '<td>%(cntry)s</td><td>%(views)s</td><td>%(reasons)s</td><td>%(annot)s</td></tr>\n') % row)
+      #.encode("utf-8"))
 
   xhtml.write("</tbody>\n</table>\n</body>\n</html>")
 
