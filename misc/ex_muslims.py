@@ -15,7 +15,7 @@ users = [
   (657, "aliadiere", "♂", "UK", "Agnostic", ()),
   (56, "All_Brains", "♂", "", "Atheist", (), "Psychologist"),
   (416, "allat", "♀", "Canada", "", ()),
-  (684, "AlmostAisha", "♀", "Canada", "", (), "Ex-Convert"),
+  (684, "AlmostAisha", "♀", "Canada", "Atheist", (), "Ex-Convert"),
   (815, "Alprh", "♂", "Iran", "Atheist", ()),
   (790, "Angel54", "♀", "Canada", "", ()), # Guessed gender.
   (169, "Anisah", "♂", "USA", "Agnostic", ()),
@@ -47,7 +47,7 @@ users = [
   (150, "green_eyes", "♀", "UK", "Atheist", ()),
   (909, "Hadugh", "♂", "UK", "Atheist", ()),
   (219, "Haji Murad", "♂", "", "", ()),
-  (8, "Hassan", "♂", "UK", "Deist", ("Hell", "slavery", "4:34"), 'Former teacher at an Islamic school; <a href="http://www.youtube.com/user/discussislam">YouTube channel</a>'),
+  (8, "Hassan", "♂", "UK", "Deist", ("Hell", "slavery", "4:34"), 'Former teacher at an Islamic school; <a href="http://www.youtube.com/user/discussislam">YouTube channel</a>; studied Arabic'),
   (383, "Hedaya", "♀", "", "Agnostic", ()),
   (638, "HenriMonier", "♂", "UK", "Atheist", ("Ideology", "fallacies", "barbaric practices")),
   (561, "henrypage", "♂", "UK", "Atheist", ("Muslim reactions to 9/11",)),
@@ -93,7 +93,7 @@ users = [
   (786, "onlyme", "♂", "UK", "", ()),
   (414, "open_thinking", "♂", "UK", "", ()),
   (408, "Orion", "♂", "", "", ()),
-  (260, "Pakman", "♂", "Pakistan", "", ()),
+  (260, "pakman", "♂", "", "", ()), # UK?
   (249, "panoptic", "♂", "UK", "Atheist", ()),
   (734, "Pariah", "♀", "UK", "Agnostic", ()), # Guessed beliefs.
   (160, "Pazuzu", "♂", "UK", "Atheist", ()),
@@ -154,11 +154,11 @@ def get_xhtml_head():
   p.stats_closed:before { content: "▸ "; }
   p.stats_opened:before { content: "▾ "; }
   </style>
-  <script type="text/javascript"><![CDATA[
+  <script type="text/javascript">//<![CDATA[
 """ + jquery + """
-  ]]>
+  //]]>
   </script>
-  <script type="text/javascript"><![CDATA[
+  <script type="text/javascript">//<![CDATA[
     function obj_items(dict) {
       var items = [];
       for (key in dict)
@@ -273,7 +273,7 @@ def get_xhtml_head():
         }
       });
     });
-  ]]>
+  //]]>
   </script>
 </head>
 <body>
@@ -337,7 +337,7 @@ def main():
 
   for u in users:
     annot = u[6] if len(u) >= 7 else ""
-    reasons = "; ".join(['<span class="reason">%s</span>' % r for r in u[5]])
+    reasons = "<b>;</b> ".join(['<span class="reason">%s</span>' % r for r in u[5]])
     link = '<a href="http://www.councilofexmuslims.com/index.php?action=profile;u='+str(u[0])+'">'+u[1]+"</a>"
     row = dict(id=u[0], name=u[1], link=link, gndr=u[2], cntry=u[3],
       views=escape(u[4]), reasons=reasons, annot=annot)
