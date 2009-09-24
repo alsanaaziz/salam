@@ -1,6 +1,6 @@
 1
 00:00:00,000 --> 00:00:02,870
-> Türkiye'nin tarihinde öyle kritik günler,
+{Türkiye'nin tarihinde öyle kritik günler,
 
 2
 00:00:02,970 --> 00:00:04,933
@@ -57,7 +57,7 @@ youtube.com/user/AlsanaAziz
 
 15
 00:01:42,589 --> 00:01:46,151
-> Sivas Katliamı'ndan önce, Türkiye sıcak bir yaz yaşadı.
+{Sivas Katliamı'ndan önce, Türkiye sıcak bir yaz yaşadı.
 
 16
 00:01:46,251 --> 00:01:50,717
@@ -135,7 +135,7 @@ gün “küfürlerin hesabının sorulma günüdür” deniliyordu.
 
 34
 00:03:06,950 --> 00:03:10,600
-> Sivas'ta 2 Temmuz cuma sabahı huzurlu başlamıştı.
+{Sivas'ta 2 Temmuz cuma sabahı huzurlu başlamıştı.
 
 35
 00:03:10,700 --> 00:03:14,804
@@ -195,7 +195,7 @@ Böyle tahrik ederek... asıl tahrik bunlar.
 
 49
 00:04:12,881 --> 00:04:16,429
-> İHA muhabiri bunun üzerine Müslüman camianın Nesin'in
+{İHA muhabiri bunun üzerine Müslüman camianın Nesin'in
 
 50
 00:04:16,529 --> 00:04:19,416
@@ -223,7 +223,7 @@ ama Müslümanlara ve bütün dinlere saygım var.
 
 56
 00:04:33,458 --> 00:04:37,580
-> Söyleşi kısa sürede röportaj olmaktan çıkıp bir tartışmaya dönüştü.
+{Söyleşi kısa sürede röportaj olmaktan çıkıp bir tartışmaya dönüştü.
 
 57
 00:04:37,755 --> 00:04:41,564
@@ -270,7 +270,7 @@ Ben bunu... yani...
 
 67
 00:05:13,400 --> 00:05:16,330
-> Öğle ezanı gerginlik içinde okundu.
+{Öğle ezanı gerginlik içinde okundu.
 
 68
 00:05:16,430 --> 00:05:20,404
@@ -302,7 +302,7 @@ Can Şenliği oyuncuları davul çalarak bir gösteri çağrısına başladılar
 
 75
 00:05:59,165 --> 00:06:01,867
-> Yandaki bu davullu davet üzerine camide
+{Yandaki bu davullu davet üzerine camide
 
 76
 00:06:01,967 --> 00:06:05,013
@@ -322,11 +322,11 @@ Sivil bir komiser gelip oyuncuları uyardı.
 
 80
 00:06:19,609 --> 00:06:25,659
-- Yani “bu ortama sebebiyet vermeyin, davul çalmayın,” diyor.
+- “Yani, ‘bu ortama sebebiyet vermeyin, davul çalmayın,’ diyor.”
 
 81
 00:06:26,397 --> 00:06:30,089
-> Oyuncular aralarında bir durum değerlendirmesi yaptıktan sonra
+{Oyuncular aralarında bir durum değerlendirmesi yaptıktan sonra
 
 82
 00:06:30,189 --> 00:06:34,083
@@ -358,7 +358,7 @@ Kanımca ne olur, bilemiyorum!
 
 89
 00:07:01,770 --> 00:07:07,100
-> Namaz dağılınca Paşa, Meydan ve Ulu Cami'den çıkanlar bir anda birleşti.
+{Namaz dağılınca Paşa, Meydan ve Ulu Cami'den çıkanlar bir anda birleşti.
 
 90
 00:07:07,200 --> 00:07:11,369
@@ -374,7 +374,7 @@ Bin kişilik, öfkeli kalabalık aniden sel gibi akmaya başladı.
 
 93
 00:07:26,722 --> 00:07:32,980
-> Dört koldan Hükümet Konağı'na doğru yürüyen kalabalık gittikçe büyüyor.
+{Dört koldan Hükümet Konağı'na doğru yürüyen kalabalık gittikçe büyüyor.
 
 94
 00:07:33,080 --> 00:07:40,331
@@ -386,7 +386,7 @@ Bin kişilik, öfkeli kalabalık aniden sel gibi akmaya başladı.
 
 96
 00:07:54,664 --> 00:07:59,284
-> Göstericiler Vilayet Meydanı'na ulaştığında, polis barikatıyla karşılaştı.
+{Göstericiler Vilayet Meydanı'na ulaştığında, polis barikatıyla karşılaştı.
 
 97
 00:07:59,384 --> 00:08:05,144
@@ -426,7 +426,7 @@ ama kısa zamanda bu arttı.
 
 106
 00:08:45,249 --> 00:08:48,366
-> Topluluğun Valilikten sonraki hedefi Kültür Merkeziydi.
+{Topluluğun Valilikten sonraki hedefi Kültür Merkeziydi.
 
 107
 00:08:48,466 --> 00:08:52,397
@@ -482,7 +482,7 @@ Ben mi girdim onların arasına? Ben de devlet memuruydum! 25 senedir bu memleke
 
 120
 00:09:52,854 --> 00:09:55,897
-> Polis yetersizdi. Sivas İl Müdürlüğü kayıtlarına göre
+{Polis yetersizdi. Sivas İl Müdürlüğü kayıtlarına göre
 
 121
 00:09:55,997 --> 00:09:59,047
@@ -526,7 +526,7 @@ Ben onu da doğal karşılıyorum.
 
 131
 00:10:32,340 --> 00:10:36,552
-> Az sonra DYP'li İçişleri Bakanı Mehmet Gazioğlu takviye isteyen Vali'yi aradı.
+{Az sonra DYP'li İçişleri Bakanı Mehmet Gazioğlu takviye isteyen Vali'yi aradı.
 
 132
 00:10:36,652 --> 00:10:39,875
@@ -618,7 +618,7 @@ Bakan o rahatlık içerisinde sanıyorum başka işlerine daldı.
 
 154
 00:11:59,423 --> 00:12:04,003
-> Beklenen kuvvet gelmeyince, kalabalık Ozanlar Anıtı'nı taşlamaya başladı.
+{Beklenen kuvvet gelmeyince, kalabalık Ozanlar Anıtı'nı taşlamaya başladı.
 
 155
 00:12:04,103 --> 00:12:08,852
@@ -662,7 +662,7 @@ Ve genelde benim konuşmam etkili oldu.
 
 165
 00:12:47,132 --> 00:12:50,078
-> Bu konuşmanın ardından kalabalık dağılır gibi oldu.
+{Bu konuşmanın ardından kalabalık dağılır gibi oldu.
 
 166
 00:12:50,178 --> 00:12:54,155
@@ -694,7 +694,7 @@ Ve Madımak'a yönlendirdi.
 
 173
 00:13:20,504 --> 00:13:24,800
-> Valilik kayıtlarına göre saat 17:45'te Emniyet Müdürü, Vali'yi arayıp
+{Valilik kayıtlarına göre saat 17:45'te Emniyet Müdürü, Vali'yi arayıp
 
 174
 00:13:24,900 --> 00:13:28,910
@@ -726,7 +726,7 @@ fitil ateşlenmek üzeriydi.
 
 181
 00:14:09,436 --> 00:14:14,900
-> Sivas'a akşam inerken artık göstericiler son durağa, Madımak Oteli'ne gelmişti.
+{Sivas'a akşam inerken artık göstericiler son durağa, Madımak Oteli'ne gelmişti.
 
 182
 00:14:15,000 --> 00:14:17,350
@@ -750,7 +750,7 @@ topluluk bir ölçüde ne yapmak istediğini, hedefinin ne olduğunu ortaya koyd
 
 187
 00:14:47,533 --> 00:14:52,040
-> Şimdi hedefteki Aziz Nesin ve arkadaşları tam bir kuşatma altındaydı.
+{Şimdi hedefteki Aziz Nesin ve arkadaşları tam bir kuşatma altındaydı.
 
 188
 00:14:52,140 --> 00:14:55,700
@@ -822,7 +822,7 @@ Biz sanki hapsolduk. Dünya ile ilişkimiz kesildi.
 
 205
 00:16:23,587 --> 00:16:26,650
-> Dış dünya ile tek ilişki aracı telefondu artık.
+{Dış dünya ile tek ilişki aracı telefondu artık.
 
 206
 00:16:26,750 --> 00:16:30,266
@@ -874,7 +874,7 @@ Ondan sonra Vali'yi aradım. Vali her seferinde “Evet, kontrol edeceğiz. Mera
 
 218
 00:17:14,380 --> 00:17:18,304
-> Erdal İnönü endişeleri dağılmış olarak Ankara uçağına giderken,
+{Erdal İnönü endişeleri dağılmış olarak Ankara uçağına giderken,
 
 219
 00:17:18,404 --> 00:17:21,857
@@ -926,7 +926,7 @@ birimize birşey olursa, ne yaparız?” dediler.
 
 231
 00:18:27,088 --> 00:18:33,234
-> Valilik raporuna göre saat 18'de Madımak Oteli önündeki göstericilerin sayısı 15000'i bulmuştu.
+{Valilik raporuna göre saat 18'de Madımak Oteli önündeki göstericilerin sayısı 15000'i bulmuştu.
 
 232
 00:18:33,334 --> 00:18:37,469
@@ -970,7 +970,7 @@ Yeterli tepkilerimizi gösterdik.”
 
 242
 00:19:20,000 --> 00:19:24,951
-> Valiliğin isteği üzerine belediye başkanı Temel Karamollaoğlu ve Büyük Birlik Partisi'nin
+{Valiliğin isteği üzerine belediye başkanı Temel Karamollaoğlu ve Büyük Birlik Partisi'nin
 
 243
 00:19:25,051 --> 00:19:29,979
@@ -1038,7 +1038,7 @@ ama neyin gazasının mübarek olduğunu diyeceksiniz?
 
 259
 00:20:40,820 --> 00:20:44,273
-> O sırada Vali Karabilgin henüz iki haftalık başbakan
+{O sırada Vali Karabilgin henüz iki haftalık başbakan
 
 260
 00:20:44,373 --> 00:20:49,547
@@ -1062,7 +1062,7 @@ biçiminde bir şeyler söyledi başbakan.
 
 265
 00:21:08,053 --> 00:21:10,249
-> Oysa artık çok geçti.
+{Oysa artık çok geçti.
 
 266
 00:21:10,349 --> 00:21:14,821
@@ -1094,7 +1094,7 @@ Bundan sonra sadece kitle psikolojisi konuşacaktı.
 
 273
 00:21:54,327 --> 00:21:57,142
-> Akşam saat 7'yi vurduğunda genelkurmay başkanı
+{Akşam saat 7'yi vurduğunda genelkurmay başkanı
 
 274
 00:21:57,242 --> 00:22:00,066
@@ -1138,7 +1138,7 @@ Telefonu uzattım. Tugay komutanı ayağa kalktı telefonu aldı.
 
 284
 00:22:39,894 --> 00:22:43,571
-> Genelkurmay başkanı Doğan Güneş garnizon komutanına
+{Genelkurmay başkanı Doğan Güneş garnizon komutanına
 
 285
 00:22:43,671 --> 00:22:47,474
@@ -1202,7 +1202,7 @@ ama askeri risk altına atmayacak olan bölgeler.
 
 300
 00:23:50,472 --> 00:23:54,589
-> Az sonra küçük bir askeri birlik Madımak Oteli'nin bulunduğu meydana girdi.
+{Az sonra küçük bir askeri birlik Madımak Oteli'nin bulunduğu meydana girdi.
 
 301
 00:23:54,689 --> 00:24:00,112
@@ -1214,7 +1214,7 @@ Ancak komutanın arabasını çevreleyen asker ilk sloganla şaşırıp mıhland
 
 303
 00:24:10,900 --> 00:24:15,602
-> Şimdi etten bir duvar otele ulaşmaya çalışan askerin önüne set çekmişti.
+{Şimdi etten bir duvar otele ulaşmaya çalışan askerin önüne set çekmişti.
 
 304
 00:24:15,702 --> 00:24:20,387
@@ -1254,7 +1254,7 @@ Gözü dönen topluluk hemen ağız değiştirdi.
 
 313
 00:25:01,663 --> 00:25:06,176
-> İşte tam askerin çekildiği anda, otelin önündeki arabalar ateşe verildi.
+{İşte tam askerin çekildiği anda, otelin önündeki arabalar ateşe verildi.
 
 314
 00:25:06,276 --> 00:25:12,395
@@ -1279,7 +1279,7 @@ Saat tam 19:50 idi. Büyük kıyam kapıya dayanmıştı.
 
 319
 00:25:47,234 --> 00:25:52,829
-> Artık içerdekiler için kurtuluş yoktu. Her şey 10 dakika içinde olup bitecekti.
+{Artık içerdekiler için kurtuluş yoktu. Her şey 10 dakika içinde olup bitecekti.
 
 320
 00:25:55,136 --> 00:26:00,021
@@ -1339,7 +1339,7 @@ Ama 3 veya 5 dakika devam eden bu çığlık sesleri kesildi.
 
 334
 00:27:06,346 --> 00:27:09,596
-> Otelin ahşap dekorasyonu sayesinde hızla yayılan yangın
+{Otelin ahşap dekorasyonu sayesinde hızla yayılan yangın
 
 335
 00:27:09,696 --> 00:27:12,946
@@ -1359,7 +1359,7 @@ Ha, itfaiye istekli miydi? İtfaiye de isteksiz.
 
 339
 00:27:27,951 --> 00:27:33,131
-> Sonunda otelde sağ kalanlar itfaiyeden de umudu kesip can havliyle camlara koştu.
+{Sonunda otelde sağ kalanlar itfaiyeden de umudu kesip can havliyle camlara koştu.
 
 340
 00:27:33,231 --> 00:27:36,498
@@ -1403,7 +1403,7 @@ O elinde sopalar olan ve bize hücum eden insanları içeriye aldı.
 
 350
 00:28:27,317 --> 00:28:30,454
-> Şimdi yanan yanmış, kurtulan kurtulmuş,
+{Şimdi yanan yanmış, kurtulan kurtulmuş,
 
 351
 00:28:30,554 --> 00:28:33,961
@@ -1499,7 +1499,7 @@ bir duman içerisinde kendimizi bulduk.
 
 374
 00:30:06,056 --> 00:30:09,617
-> Hava kararmış itfaiye yangını söndürmeye başlamıştı.
+{Hava kararmış itfaiye yangını söndürmeye başlamıştı.
 
 375
 00:30:09,717 --> 00:30:12,415
@@ -1552,7 +1552,7 @@ Ve “Kurtarmayın!” diyor.
 
 387
 00:31:01,581 --> 00:31:03,880
-> Aşağıdakiler Nesin'i tanımışlardı.
+{Aşağıdakiler Nesin'i tanımışlardı.
 
 388
 00:31:03,980 --> 00:31:07,094
@@ -1660,7 +1660,7 @@ saldırganların elinden kurtardı.
 
 414
 00:32:54,785 --> 00:32:57,847
-> Aziz Nesin ömrü boyunca kaçtığı polise ait
+{Aziz Nesin ömrü boyunca kaçtığı polise ait
 
 415
 00:32:57,947 --> 00:33:01,009
@@ -1712,7 +1712,7 @@ Bir yeşil bayrağı da asacaklar yukarı, yani bunun başka sonucu yok.
 
 427
 00:33:50,453 --> 00:33:53,865
-> Saat 20:40'ta “Vali istifa!” diye bağıran göstericiler
+{Saat 20:40'ta “Vali istifa!” diye bağıran göstericiler
 
 428
 00:33:53,965 --> 00:33:56,848
@@ -1740,7 +1740,7 @@ onlarla mücadele etmeye yetmeyecekti.
 
 434
 00:34:18,635 --> 00:34:22,952
-> İşte umutların tamamen tükendiği ve intiharın düşünüldüğü o anda
+{İşte umutların tamamen tükendiği ve intiharın düşünüldüğü o anda
 
 435
 00:34:23,052 --> 00:34:26,163
@@ -1776,7 +1776,7 @@ Kademe kademe, kademe kademe... gerilediler.
 
 443
 00:34:57,285 --> 00:35:01,978
-> 18 er bir valiyle ekibini lincin elinden kurtarmıştı.
+{18 er bir valiyle ekibini lincin elinden kurtarmıştı.
 
 444
 00:35:02,078 --> 00:35:06,148
@@ -1796,7 +1796,7 @@ tarihe bir katliamın adresi olarak kaydolmuştu.
 
 448
 00:35:24,590 --> 00:35:27,450
-> Gece sokağa çıkma yasağı ilan edilip
+{Gece sokağa çıkma yasağı ilan edilip
 
 449
 00:35:27,550 --> 00:35:30,239
@@ -1992,7 +1992,7 @@ Sünniler Alevilere, Aleviler Sünnilere.
 
 497
 00:38:07,427 --> 00:38:10,358
-> Madımak cehenneminden kurtulanlara gelince,
+{Madımak cehenneminden kurtulanlara gelince,
 
 498
 00:38:10,458 --> 00:38:14,001
@@ -2056,7 +2056,7 @@ Hayatımın en berbat gecesiydi.
 
 513
 00:39:16,428 --> 00:39:19,683
-> Asıl korkunç manzara hastanedeydi.
+{Asıl korkunç manzara hastanedeydi.
 
 514
 00:39:19,783 --> 00:39:23,200
@@ -2082,7 +2082,7 @@ Müzik: Onno Tunç
 
 519
 00:39:44,274 --> 00:39:47,935
-> Şair Metin Altıok'un görüntüsü Sivas gerçeğini,
+{Şair Metin Altıok'un görüntüsü Sivas gerçeğini,
 
 520
 00:39:48,035 --> 00:39:51,436
@@ -2134,7 +2134,7 @@ insanlığımızdan birşeyler bırakmak gibiydi.
 
 532
 00:40:45,874 --> 00:40:49,124
-> Başbakan yardımcısı Erdal İnönü, ertesi gün
+{Başbakan yardımcısı Erdal İnönü, ertesi gün
 
 533
 00:40:49,224 --> 00:40:52,174

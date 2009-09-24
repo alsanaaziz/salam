@@ -1,6 +1,6 @@
 1
 00:00:00,000 --> 00:00:02,870
-> In der Geschichte der Türkei gab es derart kritische Tage,
+{In der Geschichte der Türkei gab es derart kritische Tage,
 
 2
 00:00:02,970 --> 00:00:04,933
@@ -16,7 +16,7 @@ so würden wir in einem anderen Land leben.
 
 5
 00:00:09,513 --> 00:00:13,104
-Manchmal prägte sich e. Wahl, e. Attentat, e. Unfall
+Manchmal prägte sich eine Wahl, ein Attentat, ein Unfall
 
 6
 00:00:13,204 --> 00:00:15,084
@@ -44,7 +44,7 @@ Jene Tage änderten nicht nur die Entwicklung des Landes,
 
 12
 00:00:30,217 --> 00:00:33,766
-sondern auch den Verlauf der Geschichte u. unser Schicksal.
+sondern auch den Verlauf der Geschichte und unser Schicksal.
 
 13
 00:00:33,866 --> 00:00:37,761
@@ -57,7 +57,7 @@ youtube.com/user/AlsanaAziz
 
 15
 00:01:42,589 --> 00:01:46,151
-> Vor dem Sivasmassaker erlebte die Türkei einen heißen Sommer.
+{Vor dem Sivasmassaker erlebte die Türkei einen heißen Sommer.
 
 16
 00:01:46,251 --> 00:01:50,717
@@ -73,11 +73,11 @@ Am 26. Mai unternahm Aziz Nesin etwas Gefährliches.
 
 19
 00:01:57,839 --> 00:02:01,790
-„Die satanischen Verse“ v. Rushdie erzürnte die islam. Welt, da es
+„Die satanischen Verse“ von Rushdie erzürnte die islam. Welt, da es
 
 20
 00:02:01,890 --> 00:02:07,093
-Beleidigungen gegen Mohammed u. den Koran beinhaltete. Im Namen d. Meinungsfreiheit
+Beleidigungen gegen Mohammed und den Koran beinhaltete. Im Namen der Meinungsfreiheit
 
 21
 00:02:07,193 --> 00:02:12,290
@@ -89,7 +89,7 @@ Diese Tätigkeit führte zu landesweiten Protesten.
 
 23
 00:02:16,633 --> 00:02:22,631
-Am 25. Juni kam die DYP-SHP-Regierung v. Tansu Çiller ins Amt.
+Am 25. Juni kam die DYP-SHP-Regierung von Tansu Çiller ins Amt.
 
 24
 00:02:22,731 --> 00:02:25,522
@@ -109,7 +109,7 @@ Das Ziel der Islamisten war Aziz Nesin, der Hauptgast der Feste.
 
 28
 00:02:37,196 --> 00:02:40,901
-Bei d. Eröffnung hielt er e. lange Rede, auch der Gouv. war anwesend.
+Bei der Eröffnung hielt er eine lange Rede, auch der Gouv. war anwesend.
 
 29
 00:02:41,001 --> 00:02:45,860
@@ -117,7 +117,7 @@ Während er redete wurden draußen Zettel verteilt (Titel: „An die muslim. Öf
 
 30
 00:02:45,960 --> 00:02:50,129
-worin stand: „Es ist Tag d. Abrechnung der Blasphemiker.“
+worin stand: „Es ist Tag der Abrechnung der Blasphemiker.“
 
 31
 00:02:50,229 --> 00:02:53,815
@@ -135,7 +135,7 @@ Dieser Tag war der 2. Juli.
 
 34
 00:03:06,950 --> 00:03:10,600
-> 2. Juli: In Sivas begann der Freitagmorgen friedlich.
+{2. Juli: In Sivas begann der Freitagmorgen friedlich.
 
 35
 00:03:10,700 --> 00:03:14,804
@@ -143,7 +143,7 @@ Um 10:00 in der Buruciye-Medrese neben dem Doppel-Minarett
 
 36
 00:03:14,904 --> 00:03:20,785
-gaben am Fest teilnehmende Authoren Autogramme u. Interviews.
+gaben am Fest teilnehmende Authoren Autogramme und Interviews.
 
 37
 00:03:22,073 --> 00:03:24,733
@@ -155,7 +155,7 @@ Daneben unterhielten sich Metin Altıok, Uğur Kaynar
 
 39
 00:03:29,049 --> 00:03:32,603
-und Behçet Aysan. Asım Bezirci u. seine Freunde
+und Behçet Aysan. Asım Bezirci und seine Freunde
 
 40
 00:03:32,703 --> 00:03:35,849
@@ -187,7 +187,7 @@ für ein Interview, wo sich Aziz Nesin darüber beschwerte.
 
 47
 00:04:04,555 --> 00:04:09,752
-- Seht d. Werbung an: „Sie machen Propaganda im muslim. Viertel.“
+- Seht die Werbung an: „Sie machen Propaganda im muslim. Viertel.“
 
 48
 00:04:09,852 --> 00:04:12,781
@@ -195,7 +195,7 @@ So zu provozieren... das ist die eigentl. Provokation.
 
 49
 00:04:12,881 --> 00:04:16,429
-> Der İHA-Reporter sagte daraufhin, dass die muslim. Gemeinschaft
+{Der İHA-Reporter sagte daraufhin, dass die muslim. Gemeinschaft
 
 50
 00:04:16,529 --> 00:04:19,416
@@ -219,11 +219,11 @@ Ich muss kein Muslim sein,
 
 55
 00:04:30,037 --> 00:04:33,358
-aber ich habe Respekt vor Muslimen u. allen Religionen.
+aber ich habe Respekt vor Muslimen und allen Religionen.
 
 56
 00:04:33,458 --> 00:04:37,580
-> Die Unterhaltung ging in kurzer Zeit zu einem Streit über.
+{Die Unterhaltung ging in kurzer Zeit zu einem Streit über.
 
 57
 00:04:37,755 --> 00:04:41,564
@@ -261,7 +261,7 @@ Ich... also...
 
 65
 00:05:01,564 --> 00:05:05,102
-- Warum respektierst du d. Ansichten der Menschen nicht?
+- Warum respektierst du die Ansichten der Menschen nicht?
 - Das tue ich aber.
 
 66
@@ -270,7 +270,7 @@ Ich... also...
 
 67
 00:05:13,400 --> 00:05:16,330
-> Der Mittagsgebetsruf erklang in angespannter Atmosphäre.
+{Der Mittagsgebetsruf erklang in angespannter Atmosphäre.
 
 68
 00:05:16,430 --> 00:05:20,404
@@ -278,7 +278,7 @@ Während Aziz Nesin vom Polizeitschutz zum Madımakhotel gebracht wurde,
 
 69
 00:05:20,504 --> 00:05:25,424
-versammelte sich d. Menge auf der and. Seite des Doppel-Minaretts.
+versammelte sich die Menge auf der and. Seite des Doppel-Minaretts.
 
 70
 00:05:25,595 --> 00:05:29,585
@@ -290,7 +290,7 @@ Genau da geschah etwas, was die Spannung völlig erhöhte.
 
 72
 00:05:32,840 --> 00:05:38,429
-Die Dschan-Schauspieler luden mit Pauken zu e. Aufführung ein.
+Die Dschan-Schauspieler luden mit Pauken zu einer Aufführung ein.
 
 73
 00:05:38,529 --> 00:05:42,884
@@ -298,11 +298,11 @@ Die Dschan-Schauspieler luden mit Pauken zu e. Aufführung ein.
 
 74
 00:05:42,984 --> 00:05:59,065
--„...aus Nazım Hikmets Gedicht, ‚Hoffnung‘, wurde ein Stück vorbereitet!“
+- „...aus Nazım Hikmets Gedicht, ‚Hoffnung‘, wurde ein Stück vorbereitet!“
 
 75
 00:05:59,165 --> 00:06:01,867
-> Auf diese Einladung hin flüsterten Leute,
+{Auf diese Einladung hin flüsterten Leute,
 
 76
 00:06:01,967 --> 00:06:05,013
@@ -314,27 +314,27 @@ Moscheegemeinde: „Man versucht den Ezan zu übertönen.“
 
 78
 00:06:09,015 --> 00:06:11,893
-Ein Zivilkommissar kam u. warnte die Spieler.
+Ein Zivilkommissar kam und warnte die Spieler.
 
 79
 00:06:11,993 --> 00:06:18,416
-- „Die Pauke wird nicht geschlagen od. gespielt.“
+- „Die Pauke wird nicht geschlagen oder gespielt.“
 
 80
 00:06:19,609 --> 00:06:25,659
-- Er sagt also „gebt diesem Umfeld keinen Anlass; spielt d. Pauke nicht.“
+- „Er sagt also ‚gebt diesem Umfeld keinen Anlass; spielt die Pauke nicht.‘“
 
 81
 00:06:26,397 --> 00:06:30,089
-> Nachdem d. Spieler unter sich eine Besprechung abgehalten haben,
+{Nachdem die Spieler unter sich eine Besprechung abgehalten haben,
 
 82
 00:06:30,189 --> 00:06:34,083
-begannen sie zu spielen, u. sofort wuchs nebenan d. Zorn.
+begannen sie zu spielen, und sofort wuchs nebenan der Zorn.
 
 83
 00:06:34,183 --> 00:06:38,064
-Zum Gebet Vorbereitende gaben d. ersten Zeichen, für das was geschehen würde.
+Zum Gebet Vorbereitende gaben die ersten Zeichen, für das was geschehen würde.
 
 84
 00:06:38,164 --> 00:06:40,836
@@ -346,11 +346,11 @@ Hier hört man den Allahu-Akbar-Gesang, den Gebetsruf, und
 
 86
 00:06:46,040 --> 00:06:49,729
-dort d. Propaganda des Atheismus und Glaubenslosigkeit...
+dort die Propaganda des Atheismus und Glaubenslosigkeit...
 
 87
 00:06:49,829 --> 00:06:52,424
-Was da passieren kann, weiß ich nicht!
+Ich weiß nicht was da passieren kann!
 
 88
 00:06:52,524 --> 00:06:56,758
@@ -358,7 +358,7 @@ Was da passieren kann, weiß ich nicht!
 
 89
 00:07:01,770 --> 00:07:07,100
-> Nach dem Gebet vereinten sich plötzlich Leute aus der Paşa-, Meydan- u. Ulu-Moschee.
+{Nach dem Gebet vereinten sich plötzlich Leute aus der Paşa-, Meydan- und Ulu-Moschee.
 
 90
 00:07:07,200 --> 00:07:11,369
@@ -374,7 +374,7 @@ Eintausend, wütende Menschen begannen wie eine Sintflut zu strömen.
 
 93
 00:07:26,722 --> 00:07:32,980
-> Die Menge, die zum Gouverneursamt marschiert, wächst stetig.
+{Die Menge, die zum Gouverneursamt marschiert, wächst stetig.
 
 94
 00:07:33,080 --> 00:07:40,331
@@ -386,7 +386,7 @@ Eintausend, wütende Menschen begannen wie eine Sintflut zu strömen.
 
 96
 00:07:54,664 --> 00:07:59,284
-> Die Demonstr. trafen beim Bezirksplatz auf e. Polizeibarrikade.
+{Die Demonstranten trafen beim Bezirksplatz auf eine Polizeibarrikade.
 
 97
 00:07:59,384 --> 00:08:05,144
@@ -410,7 +410,7 @@ die vom Gebet kommenden Menschen, in dichter Form
 
 102
 00:08:19,939 --> 00:08:25,197
-u. Parolen rufend zum Regierungsgebäude marschierten.
+und Parolen rufend zum Regierungsgebäude marschierten.
 
 103
 00:08:25,297 --> 00:08:29,370
@@ -426,7 +426,7 @@ aber die Zahl stieg schnell an.
 
 106
 00:08:45,249 --> 00:08:48,366
-> Nach dem Gouverneursamt war das Ziel der Menge das Kulturzentrum.
+{Nach dem Gouverneursamt war das Ziel der Menge das Kulturzentrum.
 
 107
 00:08:48,466 --> 00:08:52,397
@@ -438,7 +438,7 @@ ging im Gedränge zum Marsch über.
 
 109
 00:08:55,520 --> 00:09:00,776
-Vor d. Zentrum stand die Statue der Barden – neu vom Kultusministerium.
+Vor dem Zentrum stand die Statue der Barden – neu vom Kultusministerium.
 
 110
 00:09:00,876 --> 00:09:06,265
@@ -474,7 +474,7 @@ Und sie machten selbst den Weg frei, als die Menschen angriffen.
 
 118
 00:09:41,266 --> 00:09:47,122
-- „Eine Respektlosigk. gegenüber d. Staat! Was ist das für e. Schande?
+- „Eine Respektlosigk. gegenüber dem Staat! Was ist das für eine Schande?
 
 119
 00:09:47,222 --> 00:09:52,754
@@ -482,7 +482,7 @@ Bin ich unter die Menge gegangen? Ich war auch Beamtin! Seit 25 Jahren...in dies
 
 120
 00:09:52,854 --> 00:09:55,897
-> Die Polizei war unzureichend. Gemäß Aufzeichnungen des
+{Die Polizei war unzureichend. Gemäß Aufzeichnungen des
 
 121
 00:09:55,997 --> 00:09:59,047
@@ -494,7 +494,7 @@ um 14:30 über Funk: „Was ist los mit dieser Brigade?“
 
 123
 00:10:02,249 --> 00:10:07,703
-Um 14:45 kamen 33 Soldaten u. blieben auf Distanz.
+Um 14:45 kamen 33 Soldaten und blieben auf Distanz.
 
 124
 00:10:07,803 --> 00:10:11,553
@@ -510,7 +510,7 @@ Vielleicht haben sie Erfolg.
 
 127
 00:10:18,984 --> 00:10:22,827
-Mit diesem Verständnis warten sie, sie warten u. warten...
+Mit diesem Verständnis warten sie, sie warten und warten...
 
 128
 00:10:22,927 --> 00:10:26,183
@@ -526,7 +526,7 @@ Auch das sehe ich als gegeben an.
 
 131
 00:10:32,340 --> 00:10:36,552
-> Später rief Innenminister Mehmet Gazioğlu den Gouv. an, der Verstärkung wollte.
+{Später rief Innenminister Mehmet Gazioğlu den Gouv. an, der Verstärkung wollte.
 
 132
 00:10:36,652 --> 00:10:39,875
@@ -618,7 +618,7 @@ Ich nehme an in dieser Gemütsruhe vertiefte sich der Minister in andere Arbeit.
 
 154
 00:11:59,423 --> 00:12:04,003
-> Als die Verstärkung nicht kam, begann die Menge das Bardendenkmal zu steinigen.
+{Als die Verstärkung nicht kam, begann die Menge das Bardendenkmal zu steinigen.
 
 155
 00:12:04,103 --> 00:12:08,852
@@ -662,7 +662,7 @@ Größtenteils war meine Rede wirksam.
 
 165
 00:12:47,132 --> 00:12:50,078
-> Nach dieser Rede schien sich d. Menge aufzulösen.
+{Nach dieser Rede schien sich die Menge aufzulösen.
 
 166
 00:12:50,178 --> 00:12:54,155
@@ -674,7 +674,7 @@ doch um 16:00 Uhr änderte sich die Situation.
 
 168
 00:12:57,859 --> 00:13:02,895
-Der Wendepunkt d. Ereignisse war in diesem Moment.
+Der Wendepunkt der Ereignisse war in diesem Moment.
 
 169
 00:13:03,465 --> 00:13:06,488
@@ -682,7 +682,7 @@ Der Wendepunkt d. Ereignisse war in diesem Moment.
 
 170
 00:13:06,588 --> 00:13:11,674
-Gruppen lösten sich auf, gingen zur Arbeit od. nach Hause,
+Gruppen lösten sich auf, gingen zur Arbeit oder nach Hause,
 
 171
 00:13:11,774 --> 00:13:16,957
@@ -694,11 +694,11 @@ Sie wurden nach Madımak umgeleitet.
 
 173
 00:13:20,504 --> 00:13:24,800
-> Laut Aufzeichnungen rief d. Polizeipräs. den Gouv. an, u. sagte
+{Laut Aufzeichnungen rief der Polizeipräs. den Gouv. an, u. sagte
 
 174
 00:13:24,900 --> 00:13:28,910
-die Zahl d. Menge vor dem Madımakhotel ist auf 5000 angestiegen.
+die Zahl der Menge vor dem Madımakhotel ist auf 5000 angestiegen.
 
 175
 00:13:29,010 --> 00:13:31,833
@@ -726,7 +726,7 @@ in der Geschichte der Republik bevor.
 
 181
 00:14:09,436 --> 00:14:14,900
-> Es wurde Abend in Sivas u. die Demonstr. kamen zur letzten Station, das Madımakhotel.
+{Es wurde Abend in Sivas u. die Demonstr. kamen zur letzten Station, das Madımakhotel.
 
 182
 00:14:15,000 --> 00:14:17,350
@@ -746,11 +746,11 @@ Mit anti-laizistischen und pro-Schariah Parolen
 
 186
 00:14:36,150 --> 00:14:41,936
-hat die Menge gezeigt was ihre wahren Absichten u. Ziele waren.
+hat die Menge gezeigt was ihre wahren Absichten und Ziele waren.
 
 187
 00:14:47,533 --> 00:14:52,040
-> Jetzt waren Aziz Nesin und seine Freunde völlig belagert.
+{Jetzt waren Aziz Nesin und seine Freunde völlig belagert.
 
 188
 00:14:52,140 --> 00:14:55,700
@@ -790,7 +790,7 @@ Die Pflastersteine waren abgeladen und lagen dort wie zuvor.
 
 197
 00:15:36,104 --> 00:15:40,723
-Kinder u. Jugendliche sind johlend, rufend weggelaufen.
+Kinder und Jugendliche sind johlend, rufend weggelaufen.
 
 198
 00:15:40,823 --> 00:15:48,387
@@ -806,7 +806,7 @@ haben wir uns im Treppenhaus wie eine Traubendolde versammelt.
 
 201
 00:16:02,328 --> 00:16:08,460
-u. wie Leute herauskamen und mit Dachziegeln geworfen haben.
+und wie Leute herauskamen und mit Dachziegeln geworfen haben.
 
 202
 00:16:08,560 --> 00:16:14,824
@@ -822,7 +822,7 @@ Wir waren wie eingesperrt. Wir hatten keinen Kontakt zur Welt.
 
 205
 00:16:23,587 --> 00:16:26,650
-> Das einzige Kontaktmittel zur Außenwelt war nur noch das Telefon.
+{Das einzige Kontaktmittel zur Außenwelt war nur noch das Telefon.
 
 206
 00:16:26,750 --> 00:16:30,266
@@ -846,7 +846,7 @@ Aziz Nesin unterhielt sich mit İnönü.
 
 211
 00:16:47,631 --> 00:16:51,741
-der Parolen u. das Knallen der Steine an den Fenstern sie erreicht.“
+der Parolen und das Knallen der Steine an den Fenstern sie erreicht.“
 
 212
 00:16:51,841 --> 00:16:56,826
@@ -874,7 +874,7 @@ Danach rief ich den Gouv. an. Er sagte jedesmal: „Ja, wir werden es kontrollie
 
 218
 00:17:14,380 --> 00:17:18,304
-> Während Erdal İnönü mit zerstreuten Sorgen zum Ankaraflug ging,
+{Während Erdal İnönü mit zerstreuten Sorgen zum Ankaraflug ging,
 
 219
 00:17:18,404 --> 00:17:21,857
@@ -882,7 +882,7 @@ dauerte die hoffnungsvolle Warterei im Madımakhotel an.
 
 220
 00:17:21,957 --> 00:17:26,551
-„Früher od. später werden sie kommen,“ dachten sie.
+„Früher oder später werden sie kommen,“ dachten sie.
 
 221
 00:17:26,726 --> 00:17:31,807
@@ -926,7 +926,7 @@ verschlimmern und jemandem passiert etwas, was machen wir dann?“
 
 231
 00:18:27,088 --> 00:18:33,234
-> Laut Aufzeichnungen standen um 18 Uhr 15000 Demonstranten vor dem Madımakhotel.
+{Laut Aufzeichnungen standen um 18 Uhr 15000 Demonstranten vor dem Madımakhotel.
 
 232
 00:18:33,334 --> 00:18:37,469
@@ -934,7 +934,7 @@ Die Polizei konnte nicht mehr standhalten.
 
 233
 00:18:38,569 --> 00:18:45,013
-- 5 Std. lang verhinderte die Polizei u. Gendarmerie den Eintritt der Angreifer ins Hotel.
+- 5 Std. lang verhinderte die Polizei und Gendarmerie den Eintritt der Angreifer ins Hotel.
 
 234
 00:18:45,113 --> 00:18:51,032
@@ -970,7 +970,7 @@ Wir haben unseren Unmut zur Genüge gezeigt.“
 
 242
 00:19:20,000 --> 00:19:24,951
-> Auf den Wunsch des Gouv. hin haben der Bürgermeister und der BBP-Landrat
+{Auf den Wunsch des Gouv. hin haben der Bürgermeister und der BBP-Landrat
 
 243
 00:19:25,051 --> 00:19:29,979
@@ -1030,7 +1030,7 @@ Nun kann man den Tag beginnen, indem man
 
 257
 00:20:31,944 --> 00:20:36,631
-„gesegnetes Freitagsgebet“ sagt, um mit dem Volk e. Dialog zu beginnen,
+„gesegnetes Freitagsgebet“ sagt, um mit dem Volk einen Dialog zu beginnen,
 
 258
 00:20:36,731 --> 00:20:40,720
@@ -1038,7 +1038,7 @@ doch worüber soll man einen gesegneten Jihad wünschen?
 
 259
 00:20:40,820 --> 00:20:44,273
-> Gouv. Karabilgin sprach mit Tansu Çiller – erst seit 2 Wochen Ministerpräsidentin.
+{Gouv. Karabilgin sprach mit Tansu Çiller – erst seit 2 Wochen Ministerpräsidentin.
 
 260
 00:20:44,373 --> 00:20:49,547
@@ -1062,7 +1062,7 @@ in dieser Art sagte die Ministerpräsidentin ein paar Worte.
 
 265
 00:21:08,053 --> 00:21:10,249
-> Jedoch war es schon viel zu spät.
+{Jedoch war es schon viel zu spät.
 
 266
 00:21:10,349 --> 00:21:14,821
@@ -1094,7 +1094,7 @@ Von nun an würde nur noch die Denkweise des Mobs sprechen.
 
 273
 00:21:54,327 --> 00:21:57,142
-> Am Abend um 7 Uhr redete Generalstabschef,
+{Am Abend um 7 Uhr redete Generalstabschef,
 
 274
 00:21:57,242 --> 00:22:00,066
@@ -1134,11 +1134,11 @@ Ich hielt den Hörer hoch. Der Brigadegeneral stand auf und nahm den Hörer.
 
 283
 00:22:30,048 --> 00:22:34,834
-„Zu Befehl, zu Befehl..., Herr Kommandant,“ sagte er, lag auf u. ging.
+„Zu Befehl, zu Befehl..., Herr Kommandant,“ sagte er, lag auf und ging.
 
 284
 00:22:39,894 --> 00:22:43,571
-> Generalstabschef Doğan Güneş sagte zum Garnisonskommandant
+{Generalstabschef Doğan Güneş sagte zum Garnisonskommandant
 
 285
 00:22:43,671 --> 00:22:47,474
@@ -1150,7 +1150,7 @@ Brigadegeneral Yücetürk erfuhr erst jetzt, dass
 
 287
 00:22:51,100 --> 00:22:54,570
-Aziz Nesin im Madımakhotel war u. begann zu handeln.
+Aziz Nesin im Madımakhotel war und begann zu handeln.
 
 288
 00:22:54,670 --> 00:22:59,111
@@ -1170,7 +1170,7 @@ zum Regierungsplatz, um beim Offizierskasino
 
 292
 00:23:14,199 --> 00:23:17,400
-schützende u. achtgebende Stellung zu beziehen.
+schützende und achtgebende Stellung zu beziehen.
 
 293
 00:23:17,500 --> 00:23:20,422
@@ -1202,7 +1202,7 @@ denn das waren risikolose Bereiche für die Soldaten.
 
 300
 00:23:50,472 --> 00:23:54,589
-> Etwas später kam eine kleine Brigade zum Platz vor dem Madımakhotel.
+{Etwas später kam eine kleine Brigade zum Platz vor dem Madımakhotel.
 
 301
 00:23:54,689 --> 00:24:00,112
@@ -1214,7 +1214,7 @@ Doch die Soldaten, die das Offiziersauto umgaben, erstarrten bei den ersten Paro
 
 303
 00:24:10,900 --> 00:24:15,602
-> Zwischen den Soldaten und dem Hotel befand sich eine Wand aus Fleisch u. Blut.
+{Zwischen den Soldaten und dem Hotel befand sich eine Wand aus Fleisch und Blut.
 
 304
 00:24:15,702 --> 00:24:20,387
@@ -1254,7 +1254,7 @@ Die wütende Menge änderte sofort ihren Ton.
 
 313
 00:25:01,663 --> 00:25:06,176
-> Als die Soldaten zurückwichen, wurden die Autos vor dem Hotel angezündet.
+{Als die Soldaten zurückwichen, wurden die Autos vor dem Hotel angezündet.
 
 314
 00:25:06,276 --> 00:25:12,395
@@ -1279,7 +1279,7 @@ Es war genau 19:50 Uhr. Die große Abrechnung pochte an der Türe.
 
 319
 00:25:47,234 --> 00:25:52,829
-> Für d. Leute drinnen gab es keine Rettung. Alles würde in 10 Min. zu Ende sein.
+{Für die Leute drinnen gab es keine Rettung. Alles würde in 10 Min. zu Ende sein.
 
 320
 00:25:55,136 --> 00:26:00,021
@@ -1311,15 +1311,15 @@ mit äußerst schwarzem und heißem Rauch,
 
 327
 00:26:25,751 --> 00:26:29,496
-vermischt mit dichtem Ruß u. scharlachroten Flammen,
+vermischt mit dichtem Ruß und scharlachroten Flammen,
 
 328
 00:26:29,596 --> 00:26:34,927
-umgab e. großes Feuer das Treppenhaus. Von unten nach oben
+umgab ein großes Feuer das Treppenhaus. Von unten nach oben
 
 329
 00:26:35,027 --> 00:26:40,114
-erhebt sie sich wie e. Drachenzunge, breitet sich zischend aus und explodiert.
+erhebt sie sich wie eine Drachenzunge, breitet sich zischend aus und explodiert.
 
 330
 00:26:44,975 --> 00:26:49,671
@@ -1335,11 +1335,11 @@ zum Dachgeschoß gehen mögen, um sich zu retten.
 
 333
 00:26:56,729 --> 00:27:01,827
-Doch nach 3 od. 5 Minuten hörten diese Schreie auf.
+Doch nach 3 oder 5 Minuten hörten diese Schreie auf.
 
 334
 00:27:06,346 --> 00:27:09,596
-> Dank der Holzdekoration im Hotel, breitete sich
+{Dank der Holzdekoration im Hotel, breitete sich
 
 335
 00:27:09,696 --> 00:27:12,946
@@ -1347,7 +1347,7 @@ das Feuer schnell aus und tötete was es berührte.
 
 336
 00:27:13,046 --> 00:27:18,541
-- Hätten wir in d. Moment eine Feuerwehr vor das Hotel bringen können,
+- Hätten wir in dem Moment eine Feuerwehr vor das Hotel bringen können,
 
 337
 00:27:18,641 --> 00:27:22,752
@@ -1355,11 +1355,11 @@ während die Autos brannten, so wäre das Hotel niemals verbrannt.
 
 338
 00:27:22,852 --> 00:27:27,266
-Ah, war die Feuerwehr denn gewillt? Sie war unwillig.
+Ah, war die Feuerwehr denn gewillt? Nein, sie war unwillig.
 
 339
 00:27:27,951 --> 00:27:33,131
-> Ohne Hoffnung in d. Feuerwehr, liefen am Ende jene im Hotel verzweifelt zu den Fenstern.
+{Ohne Hoffnung in die Feuerwehr, liefen am Ende jene im Hotel verzweifelt zu den Fenstern.
 
 340
 00:27:33,231 --> 00:27:36,498
@@ -1367,7 +1367,7 @@ Und sie sprangen in die Lücke zum Nachbargebäude.
 
 341
 00:27:36,598 --> 00:27:41,695
-31 Leute versuchten durch d. engen Gang vor dieser Hölle zu fliehen.
+31 Leute versuchten durch den engen Gang vor dieser Hölle zu fliehen.
 
 342
 00:27:41,795 --> 00:27:45,787
@@ -1375,7 +1375,7 @@ Doch im Gebäude gegenüber erwartete sie eine Überraschung.
 
 343
 00:27:45,887 --> 00:27:50,867
-Der Ort zu dem sie flohen, war das Bezirkszentrum d. BBP [Große Einheitsp.]
+Der Ort zu dem sie flohen, war das Bezirkszentrum der BBP [Große Einheitsp.]
 
 344
 00:27:52,901 --> 00:27:57,066
@@ -1383,7 +1383,7 @@ Der Ort zu dem sie flohen, war das Bezirkszentrum d. BBP [Große Einheitsp.]
 
 345
 00:27:57,166 --> 00:28:07,247
-sie schimpften u. versuchten die Rettung suchenden Menschen zu schlagen.
+sie schimpften und versuchten die Rettung suchenden Menschen zu schlagen.
 
 346
 00:28:07,347 --> 00:28:11,961
@@ -1391,7 +1391,7 @@ Sie sagten zu uns: „Geht, verbrennt und krepiert!“
 
 347
 00:28:12,061 --> 00:28:16,560
-- Eine Weile später kam ein Mann mittleren Alters u. Größe heraus aufs Balkon.
+- Eine Weile später kam ein Mann mittleren Alters und Größe heraus aufs Balkon.
 
 348
 00:28:16,660 --> 00:28:21,947
@@ -1403,7 +1403,7 @@ Er nahm die Menschen herein, die uns mit Stöcken angriffen.
 
 350
 00:28:27,317 --> 00:28:30,454
-> Jetzt sind die Opfer verbrannt u. Überlebenden gerettet,
+{Jetzt sind die Opfer verbrannt und Überlebenden gerettet,
 
 351
 00:28:30,554 --> 00:28:33,961
@@ -1415,7 +1415,7 @@ in seinem Zimmer, belagert, zusammen mit Lütfi Kaleli.
 
 353
 00:28:38,084 --> 00:28:42,822
-Die Trauer um Sivas hielt noch an u. der 78 jährige Aziz Nesin
+Die Trauer um Sivas hielt noch an und der 78 jährige Aziz Nesin
 
 354
 00:28:42,922 --> 00:28:47,041
@@ -1439,7 +1439,7 @@ Ich sagte: „Wir werden eben sterben. Es gibt keinen Ausweg, keine Rettung.“
 
 359
 00:29:05,020 --> 00:29:08,618
-Doch dieser mutige Mensch sagt genau dieses zu mir:
+Doch dieser mutige Mensch sagte genau dieses zu mir:
 
 360
 00:29:08,718 --> 00:29:13,522
@@ -1451,11 +1451,11 @@ Geben wir diesem Pack keine entsetzliche Leiche.“
 
 362
 00:29:18,623 --> 00:29:22,654
-- Was ich dachte war folgendes. Meine Verfassung ist so schlecht,
+- Was ich dachte war folgendes. Meine Verfassung war so schlecht,
 
 363
 00:29:22,754 --> 00:29:26,885
-ich dachte ich will nicht in e. ängstlichen Haltung sterben.
+ich wollte vermeiden in einer ängstlichen Haltung zu sterben.
 
 364
 00:29:26,985 --> 00:29:29,578
@@ -1467,7 +1467,7 @@ Wegen dem Rauch windete ich mich, ich kämpfte dagegen.
 
 366
 00:29:33,802 --> 00:29:38,326
-Nur möchte ich nicht in einer Ecke gekauert sterben.
+Nur wollte ich nicht in einer Ecke gekauert sterben.
 
 367
 00:29:42,326 --> 00:29:45,168
@@ -1491,7 +1491,7 @@ Ich öffnete die Tür und wir fanden uns in einer
 
 372
 00:29:57,308 --> 00:30:00,393
-enormen Feuerhitze u. einem dichten Rauch wieder,
+enormen Feuerhitze und einem dichten Rauch wieder,
 
 373
 00:30:00,493 --> 00:30:03,660
@@ -1499,7 +1499,7 @@ in dem man die Hand vor Augen nicht sehen konnte.
 
 374
 00:30:06,056 --> 00:30:09,617
-> Es wurde dunkel u. die Feuerwehr begann den Brand zu löschen.
+{Es wurde dunkel und die Feuerwehr begann den Brand zu löschen.
 
 375
 00:30:09,717 --> 00:30:12,415
@@ -1552,7 +1552,7 @@ und er sagt: „Rettet ihn nicht!“
 
 387
 00:31:01,581 --> 00:31:03,880
-> Die Untenstehenden haben Nesin erkannt.
+{Die Untenstehenden haben Nesin erkannt.
 
 388
 00:31:03,980 --> 00:31:07,094
@@ -1560,7 +1560,7 @@ Die Beute, hinter der sie her waren, war dabei runterzukommen.
 
 389
 00:31:07,194 --> 00:31:10,129
-Cafer Özçakmak – Stadtrats- u. Refah-Parteimitglied –
+Cafer Özçakmak – Stadtrats- und Refah-Parteimitglied –
 
 390
 00:31:10,229 --> 00:31:12,237
@@ -1576,7 +1576,7 @@ Der Feuerwehrmann, der zur Rettung kam, schimpfte und ging zurück.
 
 393
 00:31:19,134 --> 00:31:24,848
-Aziz Nesin u. Lütfi Kaleli waren nun völlig allein und ihrem Schicksal überlassen.
+Aziz Nesin und Lütfi Kaleli waren nun völlig allein und ihrem Schicksal überlassen.
 
 394
 00:31:24,948 --> 00:31:28,633
@@ -1660,7 +1660,7 @@ aus den Fängen der Angreifer.
 
 414
 00:32:54,785 --> 00:32:57,847
-> Aziz Nesin wurde ins Hospital gebracht, mit einem
+{Aziz Nesin wurde ins Hospital gebracht, mit einem
 
 415
 00:32:57,947 --> 00:33:01,009
@@ -1680,11 +1680,11 @@ und suchte sich ein neues Ziel: das Gouverneursamt.
 
 419
 00:33:16,621 --> 00:33:21,621
-3 Assistenten, d. Polizeipräsident, d. Gendarmeriekommandant,
+3 Assistenten, der Polizeipräsident, der Gendarmeriekommandant,
 
 420
 00:33:21,721 --> 00:33:26,563
-2 Bodyguards – die sind unten – u. mein Bürodiener. Sonst niemand.
+2 Bodyguards – die sind unten – und mein Bürodiener. Sonst niemand.
 
 421
 00:33:26,663 --> 00:33:31,618
@@ -1708,19 +1708,19 @@ Die Leute werden kommen und mich lynchen.
 
 426
 00:33:44,962 --> 00:33:49,541
-Und sie werden e. grüne Flagge hissen, das hat also keinen anderen Ausgang.
+Sie werden eine grüne Flagge hissen, das hat also keinen anderen Ausgang.
 
 427
 00:33:50,453 --> 00:33:53,865
-> Um 20:40 Uhr schrien Demonstranten „Gouverneur, tritt zurück!“ und
+{Um 20:40 Uhr schrien Demonstranten „Gouverneur, tritt zurück!“ und
 
 428
 00:33:53,965 --> 00:33:56,848
-schlugen die Gebäudefenster ein u. pochten an der Türe.
+schlugen die Gebäudefenster ein und pochten an der Türe.
 
 429
 00:33:56,948 --> 00:34:00,559
-Gouv. Karabiligin sagte zu d. Anwesenden: „Das ist unser Ende.“
+Gouv. Karabiligin sagte zu den Anwesenden: „Das ist unser Ende.“
 
 430
 00:34:00,659 --> 00:34:06,117
@@ -1728,7 +1728,7 @@ Doch anstelle gelyncht zu werden, dachte er kurz an Suizid.
 
 431
 00:34:06,217 --> 00:34:10,848
-- Ich hatte nie e. Waffe, aber irgendwas musste getan werden.
+- Ich hatte nie eine Waffe, aber irgendwas musste getan werden.
 
 432
 00:34:10,948 --> 00:34:14,613
@@ -1740,7 +1740,7 @@ Kraft nicht reichen um sie zu bekämpfen.
 
 434
 00:34:18,635 --> 00:34:22,952
-> In dem Moment, wo alle Hoffnung versagte u. an Suizid gedacht wurde
+{In dem Moment, wo alle Hoffnung versagte und an Suizid gedacht wurde
 
 435
 00:34:23,052 --> 00:34:26,163
@@ -1752,11 +1752,11 @@ dass er ein 18-Mann starkes Ersatzteam habe.
 
 437
 00:34:29,648 --> 00:34:33,453
-- „Ich gebe d. Befehl hierher zu kommen, schießend sollen sie kommen.“
+- „Ich gebe den Befehl hierher zu kommen, schießend sollen sie kommen.“
 
 438
 00:34:33,553 --> 00:34:36,869
-„Ich gebe d. Befehl,“ sagte er. „Machen sie das,“ sagte ich.
+„Ich gebe den Befehl,“ sagte er. „Machen sie das,“ sagte ich.
 
 439
 00:34:36,969 --> 00:34:41,828
@@ -1776,7 +1776,7 @@ Schritt für Schritt, Schritt für Schritt... kamen sie.
 
 443
 00:34:57,285 --> 00:35:01,978
-> 18 Soldaten retteten den Gouverneur vor dem Lynchmord.
+{18 Soldaten retteten den Gouverneur vor dem Lynchmord.
 
 444
 00:35:02,078 --> 00:35:06,148
@@ -1796,7 +1796,7 @@ Sivas ging als Adresse eines Massakers in die Geschichte ein.
 
 448
 00:35:24,590 --> 00:35:27,450
-> Für die Nacht wurde Ausgangsverbot erteilt und
+{Für die Nacht wurde Ausgangsverbot erteilt und
 
 449
 00:35:27,550 --> 00:35:30,239
@@ -1816,7 +1816,7 @@ Mit dem Tod Metin Altıoks würde die Totenzahl auf 37 steigen.
 
 453
 00:35:42,012 --> 00:35:47,040
-Unter den Toten waren 2 Demonstranten u. 2 Hotelarbeiter.
+Unter den Toten waren 2 Demonstranten und 2 Hotelarbeiter.
 
 454
 00:35:47,085 --> 00:35:51,339
@@ -1836,11 +1836,11 @@ berichteten von diesem tragischen Ereignis.
 
 458
 00:35:59,969 --> 00:36:02,787
-Sie sagten dort gab es e. Brand und wertvolle Menschen
+Sie sagten dort gab es einen Brand und wertvolle Menschen
 
 459
 00:36:02,887 --> 00:36:05,411
-sind durch Erstickung u. Verbrennung gestorben.
+sind durch Erstickung und Verbrennung gestorben.
 
 460
 00:36:05,511 --> 00:36:08,157
@@ -1928,7 +1928,7 @@ Denn dann wäre ein viel schlimmerer Vorfall passiert.
 
 481
 00:37:15,902 --> 00:37:20,745
-denn dass e. Brand vorher schon geplant wurde, war mir unbekannt.
+denn dass ein Brand vorher schon geplant wurde, war mir unbekannt.
 
 482
 00:37:20,845 --> 00:37:23,905
@@ -1968,11 +1968,11 @@ auch vielleicht einen religiösen Konflikt gab.
 
 491
 00:37:49,569 --> 00:37:51,910
-Man kam zur gegenteiligen Überzeugung.
+Er kam zur gegenteiligen Überzeugung.
 
 492
 00:37:52,010 --> 00:37:55,002
-Zu mir sagte er auch: „Ich suchte, u. so sah es nicht aus.“
+Zu mir sagte er auch: „Ich suchte, und so sah es nicht aus.“
 
 493
 00:37:55,102 --> 00:37:57,578
@@ -1992,7 +1992,7 @@ Sunniten gegen Aleviten, Aleviten gegen Sunniten.
 
 497
 00:38:07,427 --> 00:38:10,358
-> Was die Überlebenden der Madımakhölle angeht,
+{Was die Überlebenden der Madımakhölle angeht,
 
 498
 00:38:10,458 --> 00:38:14,001
@@ -2008,7 +2008,7 @@ aus den TV-Nachrichten. Es stürzte sie ins Entsetzen.
 
 501
 00:38:22,013 --> 00:38:27,325
-- „Das v. Demonstranten angezünd. Madımakhotel begann im Verlauf d. Ereignisse zu brennen.
+- „Das von Demonstranten angezünd. Madımakhotel begann im Verlauf der Ereignisse zu brennen.
 
 502
 00:38:27,425 --> 00:38:30,109
@@ -2016,7 +2016,7 @@ Es wurde bekannt gegeben, dass während des Brandes, laut
 
 503
 00:38:30,209 --> 00:38:33,009
-ersten Ermittlungen, 37 Leute gestorben sind u. 60 verletzt wurden.“
+ersten Ermittlungen, 37 Leute gestorben sind und 60 verletzt wurden.“
 
 504
 00:38:33,109 --> 00:38:37,930
@@ -2056,11 +2056,11 @@ Es war die schlimmste Nacht meines Lebens.
 
 513
 00:39:16,428 --> 00:39:19,683
-> Das eigentlich grauenhafte Bild war im Hospital zu sehen.
+{Das eigentlich grauenhafte Bild war im Hospital zu sehen.
 
 514
 00:39:19,783 --> 00:39:23,200
-Die durch schwarzen Rauch vergifteten od. verbrannten Menschen,
+Die durch schwarzen Rauch vergifteten oder verbrannten Menschen,
 
 515
 00:39:23,300 --> 00:39:28,003
@@ -2068,7 +2068,7 @@ beendigten ihren morgens mit Halay-Tänzen begonnenen Tag
 
 516
 00:39:28,103 --> 00:39:32,883
-als Leichen nebeneinan. gereiht in e. kalten Leichenhalle.
+als Leichen nebeneinander gereiht in einer kalten Leichenhalle.
 
 517
 00:39:32,983 --> 00:39:38,458
@@ -2082,11 +2082,11 @@ Musik: Onno Tunç
 
 519
 00:39:44,274 --> 00:39:47,935
-> Die Ansicht des Dichters Metin Altıok beschrieb die
+{Die Ansicht des Dichters Metin Altıok beschrieb die
 
 520
 00:39:48,035 --> 00:39:51,436
-Wirklichk. von Sivas vielleicht besser als tausend Worte.
+Wirklichkeit von Sivas vielleicht besser als tausend Worte.
 
 521
 00:39:51,536 --> 00:39:54,515
@@ -2134,7 +2134,7 @@ unserem Ansehen, unserer Menschlichkeit aufgeben würden.
 
 532
 00:40:45,874 --> 00:40:49,124
-> Vize-Ministerpräsident Erdal İnönü ging am nächs. Tag
+{Vize-Ministerpräsident Erdal İnönü ging am nächsten Tag
 
 533
 00:40:49,224 --> 00:40:52,174
@@ -2154,15 +2154,15 @@ wurde zu einer großen Protestdemonstration.
 
 537
 00:41:04,012 --> 00:41:07,513
-Erdal İnönü u. die Regierung wurden zum Rücktritt aufgefordert.
+Erdal İnönü und die Regierung wurden zum Rücktritt aufgefordert.
 
 538
 00:41:07,613 --> 00:41:11,071
-Gouverneur, Bürgerm. und Polizeipräs. wurden vom Amt abgesetzt.
+Gouverneur, Bürgermeister und Polizeipräsident wurden vom Amt abgesetzt.
 
 539
 00:41:11,171 --> 00:41:15,690
-Im Oktober 1993 begann mit 124 Angekl. der Sivasprozess,
+Im Oktober 1993 begann mit 124 Angeklagten der Sivasprozess,
 
 540
 00:41:15,790 --> 00:41:20,735
@@ -2174,15 +2174,15 @@ der mehrmals gestört wurde, aber im Juli 2001 endete.
 
 542
 00:41:25,045 --> 00:41:28,342
-Der Generalstab leitete e. Untersuchung ein. Ergebnis:
+Der Generalstab leitete eine Untersuchung ein. Ergebnis:
 
 543
 00:41:28,442 --> 00:41:31,538
-Keine Fahrlässigk. seitens des Garnisonskommandanten.
+Keine Fahrlässigkeit seitens des Garnisonskommandanten.
 
 544
 00:41:31,638 --> 00:41:35,496
-Was Bürgerm. Temel Karamollaoğlu betrifft,
+Was Bürgermeister Temel Karamollaoğlu betrifft,
 
 545
 00:41:35,596 --> 00:41:41,159

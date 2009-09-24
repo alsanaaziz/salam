@@ -1,6 +1,6 @@
 1
 00:00:00,000 --> 00:00:02,870
-> In Turkey's history there were such critical days,
+{In Turkey's history there were such critical days,
 
 2
 00:00:02,970 --> 00:00:04,933
@@ -58,7 +58,7 @@ youtube.com/user/AlsanaAziz
 
 15
 00:01:42,589 --> 00:01:46,151
-> Before the Sivas Massacre, Turkey experienced a hot summer.
+{Before the Sivas Massacre, Turkey experienced a hot summer.
 
 16
 00:01:46,251 --> 00:01:50,717
@@ -136,7 +136,7 @@ That day was the 2nd of July.
 
 34
 00:03:06,950 --> 00:03:10,600
-> On 2 July, Friday morning started peacefully in Sivas.
+{On 2 July, Friday morning started peacefully in Sivas.
 
 35
 00:03:10,700 --> 00:03:14,804
@@ -196,7 +196,7 @@ Provoking like that... this is the real provocation.
 
 49
 00:04:12,881 --> 00:04:16,429
-> The İHA reporter said that the Muslim community was
+{The İHA reporter said that the Muslim community was
 
 50
 00:04:16,529 --> 00:04:19,416
@@ -224,7 +224,7 @@ but I have respect for Muslims and all religions.
 
 56
 00:04:33,458 --> 00:04:37,580
-> Soon the interview devolved into a quarrel.
+{Soon the interview devolved into a quarrel.
 
 57
 00:04:37,755 --> 00:04:41,564
@@ -271,7 +271,7 @@ I... well...
 
 67
 00:05:13,400 --> 00:05:16,330
-> The call to prayer resounded in a tense atmosphere at noon.
+{The call to prayer resounded in a tense atmosphere at noon.
 
 68
 00:05:16,430 --> 00:05:20,404
@@ -303,7 +303,7 @@ Djan Festival players were beating the drums and calling for a play.
 
 75
 00:05:59,165 --> 00:06:01,867
-> Upon this invitation with drums,
+{Upon this invitation with drums,
 
 76
 00:06:01,967 --> 00:06:05,013
@@ -323,11 +323,11 @@ A plainclothes policeman came and warned the players.
 
 80
 00:06:19,609 --> 00:06:25,659
-- So he says: “Don't give these people a reason. Don't beat the drums.”
+- “So he says: ‘Don't give these people a reason. Don't beat the drums.’”
 
 81
 00:06:26,397 --> 00:06:30,089
-After the players evaluated the situation together,
+{After the players evaluated the situation together,
 
 82
 00:06:30,189 --> 00:06:34,083
@@ -359,7 +359,7 @@ I don't know what will happen.
 
 89
 00:07:01,770 --> 00:07:07,100
-After the prayer, the congegrations of three mosques flocked together.
+{After the prayer, the congegrations of three mosques flocked together.
 
 90
 00:07:07,200 --> 00:07:11,369
@@ -375,7 +375,7 @@ Suddenly thousands of furious people began to pour like a flood.
 
 93
 00:07:26,722 --> 00:07:32,980
-> Coming from everywhere, the growing crowd walked towards the gov. building.
+{Coming from everywhere, the growing crowd walked towards the gov. building.
 
 94
 00:07:33,080 --> 00:07:40,331
@@ -387,7 +387,7 @@ Suddenly thousands of furious people began to pour like a flood.
 
 96
 00:07:54,664 --> 00:07:59,284
-> As the protestors arrived at the public square, they encountered a police barricade.
+{As the protestors arrived at the public square, they encountered a police barricade.
 
 97
 00:07:59,384 --> 00:08:05,144
@@ -427,7 +427,7 @@ but soon the numbers increased.
 
 106
 00:08:45,249 --> 00:08:48,366
-> After the governor's office, the crowd's next target was the Cultural Centre.
+{After the governor's office, the crowd's next target was the Cultural Centre.
 
 107
 00:08:48,466 --> 00:08:52,397
@@ -483,7 +483,7 @@ Did I enter the crowd willingly? I was a public servant, too! For 25... in this 
 
 120
 00:09:52,854 --> 00:09:55,897
-> The police was insufficient. According to the records of the
+{The police was insufficient. According to the records of the
 
 121
 00:09:55,997 --> 00:09:59,047
@@ -527,7 +527,7 @@ And I understand that, too.
 
 131
 00:10:32,340 --> 00:10:36,552
-> Soon the Interior Minister Mehmet Gazioğlu called the Governor, who requested reinforcements.
+{Soon the Interior Minister Mehmet Gazioğlu called the Governor, who requested reinforcements.
 
 132
 00:10:36,652 --> 00:10:39,875
@@ -619,7 +619,7 @@ I assume that the Minister was then preoccupied with other matters.
 
 154
 00:11:59,423 --> 00:12:04,003
-> As the expected troops didn't come, the crowd began to stone the Bards' Monument.
+{As the expected troops didn't come, the crowd began to stone the Bards' Monument.
 
 155
 00:12:04,103 --> 00:12:08,852
@@ -663,7 +663,7 @@ And my speech was largely effective.
 
 165
 00:12:47,132 --> 00:12:50,078
-> After the speech the crowd seemed to disband.
+{After the speech the crowd seemed to disband.
 
 166
 00:12:50,178 --> 00:12:54,155
@@ -695,7 +695,7 @@ They were directed to Madımak.
 
 173
 00:13:20,504 --> 00:13:24,800
-> According to official records, the Chief of Police called the Governor
+{According to official records, the Chief of Police called the Governor
 
 174
 00:13:24,900 --> 00:13:28,910
@@ -727,7 +727,7 @@ was about to happen in Sivas.
 
 181
 00:14:09,436 --> 00:14:14,900
-> Evening fell in Sivas, the demonstrators reached the final destination: Madımak.
+{Evening fell in Sivas, the demonstrators reached the final destination: Madımak.
 
 182
 00:14:15,000 --> 00:14:17,350
@@ -751,7 +751,7 @@ the crowd revealed its true colours.
 
 187
 00:14:47,533 --> 00:14:52,040
-> Now, Aziz Nesin and his friends were literally under siege.
+{Now, Aziz Nesin and his friends were literally under siege.
 
 188
 00:14:52,140 --> 00:14:55,700
@@ -823,7 +823,7 @@ We were imprisoned, unable to communicate with the world outside.
 
 205
 00:16:23,587 --> 00:16:26,650
-> The only means of communication with the world outside was the telephone.
+{The only means of communication with the world outside was the telephone.
 
 206
 00:16:26,750 --> 00:16:30,266
@@ -875,7 +875,7 @@ we have sufficient forces. We will control the situation.”
 
 218
 00:17:14,380 --> 00:17:18,304
-> While Erdal İnönü took the aeroplane to Ankara —his fears allayed,
+{While Erdal İnönü took the aeroplane to Ankara —his fears allayed,
 
 219
 00:17:18,404 --> 00:17:21,857
@@ -891,7 +891,7 @@ the hopeful anticipation continued in the Madımak Hotel.
 
 222
 00:17:31,907 --> 00:17:37,316
-On the upper floors our kids, authors and our female friends were sitting.
+Our kids, authors and our lady friends were sitting on the upper floors.
 
 223
 00:17:37,416 --> 00:17:41,426
@@ -927,7 +927,7 @@ and something happens to one of us? What would we do?”
 
 231
 00:18:27,088 --> 00:18:33,234
-> According to the Governor's report there were 15000 demonstrators in front of Madımak at 6:00 pm.
+{According to the Governor's report there were 15000 demonstrators in front of Madımak at 6:00 pm.
 
 232
 00:18:33,334 --> 00:18:37,469
@@ -971,7 +971,7 @@ We have expressed our resentment well enough.”
 
 242
 00:19:20,000 --> 00:19:24,951
-> Upon the request of the Governor, the Mayor Temel Karamollaoğlu and the country commissioner
+{Upon the request of the Governor, the Mayor Temel Karamollaoğlu and the country commissioner
 
 243
 00:19:25,051 --> 00:19:29,979
@@ -1039,7 +1039,7 @@ But whereof should one wish a blessed jihad?
 
 259
 00:20:40,820 --> 00:20:44,273
-> At that moment Governor Karabilgin contacted Tansu Çiller, who has been
+{At that moment Governor Karabilgin contacted Tansu Çiller, who has been
 
 260
 00:20:44,373 --> 00:20:49,547
@@ -1063,7 +1063,7 @@ The Prime Minister gave such orders.
 
 265
 00:21:08,053 --> 00:21:10,249
-> But it was already too late.
+{But it was already too late.
 
 266
 00:21:10,349 --> 00:21:14,821
@@ -1095,7 +1095,7 @@ After this, the herd psychology took over.
 
 273
 00:21:54,327 --> 00:21:57,142
-> At 7 pm, the chief of general staff, full general
+{At 7 pm, the chief of general staff, full general
 
 274
 00:21:57,242 --> 00:22:00,066
@@ -1139,7 +1139,7 @@ I held up the phone. The brigadier general stood up, and took it.
 
 284
 00:22:39,894 --> 00:22:43,571
-> The chief of general staff Doğan Güneş had told this
+{The chief of general staff Doğan Güneş had told this
 
 285
 00:22:43,671 --> 00:22:47,474
@@ -1203,7 +1203,7 @@ of the soldiers stationed thus were under any threat.
 
 300
 00:23:50,472 --> 00:23:54,589
-> Soon, a small squad entered the public square by the Madımak Hotel.
+{Soon, a small squad entered the public square by the Madımak Hotel.
 
 301
 00:23:54,689 --> 00:24:00,112
@@ -1215,7 +1215,7 @@ Yet the soldiers around the commander's car were petrified upon hearing the slog
 
 303
 00:24:10,900 --> 00:24:15,602
-> Now a living barrier stood between the hotel and the soldiers.
+{Now a living barrier stood between the hotel and the soldiers.
 
 304
 00:24:15,702 --> 00:24:20,387
@@ -1255,7 +1255,7 @@ The berserk crowd was singing a different tune now.
 
 313
 00:25:01,663 --> 00:25:06,176
-> Just as the soldiers retreated, the cars in front of the hotel were set on fire.
+{Just as the soldiers retreated, the cars in front of the hotel were set on fire.
 
 314
 00:25:06,276 --> 00:25:12,395
@@ -1280,7 +1280,7 @@ It was 7:50 pm. The great inferno had come.
 
 319
 00:25:47,234 --> 00:25:52,829
-> There was no hope for those trapped now. Everything would end in ten minutes.
+{There was no hope for those trapped now. Everything would end in ten minutes.
 
 320
 00:25:55,136 --> 00:26:00,021
@@ -1340,7 +1340,7 @@ Yet, after 3 or 5 minutes the screams fell silent.
 
 334
 00:27:06,346 --> 00:27:09,596
-> Thanks to the wooden decoration of the hotel, the
+{Thanks to the wooden decoration of the hotel, the
 
 335
 00:27:09,696 --> 00:27:12,946
@@ -1360,7 +1360,7 @@ Well, were the firefighters willing? No, they were not.
 
 339
 00:27:27,951 --> 00:27:33,131
-> Finally, despairing of the firefighters, the survivors ran to the windows for dear life.
+{Finally, despairing of the firefighters, the survivors ran to the windows for dear life.
 
 340
 00:27:33,231 --> 00:27:36,498
@@ -1404,7 +1404,7 @@ He ordered the stick-carrying attackers back into the building.
 
 350
 00:28:27,317 --> 00:28:30,454
-> The victims had been burned, the survivors rescued.
+{The victims had been burned, the survivors rescued.
 
 351
 00:28:30,554 --> 00:28:33,961
@@ -1500,7 +1500,7 @@ you couldn't see your hand in front of your face.
 
 374
 00:30:06,056 --> 00:30:09,617
-> Night had fallen and firefighters had begun to put out the fire.
+{Night had fallen and firefighters had begun to put out the fire.
 
 375
 00:30:09,717 --> 00:30:12,415
@@ -1553,7 +1553,7 @@ and he says: “Don't rescue him!”
 
 387
 00:31:01,581 --> 00:31:03,880
-> They recognized Aziz Nesin down there.
+{They recognized Aziz Nesin down there.
 
 388
 00:31:03,980 --> 00:31:07,094
@@ -1661,7 +1661,7 @@ from the clutches of the attackers.
 
 414
 00:32:54,785 --> 00:32:57,847
-> Aziz Nesin was brought to the hospital with a minibus which
+{Aziz Nesin was brought to the hospital with a minibus which
 
 415
 00:32:57,947 --> 00:33:01,009
@@ -1713,7 +1713,7 @@ They'll hoist an Islamic banner. It has no other outcome.
 
 427
 00:33:50,453 --> 00:33:53,865
-> At 8:40 pm the protestors were chanting “Resign Governor, resign!”
+{At 8:40 pm the protestors were chanting “Resign Governor, resign!”
 
 428
 00:33:53,965 --> 00:33:56,848
@@ -1741,7 +1741,7 @@ we wouldn't be able to fight them.
 
 434
 00:34:18,635 --> 00:34:22,952
-> When they abandoned all hope and contemplated suicide,
+{When they abandoned all hope and contemplated suicide,
 
 435
 00:34:23,052 --> 00:34:26,163
@@ -1777,7 +1777,7 @@ They moved step by step, step by step...
 
 443
 00:34:57,285 --> 00:35:01,978
-> 18 soldiers had rescued the Governor from being lynched.
+{18 soldiers had rescued the Governor from being lynched.
 
 444
 00:35:02,078 --> 00:35:06,148
@@ -1797,7 +1797,7 @@ would go down in history as the site of a massacre.
 
 448
 00:35:24,590 --> 00:35:27,450
-> When a night curfew was enforced and
+{When a night curfew was enforced and
 
 449
 00:35:27,550 --> 00:35:30,239
@@ -1993,7 +1993,7 @@ Sunnis against Alevis, Alevis against Sunnis.
 
 497
 00:38:07,427 --> 00:38:10,358
-> As for those who survived the hell of Madımak,
+{As for those who survived the hell of Madımak,
 
 498
 00:38:10,458 --> 00:38:14,001
@@ -2057,7 +2057,7 @@ It was the most horrible night of my life.
 
 513
 00:39:16,428 --> 00:39:19,683
-> The real gruesome scene was in the hospital.
+{The real gruesome scene was in the hospital.
 
 514
 00:39:19,783 --> 00:39:23,200
@@ -2083,7 +2083,7 @@ Music: Onno Tunç
 
 519
 00:39:44,274 --> 00:39:47,935
-> The picture of Metin Altıok depicted the atrocity
+{The picture of Metin Altıok depicted the atrocity
 
 520
 00:39:48,035 --> 00:39:51,436
@@ -2135,7 +2135,7 @@ of our dignity, our honour and our humanity.
 
 532
 00:40:45,874 --> 00:40:49,124
-> The next day Deputy Prime Minister Erdal İnönü visited
+{The next day Deputy Prime Minister Erdal İnönü visited
 
 533
 00:40:49,224 --> 00:40:52,174
