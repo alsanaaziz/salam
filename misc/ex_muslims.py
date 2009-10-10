@@ -5,11 +5,13 @@ users = [
   (658, "[C*]", "♂", "UK", "Atheist", ()),
   (558, "a.ghazali", "♂", "USA", "", ()),
   #(359, "A_G", "♂", "", "", ()), # Got banned.
+  (925, "Aa", "♂", "", "", (), "Reading COEM helped him to apostatize"),
   (469, "abdalwali", "♂", "USA", "", ()),
   (925, "Abid", "♂", "Bangladesh", "Atheist", ()),
   (887, "abuk", "♂", "UK", "", ()),
   (289, "afghan_exmuslim", "♂", "Afghanistan", "", ()),
   (884, "AisaLagtaHAI", "♂", "Canada", "Agnostic", ()),
+  (975, "aj566", "♂", "UK", "Atheist", ()),
   (370, "Al Razi", "♂", "UK", "Atheist", (), "Occasionally writes funny, Arabic revelations"),
   (668, "al-uzza", "♀", "", "", ()),
   (657, "aliadiere", "♂", "UK", "Agnostic", ()),
@@ -28,6 +30,7 @@ users = [
   (686, "Balthier", "♂", "", "", ()),
   (613, "belladonnasix", "♀", "Canada", "Pantheist", ()),
   (6, "BerberElla", "♀", "UK", "Atheist", (), "One of the founders of the forum"),
+  (970, "Bobonaut", "♂", "USA", "Atheist", (), "Apostatized because of good, atheist YouTube videos"),
   (180, "carolineislands", "♀", "USA", "", (), "Converted but flip-flopped shortly after"),
   (187, "Charles", "♂", "Australia", "", ()),
   (79, "cherry", "♀", "UK", "", ()),
@@ -43,6 +46,7 @@ users = [
   (785, "Farid92", "♂", "Netherlands", "Deist", ()),
   (756, "Ferrero", "♀", "UK", "", ()),
   (725, "freakzilla", "♂", "UK", "Skeptic", ()),
+  (980, "Godot", "♂", "", "", (), "Wasn't really devout, but took faith seriously."),
   (397, "Goldie", "♂", "UK", "", (), "Apostatized in our forum"),
   (150, "green_eyes", "♀", "UK", "Atheist", ()),
   (909, "Hadugh", "♂", "UK", "Atheist", ()),
@@ -62,6 +66,7 @@ users = [
   (77, "Iggy", "♀", "Canada", "Ignostic", ()),
   (724, "indiana", "♂", "", "", ()),
   (936, "Infidel", "♂", "UK", "Agnostic", ()),
+  (453, "InfidelAussieLeb", "♂", "Australia", "", ()),
   (917, "insiaiftiqhar", "♂", "USA", "", ()),
   (141, "Iris", "♀", "UK", "", ()),
   (194, "Isaac Schrodinger", "♂", "Canada", "", ()),
@@ -69,6 +74,7 @@ users = [
   (738, "J4m3z", "♂", "UK", "", ()),
   (26, "Jack Torrance", "♂", "UK", "Anti-Labelist", ()),
   (727, "jamshed raja", "♂", "UK", "Atheist", ()),
+  (969, "Kafir-Supersta", "♂", "UK", "", ()),
   (641, "KhalilF", "♂", "", "", ()),
   (93, "Kid A", "♂", "UK", "", ()),
   (317, "KraziKuri", "♀", "UK", "", ()),
@@ -78,8 +84,10 @@ users = [
   (197, "Maghrebi", "♂", "Morocco", "", ()),
   (854, "Malik", "♂", "UK", "Atheist", ()),
   (450, "Manat", "♀", "", "", ()),
+  (557, "mangostan", "", "", "", ()), # Registered long time ago. First posting 28.9.2009.
   (32, "Marmalade-Lady", "♀", "UK", "", ()),
   (11, "Maryam Namazie", "♀", "UK", "Atheist", (), "Head of the Council of Ex-Muslims of Britain"),
+  (960, "mattb", "♂", "", "", ()),
   (760, "Meredith", "♀", "UK", "", ()),
   (325, "Mia Bella", "♀", "Canada", "", ()),
   (710, "ned", "♀", "Pakistan", "Panentheist", (), '"Strictly speaking, I\'m a non-religious, neo-Vedantist, panentheistic mystic."'),
@@ -112,6 +120,7 @@ users = [
   (628, "SalahuddinR", "♂", "USA", "Atheist", ()),
   (855, "Sameer", "♂", "India", "Atheist", ()),
   (435, "sbmuse", "♂", "", "", (), "Ex-Convert; was/is friends with Hamza Yusuf, Nuh Ha Mim Keller, Suhaib Webb..."),
+  (966, "shaft4038", "♂", "USA", "Atheist", ()),
   (65, "Shahid Raza", "♂", "UK", "Deist", ()),
   (675, "Shahzad", "♂", "", "Panentheist", ()),
   (831, "sharkheart", "♂", "UK", "Atheist", ()),
@@ -280,7 +289,7 @@ def get_xhtml_head():
 <p>This is a list of former Muslims registered at <a href="http://www.councilofexmuslims.com">councilofexmuslims.com</a>:</p>
 <table class="xmlist">
 <thead>
-<tr><th>Nick</th><th>Gender</th><th>Country</th><th>Current views</th><th>Top 3 reasons for leaving Islam</th><th>Annotation</th></tr>
+<tr><th>Nick</th><th>Gender</th><th>Country</th><th>Current views</th><th>Top 3 reasons for leaving Islam</th><th>Annotations</th></tr>
 </thead>
 <tbody>"""
   return head
