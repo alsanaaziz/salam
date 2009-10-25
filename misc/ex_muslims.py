@@ -5,7 +5,7 @@ users = [
   (658, "[C*]", "♂", "UK", "Atheist", ()),
   (558, "a.ghazali", "♂", "USA", "", ()),
   #(359, "A_G", "♂", "", "", ()), # Got banned.
-  (925, "Aa", "♂", "", "", (), "Reading COEM helped him to apostatize"),
+  (925, "Aa", "♂", "Bangladesh", "Atheist", (), "Reading COEM helped him to apostatize"),
   (469, "abdalwali", "♂", "USA", "", ()),
   (925, "Abid", "♂", "Bangladesh", "Atheist", ()),
   (887, "abuk", "♂", "UK", "", ()),
@@ -20,7 +20,7 @@ users = [
   (684, "AlmostAisha", "♀", "Canada", "Atheist", (), "Ex-Convert"),
   (815, "Alprh", "♂", "Iran", "Atheist", ()),
   (790, "Angel54", "♀", "Canada", "", ()), # Guessed gender.
-  (169, "Anisah", "♂", "USA", "Agnostic", ()),
+  (169, "Anisah", "♀", "USA", "Agnostic", (), 'Muslim Convert for 12 years, now Agnostic Unitarian<br/><a href="http://notmuslimanymore.blogspot.com">Her Blog</a>'),
   #(930, "arabie", "♂", "Netherlands", "", ()), # Wavering Muslim.
   (747, "atheist.pk", "♂", "Pakistan", "Atheist", ()),
   (564, "automan", "♂", "", "", ()),
@@ -43,6 +43,7 @@ users = [
   (345, "DivineMercy", "♀", "USA", "Christian", ()),
   (346, "Dr Diavolo", "♂", "UK", "Atheist", (), "Doctor"),
   (510, "Eddy", "♂", "Turkey", "", ()),
+  (255, "Emerald", "♂", "Saudi Arabia", "Spiritual Agnostic", ("Women's rights", "Jihad", "negative effects of Islam on Muslims")),
   (785, "Farid92", "♂", "Netherlands", "Deist", ()),
   (756, "Ferrero", "♀", "UK", "", ()),
   (725, "freakzilla", "♂", "UK", "Skeptic", ()),
@@ -51,7 +52,7 @@ users = [
   (150, "green_eyes", "♀", "UK", "Atheist", ()),
   (909, "Hadugh", "♂", "UK", "Atheist", ()),
   (219, "Haji Murad", "♂", "", "", ()),
-  (8, "Hassan", "♂", "UK", "Deist", ("Hell", "slavery", "4:34"), 'Former teacher at an Islamic school; <a href="http://www.youtube.com/user/discussislam">YouTube channel</a>; studied Arabic'),
+  (8, "Hassan", "♂", "UK", "Deist", ("Hell", "slavery", "4:34"), 'Former teacher at an Islamic school; studied Arabic; <a href="http://www.youtube.com/user/discussislam">YouTube channel</a>'),
   (383, "Hedaya", "♀", "", "Agnostic", ()),
   (638, "HenriMonier", "♂", "UK", "Atheist", ("Ideology", "fallacies", "barbaric practices")),
   (561, "henrypage", "♂", "UK", "Atheist", ("Muslim reactions to 9/11",)),
@@ -133,7 +134,6 @@ users = [
   (562, "Tommy", "♂", "USA", "Atheist", ()),
   (244, "Uppercut", "♂", "UK", "Humanist", ()),
   (485, "whatabastor", "♂", "Saudi Arabia", "", ()),
-  (255, "WiSsAm", "♂", "Saudi Arabia", "Spiritual Agnostic", ("Women's rights", "Jihad", "negative effects of Islam on Muslims")),
   (19, "Witzbold", "♂", "Pakistan", "Atheist", ()),
   (924, "youcansee", "♀", "UK", "Atheist", ()),
   (42, "Zaephon", "♂", "Turkey", "Atheist", ()),
