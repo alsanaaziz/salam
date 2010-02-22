@@ -34,6 +34,7 @@ users = [
   (1163, "Barayev", "♂", "Singapore", "", ()),
   (613, "belladonnasix", "♀", "Canada", "Pantheist", ()),
   (6, "BerberElla", "♀", "UK", "Atheist", (), "Our Great Goddess and one of the founders of the forum"),
+  (1224, "BeyT", "♀", "UAE", "", (), "Wavering Muslim"),
   (613, "BlackDog", "♂", "Canada", "Pantheist", (), "Was a Shia-Muslim; speaks Arabic; raised in Europe"),
   (970, "Bobonaut", "♂", "USA", "Atheist", (), "Apostatized because of good, atheist YouTube videos"),
   (1189, "canex", "♂", "Canada", "", ()),
@@ -91,6 +92,7 @@ users = [
   (194, "Isaac Schrodinger", "♂", "Canada", "", ()),
   (574, "IsLame", "♂", "UK", "Humanist", ("God's invisibility and cruelty", "existence of polytheism", "net effect of the Qur'an on Muslims"), '<a href="http://www.youtube.com/user/ExMuslimUK">YouTube channel</a>'),
   (1111, "iThink", "♂", "Syria", "Atheist", ()),
+  (336, "ItStartedInCollege", "♂", "USA", "", ()),
   (738, "J4m3z", "♂", "UK", "", ()),
   (26, "Jack Torrance", "♂", "UK", "Anti-Labelist", ()),
   (727, "jamshed raja", "♂", "UK", "Atheist", ()),
@@ -111,10 +113,12 @@ users = [
   (1057, "MangoStar", "♂", "USA", "", (), "Raised Southern Baptist. Converted when she was 17, apostatized when she was 18."), # Guessed country.
   (32, "Marmalade-Lady", "♀", "UK", "", ()),
   (11, "Maryam Namazie", "♀", "UK", "Atheist", (), "Head of the Council of Ex-Muslims of Britain"),
+  (1194, "mateen", "♂", "Pakistan", "", ()),
   (960, "mattb", "♂", "", "", ()),
   (760, "Meredith", "♀", "UK", "", ()),
   (325, "Mia Bella", "♀", "Canada", "", ()),
   (1131, "Mowgli", "♂", "UK", "", (), "⚣"),
+  (1235, "Mughal", "♂", "UK", "", ()),
   (1188, "Naerys", "♀", "North-Africa", "", ()),
   (710, "ned", "♀", "Pakistan", "Panentheist", (), '"Strictly speaking, I\'m a non-religious, neo-Vedantist, panentheistic mystic."'),
   (712, "Nite Owllll", "♂", "USA", "Atheist", ()),
@@ -155,15 +159,18 @@ users = [
   (65, "Shahid Raza", "♂", "UK", "Deist", ()),
   (675, "Shahzad", "♂", "", "Panentheist", ()),
   (831, "sharkheart", "♂", "UK", "Atheist", ()),
+  (1201, "Shirdon", "♂", "UK", "Atheist", (), "⚣⚤"),
   (1174, "sku", "♀", "UK", "Atheist", ()),
   (944, "smudge59", "♂", "UK", "", ()),
+  (1027, "smy890", "♂", "UAE", "", ()),
   (3, "Spasm", "♀", "", "", ()),
   (495, "spiral dive", "♀", "UK", "Atheist", ()),
   (544, "stardust", "♀", "", "Deist", ()),
   (369, "Starnexus", "♂", "", "Atheist", ()),
   (1137, "SojournerTruth", "♀", "Netherlands", "Agnostic", ()),
-  #(926, "stranger", "♂", "UK", "", ()), # Suspicion: Another nick by forum idiot?
+  (926, "stranger", "♂", "UK", "", ()),
   (1173, "taraC", "♂", "Pakistan", "", ()),
+  (1214, "the_revivor", "♂", "Australia", "Atheist", ()),
   (562, "Tommy", "♂", "USA", "Atheist", ()),
   (244, "Uppercut", "♂", "UK", "Humanist", ()),
   (485, "whatabastor", "♂", "Saudi Arabia", "", ()),
@@ -177,9 +184,16 @@ users = [
 ]
 
 
-def get_xhtml_head():
-  from os import path as path
-  jquery = open(path.join(path.dirname(path.dirname(__file__)), "js", "jquery.js")).read()
+def get_xhtml_head(copy_jquery=False):
+  from datetime import datetime
+  date = datetime.utcnow().strftime("%A, %d. %B %Y")
+
+  if copy_jquery:
+    from os import path as path
+    jquery = open(path.join(path.dirname(path.dirname(__file__)), "js", "jquery.js")).read()
+    jquery = '<script type="text/javascript">//<![CDATA[\n' + jquery + '\n//]]>\n</script>'
+  else:
+    jquery = '<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.1.min.js"></script>'
 
   head = r"""<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -197,10 +211,7 @@ def get_xhtml_head():
   p.stats_closed:before { content: "▸ "; }
   p.stats_opened:before { content: "▾ "; }
   </style>
-  <script type="text/javascript">//<![CDATA[
-""" + jquery + """
-  //]]>
-  </script>
+  """ + jquery + """
   <script type="text/javascript">//<![CDATA[
     function obj_items(dict) {
       var items = [];
@@ -320,7 +331,7 @@ def get_xhtml_head():
   </script>
 </head>
 <body>
-<p>This is a list of former Muslims registered at <a href="http://www.councilofexmuslims.com">councilofexmuslims.com</a>:</p>
+<p>This is a list of former Muslims registered at <a href="http://www.councilofexmuslims.com">councilofexmuslims.com</a> (last updated: """ + date + """):</p>
 <table class="xmlist">
 <thead>
 <tr><th>Nick</th><th>Gender</th><th>Country</th><th>Current views</th><th>Top 3 reasons for leaving Islam</th><th>Annotations</th></tr>
@@ -333,7 +344,7 @@ def print_BBC():
   print "[tr][td][b]%s[/b][/td][/tr]" % "Nick;Gender;Country;Belief".replace(";", "[/b][/td][td][b]")
   for u in users:
     print "[tr][td][b][url=/index.php?action=profile;u=%d]%s[/url][/b][/td][td]%s[/td][td]%s[/td][td]%s[/td][/tr]" % (u[0], u[1], u[2], u[3], u[4])
-    #(913, "Zuber", "♂", "New Zealand", "Atheist", ()),
+
   print "[/table]"
   class Table(dict):
     def inc(self, item):
