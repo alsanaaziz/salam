@@ -43,6 +43,7 @@ users = [
   (79, "cherry", "♀", "UK", "", ()),
   (552, "chickpea", "♀", "USA", "", (), '<a href="http://chickpealove.com/blog/">Blog</a>'), # Has no postings. Guessed her being an ex-Muslim from her blog.
   (839, "Cliodna", "♀", "India", "", ()),
+  (555, "Cool Canadian", "♂", "Canada", "", (), "Ex-Convert"),
   (615, "coolred38", "♀", "", "", (), "Ex-Convert"),
   (733, "crueljewel", "♀", "", "", ()),
   (851, "cwar068", "♂", "Australia", "Atheist", (), '<a href="http://charleswardle.com/">His website</a>; <a href="http://www.youtube.com/user/cwar068">YouTube Channel</a>'),
@@ -117,8 +118,10 @@ users = [
   (960, "mattb", "♂", "", "", ()),
   (760, "Meredith", "♀", "UK", "", ()),
   (325, "Mia Bella", "♀", "Canada", "", ()),
+  (1255, "MoeAlharbi", "♂", "Canada", "Atheist", ()),
   (1131, "Mowgli", "♂", "UK", "", (), "⚣"),
   (1235, "Mughal", "♂", "UK", "", ()),
+  (1243, "mujahid", "♀", "UK", "", (), '<a href="http://www.councilofexmuslims.com/index.php?topic=8959">Her introduction</a>'),
   (1188, "Naerys", "♀", "North-Africa", "", ()),
   (710, "ned", "♀", "Pakistan", "Panentheist", (), '"Strictly speaking, I\'m a non-religious, neo-Vedantist, panentheistic mystic."'),
   (712, "Nite Owllll", "♂", "USA", "Atheist", ()),
@@ -154,6 +157,7 @@ users = [
   (628, "SalahuddinR", "♂", "USA", "Atheist", ()),
   (855, "Sameer", "♂", "India", "Atheist", ()),
   (435, "sbmuse", "♂", "", "", (), "Ex-Convert; was/is friends with Hamza Yusuf, Nuh Ha Mim Keller, Suhaib Webb..."),
+  (1250, "scousepk", "♂", "UK", "", ()),
   #(1147, "SeekTruth", "♂", "USA", "", ()), #Pretty much an ex-Muslim (soon).
   (966, "shaft4038", "♂", "USA", "Atheist", ()),
   (65, "Shahid Raza", "♂", "UK", "Deist", ()),
@@ -200,8 +204,7 @@ def get_xhtml_head(copy_jquery=False):
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <style type="text/css">
-  tbody > tr:nth-child(odd) { background-color: #DFFFCF; }
-  .odd_row { background-color: #DFFFCF; }
+  tbody > tr:nth-child(odd) { background-color: HoneyDew; }
   .xmlist .male { background-color: #CDE; text-align: center; }
   .xmlist .female { background-color: #EDC; text-align: center; }
   .xmlist a { text-decoration: none; color: darkblue; }
@@ -221,7 +224,7 @@ def get_xhtml_head(copy_jquery=False):
     }
     function xmlescape(str) {
       var dict = {"&":"&amp;", "<":"&lt;", ">":"&gt;"};
-      return str.replace(/&|<|>/g, function(m) { return dict[m] });
+      return str.replace(/[&<>]/g, function(m) { return dict[m] });
     }
     function cmp_ascending(a, b)  { return (a < b) ? -1 : a != b; }
     function cmp_descending(a, b) { return (a > b) ? -1 : a != b; }
@@ -250,32 +253,16 @@ def get_xhtml_head(copy_jquery=False):
         this_.siblings().add(this).removeClass("sorted sorted_u sorted_d"),
         this_.addClass("sorted sorted_d");
       sort_column(tbody, this, this_.hasClass("sorted_u"));
-      if (!window.opera)
-        $(">tr", tbody).each(function(i, tag) {
-          if (i % 2 == 0) $(tag).addClass("odd_row");
-          else $(tag).removeClass("odd_row");
-        });
-    }
-    function add_class_odd_rows(tbody) {
-      if (!window.opera)
-        $(">tr:nth-child(odd)", tbody).addClass("odd_row");
     }
     // Executed when the document is ready.
     $(function() {
       var xmlist = $(".xmlist");
-      var rows = xmlist[0].getElementsByTagName("tr");
+      var rows = xmlist[0].getElementsByTagName("tr"),
+          m_or_f = ["male", "female"];
       for (var i = 1, len = rows.length; i < len; i++)
       {
-        var row = rows[i];
-        var first_td = row.childNodes[0], second_td = row.childNodes[1];
-        if (second_td.textContent == "♂")
-          second_td.className = "male";
-        if (second_td.textContent == "♀")
-          second_td.className = "female";
-        if (!window.opera) {
-          if (i % 2 == 0) row.className = "odd_row";
-          first_td.className = "username";
-        }
+        var second_td = rows[i].childNodes[1];
+        second_td.className = m_or_f["♂♀".indexOf(second_td.textContent)];
       }
       // Add sorting functionality.
       var th_s = $("tr:first th", xmlist);
@@ -323,7 +310,6 @@ def get_xhtml_head(copy_jquery=False):
           $("th", thead).addClass("sortable").click(handle_title_click);
           table.append(thead).append(tbody = $("<tbody/>"));
           make_rows(tbody, items);
-          add_class_odd_rows(tbody);
         }
       });
     });
