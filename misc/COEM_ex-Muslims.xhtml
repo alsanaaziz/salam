@@ -3,8 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <style type="text/css">
-  tbody > tr:nth-child(odd) { background-color: #DFFFCF; }
-  .odd_row { background-color: #DFFFCF; }
+  tbody > tr:nth-child(odd) { background-color: HoneyDew; }
   .xmlist .male { background-color: #CDE; text-align: center; }
   .xmlist .female { background-color: #EDC; text-align: center; }
   .xmlist a { text-decoration: none; color: darkblue; }
@@ -24,7 +23,7 @@
     }
     function xmlescape(str) {
       var dict = {"&":"&amp;", "<":"&lt;", ">":"&gt;"};
-      return str.replace(/&|<|>/g, function(m) { return dict[m] });
+      return str.replace(/[&<>]/g, function(m) { return dict[m] });
     }
     function cmp_ascending(a, b)  { return (a < b) ? -1 : a != b; }
     function cmp_descending(a, b) { return (a > b) ? -1 : a != b; }
@@ -53,32 +52,16 @@
         this_.siblings().add(this).removeClass("sorted sorted_u sorted_d"),
         this_.addClass("sorted sorted_d");
       sort_column(tbody, this, this_.hasClass("sorted_u"));
-      if (!window.opera)
-        $(">tr", tbody).each(function(i, tag) {
-          if (i % 2 == 0) $(tag).addClass("odd_row");
-          else $(tag).removeClass("odd_row");
-        });
-    }
-    function add_class_odd_rows(tbody) {
-      if (!window.opera)
-        $(">tr:nth-child(odd)", tbody).addClass("odd_row");
     }
     // Executed when the document is ready.
-    $(function() {
+    $(function main() {
       var xmlist = $(".xmlist");
-      var rows = xmlist[0].getElementsByTagName("tr");
+      var rows = xmlist[0].getElementsByTagName("tr"),
+          m_or_f = ["male", "female"];
       for (var i = 1, len = rows.length; i < len; i++)
       {
-        var row = rows[i];
-        var first_td = row.childNodes[0], second_td = row.childNodes[1];
-        if (second_td.textContent == "♂")
-          second_td.className = "male";
-        if (second_td.textContent == "♀")
-          second_td.className = "female";
-        if (!window.opera) {
-          if (i % 2 == 0) row.className = "odd_row";
-          first_td.className = "username";
-        }
+        var second_td = rows[i].childNodes[1];
+        second_td.className = m_or_f["♂♀".indexOf(second_td.textContent)];
       }
       // Add sorting functionality.
       var th_s = $("tr:first th", xmlist);
@@ -86,55 +69,57 @@
       // Statistics:
       var parag = $("<p class='stats_closed'><a href='#stats'>Statistics</a></p>");
       xmlist.before(parag);
-      $("a", parag).click(function(e) {
-        e.preventDefault();
-        parag.toggleClass("stats_opened").toggleClass("stats_closed");
-        if (parag.hasClass("stats_closed"))
-          return parag.table.hide();
-        if (parag.table)
-          return parag.table.show();
-
-        function make_thead(t1, t2) { return "<thead><tr><th>"+t1+"</th><th>"+t2+"</th></tr></thead>"; }
-        function make_rows(tbody, items) {
-          for (var i = 0, len = items.length; i < len; i++)
-            tbody.append("<tr><td>"+xmlescape(items[i][0])+"</td><td>"+items[i][1]+"</td></tr>");
-        }
-        function count(i, elem) {
-          var c = count.dict[elem.textContent];
-          c = c ? c + 1 : 1;
-          count.dict[elem.textContent] = c;
-        }
-        function cmp_items(a, b) { return cmp_ascending(a[0].toLowerCase(), b[0].toLowerCase()) }
-
-        var columns = [[2, "Gender"], [3, "Country"], [4, "Current Views"]];
-        var table = $("<table class='stats_table'/>"), thead, tbody, items;
-        parag.after(table);
-        parag.table = table;
-        for (var i = 0; i < 3; i++)
-        {
-          var column = columns[i][0], title = columns[i][1];
-          rows = $("td:nth-child("+column+")", xmlist);
-          count.dict = {}
-          rows.each(count);
-          if (rows.length == 0)
-            continue;
-          items = obj_items(count.dict);
-          items.sort(cmp_items);
-          if (items[0][0] == "")
-            items[0][0] = "N/A";
-          thead = $(make_thead(title, "Count"));
-          $("th", thead).addClass("sortable").click(handle_title_click);
-          table.append(thead).append(tbody = $("<tbody/>"));
-          make_rows(tbody, items);
-          add_class_odd_rows(tbody);
-        }
-      });
+      $("a", parag).click(function(){showStatistics(parag)});
+      if (/#stats$/.test(document.location.href))
+        showStatistics(parag);
     });
+    function showStatistics(parag)
+    {
+      parag.toggleClass("stats_opened").toggleClass("stats_closed");
+      if (parag.hasClass("stats_closed"))
+        return parag.table.hide();
+      if (parag.table)
+        return parag.table.show();
+
+      function make_thead(t1, t2) { return "<thead><tr><th>"+t1+"</th><th>"+t2+"</th></tr></thead>"; }
+      function make_rows(tbody, items) {
+        for (var i = 0, len = items.length; i < len; i++)
+          tbody.append("<tr><td>"+xmlescape(items[i][0])+"</td><td>"+items[i][1]+"</td></tr>");
+      }
+      function count(i, elem) {
+        var c = count.dict[elem.textContent];
+        c = c ? c + 1 : 1;
+        count.dict[elem.textContent] = c;
+      }
+      function cmp_items(a, b) { return cmp_ascending(a[0].toLowerCase(), b[0].toLowerCase()) }
+
+      var columns = [[2, "Gender"], [3, "Country"], [4, "Current Views"]];
+      var table = $("<table class='stats_table'/>"), thead, tbody, items;
+      parag.after(table);
+      parag.table = table;
+      for (var i = 0; i < 3; i++)
+      {
+        var column = columns[i][0], title = columns[i][1];
+        rows = $(".xmlist td:nth-child("+column+")");
+        count.dict = {}
+        rows.each(count);
+        if (rows.length == 0)
+          continue;
+        items = obj_items(count.dict);
+        items.sort(cmp_items);
+        if (items[0][0] == "")
+          items[0][0] = "N/A";
+        thead = $(make_thead(title, "Count"));
+        $("th", thead).addClass("sortable").click(handle_title_click);
+        table.append(thead).append(tbody = $("<tbody/>"));
+        make_rows(tbody, items);
+      }
+    }
   //]]>
   </script>
 </head>
 <body>
-<p>This is a list of former Muslims registered at <a href="http://www.councilofexmuslims.com">councilofexmuslims.com</a> (last updated: Monday, 22. February 2010):</p>
+<p>This is a list of former Muslims registered at <a href="http://www.councilofexmuslims.com">councilofexmuslims.com</a> (last updated: Monday, 15. March 2010):</p>
 <table class="xmlist">
 <thead>
 <tr><th>Nick</th><th>Gender</th><th>Country</th><th>Current views</th><th>Top 3 reasons for leaving Islam</th><th>Annotations</th></tr>
@@ -155,7 +140,7 @@
 <tr id="657"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=657">aliadiere</a></td><td>♂</td><td>UK</td><td>Agnostic</td><td></td><td></td></tr>
 <tr id="1023"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=1023">Ali Marwa</a></td><td>♂</td><td></td><td>Christian</td><td></td><td></td></tr>
 <tr id="56"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=56">All_Brains</a></td><td>♂</td><td></td><td>Atheist</td><td></td><td>Psychologist</td></tr>
-<tr id="416"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=416">allat</a></td><td>♀</td><td>Canada</td><td></td><td></td><td>⚢</td></tr>
+<tr id="416"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=416">allat</a></td><td>♀</td><td>Canada</td><td>Atheist</td><td><span class="reason">Lack of women's rights &amp; LGBT rights in Islam</span><b>;</b> <span class="reason">Muhammad's bad character as an "infallible prophet"</span><b>;</b> <span class="reason">the ruthless, sadistic, invisible Allah</span></td><td>⚢⚤; Atheist-Pantheist to be exact</td></tr>
 <tr id="684"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=684">AlmostAisha</a></td><td>♀</td><td>Canada</td><td>Atheist</td><td></td><td>Ex-Convert</td></tr>
 <tr id="815"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=815">Alprh</a></td><td>♂</td><td>Iran</td><td>Atheist</td><td></td><td></td></tr>
 <tr id="790"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=790">Angel54</a></td><td>♀</td><td>Canada</td><td>Agnostic</td><td></td><td>Agnostic deist</td></tr>
@@ -179,6 +164,7 @@
 <tr id="79"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=79">cherry</a></td><td>♀</td><td>UK</td><td></td><td></td><td></td></tr>
 <tr id="552"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=552">chickpea</a></td><td>♀</td><td>USA</td><td></td><td></td><td><a href="http://chickpealove.com/blog/">Blog</a></td></tr>
 <tr id="839"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=839">Cliodna</a></td><td>♀</td><td>India</td><td></td><td></td><td></td></tr>
+<tr id="555"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=555">Cool Canadian</a></td><td>♂</td><td>Canada</td><td></td><td></td><td>Ex-Convert</td></tr>
 <tr id="615"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=615">coolred38</a></td><td>♀</td><td></td><td></td><td></td><td>Ex-Convert</td></tr>
 <tr id="733"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=733">crueljewel</a></td><td>♀</td><td></td><td></td><td></td><td></td></tr>
 <tr id="851"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=851">cwar068</a></td><td>♂</td><td>Australia</td><td>Atheist</td><td></td><td><a href="http://charleswardle.com/">His website</a>; <a href="http://www.youtube.com/user/cwar068">YouTube Channel</a></td></tr>
@@ -213,7 +199,7 @@
 <tr id="918"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=918">Human</a></td><td>♀</td><td>Bangladesh</td><td></td><td></td><td></td></tr>
 <tr id="114"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=114">Humanoid</a></td><td>♂</td><td>UK</td><td>Apatheist</td><td></td><td></td></tr>
 <tr id="826"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=826">humblesoul</a></td><td>♂</td><td>Nigeria</td><td>Deist</td><td></td><td>Apostatized in our forum; Considers himself an agnostic deist</td></tr>
-<tr id="409"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=409">Humra</a></td><td>♀</td><td></td><td></td><td></td><td></td></tr>
+<tr id="409"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=409">BluLox</a></td><td>♀</td><td></td><td></td><td></td><td></td></tr>
 <tr id="80"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=80">ibnishaq</a></td><td>♂</td><td></td><td></td><td></td><td>Apostatized in our forum</td></tr>
 <tr id="594"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=594">identitas</a></td><td>♂</td><td>UK</td><td>Agnostic</td><td></td><td></td></tr>
 <tr id="77"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=77">Iggy</a></td><td>♀</td><td>Canada</td><td>Ignostic</td><td></td><td></td></tr>
@@ -251,8 +237,10 @@
 <tr id="960"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=960">mattb</a></td><td>♂</td><td></td><td></td><td></td><td></td></tr>
 <tr id="760"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=760">Meredith</a></td><td>♀</td><td>UK</td><td></td><td></td><td></td></tr>
 <tr id="325"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=325">Mia Bella</a></td><td>♀</td><td>Canada</td><td></td><td></td><td></td></tr>
+<tr id="1255"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=1255">MoeAlharbi</a></td><td>♂</td><td>Canada</td><td>Atheist</td><td></td><td></td></tr>
 <tr id="1131"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=1131">Mowgli</a></td><td>♂</td><td>UK</td><td></td><td></td><td>⚣</td></tr>
 <tr id="1235"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=1235">Mughal</a></td><td>♂</td><td>UK</td><td></td><td></td><td></td></tr>
+<tr id="1243"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=1243">mujahid</a></td><td>♀</td><td>UK</td><td></td><td></td><td><a href="http://www.councilofexmuslims.com/index.php?topic=8959">Her introduction</a></td></tr>
 <tr id="1188"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=1188">Naerys</a></td><td>♀</td><td>North-Africa</td><td></td><td></td><td></td></tr>
 <tr id="710"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=710">ned</a></td><td>♀</td><td>Pakistan</td><td>Panentheist</td><td></td><td>"Strictly speaking, I'm a non-religious, neo-Vedantist, panentheistic mystic."</td></tr>
 <tr id="712"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=712">Nite Owllll</a></td><td>♂</td><td>USA</td><td>Atheist</td><td></td><td></td></tr>
@@ -287,6 +275,7 @@
 <tr id="628"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=628">SalahuddinR</a></td><td>♂</td><td>USA</td><td>Atheist</td><td></td><td></td></tr>
 <tr id="855"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=855">Sameer</a></td><td>♂</td><td>India</td><td>Atheist</td><td></td><td></td></tr>
 <tr id="435"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=435">sbmuse</a></td><td>♂</td><td></td><td></td><td></td><td>Ex-Convert; was/is friends with Hamza Yusuf, Nuh Ha Mim Keller, Suhaib Webb...</td></tr>
+<tr id="1250"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=1250">scousepk</a></td><td>♂</td><td>UK</td><td></td><td></td><td></td></tr>
 <tr id="966"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=966">shaft4038</a></td><td>♂</td><td>USA</td><td>Atheist</td><td></td><td></td></tr>
 <tr id="65"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=65">Shahid Raza</a></td><td>♂</td><td>UK</td><td>Deist</td><td></td><td></td></tr>
 <tr id="675"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=675">Shahzad</a></td><td>♂</td><td></td><td>Panentheist</td><td></td><td></td></tr>

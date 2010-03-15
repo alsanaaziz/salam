@@ -19,7 +19,7 @@ users = [
   (657, "aliadiere", "♂", "UK", "Agnostic", ()),
   (1023, "Ali Marwa", "♂", "", "Christian", ()),
   (56, "All_Brains", "♂", "", "Atheist", (), "Psychologist"),
-  (416, "allat", "♀", "Canada", "", (), "⚢"),
+  (416, "allat", "♀", "Canada", "Atheist", ("Lack of women's rights & LGBT rights in Islam", 'Muhammad\'s bad character as an "infallible prophet"', "the ruthless, sadistic, invisible Allah"), "⚢⚤; Atheist-Pantheist to be exact"),
   (684, "AlmostAisha", "♀", "Canada", "Atheist", (), "Ex-Convert"),
   (815, "Alprh", "♂", "Iran", "Atheist", ()),
   (790, "Angel54", "♀", "Canada", "Agnostic", (), "Agnostic deist"), # Guessed gender.
@@ -80,7 +80,7 @@ users = [
   (918, "Human", "♀", "Bangladesh", "", ()),
   (114, "Humanoid", "♂", "UK", "Apatheist", ()),
   (826, "humblesoul", "♂", "Nigeria", "Deist", (), "Apostatized in our forum; Considers himself an agnostic deist"),
-  (409, "Humra", "♀", "", "", ()),
+  (409, "BluLox", "♀", "", "", ()),
   (80, "ibnishaq", "♂", "", "", (), "Apostatized in our forum"),
   (594, "identitas", "♂", "UK", "Agnostic", ()),
   (77, "Iggy", "♀", "Canada", "Ignostic", ()),
@@ -199,7 +199,7 @@ def get_xhtml_head(copy_jquery=False):
   else:
     jquery = '<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.1.min.js"></script>'
 
-  head = r"""<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  head = (r"""<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -232,14 +232,28 @@ def get_xhtml_head(copy_jquery=False):
       var column_nr = $("th", th.parentNode).index(th);
       var rows = $(">tr", tbody).get();
       order = order ? 1 : -1;
-      function cmp(a, b) {
+"""
+#      function convert_numbers(list) {
+#        for (var i=0, len=list.length; i < len; i++)
+#          //if ((x = list[i].charCodeAt(0) - 48) >= 0 && x < 10); // '0'.charCodeAt(0) == 48
+#          if (!isNaN(x = Number(list[i])))
+#            list[i] = x;
+#        return list;
+#      }
+"""      function cmp(a, b) {
         a = a.childNodes[column_nr].textContent.toLowerCase();
         b = b.childNodes[column_nr].textContent.toLowerCase();
         if (a == "") return 1;  // Sink to the bottom.
         if (b == "") return -1; // ditto
         if (!isNaN((tmp = Number(a)))) a = tmp;
         if (!isNaN((tmp = Number(b)))) b = tmp;
-        return ((a < b) ? -1 : a != b) * order;
+"""
+#        /*if (/\d/.test(a) || /\d/.test(b)) {
+#          // TRY: Handle alphanumerical strings by comparing their parts.
+#          a = convert_numbers(a.match(/\d+|[^\d]+/g));
+#          b = convert_numbers(b.match(/\d+|[^\d]+/g));
+#        }*/
+"""        return ((a < b) ? -1 : a != b) * order;
       }
       rows.sort(cmp);
       $(tbody).append(rows);
@@ -255,7 +269,7 @@ def get_xhtml_head(copy_jquery=False):
       sort_column(tbody, this, this_.hasClass("sorted_u"));
     }
     // Executed when the document is ready.
-    $(function() {
+    $(function main() {
       var xmlist = $(".xmlist");
       var rows = xmlist[0].getElementsByTagName("tr"),
           m_or_f = ["male", "female"];
@@ -270,49 +284,52 @@ def get_xhtml_head(copy_jquery=False):
       // Statistics:
       var parag = $("<p class='stats_closed'><a href='#stats'>Statistics</a></p>");
       xmlist.before(parag);
-      $("a", parag).click(function(e) {
-        e.preventDefault();
-        parag.toggleClass("stats_opened").toggleClass("stats_closed");
-        if (parag.hasClass("stats_closed"))
-          return parag.table.hide();
-        if (parag.table)
-          return parag.table.show();
-
-        function make_thead(t1, t2) { return "<thead><tr><th>"+t1+"</th><th>"+t2+"</th></tr></thead>"; }
-        function make_rows(tbody, items) {
-          for (var i = 0, len = items.length; i < len; i++)
-            tbody.append("<tr><td>"+xmlescape(items[i][0])+"</td><td>"+items[i][1]+"</td></tr>");
-        }
-        function count(i, elem) {
-          var c = count.dict[elem.textContent];
-          c = c ? c + 1 : 1;
-          count.dict[elem.textContent] = c;
-        }
-        function cmp_items(a, b) { return cmp_ascending(a[0].toLowerCase(), b[0].toLowerCase()) }
-
-        var columns = [[2, "Gender"], [3, "Country"], [4, "Current Views"]];
-        var table = $("<table class='stats_table'/>"), thead, tbody, items;
-        parag.after(table);
-        parag.table = table;
-        for (var i = 0; i < 3; i++)
-        {
-          var column = columns[i][0], title = columns[i][1];
-          rows = $("td:nth-child("+column+")", xmlist);
-          count.dict = {}
-          rows.each(count);
-          if (rows.length == 0)
-            continue;
-          items = obj_items(count.dict);
-          items.sort(cmp_items);
-          if (items[0][0] == "")
-            items[0][0] = "N/A";
-          thead = $(make_thead(title, "Count"));
-          $("th", thead).addClass("sortable").click(handle_title_click);
-          table.append(thead).append(tbody = $("<tbody/>"));
-          make_rows(tbody, items);
-        }
-      });
+      $("a", parag).click(function(){showStatistics(parag)});
+      if (/#stats$/.test(document.location.href))
+        showStatistics(parag);
     });
+    function showStatistics(parag)
+    {
+      parag.toggleClass("stats_opened").toggleClass("stats_closed");
+      if (parag.hasClass("stats_closed"))
+        return parag.table.hide();
+      if (parag.table)
+        return parag.table.show();
+
+      function make_thead(t1, t2) { return "<thead><tr><th>"+t1+"</th><th>"+t2+"</th></tr></thead>"; }
+      function make_rows(tbody, items) {
+        for (var i = 0, len = items.length; i < len; i++)
+          tbody.append("<tr><td>"+xmlescape(items[i][0])+"</td><td>"+items[i][1]+"</td></tr>");
+      }
+      function count(i, elem) {
+        var c = count.dict[elem.textContent];
+        c = c ? c + 1 : 1;
+        count.dict[elem.textContent] = c;
+      }
+      function cmp_items(a, b) { return cmp_ascending(a[0].toLowerCase(), b[0].toLowerCase()) }
+
+      var columns = [[2, "Gender"], [3, "Country"], [4, "Current Views"]];
+      var table = $("<table class='stats_table'/>"), thead, tbody, items;
+      parag.after(table);
+      parag.table = table;
+      for (var i = 0; i < 3; i++)
+      {
+        var column = columns[i][0], title = columns[i][1];
+        rows = $(".xmlist td:nth-child("+column+")");
+        count.dict = {}
+        rows.each(count);
+        if (rows.length == 0)
+          continue;
+        items = obj_items(count.dict);
+        items.sort(cmp_items);
+        if (items[0][0] == "")
+          items[0][0] = "N/A";
+        thead = $(make_thead(title, "Count"));
+        $("th", thead).addClass("sortable").click(handle_title_click);
+        table.append(thead).append(tbody = $("<tbody/>"));
+        make_rows(tbody, items);
+      }
+    }
   //]]>
   </script>
 </head>
@@ -322,7 +339,7 @@ def get_xhtml_head(copy_jquery=False):
 <thead>
 <tr><th>Nick</th><th>Gender</th><th>Country</th><th>Current views</th><th>Top 3 reasons for leaving Islam</th><th>Annotations</th></tr>
 </thead>
-<tbody>"""
+<tbody>""")
   return head
 
 def print_BBC():
@@ -357,6 +374,11 @@ def print_BBC():
       print "[tr][td]%s[/td][td]%d[/td][/tr]" % (key, table[key])
   print "[/table]"
 
+def print_Wiki():
+  """ Prints the list in wiki markup. """
+  #TODO:
+  pass
+
 def escape(s):
   return s.replace("&", "&amp;")
 
@@ -377,7 +399,7 @@ def main():
 
   for u in users:
     annot = u[6] if len(u) >= 7 else ""
-    reasons = "<b>;</b> ".join(['<span class="reason">%s</span>' % r for r in u[5]])
+    reasons = "<b>;</b> ".join(['<span class="reason">%s</span>' % escape(r) for r in u[5]])
     link = '<a href="http://www.councilofexmuslims.com/index.php?action=profile;u='+str(u[0])+'">'+u[1]+"</a>"
     row = dict(id=u[0], name=u[1], link=link, gndr=u[2], cntry=u[3],
       views=escape(u[4]), reasons=reasons, annot=annot)
