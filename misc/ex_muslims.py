@@ -154,7 +154,6 @@ users = [
   (1012, "Rubaiyat", "♂", "", "Atheist", ()),
   (57, "Rubina", "♀", "", "", ()),
   (616, "Saima", "♀", "", "", ()),
-  (920, "Saina.k", "♀", "Syria", "", ()),
   (628, "SalahuddinR", "♂", "USA", "Atheist", ()),
   (855, "Sameer", "♂", "India", "Atheist", ()),
   (435, "sbmuse", "♂", "", "", (), "Ex-Convert; was/is friends with Hamza Yusuf, Nuh Ha Mim Keller, Suhaib Webb..."),
