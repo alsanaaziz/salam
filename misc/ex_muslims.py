@@ -9,7 +9,6 @@ users = [
   (925, "Aa", "♂", "Bangladesh", "Atheist", (), "Reading COEM helped him to apostatize"),
   (1068, "AbbasMerali", "♂", "UK", "Atheist", (), '<a href="http://www.councilofexmuslims.com/index.php?topic=7495">His story</a>'),
   (469, "abdalwali", "♂", "USA", "", ()),
-  (925, "Abid", "♂", "Bangladesh", "Atheist", ()),
   (887, "abuk", "♂", "UK", "", ()),
   (289, "afghan_exmuslim", "♂", "Afghanistan", "", ()),
   (884, "AisaLagtaHAI", "♂", "Canada", "Agnostic", ()),
@@ -35,7 +34,7 @@ users = [
   (613, "belladonnasix", "♀", "Canada", "Pantheist", ()),
   (6, "BerberElla", "♀", "UK", "Atheist", (), "Our Great Goddess and one of the founders of the forum"),
   (1224, "BeyT", "♀", "UAE", "", (), "Wavering Muslim"),
-  (613, "BlackDog", "♂", "Canada", "Pantheist", (), "Was a Shia-Muslim; speaks Arabic; raised in Europe"),
+  (1110, "BlackDog", "♂", "Canada", "Pantheist", (), "Was a Shia-Muslim; speaks Arabic; raised in Europe"),
   (970, "Bobonaut", "♂", "USA", "Atheist", (), "Apostatized because of good, atheist YouTube videos"),
   (1189, "canex", "♂", "Canada", "", ()),
   (180, "carolineislands", "♀", "USA", "", (), "Converted but flip-flopped shortly after"),
@@ -203,6 +202,7 @@ def get_xhtml_head(copy_jquery=False):
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>List of ex-Muslims</title>
   <style type="text/css">
   tbody > tr:nth-child(odd) { background-color: HoneyDew; }
   .xmlist .male { background-color: #CDE; text-align: center; }
@@ -403,7 +403,7 @@ def main():
     link = '<a href="http://www.councilofexmuslims.com/index.php?action=profile;u='+str(u[0])+'">'+u[1]+"</a>"
     row = dict(id=u[0], name=u[1], link=link, gndr=u[2], cntry=u[3],
       views=escape(u[4]), reasons=reasons, annot=annot)
-    xhtml.write(('<tr id="%(id)s"><td>%(link)s</td><td>%(gndr)s</td>'
+    xhtml.write(('<tr id="u%(id)s"><td>%(link)s</td><td>%(gndr)s</td>'
       '<td>%(cntry)s</td><td>%(views)s</td><td>%(reasons)s</td><td>%(annot)s</td></tr>\n') % row)
       #.encode("utf-8"))
 
