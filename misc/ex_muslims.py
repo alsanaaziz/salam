@@ -16,8 +16,8 @@ users = [
   (975, "aj566", "♂", "UK", "Atheist", ()),
   (370, "Al Razi", "♂", "UK", "Atheist", (), "Occasionally writes funny, Arabic revelations"),
   (668, "al-uzza", "♀", "", "", ()),
-  (657, "aliadiere", "♂", "UK", "Agnostic", ()),
   (1023, "Ali Marwa", "♂", "", "Christian", ()),
+  (657, "aliadiere", "♂", "UK", "Agnostic", ()),
   (56, "All_Brains", "♂", "", "Atheist", (), "Psychologist"),
   (416, "allat", "♀", "Canada", "Atheist", ("Lack of women's rights & LGBT rights in Islam", 'Muhammad\'s bad character as an "infallible prophet"', "the ruthless, sadistic, invisible Allah"), "⚢⚤; Atheist-Pantheist to be exact"),
   (684, "AlmostAisha", "♀", "Canada", "Atheist", (), "Ex-Convert"),
@@ -37,6 +37,7 @@ users = [
   (6, "BerberElla", "♀", "UK", "Atheist", (), "Our Great Goddess and one of the founders of the forum"),
   (1224, "BeyT", "♀", "UAE", "", (), "Wavering Muslim"),
   (1110, "BlackDog", "♂", "Canada", "Pantheist", (), "Was a Shia-Muslim; speaks Arabic; raised in Europe"),
+  (409, "BluLox", "♀", "", "", ()),
   (970, "Bobonaut", "♂", "USA", "Atheist", (), "Apostatized because of good, atheist YouTube videos"),
   (1189, "canex", "♂", "Canada", "", ()),
   (180, "carolineislands", "♀", "USA", "", (), "Converted but flip-flopped shortly after"),
@@ -60,8 +61,8 @@ users = [
   (1028, "ExKimDonesia", "♀", "Australia", "Agnostic", (), 'She was a little Internet celebrity as a convert to Islam; "<a href="http://www.councilofexmuslims.com/index.php?topic=7423">Famous Muslim to infamous Murtad</a>"; <a href="http://my.muxlim.com/kimdonesia/">Her Muslim website</a>; <a href="http://www.youtube.com/user/ExKimDonesia">Her YouTube channel</a>'),
   (1107, "ExMuslimGirl8", "♀", "", "", ()),
   (1139, "Eyad", "♂", "UK", "Atheist", ()),
-  (785, "Farid92", "♂", "Netherlands", "Deist", ()),
   (1087, "Farhad", "♂", "USA", "", ()),
+  (785, "Farid92", "♂", "Netherlands", "Deist", ()),
   (756, "Ferrero", "♀", "UK", "", ()),
   (725, "freakzilla", "♂", "UK", "Skeptic", ()),
   (1155, "Gallasadeq", "♂", "Kuwait", "Atheist", (), "Ex-Shia"),
@@ -70,8 +71,8 @@ users = [
   (150, "green_eyes", "♀", "UK", "Atheist", ()),
   (909, "Hadugh", "♂", "UK", "Atheist", ()),
   (219, "Haji Murad", "♂", "", "", ()),
-  (8, "Hassan", "♂", "UK", "Deist", ("Hell", "slavery", "4:34"), 'Former teacher at an Islamic school; studied Arabic; <a href="http://www.youtube.com/user/discussislam">YouTube channel</a>'),
   (1024, "Haroun", "♂", "USA", "Atheist", (), "Ex-Salafi"),
+  (8, "Hassan", "♂", "UK", "Deist", ("Hell", "slavery", "4:34"), 'Former teacher at an Islamic school; studied Arabic; <a href="http://www.youtube.com/user/discussislam">YouTube channel</a>'),
   (383, "Hedaya", "♀", "", "Agnostic", ()),
   (638, "HenriMonier", "♂", "UK", "Atheist", ("Ideology", "fallacies", "barbaric practices")),
   (561, "henrypage", "♂", "UK", "Atheist", ("Muslim reactions to 9/11",)),
@@ -81,7 +82,6 @@ users = [
   (918, "Human", "♀", "Bangladesh", "", ()),
   (114, "Humanoid", "♂", "UK", "Apatheist", ()),
   (826, "humblesoul", "♂", "Nigeria", "Deist", (), "Apostatized in our forum; Considers himself an agnostic deist"),
-  (409, "BluLox", "♀", "", "", ()),
   (80, "ibnishaq", "♂", "", "", (), "Apostatized in our forum"),
   (594, "identitas", "♂", "UK", "Agnostic", ()),
   (77, "Iggy", "♀", "Canada", "Ignostic", ()),
@@ -145,13 +145,13 @@ users = [
   (1043, "Psychologist", "♂", "UK", "", (), "Invited ex-Muslims to an interview for a psychological study at the University of Westminster"),
   (1135, "pure.virtual", "♂", "Palestine", "Atheist", ()),
   (121, "quratulain", "♂", "Pakistan", "Atheist", ()),
-  (1012, "Rubaiyat", "♂", "", "Atheist", ()),
   (757, "Ramadulla", "♂", "UK", "", ()),
   (715, "Raqsi", "♀", "", "", ()),
   (919, "reemz83", "♀", "Canada", "", ()),
   (31, "Reza Moradi", "♂", "UK", "Atheist", ()),
   (735, "RIBS", "♂", "", "Atheist", ()),
   (592, "rooblee", "♂", "", "", ()),
+  (1012, "Rubaiyat", "♂", "", "Atheist", ()),
   (57, "Rubina", "♀", "", "", ()),
   (616, "Saima", "♀", "", "", ()),
   (920, "Saina.k", "♀", "Syria", "", ()),
@@ -168,11 +168,11 @@ users = [
   (1174, "sku", "♀", "UK", "Atheist", ()),
   (944, "smudge59", "♂", "UK", "", ()),
   (1027, "smy890", "♂", "UAE", "", ()),
+  (1137, "SojournerTruth", "♀", "Netherlands", "Agnostic", ()),
   (3, "Spasm", "♀", "", "", ()),
   (495, "spiral dive", "♀", "UK", "Atheist", ()),
   (544, "stardust", "♀", "", "Deist", ()),
   (369, "Starnexus", "♂", "", "Atheist", ()),
-  (1137, "SojournerTruth", "♀", "Netherlands", "Agnostic", ()),
   (926, "stranger", "♂", "UK", "", ()),
   (1173, "taraC", "♂", "Pakistan", "", ()),
   (1214, "the_revivor", "♂", "Australia", "Atheist", ()),
@@ -387,8 +387,8 @@ def print_Wiki():
 
   rx = re.compile('<a .*?href="([^"]+)"[^>]*>(.+?)</a>')
 
-  out('{| width=100% border=1 class="wikitable"')
-  out("!Nick!!Gender!!Country!!Current views!!"
+  out('{| width=100% border=1 class="wikitable"\n'
+    "!Nick!!Gender!!Country!!Current views!!"
     "Top 3 reasons for leaving Islam!!Annotations")
   for u in users:
     u = list(u)
@@ -403,19 +403,11 @@ def escape(s):
   return s.replace("&", "&amp;")
 
 def write_XHTML():
-  xhtml = open("COEM_ex-Muslims.xhtml", "w")
   def write(text):
     xhtml.write(text.encode("utf-8"))
 
+  xhtml = open("COEM_ex-Muslims.xhtml", "w")
   write(get_xhtml_head())
-
-  # Check for correct alphabetic order.
-  #names = [u[1] for u in users]
-  #names_ = names[:]
-  #names.sort(lambda a, b: cmp(a.lower(), b.lower()))
-  #assert names == names_
-  #for n1, n2 in zip(names, names_):
-    #print n1, n2
 
   for u in users:
     annot = u[6] if len(u) >= 7 else ""
@@ -428,12 +420,24 @@ def write_XHTML():
 
   write("</tbody>\n</table>\n</body>\n</html>")
 
+def check_list():
+  # Check for correct alphabetic order.
+  names = [u[1] for u in users]
+  names_ = names[:]
+  names.sort(lambda a, b: cmp(a.lower(), b.lower()))
+  for n1, n2 in zip(names, names_):
+    if n1 != n2:
+      print n1, "<", n2
+      break
+
 def main():
   from sys import argv
   if "--wiki" in argv:
     print_Wiki()
   elif "--bbc" in argv:
     print_BBC()
+  elif "--check" in argv:
+    check_list()
   else:
     write_XHTML()
 
