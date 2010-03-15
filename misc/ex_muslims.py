@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 
 users = [
   (658, "[C*]", "♂", "UK", "Atheist", ()),
@@ -28,6 +29,7 @@ users = [
   (564, "automan", "♂", "", "", ()),
   (342, "awais", "♂", "USA", "Spiritual Agnostic", ("Etymology",)),
   (462, "Ayaz", "♂", "Pakistan", "Atheist", ()),
+  (1061, "azgyl", "♂", "Austria", "Atheist", ()),
   (9, "Aziz", "♂", "Austria", "Atheist", ("Hell", "slavery", "4:34"), '<a href="http://www.youtube.com/user/AlsanaAziz">YouTube channel</a>'),
   (686, "Balthier", "♂", "", "", ()),
   (1163, "Barayev", "♂", "Singapore", "", ()),
@@ -55,7 +57,7 @@ users = [
   (510, "Eddy", "♂", "Turkey", "", ()),
   (255, "Emerald", "♂", "Saudi Arabia", "Spiritual Agnostic", ("Women's rights", "Jihad", "negative effects of Islam on Muslims")),
   (1002, "Ennis", "♂", "USA", "Agnostic", ()),
-  (1028, "ExKimDonesia", "♂", "Australia", "Agnostic", (), 'She was a little Internet celebrity as a convert to Islam; "<a href="http://www.councilofexmuslims.com/index.php?topic=7423">Famous Muslim to infamous Murtad</a>"; <a href="http://my.muxlim.com/kimdonesia/">Her Muslim website</a>; <a href="http://www.youtube.com/user/ExKimDonesia">Her YouTube channel</a>'),
+  (1028, "ExKimDonesia", "♀", "Australia", "Agnostic", (), 'She was a little Internet celebrity as a convert to Islam; "<a href="http://www.councilofexmuslims.com/index.php?topic=7423">Famous Muslim to infamous Murtad</a>"; <a href="http://my.muxlim.com/kimdonesia/">Her Muslim website</a>; <a href="http://www.youtube.com/user/ExKimDonesia">Her YouTube channel</a>'),
   (1107, "ExMuslimGirl8", "♀", "", "", ()),
   (1139, "Eyad", "♂", "UK", "Atheist", ()),
   (785, "Farid92", "♂", "Netherlands", "Deist", ()),
@@ -106,6 +108,7 @@ users = [
   (381, "ladyofshalott", "♀", "UK", "Atheist", ()),
   (16, "li", "♂", "Singapore", "Atheist", ()),
   (1126, "liberated", "♂", "Pakistan", "Agnostic", ()),
+  (215, "Luthiel", "♀", "USA", "Atheist", ()),
   (197, "Maghrebi", "♂", "Morocco", "", ()),
   (854, "Malik", "♂", "UK", "Atheist", ()),
   (450, "Manat", "♀", "", "", ()),
@@ -145,7 +148,6 @@ users = [
   (1012, "Rubaiyat", "♂", "", "Atheist", ()),
   (757, "Ramadulla", "♂", "UK", "", ()),
   (715, "Raqsi", "♀", "", "", ()),
-  (215, "Rational1", "♀", "USA", "Atheist", ()),
   (919, "reemz83", "♀", "Canada", "", ()),
   (31, "Reza Moradi", "♂", "UK", "Atheist", ()),
   (735, "RIBS", "♂", "", "Atheist", ()),
@@ -376,18 +378,36 @@ def print_BBC():
 
 def print_Wiki():
   """ Prints the list in wiki markup. """
-  #TODO:
-  pass
+  import re
+  from sys import stdout
+  def out(text, nl= "\n"):
+    text = unicode(text) + nl
+    out.write(text.encode("utf-8"))
+  out.write = stdout.write
+
+  rx = re.compile('<a .*?href="([^"]+)"[^>]*>(.+?)</a>')
+
+  out('{| width=100% border=1 class="wikitable"')
+  out("!Nick!!Gender!!Country!!Current views!!"
+    "Top 3 reasons for leaving Islam!!Annotations")
+  for u in users:
+    u = list(u)
+    if len(u) < 7:
+      u += [""]
+    u[5] = "''';''' ".join(u[5])
+    u[6] = rx.sub(r"[\1 \2]", u[6])
+    out("|-\n|[[coem_user:{0}|{1}]]||{2:1}||{3:1}||{4:1}||{5:1}||{6}".format(*u))
+  out("|}")
 
 def escape(s):
   return s.replace("&", "&amp;")
 
-def main():
-  #print_BBC()
-  #return
-  head = get_xhtml_head()
+def write_XHTML():
   xhtml = open("COEM_ex-Muslims.xhtml", "w")
-  xhtml.write(head)
+  def write(text):
+    xhtml.write(text.encode("utf-8"))
+
+  write(get_xhtml_head())
 
   # Check for correct alphabetic order.
   #names = [u[1] for u in users]
@@ -400,14 +420,22 @@ def main():
   for u in users:
     annot = u[6] if len(u) >= 7 else ""
     reasons = "<b>;</b> ".join(['<span class="reason">%s</span>' % escape(r) for r in u[5]])
-    link = '<a href="http://www.councilofexmuslims.com/index.php?action=profile;u='+str(u[0])+'">'+u[1]+"</a>"
-    row = dict(id=u[0], name=u[1], link=link, gndr=u[2], cntry=u[3],
+    user = '<a href="http://www.councilofexmuslims.com/index.php?action=profile;u='+str(u[0])+'">'+u[1]+"</a>"
+    row = dict(id=u[0], name=u[1], user=user, gndr=u[2], cntry=u[3],
       views=escape(u[4]), reasons=reasons, annot=annot)
-    xhtml.write(('<tr id="u%(id)s"><td>%(link)s</td><td>%(gndr)s</td>'
-      '<td>%(cntry)s</td><td>%(views)s</td><td>%(reasons)s</td><td>%(annot)s</td></tr>\n') % row)
-      #.encode("utf-8"))
+    write(('<tr id="u%(id)s"><td>%(user)s</td><td>%(gndr)s</td><td>%(cntry)s</td>'
+      '<td>%(views)s</td><td>%(reasons)s</td><td>%(annot)s</td></tr>\n') % row)
 
-  xhtml.write("</tbody>\n</table>\n</body>\n</html>")
+  write("</tbody>\n</table>\n</body>\n</html>")
+
+def main():
+  from sys import argv
+  if "--wiki" in argv:
+    print_Wiki()
+  elif "--bbc" in argv:
+    print_BBC()
+  else:
+    write_XHTML()
 
 if __name__ == '__main__':
   main()
