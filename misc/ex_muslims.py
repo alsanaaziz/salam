@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 users = [
   (658, "[C*]", "♂", "UK", "Atheist", ()),
   (1108, "_truth_", "♂", "USA", "Atheist", (), "Was raised as a Sunni Salafi"),
-  (558, "a.ghazali", "♂", "USA", "", ()),
+  (558, "a.ghazali", "♂", "UK", "Atheist", ()),
   #(359, "A_G", "♂", "", "", ()), # Got banned.
   (925, "Aa", "♂", "Bangladesh", "Atheist", (), "Reading COEM helped him to apostatize"),
   (1068, "AbbasMerali", "♂", "UK", "Atheist", (), '<a href="http://www.councilofexmuslims.com/index.php?topic=7495">His story</a>'),
@@ -78,7 +78,6 @@ users = [
   (561, "henrypage", "♂", "UK", "Atheist", ("Muslim reactions to 9/11",)),
   (935, "Heyjustlooking", "♂", "UK", "Agnostic", (), "Came as an open-minded, doubting Muslim, apostatized later on"),
   (898, "HighOctane", "♂", "UK", "Atheist", ()),
-  (717, "Homer", "♂", "", "", ()),
   (918, "Human", "♀", "Bangladesh", "", ()),
   (114, "Humanoid", "♂", "UK", "Apatheist", ()),
   (826, "humblesoul", "♂", "Nigeria", "Deist", (), "Apostatized in our forum; Considers himself an agnostic deist"),
@@ -106,7 +105,7 @@ users = [
   (317, "KraziKuri", "♀", "UK", "", ()),
   (153, "KunstInFlammen", "♂", "UK", "Agnostic", ()),
   (381, "ladyofshalott", "♀", "UK", "Atheist", ()),
-  (16, "li", "♂", "Singapore", "Atheist", ()),
+  (634, "li", "♂", "Singapore", "Atheist", ()),
   (1126, "liberated", "♂", "Pakistan", "Agnostic", ()),
   (215, "Luthiel", "♀", "USA", "Atheist", ()),
   (197, "Maghrebi", "♂", "Morocco", "", ()),
@@ -283,11 +282,18 @@ def get_xhtml_head(copy_jquery=False):
       var th_s = $("tr:first th", xmlist);
       th_s.addClass("sortable").click(handle_title_click);
       // Statistics:
-      var parag = $("<p class='stats_closed'><a href='#stats'>Statistics</a></p>");
+      var parag = $('<p class="stats_closed"><a href="#stats">Statistics</a></p>');
       xmlist.before(parag);
-      $("a", parag).click(function(){showStatistics(parag)});
-      if (/#stats$/.test(document.location.href))
+      var $a = $("a", parag), a = $a[0];
+      a.clickHandler = function(e) {
+        e && e.preventDefault();
+        document.location = this.href;
+        this.href = (this.href.slice(-1) == "#") ? "#stats" : "#";
         showStatistics(parag);
+      };
+      $a.click(a.clickHandler);
+      if (/#stats$/.test(document.location.href))
+        a.clickHandler();
     });
     function showStatistics(parag)
     {

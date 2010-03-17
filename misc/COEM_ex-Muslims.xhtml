@@ -68,11 +68,18 @@
       var th_s = $("tr:first th", xmlist);
       th_s.addClass("sortable").click(handle_title_click);
       // Statistics:
-      var parag = $("<p class='stats_closed'><a href='#stats'>Statistics</a></p>");
+      var parag = $('<p class="stats_closed"><a href="#stats">Statistics</a></p>');
       xmlist.before(parag);
-      $("a", parag).click(function(){showStatistics(parag)});
-      if (/#stats$/.test(document.location.href))
+      var $a = $("a", parag), a = $a[0];
+      a.clickHandler = function(e) {
+        e && e.preventDefault();
+        document.location = this.href;
+        this.href = (this.href.slice(-1) == "#") ? "#stats" : "#";
         showStatistics(parag);
+      };
+      $a.click(a.clickHandler);
+      if (/#stats$/.test(document.location.href))
+        a.clickHandler();
     });
     function showStatistics(parag)
     {
@@ -120,14 +127,14 @@
   </script>
 </head>
 <body>
-<p>This is a list of former Muslims registered at <a href="http://www.councilofexmuslims.com">councilofexmuslims.com</a> (last updated: Monday, 15. March 2010):</p>
+<p>This is a list of former Muslims registered at <a href="http://www.councilofexmuslims.com">councilofexmuslims.com</a> (last updated: Wednesday, 17. March 2010):</p>
 <table class="xmlist">
 <thead>
 <tr><th>Nick</th><th>Gender</th><th>Country</th><th>Current views</th><th>Top 3 reasons for leaving Islam</th><th>Annotations</th></tr>
 </thead>
 <tbody><tr id="u658"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=658">[C*]</a></td><td>♂</td><td>UK</td><td>Atheist</td><td></td><td></td></tr>
 <tr id="u1108"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=1108">_truth_</a></td><td>♂</td><td>USA</td><td>Atheist</td><td></td><td>Was raised as a Sunni Salafi</td></tr>
-<tr id="u558"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=558">a.ghazali</a></td><td>♂</td><td>USA</td><td></td><td></td><td></td></tr>
+<tr id="u558"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=558">a.ghazali</a></td><td>♂</td><td>UK</td><td>Atheist</td><td></td><td></td></tr>
 <tr id="u925"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=925">Aa</a></td><td>♂</td><td>Bangladesh</td><td>Atheist</td><td></td><td>Reading COEM helped him to apostatize</td></tr>
 <tr id="u1068"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=1068">AbbasMerali</a></td><td>♂</td><td>UK</td><td>Atheist</td><td></td><td><a href="http://www.councilofexmuslims.com/index.php?topic=7495">His story</a></td></tr>
 <tr id="u469"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=469">abdalwali</a></td><td>♂</td><td>USA</td><td></td><td></td><td></td></tr>
@@ -197,7 +204,6 @@
 <tr id="u561"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=561">henrypage</a></td><td>♂</td><td>UK</td><td>Atheist</td><td><span class="reason">Muslim reactions to 9/11</span></td><td></td></tr>
 <tr id="u935"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=935">Heyjustlooking</a></td><td>♂</td><td>UK</td><td>Agnostic</td><td></td><td>Came as an open-minded, doubting Muslim, apostatized later on</td></tr>
 <tr id="u898"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=898">HighOctane</a></td><td>♂</td><td>UK</td><td>Atheist</td><td></td><td></td></tr>
-<tr id="u717"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=717">Homer</a></td><td>♂</td><td></td><td></td><td></td><td></td></tr>
 <tr id="u918"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=918">Human</a></td><td>♀</td><td>Bangladesh</td><td></td><td></td><td></td></tr>
 <tr id="u114"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=114">Humanoid</a></td><td>♂</td><td>UK</td><td>Apatheist</td><td></td><td></td></tr>
 <tr id="u826"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=826">humblesoul</a></td><td>♂</td><td>Nigeria</td><td>Deist</td><td></td><td>Apostatized in our forum; Considers himself an agnostic deist</td></tr>
@@ -225,7 +231,7 @@
 <tr id="u317"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=317">KraziKuri</a></td><td>♀</td><td>UK</td><td></td><td></td><td></td></tr>
 <tr id="u153"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=153">KunstInFlammen</a></td><td>♂</td><td>UK</td><td>Agnostic</td><td></td><td></td></tr>
 <tr id="u381"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=381">ladyofshalott</a></td><td>♀</td><td>UK</td><td>Atheist</td><td></td><td></td></tr>
-<tr id="u16"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=16">li</a></td><td>♂</td><td>Singapore</td><td>Atheist</td><td></td><td></td></tr>
+<tr id="u634"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=634">li</a></td><td>♂</td><td>Singapore</td><td>Atheist</td><td></td><td></td></tr>
 <tr id="u1126"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=1126">liberated</a></td><td>♂</td><td>Pakistan</td><td>Agnostic</td><td></td><td></td></tr>
 <tr id="u215"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=215">Luthiel</a></td><td>♀</td><td>USA</td><td>Atheist</td><td></td><td></td></tr>
 <tr id="u197"><td><a href="http://www.councilofexmuslims.com/index.php?action=profile;u=197">Maghrebi</a></td><td>♂</td><td>Morocco</td><td></td><td></td><td></td></tr>
