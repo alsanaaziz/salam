@@ -39,6 +39,7 @@ users = [
   (1110, "BlackDog", "♂", "Canada", "Pantheist", (), "Was a Shia-Muslim; speaks Arabic; raised in Europe"),
   (409, "BluLox", "♀", "", "", ()),
   (970, "Bobonaut", "♂", "USA", "Atheist", (), "Apostatized because of good, atheist YouTube videos"),
+  (1274, "CahitKaya", "♂", "Austria", "Atheist", (), 'Head of the Austrian Council of Ex-Muslims; <a href="http://www.facebook.com/kayacahit">Facebook</a>'),
   (1189, "canex", "♂", "Canada", "", ()),
   (180, "carolineislands", "♀", "USA", "", (), "Converted but flip-flopped shortly after"),
   (187, "Charles", "♂", "Australia", "", ()),
@@ -100,7 +101,7 @@ users = [
   (727, "jamshed raja", "♂", "UK", "Atheist", ()),
   (969, "Kafir-Supersta", "♂", "UK", "", ()),
   (819, "khalid saeed", "♂", "Pakistan", "", (), "His brother is also an ex-Muslim, humanist atheist"),
-  (641, "KhalilF", "♂", "", "", ()),
+  #(641, "KhalilF", "♂", "", "", ()), # Same account as Haji Murad.
   (93, "Kid A", "♂", "UK", "", ()),
   (317, "KraziKuri", "♀", "UK", "", ()),
   (153, "KunstInFlammen", "♂", "UK", "Agnostic", ()),
@@ -112,7 +113,7 @@ users = [
   (854, "Malik", "♂", "UK", "Atheist", ()),
   (450, "Manat", "♀", "", "", ()),
   (557, "mangostan", "", "", "", ()), # Registered long time ago. First posting 28.9.2009.
-  (1057, "MangoStar", "♂", "USA", "", (), "Raised Southern Baptist. Converted when she was 17, apostatized when she was 18."), # Guessed country.
+  (1057, "MangoStar", "♀", "USA", "", (), "Raised Southern Baptist. Converted when she was 17, apostatized when she was 18."), # Guessed country.
   (32, "Marmalade-Lady", "♀", "UK", "", ()),
   (11, "Maryam Namazie", "♀", "UK", "Atheist", (), "Head of the Council of Ex-Muslims of Britain"),
   (1194, "mateen", "♂", "Pakistan", "", ()),
@@ -204,7 +205,7 @@ def get_xhtml_head(copy_jquery=False):
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title>List of ex-Muslims</title>
   <style type="text/css">
-  tbody > tr:nth-child(odd) { background-color: HoneyDew; }
+  tbody > tr:nth-child(odd) { background-color: #D0E4DE; }
   .xmlist .male { background-color: #CDE; text-align: center; }
   .xmlist .female { background-color: #EDC; text-align: center; }
   .xmlist a { text-decoration: none; color: darkblue; }
