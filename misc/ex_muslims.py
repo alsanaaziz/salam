@@ -10,6 +10,7 @@ users = [
   (925, "Aa", "♂", "Bangladesh", "Atheist", (), "Reading COEM helped him to apostatize"),
   (1068, "AbbasMerali", "♂", "UK", "Atheist", (), '<a href="http://www.councilofexmuslims.com/index.php?topic=7495">His story</a>'),
   (469, "abdalwali", "♂", "USA", "", ()),
+  (1300, "Abood", "♂", "Canada", "", ()),
   (887, "abuk", "♂", "UK", "", ()),
   (289, "afghan_exmuslim", "♂", "Afghanistan", "", ()),
   (884, "AisaLagtaHAI", "♂", "Canada", "Agnostic", ()),
@@ -126,10 +127,12 @@ users = [
   (1243, "mujahid", "♀", "UK", "", (), '<a href="http://www.councilofexmuslims.com/index.php?topic=8959">Her introduction</a>'),
   (1188, "Naerys", "♀", "North-Africa", "", ()),
   (710, "ned", "♀", "Pakistan", "Panentheist", (), '"Strictly speaking, I\'m a non-religious, neo-Vedantist, panentheistic mystic."'),
+  (1297, "nessrriinn", "♀", "Canada", "", ()),
   (712, "Nite Owllll", "♂", "USA", "Atheist", ()),
   (623, "Nizar", "♂", "Sweden", "Agnostic", ()),
   (880, "nothingthere", "♂", "", "Atheist", ()), # Guessed the gender.
   (430, "Nour", "♀", "UK", "Agnostic", ()),
+  (1280, "nugzy", "♂", "", "", ()),
   #(846, "Nuppar", "", "", "", ()), # Probably ex-Muslim.
   (787, "Omaar Khayaam", "♂", "UK", "Atheist", (), "Apostatized after struggling with doubts for many years"),
   (868, "omarinbox", "♂", "UK", "Atheist", (), 'When still a Muslim, he was addressed in a "<a href="http://tariqali.org/ExtractClashLetter.html">Letter To A Young Muslim</a>" by <a href="http://en.wikipedia.org/wiki/Tariq_Ali">Tariq Ali</a>'),
@@ -177,6 +180,7 @@ users = [
   (1214, "the_revivor", "♂", "Australia", "Atheist", ()),
   (562, "Tommy", "♂", "USA", "Atheist", ()),
   (244, "Uppercut", "♂", "UK", "Humanist", ()),
+  (1103, "virav5", "♀", "Indonesia", "Agnostic", ()),
   (485, "whatabastor", "♂", "Saudi Arabia", "", ()),
   (19, "Witzbold", "♂", "Pakistan", "Atheist", ()),
   (924, "youcansee", "♀", "UK", "Atheist", ()),
@@ -205,6 +209,7 @@ def get_xhtml_head(copy_jquery=False):
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title>List of ex-Muslims</title>
   <style type="text/css">
+  body { background-color: white; }
   tbody > tr:nth-child(odd) { background-color: #D0E4DE; }
   .xmlist .male { background-color: #CDE; text-align: center; }
   .xmlist .female { background-color: #EDC; text-align: center; }
