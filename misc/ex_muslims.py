@@ -182,7 +182,7 @@ users = [
   (926, "stranger", "♂", "UK", "", ()),
   (1173, "taraC", "♂", "Pakistan", "", ()),
   (1214, "the_revivor", "♂", "Australia", "Atheist", ()),
-  (1328, "thinkfree", "♂", "UK", "Atheist", (), "Boy friend of Pariah"),
+  (1328, "thinkfree", "♂", "UK", "Atheist", (), "Husband of Pariah"),
   (562, "Tommy", "♂", "USA", "Atheist", ()),
   (244, "Uppercut", "♂", "UK", "Humanist", ()),
   (1103, "virav5", "♀", "Indonesia", "Agnostic", ()),
