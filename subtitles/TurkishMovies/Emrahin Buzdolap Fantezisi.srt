@@ -4,7 +4,7 @@
 
 2
 00:00:08,183 --> 00:00:10,183
-- Bir dakka!
+– Bir dakka!
 
 3
 00:00:11,072 --> 00:00:14,072
@@ -12,19 +12,19 @@ Orda öyle dur. Sakın kıpırdama.
 
 4
 00:00:14,317 --> 00:00:17,318
-- Ne var? Ne oldu?
+– Ne var? Ne oldu?
 
 5
 00:00:17,813 --> 00:00:19,835
-- Bu ışıkta anlatılmaz derecede güzelsin.
+– Bu ışıkta anlatılmaz derecede güzelsin.
 
 6
 00:00:20,607 --> 00:00:25,607
-- O halde, ömrüm boyunca bu dolabın önünden ayrılmam.
+– O halde, ömrüm boyunca bu dolabın önünden ayrılmam.
 
 7
 00:00:30,262 --> 00:00:32,030
-- Gerek yok.
+– Gerek yok.
 
 8
 00:00:32,130 --> 00:00:34,451
@@ -36,5 +36,5 @@ Seni seviyorum.
 
 10
 00:00:36,486 --> 00:00:39,841
-- Ben de seni, seni çok seviyorum.
+– Ben de seni, seni çok seviyorum.
 
