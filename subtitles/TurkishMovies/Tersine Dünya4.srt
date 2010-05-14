@@ -1,19 +1,19 @@
 1
 00:00:00,000 --> 00:00:01,821
-- Ali'cim benim!
+– Ali’cim benim!
 
 2
 00:00:03,099 --> 00:00:05,983
-Ne oldu, beni hiç özlemedinmi?
+Ne oldu, beni hiç özlemedin mi?
 
 3
 00:00:06,083 --> 00:00:09,638
-- Sanki sen özledinmi?
-Hiç düşündünmü bu adam ne yer ne içer?
+– Sanki sen özledin mi?
+Hiç düşündün mü bu adam ne yer ne içer?
 
 4
 00:00:09,738 --> 00:00:11,275
-- Hadi ordan.
+– Hadi ordan.
 
 5
 00:00:11,375 --> 00:00:13,240
@@ -25,17 +25,17 @@ Beni görmeye, bir kere de olsun, geldin mi?
 
 7
 00:00:16,049 --> 00:00:19,527
-- Ben korkarım polis'den, hapis'den.
-- Anam yokmu?
+– Ben korkarım polisden, hapisden.
+– Anam yokmu?
 
 8
 00:00:19,627 --> 00:00:22,643
-- Duymadınmı? Hastane'den çıkınca iyice sapıttı.
+– Duymadınmı? Hastaneden çıkınca iyice sapıttı.
 
 9
 00:00:22,743 --> 00:00:26,348
 Akıl hastanesine yatırmak zorunda kaldık.
-- İyi olmuş.
+– İyi olmuş.
 
 10
 00:00:26,448 --> 00:00:28,747
@@ -43,22 +43,22 @@ Biraz aklı başına gelir.
 
 11
 00:00:28,847 --> 00:00:33,847
-- Bana kalırsa hali hiç iyi değil...
-- Anladık, anladık! Yarin ilgileniriz.
+– Bana kalırsa hali hiç iyi değil...
+– Anladık, anladık! Yarın ilgileniriz.
 
 12
 00:00:34,968 --> 00:00:37,683
-- Önce biraz özlem giderelim, he?
+– Önce biraz özlem giderelim, he?
 
 13
 00:00:37,783 --> 00:00:40,783
-- Yok yav, evde hiç yiyecek birşey...
-- Anladık!
+– Yok yav, evde hiç yiyecek bir şey...
+– Anladık!
 
 14
 00:00:41,504 --> 00:00:44,504
-- Ben birşeyler hazırlarım.
-- Tamam.
+– Ben bir şeyler hazırlarım.
+– Tamam.
 
 15
 00:00:44,873 --> 00:00:49,185
