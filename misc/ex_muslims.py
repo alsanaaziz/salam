@@ -10,7 +10,7 @@ users = [
   (925, "Aa", "♂", "Bangladesh", "Atheist", (), "Reading COEM helped him to apostatize"),
   (1068, "AbbasMerali", "♂", "UK", "Atheist", (), '<a href="http://www.councilofexmuslims.com/index.php?topic=7495">His story</a>'),
   (469, "abdalwali", "♂", "USA", "", ()),
-  (1300, "Abood", "♂", "Canada", "Atheist", ("Incompatibility with science")),
+  (1300, "Abood", "♂", "Canada", "Atheist", ("Incompatibility with science",)),
   (887, "abuk", "♂", "UK", "", ()),
   (289, "afghan_exmuslim", "♂", "Afghanistan", "", ()),
   (884, "AisaLagtaHAI", "♂", "Canada", "Agnostic", ()),
