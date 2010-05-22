@@ -26,7 +26,7 @@ users = [
   (790, "Angel54", "♀", "Canada", "Agnostic", (), "Agnostic deist"), # Guessed gender.
   (169, "Anisah", "♀", "USA", "Agnostic", (), 'Muslim Convert for 12 years, now Agnostic Unitarian<br/><a href="http://notmuslimanymore.blogspot.com">Her Blog</a>'),
   (930, "arabie", "♂", "Netherlands", "", ()),
-  (1376, "ateapotist", "♂", "", "", (), '<a href="http://www.councilofexmuslims.com/index.php?topic=9976">His intro</a>'),
+  (1376, "ateapotist", "♂", "UK", "Atheist", ("Incompatible with science", "anti-freedom", "barbaric punishments under Sharia"), '<a href="http://www.councilofexmuslims.com/index.php?topic=9976">His intro</a>'),
   (747, "atheist.pk", "♂", "Pakistan", "Atheist", ()),
   (1356, "Aurora", "♀", "Saudi Arabia", "Atheist", ()),
   (1302, "ausath", "♀", "Australia", "", ()),
