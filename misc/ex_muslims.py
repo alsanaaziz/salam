@@ -67,6 +67,7 @@ users = [
   (1002, "Ennis", "♂", "USA", "Agnostic", ()),
   (1369, "Ephemeral", "♀", "Canada", "Atheist", ()),
   (1028, "ExKimDonesia", "♀", "Australia", "Agnostic", (), 'She was a little Internet celebrity as a convert to Islam; "<a href="http://www.councilofexmuslims.com/index.php?topic=7423">Famous Muslim to infamous Murtad</a>"; <a href="http://my.muxlim.com/kimdonesia/">Her Muslim website</a>; <a href="http://www.youtube.com/user/ExKimDonesia">Her YouTube channel</a>'),
+  (1442, "exmuslimenoc", "♂", "India", "", ()),
   (1107, "ExMuslimGirl8", "♀", "", "", ()),
   (1139, "Eyad", "♂", "UK", "Atheist", ()),
   (1087, "Farhad", "♂", "USA", "", ()),
@@ -131,7 +132,7 @@ users = [
   (760, "Meredith", "♀", "UK", "", ()),
   (325, "Mia Bella", "♀", "Canada", "", ()),
   (1255, "MoeAlharbi", "♂", "Canada", "Atheist", ()),
-  (1410, "Morpheus", "♂", "", "", (), '<a href="http://www.councilofexmuslims.com/index.php?topic=10265">His story</a>.'),
+  (1410, "Morpheus", "♂", "", "", ()),
   (1131, "Mowgli", "♂", "UK", "", (), "⚣"),
   (1436, "msshama", "♀", "Egypt", "", (), '<a href="http://www.councilofexmuslims.com/index.php?topic=10382">Her story</a>.'),
   (1235, "Mughal", "♂", "UK", "", ()),
@@ -144,7 +145,7 @@ users = [
   (880, "nothingthere", "♂", "", "Atheist", ()), # Guessed the gender.
   (430, "Nour", "♀", "UK", "Agnostic", ()),
   (1280, "nugzy", "♂", "", "", ()),
-  #(846, "Nuppar", "", "", "", ()), # Probably ex-Muslim.
+  (846, "Nuppar", "♂", "USA", "Atheist", ()),
   (787, "Omaar Khayaam", "♂", "UK", "Atheist", (), "Apostatized after struggling with doubts for many years"),
   (868, "omarinbox", "♂", "UK", "Atheist", (), 'When still a Muslim, he was addressed in a "<a href="http://tariqali.org/ExtractClashLetter.html">Letter To A Young Muslim</a>" by <a href="http://en.wikipedia.org/wiki/Tariq_Ali">Tariq Ali</a>'),
   (786, "onlyme", "♂", "UK", "", ()),
