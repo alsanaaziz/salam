@@ -10,7 +10,7 @@
 \usepackage{fontspec}
 \usepackage[UKenglish]{babel}
 
-\setmainfont[Mapping=tex-text]{DejaVu Serif}
+\setmainfont{DejaVu Serif}
 
 \special{pdf: docinfo <<
   /Author   (Abbas AbdulNoor)
@@ -19,22 +19,24 @@
   /Subject  (A linguistical critique of the Qur’an)
 >>}
 
+% Transliterated "hamza".
+\def\´{ʾ} % ˀ
+
+% Transliterated "`ayin".
+\def\`{ʿ} % ˁ
 
 \hyphenation{Naba-tae-an Naba-tae-ans}
-\hyphenation{Muʾ-ta-zi-lah Muʾ-ta-zi-lite Muʾ-ta-zi-lites}
+\hyphenation{Mu\`-ta-zi-lah Mu\`-ta-zi-lite Mu\`-ta-zi-lites}
 
 \newfontfamily{\arabicfont}[Script=Arabic,Scale=1.7]{Scheherazade}
 \newcommand{\ar}[1]{\RL{\arabicfont#1}}
 
 % Macros for the word Qur'an.
-\def \Quran{Qur\-ʾān} % Used when followed by a punctuation mark.
+\def \Quran{Qur\-\´ān} % Used when followed by a punctuation mark.
 \let \Qrn=\Quran      % Used when followed by whitespace.
 
 % Breakable forward slash.
 \def\/{\discretionary{/}{}{/}}
-
-% Transliterated "hamza".
-\def\’{ʾ}
 
 % Qur'an reference numbers. TODO: link to web page.
 \newcommand{\QRef}[1]{#1}
@@ -184,7 +186,7 @@ out and it is as though it never shone.
 Many of the prose of the masters of eloquence (classical literati) and even the
 doggrel of soothsayers is better — a thousand times — than many of the \Qrn{}ic
 verses that are of nonsensical language, stuffed full of fairy tales, that the
-\Quran{}ic commentators — and strangely, amongst them Mu\’tazilites — became
+\Quran{}ic commentators — and strangely, amongst them Mu\`tazilites — became
 masters at dealing with and defending.
 
 There remains another matter and it isn’t the last. It is the matter of the
@@ -293,7 +295,7 @@ prose. It is a type of speech that is of a singular nature, unique of its kind.
 It’s \Quran! For that reason they (the scholars) are united in the opinion that
 what is called the miraculous nature of the \Qrn{} is its amazing composition.
 
-Miraculousness (al-\’Ijaaz) in the Arabic language comes from “To Make Unable”,
+Miraculousness (al-\`Ijaaz) in the Arabic language comes from “To Make Unable”,
 in other words it attributes the inability to another and a miracle is called a
 miracle because mankind is unable to replicate it.
 
@@ -307,24 +309,24 @@ the (discipline) of the Miraculous Nature became indelibly written in stone.
 Despite that there were those who cast doubt on this belief, going right back
 to the first centuries of Islam.
 
-Perhaps the first of these was al-Ja\’d ibn Dirham, tutor to Marwan ibn Muhammad
+Perhaps the first of these was al-Ja\`d ibn Dirham, tutor to Marwan ibn Muhammad
 the last of the Umayyad Caliphs. For he was the first one to openly express
 skepticism of the \Quran, and refutation of it and rejection of things in it.
 He said that its eloquence was not a miracle and that people can do the like of
 it and better than it when no-one had before him had said such as that. Marwan
 — who was nicknamed the donkey — used to follow his view to the extent that he
-was linked to him and called “Marwan al-Ja\’di”\footnotemark.
+was linked to him and called “Marwan al-Ja\`di”\footnotemark.
 
-\footnotetext{See: Mustafa Sadiq al-Rafi\’i, “The Miraculous Nature of the
+\footnotetext{See: Mustafa Sadiq al-Rafi\`i, “The Miraculous Nature of the
 \Qrn{} and the Prophetic Rhetoric.” Page 160.}
 
 During the mid Abbasid period this view (that the \Qrn{} was not a miracle)
 spread along with other views of a similar nature, such as the view that the
 \Qrn{} was created as well as its opposition (those who believed it was not
 created, but eternal — on the “Protected Tablet”). The first to go to great
-lengths in that was \’Isa ibn Sabih, known as Abu Musa al-Mirdar, who was one of
-the Mu\’tazilite scholars and amongst the leading ones. He was called the Monk
-of the Mu\’tazilites and differed from the rest of the Mu\’tazilites in all of
+lengths in that was \`Isa ibn Sabih, known as Abu Musa al-Mirdar, who was one of
+the Mu\`tazilite scholars and amongst the leading ones. He was called the Monk
+of the Mu\`tazilites and differed from the rest of the Mu\`tazilites in all of
 the issues that concern us here. Saying about the \Qrn{} that people are able
 to produce the like of this \Qrn{} as regards eloquence, and composition and
 rhetorical beauty\footnotemark.
@@ -333,9 +335,9 @@ rhetorical beauty\footnotemark.
 and al-Shahrastani, “The Book of Sects and Creeds”, 1 / 68–69.}
 
 Similar to that (view, that others could produce the like of the \Quran) was
-the view taken by his contemporary, Ibrahim Ibn Sayyar Ibn Hani\’ al-Nazzam,
+the view taken by his contemporary, Ibrahim Ibn Sayyar Ibn Hani\` al-Nazzam,
 who expounded many of the works of the philosophers and
-combined their ideas with the ideas of the Mu\’tazilites\footnotemark.
+combined their ideas with the ideas of the Mu\`tazilites\footnotemark.
 But he differed from his colleagues in 13 matters,
 while al-Baghdadi increased that number to 21.
 
@@ -426,7 +428,7 @@ the highest rank of eloquence.”
 
 And likewise others have said:
 “In the \Qrn{} is (both) the Eloquent and the Most Eloquent.”
-This is the opinion taken by Sheikh \’Izz al-Din \’Abd al-Salam
+This is the opinion taken by Sheikh \`Izz al-Din \`Abd al-Salam
 who then asked: “Why was the \Qrn{} not entirely in the most eloquent form?”
 Al-Sadr Mawhoob al-Jazari replied to the effect that ‘if the \Qrn{} had come in
 that (most eloquent form) it would not be in the usual style of speech from the
@@ -530,7 +532,7 @@ they followed him...” (\QRef{34:20}) them and the seducers.
 Then they topple into the Fire of Hell all of them together\footnotemark.
 They are the ones who Allah curses, and those who curse, curse them!!
 
-\footnotetext{Allusion to what is related in Sura al-Shu\’araa\’ 26/94.}
+\footnotetext{Allusion to what is related in Sura al-Shu\`araa\` 26/94.}
 
 Indeed opposing the \Qrn{} was a natural process that arose with the rise of
 Islam, but the new religion killed it in the cradle, or at least was able to
@@ -544,27 +546,27 @@ of fitna.
 For that reason it is not strange that this process started anew or returned to
 the open when the Umayyad dynasty began to disintegrate and draw towards its
 inevitable end. For indeed Islam injured the pride of many of the leaders of
-the heretics (Zanadiqa) — and they were the Shu\’ubiyyah
+the heretics (Zanadiqa) — and they were the Shu\`ubiyyah
 (\NB{A popularist movement against the the supremacy of the Arabs})
 — and nationalist pride overtook them and led them to fanaticism for the
 religion of their fathers such as Zoroastrianism and Manichean dualism and
 hatred towards Islam that ended their glory and destroyed their dreams in
-lasting and noble life. A group of poets who belonged to “The League of the
-Mujjan”
+lasting and noble life.
+A group of poets who belonged to “The League of the Mujjan”
 (\NB{A group of libertine\/dissident intellectuals such as Bashar ibn Burd and
 Abu Nuwas})
 joined them, fleeing from the constraints of religion
 and seeking a life of freedom with no restrictions or regulations.
 
-Then came the Abbasid period where the Shu\’ubiyya movement was active side by
+Then came the Abbasid period where the Shu\`ubiyyah movement was active side by
 side with the Heretical movement (Harkatu z-Zandaqa) and the attacks on Islam
 intensified and disparagement of its holy of holies — the \Quran. And at the
 head of this movement were poets, satirists, and disaffected thinkers, the most
-famous of them: Salih Ibn Abdul Quddus, and Abdul Karim ibn Abu al-\’Awjaa\’,
-and Abu \’Isa al-Warraq and Bashar ibn Burd,
+famous of them: Salih Ibn Abdul Quddus, and Abdul Karim ibn Abu al-\`Awjaa\`,
+and Abu \`Isa al-Warraq and Bashar ibn Burd,
 and his adversary Hammad Ajrad, and
-Iban ibn Abdul Hamid al-Lahiqi, and Ibn Muqaffa\’, and (his son?) Muhammad ibn
-Abdullah ibn Muqaffa\’, and Abd al-Masih al-Kindi who we shall say a few words
+Iban ibn Abdul Hamid al-Lahiqi, and Ibn Muqaffa\`, and (his son?) Muhammad ibn
+Abdullah ibn Muqaffa\`, and Abd al-Masih al-Kindi who we shall say a few words
 about in a bit to show the participation of non-Muslims in the attack on the
 \Quran...
 
@@ -594,14 +596,14 @@ Doubt in Prophethood was the furthest extent that this movement of Heretics
 achieved in Islam. Then it came to a halt after a violent shake-up in concepts
 and doctrines grew out of it, in the 4th century (of Hijra) that drew towards
 it the movements of the concealed ideologies that were influenced by Gnosticism
-and Esoteric Knowledge and especially those associated with the Shi\’ism
-and the Isma\’iliyyah Shi\’ism in particular.
+and Esoteric Knowledge and especially those associated with the Shi\`ism
+and the Isma\`iliyyah Shi\`ism in particular.
 
 Ibn Rawandi was the most famous of the dissenters of the 3rd century of Hijrah,
 though only a little is known about him, even the date of his birth and death
-are not known for certain. He was originally a Mu\’tazilite (A non-orthodox
-Sunni School of thought) then recanted and leaned towards Shi\’ism and became
-a bitter enemy to the Mu\’tazilites.
+are not known for certain. He was originally a Mu\`tazilite (A non-orthodox
+Sunni School of thought) then recanted and leaned towards Shi\`ism and became
+a bitter enemy to the Mu\`tazilites.
 
 He was a vehement believer in Reason, praising it and relying on it in all
 matters and affairs. Reason, in his opinion, was: “The greatest gift bestowed
@@ -611,15 +613,15 @@ prohibitions, his promises \& threats become valid.”\footnotemark\@
 % TODO: find correct place of this footnote:
 \footnotetext{Quoted from Dr.\ Abd al-Rahman Badawi, from “History of
 Disbelief in Islam” page 202.}
-He wrote a book called “The Scandal of the Mu\’tazilah”\footnotemark\
-which was a critical analysis of the Mu\’tazilite School of thought
-from the perspective of the Shi\’ah al-Rafidah and
-a reply to the book of al-Jahiz “The Virtue of the Mu\’tazilah”.
+He wrote a book called “The Scandal of the Mu\`tazilah”\footnotemark\
+which was a critical analysis of the Mu\`tazilite School of thought
+from the perspective of the Shi\`ah al-Rafidah and
+a reply to the book of al-Jahiz “The Virtue of the Mu\`tazilah”.
 But this period did not last long and we see him after that
 amongst the group of those who the author of the “The Catalogue” (Kitab
 al-Fihrist, by Ibn al-Nadim d.\ 995 AD ) gives the title “Theologians who
 manifest Islam, but conceal heresy.”
-He was influenced in this by Abu \’Isa al-Warraq
+He was influenced in this by Abu \`Isa al-Warraq
 who was a teacher of his and encouraged him towards heresy.
 
 \footnotetext{See: The previous reference, page 87, 186 and that which is
@@ -634,8 +636,8 @@ these books is a book where he dealt a massive blow to the \Quran. He called it
 A third book is attributed to him called the book of “The Emerald” where he
 refutes the concept of Prophethood in Islam and attacks the belief in the
 Miraculousness of the \Quran. We said that this book is “attributed to him” due
-to a reference that it’s said it’s attributable to al-Jaba\’iy and goes on to
-say: “Indeed Ibn al-Rawandi and Abu \’Isa Muhammad Ibn Harun al-Warraq the
+to a reference that it’s said it’s attributable to al-Jaba\`iy and goes on to
+say: “Indeed Ibn al-Rawandi and Abu \`Isa Muhammad Ibn Harun al-Warraq the
 Heretic, also dispute with one another over the book of “The Emerald” each one
 claiming that it is amongst their compilations as both were in complete
 accordance in attacking the \Quran.”\footnotemark
@@ -643,7 +645,7 @@ accordance in attacking the \Quran.”\footnotemark
 \footnotetext{Quote from the previous reference p.\ 112 and 182.}
 
 In the the first and third parts of this book, Ibn al-Rawandi
-(or Abu \’Isa al-Warraq?) presents his opinion
+(or Abu \`Isa al-Warraq?) presents his opinion
 on Reason and Religions that depend on Revelation
 and explains the position on each.
 He begins his book with Human Reason,
@@ -663,7 +665,7 @@ position of Muhammad and wonder; “Why did he bring that which negates him if h
 was authentic?”\footnotemark For the revelation of Muhammad is in complete
 opposition to reason. Then, what is the meaning of these obligatory religious
 injunctions upon the Muslim, such as ritual washing, and prayer and
-circumambulating around the Ka\’abah and visiting the holy sites?
+circumambulating around the Ka\`abah and visiting the holy sites?
 
 \footnotetext{Quote from the pervious reference p.\ 84.}
 
@@ -770,10 +772,10 @@ the same that you demand from us!”\footnotemark
 (\NB{There appears to be a opening quotation mark missing from the original in
 this next bit, and I’m not sure where it should go.})
 
-Even the Mu\’tazilah who reject all Miracles or at least attach no importance to
+Even the Mu\`tazilah who reject all Miracles or at least attach no importance to
 them, still believe in the miracle of the \Quran.\footnotemark\@
 \footnotetext{Quote from the previous reference p.\ 119 and 153.}
-But al-Nazzam, who was the most bold and freethinking of the Mu\’tazilite
+But al-Nazzam, who was the most bold and freethinking of the Mu\`tazilite
 theologians, rejected the miraculous nature of the \Qrn{} in regard to its
 composition, he rejected what was related of miracles of our prophet, peace be
 upon him, as regards splitting the moon, the pebbles in his hand glorifying
@@ -794,9 +796,9 @@ have reached us, was the philosopher Abd al-Masih ibn Ishaq al-Kindi
 (\NB{Not to be confused with the well known Muslim philosopher also called
 al-Kindi}.)
 He was a Nestorian that it is claimed lived in the courtyard of (the Caliph)
-al-Ma\’mun who, no doubt due to his openness towards those
+al-Ma\`mun who, no doubt due to his openness towards those
 who differed from him in views and belief,
-(\NB{Al-Ma\’mun was famous for gathering opposing sects and religions to hear
+(\NB{Al-Ma\`mun was famous for gathering opposing sects and religions to hear
 them debate,})
 tolerated the ferocious criticism of this
 Christian who attacked the rituals of Islam and its beliefs, one after another
@@ -1015,11 +1017,11 @@ Theological Discourse as Abd al-Rahman Badawi noted.\footnotemark
 
 \footnotetext{Quote from the previous reference p.\ 218.}
 
-As for the view that these verses require “Esoteric Interpretation” (Ta\’wil)
+As for the view that these verses require “Esoteric Interpretation” (Ta\`wil)
 in other words taking them to have a hidden meaning that is not the plain
 meaning of the words, that was of no interest to al-Razi, he rejected it
-utterly and paid no regard to Ta\’wil, not taking it seriously at all.
-Because Ta\’wil in his opinion and the opinion of his like, was just
+utterly and paid no regard to Ta\`wil, not taking it seriously at all.
+Because Ta\`wil in his opinion and the opinion of his like, was just
 interpolation and deceitful pretense — or in my own expression:
 “patching up” — the intent of which was to rescue the text, however one can,
 and give it an acceptable meaning.
@@ -1065,7 +1067,7 @@ prevarication, nonsense and legends.\footnotemark
 
 \footnotetext{Whoever wishes to compose an approximate picture —
 even if it is not precise — of these prattlers and nonsense-talkers,
-then let him listen to the recordings of Sheikh Mutawali Sha\’rawi,
+then let him listen to the recordings of Sheikh Mutawali Sha\`rawi,
 who’s voice reverberates all over Arab radio.
 He explains the \Qrn{} with a sharp tongue that erupts like a flood
 that he uses to delight the masses and ignorant amongst the scholars,
@@ -1077,7 +1079,7 @@ I have complete confidence that they don’t understand a thing that’s going o
 This is an example that is emulated by the ignorant amongst the scholars and
 the religious teachers and preachers and
 Imams of mosques and the rest of this type.
-He (Sha\’rawi) is regarded by his followers and admirers,
+He (Sha\`rawi) is regarded by his followers and admirers,
 to be amongst the greatest (scholars) of Tafseer in this day and age —
 even a unique phenomenon amongst the phenomena of this age.
 He is even considered by his pupils to be amongst those who
@@ -1462,7 +1464,7 @@ his impotence and deficiency will be exposed.”\footnotemark
 \footnotetext{“Enjoyment and Conviviality”, edited by Ahmad Amin
 and Ahmad al-Zayn, Cairo, p.\ 13.}
 
-Badi\’ al-Zaman (al-Hamadani) (967–1007) was intricate
+Badi\` al-Zaman (al-Hamadani) (967–1007) was intricate
 just as al-Jahiz and al-Tawhidi were
 (\NB{Their work had layers of meaning}),
 he was a master at delighting (the reader),
@@ -1476,9 +1478,9 @@ Let us read this beautiful artistic piece where
 he describes his hunger during a year of famine in Baghdad,
 and how all his hopes of obtaining food evaporated,
 and he ended up with nothing but pain and grief.
-He uses the (fictional character) \’Isa ibn Hisham to relate it:
+He uses the (fictional character) \`Isa ibn Hisham to relate it:
 
-“\’Isa ibn Hisham related to us and said: I was in Baghdad the year of
+“\`Isa ibn Hisham related to us and said: I was in Baghdad the year of
 famine year, and so I approached a group,
 huddled like the stars of Pleiades, in order to ask something of them.
 Amongst them was a youth with a lisp in his tongue.
@@ -1502,7 +1504,7 @@ river fish, fried aubergines, the wine of Qutrubbul,
 freshly harvested apples, a soft bed on a high apartment,
 opposite a flowing river, a bubbling fountain,
 and a garden with streams in it?’
-\’Isa ibn Hisham related: So I said: ‘I am the slave of all three
+\`Isa ibn Hisham related: So I said: ‘I am the slave of all three
 (options you have given me).’
 The boy said: ‘And so am I their servant, if only we had them!!’
 I said: ‘May God not bless you! You have revived desires which
@@ -1510,9 +1512,9 @@ despair had killed, then you snatched away the object of its relish?!’”
 
 Can you see this captivating beauty that
 the \Quran\ does not have a monopoly over?
-Al-Jahiz, al-Tawhidi, Badi\’ al-Zaman and many other greats of prose and poetry
-such as Ibn Muqaffa\’, Abu Nuwas, Abu al-\’Ala al-Ma\’arri
-from the classical literati and al-Mazini, al-Rafi\’i, al-Aqqad,
+Al-Jahiz, al-Tawhidi, Badi\` al-Zaman and many other greats of prose and poetry
+such as Ibn Muqaffa\`, Abu Nuwas, Abu al-\`Ala al-Ma\`arri
+from the classical literati and al-Mazini, al-Rafi\`i, al-Aqqad,
 and Ta Ha Hussein from the moderns —
 they and their like have left us masterpieces that are as good as —
 if not better, at times, than some of the verses of the \Quran.
