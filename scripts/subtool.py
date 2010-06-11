@@ -26,6 +26,11 @@ def ms_to_t(ms, sep="."):
   ms = (s / 3600 % 24, s / 60 % 60, s % 60, sep, ms % 1000)
   return "%02d:%02d:%02d%s%03d" % ms
 
+# Format:
+# http://guliverkli.svn.sourceforge.net/viewvc/guliverkli/trunk/guliverkli/src/subtitles/VobSubFile.cpp?view=markup
+def parse_dvd_sub(text):
+  pass
+
 def parse_srt(text):
   """ Simple SubRip format parser. """
   subs = []
