@@ -8,6 +8,7 @@
 \usepackage{xunicode}
 
 \usepackage{fontspec}
+\usepackage{color}
 \usepackage[UKenglish]{babel}
 
 \setmainfont{DejaVu Serif}
@@ -18,6 +19,8 @@
   /Keywords (Arabic Qur'an Quran Koran Islam critique translation)
   /Subject  (A linguistical critique of the Qur’an)
 >>}
+
+\definecolor{darkblue}{rgb}{0,0,0.62}
 
 % Transliterated "hamza".
 \def\´{ʾ} % ˀ
@@ -41,7 +44,7 @@
 \def\/{\discretionary{/}{}{/}}
 
 % Qur'an reference numbers. TODO: link to web page.
-\newcommand{\QRef}[1]{#1}
+\newcommand{\QRef}[1]{{\color{darkblue}#1}}
 
 % "Nota bene" macro.
 \newcommand{\NB}[1]{\emph{\small NB: #1}}
