@@ -31,6 +31,7 @@
 \let \ayin=\` % Needed in \footnotetext.
 
 \hyphenation{Naba-tae-an Naba-tae-ans}
+\hyphenation{Shah-ras-ta-ni}
 \hyphenation{Mu\`-ta-zi-lah Mu\`-ta-zi-lite Mu\`-ta-zi-lites}
 
 \newfontfamily{\arabicfont}[Script=Arabic,Scale=1.7]{Scheherazade}
@@ -42,6 +43,10 @@
 
 % Breakable forward slash.
 \def\/{\discretionary{/}{}{/}}
+
+% For hyphenation: Trick TeX into thinking al\–XYZ are two separate words.
+\def\–{-\hskip0pt}
+\def\al{al-\hskip0pt} % Version with "al-".
 
 % Prints symbols for dividing paragraphs.
 \def\pardivider{\centerline{***}} % \ar{۞۞۞} ❧❦
@@ -341,7 +346,7 @@ to produce the like of this \Qrn{} as regards eloquence, and composition and
 rhetorical beauty\footnotemark.
 
 \footnotetext{Al-Baghdadi, “The Difference Between the Groups” Page 164–165;
-and al-Shahrastani, “The Book of Sects and Creeds”, 1 / 68–69.}
+and al\–Shahrastani, “The Book of Sects and Creeds”, 1 / 68–69.}
 
 Similar to that (view, that others could produce the like of the \Quran) was
 the view taken by his contemporary, Ibrahim Ibn Sayyar Ibn Hani\` al-Nazzam,
@@ -350,13 +355,14 @@ combined their ideas with the ideas of the Mu\`tazilites\footnotemark.
 But he differed from his colleagues in 13 matters,
 while al-Baghdadi increased that number to 21.
 
-\footnotetext{Al-Shahrastani, 1 / 35–45.}
+\footnotetext{Al\–Shahrastani, 1 / 35–45.}
 
-If al-Shahrastani labels the areas al-Nazzam differed from his colleagues,
+If al\–Shahrastani labels the areas al-Nazzam differed from his colleagues,
 “issues”, these “issues” become “shameful scandals” in the view of al-Baghdadi!
-So the 9th issue that al-Shahrastani reproaches al-Nazzam about; becomes “The
-25th shameful scandal of his shameful scandals” according to the wording of
-al-Baghdadi: “His view regarding the miraculous nature of the \Qrn{} that it is
+So the 9th issue that al\–Shahrastani reproaches al-Nazzam about;
+becomes “The 25th shameful scandal of his shameful scandals”
+according to the wording of al-Baghdadi:
+“His view regarding the miraculous nature of the \Quran\ that it is
 to do with the fact it predicts events of the past and future, and to do with
 the the fact it diverted the causes of opposition and prevented the Arabs — by
 force and incapacitation — from being concerned with (trying to imitate) it,
