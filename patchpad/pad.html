@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <style type="text/css">
+  body, html, table { height: 100%; width: 100%; }
+  body, html { margin:0; padding:0; }
+  .label { display:inline-block;margin-top:-10px;background-color:white; }
+  lx { font-family: monospace;
+    border: 1px outset #EEF;
+    padding: 0em 0.1em;
+    color: darkred;
+  }
+  .grnblk, .redblk {
+    display: inline-block; border: 1px outset #EEE;
+    width: 1em; height: 1em; }
+  .grnblk { background-color: #99EE99; }
+  .redblk { background-color: #EE9999; }
+  h1 { margin:0em; }
+  h1>sup { vertical-align:text-top; }
+  #nick { width: 130px; margin-right: 20px; }
+  #diffview {
+    position: absolute; left:5%; right: 5%; bottom: 10%; top:10%;
+    padding: 0.7em;
+    background-color: white;
+    border: 1px outset #DDF;
+    overflow: auto;
+    padding-top: 2em;
+  }
+  #diffview button { position: absolute; left: 0; top: 0; }
+  #sendbtn { margin-right: 20px; }
+  #sendbtn, #viewbtn { padding: 0.2em; font-size: 1.2em; }
+  </style>
+  <title>Send document changes</title>
+  <link rel="stylesheet" href="diffview.css" type="text/css" media="screen"/>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="diffview.js"></script>
+  <script type="text/javascript" src="difflib.js"></script>
+  <script type="text/javascript">
+  $(function(){
+    $('#sendbtn').click(send_changes);
+    $('#viewbtn').click(view_changes);
+  });
+  function send_changes()
+  {
+    var nick = $("#nick").val(), msg = $("#msg").val(), doc = $("#doc").val();
+    var patch = create_patch(orig_text, doc, 0);
+    $.ajaxSetup({async:false}); // Make asynchronous.
+    var sendbtn_text = $('#sendbtn').text();
+    $('#sendbtn').text("Sending..."); // Give feedback.
+    $.post(window.location.href,
+      {patch:patch, nick:nick, msg:msg},
+      function(data, s, xhr) {
+        var msg = Number(data) ?
+          'Your patch was sent!' : 'Failed to send your patch! :-(';
+        alert(msg);
+      }, 'text');
+    $('#sendbtn').text(sendbtn_text); // Restore old label.
+    orig_text = doc; // Make current text the original.
+  }
+  function view_changes()
+  {
+    if (d = $("#diffview").length) d.remove();
+    var div = $("<div id='diffview'><button>Close</button>"+
+    "<span class='redblk'/> Deleted <span class='grnblk'/> Added</div>");
+    div.find(">button").click(function(){div.remove();});
+    $("body").append(div);
+    var new_text = $("#doc").val();
+    div.append(callDiffLib(orig_text, new_text, 3, true));
+  }
+  function create_patch(A, B, contextSize)
+  {
+    var s = contextSize || 0;
+    var A = difflib.stringAsLines(A);
+    var B = difflib.stringAsLines(B);
+    var sm = new difflib.SequenceMatcher(A, B);
+    var opcodes = sm.get_opcodes();
+    var patch = '';
+    for (var i=0, l=opcodes.length; i < l; i++)
+    {
+      var op = opcodes[i];
+      var tag = op[0], a1 = op[1], a2 = op[2], b1 = op[3], b2 = op[4];
+      if (tag == 'equal')
+        continue;
+      patch += '@@ -'+(a1+1)+','+(a2-a1)+' +'+(b1+1)+','+(b2-b1)+" @@\n";
+      if (tag == 'replace')
+        (patch += '-'), (patch += A.slice(a1, a2).join("\n-")), (patch+="\n"),
+        (patch += '+'), (patch += B.slice(b1, b2).join("\n+"));
+      else if (tag == 'delete')
+        (patch += '-'), patch += A.slice(a1, a2).join("\n-");
+      else if (tag == 'insert')
+        (patch += '+'), patch += B.slice(b1, b2).join("\n+");
+      patch += "\n";
+    }
+    return patch;
+  }
+  function nick_changed()
+  {
+    var nick = $('#nick');
+    if (window.localStorage)
+      localStorage.nick = nick.val();
+  }
+  function msg_focus(tarea)
+  {
+    $(tarea).text("");
+  }
+  function callDiffLib(Atext, Btext, contextSize, inline)
+  {
+    contextSize = contextSize || null;
+    var A = difflib.stringAsLines(Atext);
+    var B = difflib.stringAsLines(Btext);
+    // Calculate difference.
+    var sm = new difflib.SequenceMatcher(A, B);
+    var opcodes = sm.get_opcodes();
+    if (opcodes.length == 1 && opcodes[0][0] == 'equal')
+      return "<p>Document is unchanged...</p>";
+    // build the diff view and add it to the current DOM
+    var difftable = diffview.buildView({
+      baseTextLines:A,
+      newTextLines:B,
+      opcodes:opcodes,
+      // set the display titles for each resource
+      baseTextName:"Base Text",
+      newTextName:"New Text",
+      contextSize:contextSize,
+      viewType: inline ? 1 : 0
+    });
+    return difftable;
+  }
+  </script>
+</head>
+<body>
+
+<table>
+<tr>
+
+<td>
+<p style="float:right;">
+<input id="nick" type="text" value="Your nick name" onchange="nick_changed()"/>
+<script type="text/javascript">window.localStorage &&
+$("#nick").val(localStorage.nick);</script>
+<!--<a href="#">LaTeX Help</a>--></p>
+
+<h1>P<sup>a</sup>t<sup>c</sup>hP<sup>a</sup>d</h1>
+
+<span style="float:right;font-size:0.7em;"><b>1.</b> <em>Make your changes</em>, <b>2.</b> <em>Click 'View Changes'</em>, <b>3.</b> <em>Hit 'Send Changes'!</em></span>
+<p style="margin:0;font-size:0.5em;"><em>Send awesome patches to your document maintainor...</em></p>
+</td></tr>
+
+<tr style="height: 100%;">
+<td style="border: 1px solid blak; vertical-align: top; margin-top: 10px;">
+  <table><tr>
+  <td colspan="2">
+  <span class="lbel">Document:</span>
+  </td>
+  </tr><tr>
+  <td style="height:100%;width:80%">
+  <textarea id="doc" style="width:100%;height:100%;font-family:monospace;">
+<?php echo $doc_contents ?></textarea></td>
+<script type="text/javascript">orig_text = $("#doc").val();</script>
+
+  <td valign="top" style="position: relative;">
+  </td>
+  </tr></table>
+</td>
+</tr>
+<tr>
+<td style="height:30%;">
+  <table><tr>
+  <td><span class="labl">Message:</span></td>
+  </tr><tr>
+  <td style="height:100%">
+<textarea id="msg" style="width:100%;height:100%" onfocus="msg_focus(this)">
+Optional message explaining your changes...
+</textarea></td>
+  </tr></table>
+</td>
+</tr>
+<tr>
+<td style="">
+<button id="sendbtn">Send Changes</button>
+<button id="viewbtn">View Changes</button>
+</td>
+</tr>
+</table>
+
+<div style="overflow:auto;display:none;position:absolute;height:100%;">
+  <h4>Legend:</h4>
+  <dl>
+  <dt><lx>% ...</lx></dt>
+  <dd>internal comments (not printed to the PDF)</dd>
+  <dt><lx>\&nbsp;</lx></dt>
+  <dd>explicit, single space character</dd>
+  <dt><lx>\QRef</lx></dt>
+  <dd>Qur'an reference, e.g.: \QRef{43:4-7}</dd>
+  <dt><lx>\Quran</lx></dt>
+  <dd>prints <b>Qur'an</b> with typographical characters</dd>
+  <dt><lx>\begin{quote}</lx> <lx>\end{quote}</lx></dt>
+  <dd>mark block quotes</dd>
+  <dt><lx>\@</lx></dt>
+  <dd>explicit marking of a sentence's end</dd>
+  <dt><lx>\`</lx></dt>
+  <dd>transliterated "`ayin"</dd>
+  <dt><lx>\´</lx></dt>
+  <dd>transliterated "hamza"</dd>
+  <dt><lx>\/</lx></dt>
+  <dd>a forward slash for separating words</dd>
+  </dl>
+</div>
+
+</body>
+</html>
