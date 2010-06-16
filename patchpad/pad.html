@@ -53,6 +53,8 @@
   {
     var nick = $("#nick").val(), msg = $("#msg").val(), doc = $("#doc").val();
     var patch = create_patch(orig_text, doc, 0);
+    if (patch == '')
+      return alert('There are no changes to be sent!');
     $.ajaxSetup({async:false}); // Make asynchronous.
     var sendbtn_text = $('#sendbtn').text();
     $('#sendbtn').text("Sending..."); // Give feedback.
@@ -71,7 +73,7 @@
     if (d = $("#diffview").length) d.remove();
     var div = $("<div id='diffview'><button>Close</button>"+
     "<span class='redblk'/> Deleted <span class='grnblk'/> Added</div>");
-    div.find(">button").click(function(){div.remove();});
+    div.find(">button").click(function(){div.add(bg).remove();});
     var bg = $('<div id="bgmodal"/>').click(function(){
       div.add(this).remove();
     });
@@ -128,7 +130,7 @@
     // Calculate difference.
     var sm = new difflib.SequenceMatcher(A, B);
     var opcodes = sm.get_opcodes();
-    if (opcodes.length == 1 && opcodes[0][0] == 'equal')
+    if (opcodes.length == 1 && opcodes[0][0] == 0)
       return "<p>Document is unchanged...</p>";
     // build the diff view and add it to the current DOM
     var difftable = diffview.buildView({
