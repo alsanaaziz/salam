@@ -1,0 +1,207 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[12pt]{memoir}
+\usepackage[
+  xetex,bookmarksnumbered=true,pdfborder=0,hyperfootnotes=true
+]{hyperref}
+\usepackage{xltxtra}
+\usepackage{bidi}
+\usepackage{xunicode}
+
+\usepackage{fontspec}
+\usepackage{color}
+\usepackage[UKenglish]{babel}
+
+\setmainfont{DejaVu Serif}
+
+\hypersetup{
+  pdfauthor = {Hassan},
+  pdftitle = {Autobiography by Hassan},
+  pdfsubject = {},
+  pdfkeywords = {Islam Religion Allah God Faith Scepticism Life},
+}
+
+\definecolor{darkblue}{rgb}{0,0,0.62}
+
+% Transliterated "hamza".
+\def\´{ʾ} % ˀ
+\let \hamza=\´ % Needed in \footnotetext.
+
+% Transliterated "`ayin".
+\def\`{ʿ} % ˁ
+\let \ayin=\` % Needed in \footnotetext.
+
+% Aliases for subscript and superscript:
+\let \Sub=\textsubscript
+\let \Sup=\textsuperscript
+
+% Hyphenation rules:
+% \hyphenation{}
+\hyphenation{}
+
+% Corrective comments.
+\newcommand{\cmt}[2]{#1} % #1 is the actual text. #2 is the comment.
+
+% Use Scheherazade for Arabic. Use \ar{...} for inline Arabic text.
+\newfontfamily{\arabicfont}[Script=Arabic,Scale=1.7]{Scheherazade}
+\newcommand{\ar}[1]{\RL{\arabicfont#1}}
+
+% Macros for the word Qur'an.
+\def \Quran{Qur\-\´ān} % Used when followed by a punctuation mark.
+
+% Breakable forward slash.
+\def\/{\discretionary{/}{}{/}}
+
+% For hyphenation: Trick TeX into thinking al\–XYZ are two separate words.
+\def\–{-\hskip0pt}
+\def\al{al-\hskip0pt} % Version with "al-".
+
+% Prints symbols for dividing paragraphs.
+\def\pardivider{\centerline{***}} % \ar{۞۞۞} ❧❦
+
+% Qur'an reference numbers. TODO: link to web page.
+\newcommand{\QRef}[1]{{\color{darkblue}#1}}
+
+% "Nota bene" macro.
+\newcommand{\NB}[1]{\emph{\small NB: #1}}
+
+% Paragraph spacing:
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+\pagestyle{plain}
+
+\title{Autobiography}
+\author{\emph{by Hassan}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document begin %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\frontmatter
+
+% Title:
+\maketitle
+\thispagestyle{empty}
+\cleardoublepage
+
+% Table of Contents:
+\setcounter{page}{1}
+\tableofcontents
+
+% Preface:
+\chapter{Preface}
+
+% \picture{Tunis_Hassan.jpg}
+
+My father was Egyptian and my mother English and I have 8 brothers and sisters.
+I was born Muslim but didn’t start practicing until I was twenty
+when I became very devout and committed.
+For the next twenty eight years Islam guided every aspect of my life.
+I completed a BA in Arabic and Islamic Studies at the School of Oriental
+and African Studies where I became President of the Islamic Society.
+After leaving university I became Amir of a Da\`wah group
+in North London and edited an Islamic magazine called ‘The Clarion’.
+I wrote four books for Muslim children and spent fifteen years as a teacher
+at Islamia School, the one founded by Yusuf Islam (Cat Stevens).
+But shortly before my 48th birthday I knew I no longer believed in Islam.
+If you had told me a few years ago that such a thing would happen to me,
+I would never have believed it and added that no ‘true’ Muslim
+would ever reject Islam after having tasted the sweetness of Iman (faith).
+No one who has immersed himself in the beauty of the \Quran\
+and appreciated its wisdom could ever deny that it is the word of God.
+If anyone had claimed such a thing I would have instinctively
+doubted him and been suspicious of his motives.
+But it is amazing how perceptions can change
+and things I once thought unimaginable now seem perfectly reasonable.
+Of course this change didn’t happen overnight.
+It began a few years ago when I started to question the beliefs
+I had for so long taken for granted
+and started to look at Islam in a new light.
+
+Little by little doubts began creeping in.
+At first I tried to suppress them
+and reacted to criticism of Islam with denial, anger and blame.
+I denied there was anything wrong, felt hyper-sensitive
+to criticism and blamed the West for provoking and creating problems.
+When I did eventually accept that Muslims had to take responsibility
+for the problems we faced,
+I still couldn’t accept that Islam itself was to blame.
+It was the way Islam was being interpreted that was the problem.
+I started arguing for a reinterpretation and reform of traditional views,
+but instead of easing my conscience,
+this only highlighted the futility and dishonesty of such views.
+Finally I tried to tell myself that although my rational mind
+found it difficult to believe certain things in Islam,
+there must be explanations beyond my capacity to understand
+and that ‘God knows best’.
+The safest and wisest option was to “Hold fast to the rope of Allah”.
+I reckoned I had nothing to lose and everything to gain by remaining a believer
+and so I went through the motions of being a ‘good’ Muslim,
+in the hope that my faith would return.
+But this pretence only made me depressed and lose all motivation.
+The problem is that one cannot choose to believe.
+Either one does or not and if there is a God,
+the last thing he would have wanted me to do
+was to pretend to believe in something that I didn’t.
+It was quite a relief when I finally admitted to myself
+that I no longer believed in Islam.
+
+However the fact that I no longer believe in Islam
+doesn’t mean I have suddenly turned into a hater of Islam.
+I know that Islam brings a great deal of guidance,
+comfort and worthy values to the lives of millions of people.
+I know that most Muslims are good and decent people.
+How could I possibly hate Muslims when my family is Muslim?
+When I speak to my older children about what I think,
+I tell them they must find out for themselves what they believe
+and if they feel happy being Muslims then that is what they should be.
+I certainly don’t feel the need to pass on my own beliefs
+concerning God and religion to them –
+something I felt it was my duty to do when I was a Muslim.
+
+While I do not believe in telling anyone what they should believe,
+I do think one should have the courage to honestly examine
+the beliefs that are central to one’s life and guide one’s actions.
+If one is truly satisfied with them,
+then they should be fully embraced with one’s heart and mind,
+but if they do not stand up to close scrutiny,
+then they should be discarded.
+Life is too short to allow it to be dictated
+by beliefs one does not truly believe.
+
+\hfill Copyright © 2008 - 2010 by Hassan
+
+\mainmatter
+
+% Chapters:
+
+%Chapter 1:
+\chapter{Have you read the \Quran?}
+%Chapter 2:
+\chapter{The Path of Allah}
+%Chapter 3:
+\chapter{The Sufi Path}
+%Chapter 4:
+\chapter{Growth of Activism}
+%Chapter 5:
+\chapter{Islamia School}
+%Chapter 6:
+\chapter{Sheikh Faisal}
+%Chapter 7:
+\chapter{Tuesday Afternoon}
+%Chapter 8:
+\chapter{Revelation \& Reason}
+%Chapter 9:
+\chapter{London Bombings}
+%Chapter 10:
+\chapter{Reforming the Unreformable}
+%Chapter 11:
+\chapter{Religion}
+%Chapter 12:
+\chapter{Pandora’s Box}
+
+
+\backmatter
+
+\chapter{Index}
+TODO:
+
+\end{document}
