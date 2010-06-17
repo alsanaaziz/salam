@@ -76,10 +76,11 @@ diffview = {
 
     function ctelt (name, change_kind, text) {
       var e = document.createElement(name);
-      e.className = ['equal', 'replace', 'delete', 'insert'][change_kind];
+      e.className = ctelt.classNames[change_kind];
       e.appendChild(document.createTextNode(text));
       return e;
     }
+    ctelt.classNames = ['equal', 'replace', 'delete', 'insert'];
 
     var tdata = document.createElement("thead");
     var node = document.createElement("tr");
