@@ -57,7 +57,7 @@ $(function linkifyVideos() {
     var embedURL = 'youtube.com/v/'+vID,
       tag = embedOrIMG(emb, a, 'img.youtube.com/vi/'+vID+'/0.jpg',
       embedURL, embedURL+'&amp;autoplay=1');
-    return ["YouTube Video:", tag];
+    return ['YouTube Video:', tag];
   },
   'google.com' : function(path, a, emb) {
     var vID = path.match(/\bdocid=([^&#$]+)/i);
@@ -65,7 +65,7 @@ $(function linkifyVideos() {
     var embedURL = 'video.google.com/googleplayer.swf?fs=true&amp;docid='+vID,
       tag = embedOrIMG(emb, a, 'www.google.com/images/video_logo.png', //gvt0
       embedURL, embedURL+'&amp;autoplay=1');
-    return ["Google Video:", tag];
+    return ['Google Video:', tag];
   },
   'vimeo.com' : function(path, a, emb) {
     var vID = path.match(/^(\d+)/i);
@@ -73,8 +73,15 @@ $(function linkifyVideos() {
     var embedURL = 'vimeo.com/moogaloop.swf?clip_id='+vID,
       tag = embedOrIMG(emb, a, 'assets.vimeo.com/images/logo_vimeo_land.png',
       embedURL, embedURL+'&amp;autoplay=1');
-    return ["Vimeo Video:", tag];
-  }
+    return ['Vimeo Video:', tag];
+  },
+  'soundcloud.com' : function(path, a, emb) {
+    var tag = emb ? '<embed height="81" type="application/x-shockwave-flash"\
+ width="100%" src="http://player.soundcloud.com/player.swf?url='+a.href+'"\
+/>' :
+'<a href="'+a.href+'"><img src="http://soundcloud.com/images/soundcloud-logo-sc.png"/></a>';
+    return ['SoundCloud:', tag];
+  },
   };
   //handlers['google.co.uk'] = handlers['google.com'];
 
