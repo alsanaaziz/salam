@@ -1,20 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# Author: AlsanaAziz
 from __future__ import unicode_literals
 import re
+from latex import *
 
-def replace_QRef(text):
-  # Match: \QRef{\d+:\d+(–\d+)?}
-  rx = re.compile(r"\\QRef\{((\d+):(\d+)(?:–(\d+))?)\}")
-  # Note: '#' must be escaped due to LaTeX (hyperref package).
-  url = "http://www.usc.edu/dept/MSA/quran/%03d.qmt.html\#%03d.%03d"
-  def to_url(m):
-    chapter, verse = int(m.group(2)), int(m.group(3))
-    whole_ref = m.group(1)
-    s = url % (chapter, chapter, verse)
-    s = r"\QRef{\href{%s}{%s}}" % (s, whole_ref)
-    return s
-  return rx.sub(to_url, text)
 
 def main():
   from sys import argv
