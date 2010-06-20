@@ -7,6 +7,7 @@
 \usepackage{xltxtra}
 \usepackage{bidi}
 \usepackage{xunicode}
+\usepackage{graphicx}
 
 \usepackage{fontspec}
 \usepackage{color}
@@ -67,6 +68,12 @@
 % "Nota bene" macro.
 \newcommand{\NB}[1]{\emph{\small NB: #1}}
 
+% Image macro. #1 Optional params. #2 File name. #3 Optional caption.
+\newcommand{\img}[3]{\begin{center}%
+\includegraphics[#1]{#2}\\{\small\em#3}%
+\end{center}}
+\graphicspath{{books/imgs/}}
+
 % Paragraph spacing:
 \setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
 
@@ -91,7 +98,7 @@
 % Preface:
 \chapter{Preface}
 
-% \picture{Tunis_Hassan.jpg}
+\img{scale=0.1}{Tunis_Hassan.jpg}{}
 
 My father was Egyptian and my mother English and I have 8 brothers and sisters.
 I was born Muslim but didn’t start practicing until I was twenty
@@ -178,7 +185,7 @@ by beliefs one does not truly believe.
 %Chapter 1:
 \chapter{Have you read the \Quran?}
 
-% [[File:Baby_Hassan.jpg|250px|center]]
+\img{scale=0.7}{Baby_Hassan.jpg}{}
 
 Every night, before going to bed, we recited \emph{al\–Fatiha},
 the short first chapter of the \Quran.
@@ -218,7 +225,7 @@ to be good for as long as possible.
 I did that when I asked God to make mummy and daddy stop fighting.
 When they didn’t stop I knew it was because I wasn’t good enough.
 
-% [[File:Hassan_Boy.jpg|200px|center]]
+\img{scale=1}{Hassan_Boy.jpg}{}
 
 As I got older, Islam receded further and further into the background
 and by the age of twelve, during the long hot summer of 1971,
@@ -254,8 +261,8 @@ that transmitted “HOMOSEXUAL” so plainly to my dad.
 We did as we were told.
 One didn’t argue with my father.
 
-% [[File:Hassans_Father.jpg|450px|center]]
-% My father, Aziz (far right) during the war against Israel 1948.
+\img{scale=0.8}{Hassans_Father.jpg}
+{My father, Aziz (far right) during the war against Israel 1948.}
 
 Born to a wealthy Egyptian family,
 my father rarely talked about the country
@@ -278,8 +285,8 @@ of the Suffolk village of Coddenham,
 where I was born on the 12\Sup{th} of May, 1959,
 fifth child in a family of eight.
 
-% [[File:Hassans_Mother.jpg|250px|center]]
-% My mother, Mary Magson (standing) in the ATS during WW2.
+\img{scale=0.7}{Hassans_Mother.jpg}
+{My mother, Mary Magson (standing) in the ATS during WW2.}
 
 We moved to Finchley in North London when I was 6 years old
 and that is where I spent most of my childhood and teenage years.
@@ -325,8 +332,8 @@ and he became violent if he felt she wasn’t obeying his every command.
 After suffering for many years my mother eventually sued for divorce.
 The court battle over custody of the children was long and bitter.
 
-% [[File:Hassan_and_Diane.jpg|500px|center|Me & Diane 1978]]
-% Me & Diane 1978
+\img{scale=0.3}{Hassan_and_Diane.jpg}
+{Me \& Diane, 1978}
 
 At the age of 18 I started a degree in Sociology
 at the Polytechnic of North London,
@@ -605,8 +612,8 @@ But despite its strangeness I soon felt at home.
 For the first time I didn’t have to hide or be embarrassed about my origins.
 Moreover, everyone admired and respected both halves of my cultural background.
 
-% [[File:Hassan_Cousins.jpg|500px|center|Me & two cousins in Egypt, 1981]]
-% Me & two cousins in Egypt, 1981
+\img{scale=0.3}{Hassan_Cousins.jpg}
+{Me \& two cousins in Egypt, 1981}
 
 We stayed at my uncle’s house in Cairo.
 The Egyptians wore western clothes,
@@ -874,7 +881,7 @@ I had no need for idolatrous distractions from the path of Allah.
 %Chapter 2:
 \chapter{The Path of Allah}
 
-% [[File:Hassan_1980.jpg|280px|center]]
+\img{scale=1}{Hassan_1980.jpg}{}
 
 Shortly after returning from Egypt,
 I was determined to immerse myself in the study of Islam and Arabic.
@@ -1010,8 +1017,8 @@ I started with my younger siblings.
 I spent a great deal of time reading verses of the \Quran\
 and discussing their meaning.
 
-% [[File:Hassan_in_Regents_Park_Mosque.jpg||400px|center]]
-% {{Cmt|Regents|Regent’s}} Park Mosque.
+\img{scale=0.4}{Hassan_in_Regents_Park_Mosque.jpg}
+{\cor{Regents}{Regent’s} Park Mosque}
 
 One day I was visiting brother Shafiq,
 when he suggested accompanying him on a “Tablighi Jamaat.”
@@ -1546,8 +1553,8 @@ Jamaatu\–Tableegh offered.
 %Chapter 3:
 \chapter{The Sufi Path}
 
-% [[File:Members_SOAS_Islamic_Society.jpg|420px|center]]
-% Members of SOAS Islamic Society, October 1980.
+\img{scale=0.7}{Members_SOAS_Islamic_Society.jpg}
+{Members of SOAS Islamic Society, October 1980.}
 
 I joined the SOAS Students Union Islamic Society as soon as I started
 at London University in September 1980 and became it’s president in 1981,
@@ -2029,7 +2036,7 @@ The ones who have left — have reached enlightenment!”
 %Chapter 4:
 \chapter{Growth of Activism}
 
-% [[File:Assassination_of_Sadat.jpg|300px|center]]
+\img{scale=0.7}{Assassination_of_Sadat.jpg}{}
 
 “Hassan! Hassan! look at this!”
 shouted my father from the living room.
@@ -2569,7 +2576,7 @@ They were ready to show their anger
 and frustration at the slightest provocation.
 In 1988, that provocation came in the form of a book, “The Satanic Verses.”
 
-% [[File:Satanic_Verses_Demo.jpg|250px|center]]
+\img{scale=1}{Satanic_Verses_Demo.jpg}{}
 
 The first time I heard about “The Satanic Verses”
 was at a Da\`wa Society meeting.
@@ -3680,7 +3687,7 @@ and consoled myself with the thought that it was just hot air.
 %Chapter 7:
 \chapter{Tuesday Afternoon}
 
-% [[File:911_Second_Plane.jpg|300px|center]]
+\img{scale=0.4}{911_Second_Plane.jpg}{}
 
 I was teaching in class on September the 11\Sup{th}, 2001,
 as the news began filtering through.
@@ -4191,7 +4198,7 @@ and would not allow me to think about the answer rationally.
 %Chapter 8:
 \chapter{Revelation \& Reason}
 
-% [[File:Man_Reading_Koran.gif|230px|center]]
+\img{scale=0.6}{Man_Reading_Koran.jpg}{}
 
 \begin{quote}
 \emph{“As for those women from whom you fear rebellion (first)
@@ -4572,7 +4579,7 @@ See: Sahih Muslim: Book 004, Number 2127}
 %Chapter 9:
 \chapter{London Bombings}
 
-% [[File:London_Bombings.jpg|300px|center]]
+\img{scale=1.2}{London_Bombings.jpg}{}
 
 Mansoor, our Head Teacher, was late for work one Thursday morning.
 
@@ -4795,7 +4802,7 @@ The Muslims around me seemed to be so deep in denial it felt hopeless.
 %Chapter 10:
 \chapter{Reforming the Unreformable}
 
-% [[File:Quranic_Script.jpg|200px|center]]
+\img{scale=0.4}{Quranic_Script.jpg}{}
 
 Despite my doubts I still clung desperately to the belief
 that the \Quran\ was from God but it’s deeper message
@@ -5020,7 +5027,7 @@ to undermine my faith in it.
 %Chapter 11:
 \chapter{Religion}
 
-% [[File:Neasden_Temple.gif|350px|center]]
+\img{scale=0.6}{Neasden_Temple.jpg}{}
 
 The Swaminarayan Hindu Temple in Neasden is a stunning building,
 with its mass of domes, elaborately carved walls and huge marble staircase.
@@ -5509,7 +5516,7 @@ what to do and avoid thinking for ourselves.”
 %Chapter 12:
 \chapter{Pandora’s Box}
 
-% [[File:Pandoras_Box.jpg|270px|center]]
+\img{scale=0.5}{Pandoras_Box.jpg}{}
 
 There was no-where I could hide.
 I couldn’t walk down the street without bumping into this or that brother
