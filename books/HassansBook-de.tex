@@ -1,0 +1,1062 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[12pt]{memoir}
+\usepackage[
+  xetex,bookmarksnumbered=true,pdfborder=0,hyperfootnotes=true
+]{hyperref}
+\usepackage{xltxtra}
+\usepackage{polyglossia}
+\usepackage{bidi}
+\usepackage{xunicode}
+\usepackage{graphicx}
+
+\usepackage{fontspec}
+\usepackage{color}
+
+\setdefaultlanguage{german}
+\setmainfont{DejaVu Serif}
+
+\hypersetup{
+  pdfauthor = {Hassan},
+  pdftitle = {Autobiographie von Hassan},
+  pdfsubject = {},
+  pdfkeywords = {Islam Religion Allah Gott Glaube Skeptizismus Leben},
+}
+
+\definecolor{darkblue}{rgb}{0,0,0.5}
+
+% Transliterated "hamza".
+\def\´{ʾ} % ˀ
+\let \hamza=\´ % Needed in \footnotetext.
+
+% Transliterated "`ayin".
+\def\`{ʿ} % ˁ
+\let \ayin=\` % Needed in \footnotetext.
+
+% Aliases for subscript and superscript:
+\let \Sub=\textsubscript
+\let \Sup=\textsuperscript
+
+% Hyphenation rules:
+\hyphenation{Mau-la-na Za-kar-ya Kan-dha-la-wi Shu-\`ay-bi}
+
+% Corrective comments.
+\newcommand{\cmt}[2]{#1} % #2 comments on #1.
+\newcommand{\cor}[2]{#2} % #2 corrects #1.
+
+% Use Scheherazade for Arabic. Use \ar{...} for inline Arabic text.
+\newfontfamily{\arabicfont}[Script=Arabic,Scale=1.7]{Scheherazade}
+\newcommand{\ar}[1]{\RL{\arabicfont#1}}
+
+% Macros for the word Qur'an.
+\def \Quran{Qur\-\´ān} % Used when followed by a punctuation mark.
+
+% Breakable forward slash.
+\def\/{\discretionary{/}{}{/}}
+
+% For hyphenation: Trick TeX into thinking al\–XYZ are two separate words.
+\def\–{-\hskip0pt}
+\def\al{al-\hskip0pt} % Version with "al-".
+
+% Prints symbols for dividing paragraphs.
+\def\pardivider{\centerline{***}} % \ar{۞۞۞} ❧❦
+
+% Qur'an reference numbers. TODO: link to web page.
+\newcommand{\QRef}[1]{{\color{darkblue}#1}}
+
+% "Nota bene" macro.
+\newcommand{\NB}[1]{\emph{\small NB: #1}}
+
+% Image macro. #1 Optional params. #2 File name. #3 Optional caption.
+\newcommand{\img}[3]{\begin{center}%
+\includegraphics[#1]{#2}\\{\small\em#3}%
+\end{center}}
+\graphicspath{{books/imgs/}}
+
+% Paragraph spacing:
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+\pagestyle{plain}
+
+\title{Eine Autobiographie}
+\author{\emph{von Hassan}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document begin %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\frontmatter
+
+% Title:
+\maketitle
+\thispagestyle{empty}
+\cleardoublepage
+
+% Table of Contents:
+\setcounter{page}{1}
+\tableofcontents
+
+% Preface:
+\chapter{Vorwort}
+
+% \begin{comment}
+Dies ist meine Geschichte. Ich habe sie als Selbsttherapie geschrieben,
+außerdem habe ich sie geschrieben, um zu versuchen mein Leben zu verstehen.
+Um zu verstehen warum ich bestimmte Wege gegangen bin,
+und warum ich zu bestimmten Schlussfolgerungen gelangt bin.
+Ich hoffe auch, dass es andere interessiert und aufklärt.
+Ich habe mich auf die frühen und späten Jahre konzentriert.
+Ich habe keine echten Namen benutzt, außer in wenigen Einzelfällen.
+% \end{comment}
+
+\img{scale=0.1}{Tunis_Hassan.jpg}{}
+
+Mein Vater war Ägypter und meine Mutter Engländerin
+und ich habe 8 Brüder und Schwestern.
+Ich wurde als Muslim geboren, aber ich begann erst zu praktizieren
+als ich zwanzig und sehr fromm und engagiert wurde.
+Für die nächsten zwanzig Jahre diente der Islam als Anleitung
+für jeden Aspekt meines Lebens.
+Ich absolvierte ein B.A.-Studium in Arabistik und Islamwissenschaften
+an der Schule für Orientalistik und afrikanistische Studien,
+wo ich Präsident der „Islamischen Gesellschaft“ wurde.
+Nachdem ich von der Universität abgegangen bin,
+wurde ich zum Leiter einer Da\`wah-Gruppe im Norden Londons
+und gab ein islamisches Magazin mit dem Namen
+„The Clarion“ („Der Weckruf“) heraus.
+Ich schrieb vier Bücher für muslimische Kinder
+und verbrachte fünfzehn Jahre als Lehrer an der ‚Islamia School‘ –
+jene, die von Yusuf Islam (Cat Stevens) gegründet wurde.
+Doch zeitnah zu meinem 48.\ Geburtstag wusste ich,
+dass ich nicht mehr länger an den Islam glaubte.
+Hättet ihr mir vor ein paar Jahren erzählt,
+dass mir so etwas passieren würde,
+so hätte ich euch niemals geglaubt und hätte außerdem hinzugefügt,
+dass kein ‚wahrer‘ Muslim jemals den Islam ablehnen würde,
+nachdem er die Süße des Iman (Glaubens) gekostet hat.
+Niemand, der in die Schönheit des Koran eingetaucht war
+und seine Weisheit verstand, könnte jemals leugnen,
+dass es das Wort Gottes ist. Hätte jemand so etwas behauptet,
+so hätte ich ihm instinktiv misstraut
+und gegen seine Motive Verdacht geschöpft.
+Doch es ist erstaunlich wie sich Wahrnehmungen ändern können und wie Dinge,
+die ich früher als unvorstellbar erachtete,
+jetzt vollkommen vernünftig erscheinen.
+Natürlich erfolgte dieser Wandel nicht von heute auf morgen.
+Es begann vor ein paar Jahren,
+als ich anfing meine Ansichten zu hinterfragen,
+die ich seit Langem als selbstverständlich ansah,
+und als ich anfing den Islam im neuen Lichte zu betrachten.
+
+Immer mehr Zweifel schlichen sich nach und nach ein.
+Anfangs versuchte ich sie zu unterdrücken und reagierte auf Kritik
+gegen den Islam mit Verleugnung, Zorn und Vorwürfen.
+Ich leugnete, dass etwas nicht stimmte,
+war Kritik gegenüber überempfindlich und beschuldigte den Westen
+provokant zu sein und Probleme zu verursachen.
+Als ich schließlich akzeptierte, dass Muslime Verantwortung
+für ihre Probleme tragen mussten,
+konnte ich dennoch nicht akzeptieren,
+dass der Islam selbst verantwortlich zu machen war.
+Die Art und Weise, in der der Islam interpretiert wurde,
+war das Problem. Ich begann für eine Neuinterpretation
+und für die Reform von traditionellen Ansichten zu argumentieren,
+aber anstatt mein Gewissen zu erleichtern,
+hebte dies nur die Zwecklosigkeit
+und Unaufrichtigkeit dieser Ansichten hervor.
+Schlussendlich versuchte ich mir selbst einzureden, dass,
+obwohl es meinem rationalen Verstand schwer fiel
+bestimmte Dinge im Islam zu glauben,
+es Erklärungen jenseits meiner Verständnisfähigkeit geben muss,
+und dass ‚Gott es am besten weiß‘.
+Die sicherste und weiseste Wahl war an ‚Allahs Seil festzuhalten‘.
+Ich dachte, ich hatte nichts zu verlieren und alles zu gewinnen,
+indem ich ein Gläubiger blieb.
+Also lebte ich den Alltag eines ‚guten‘ Muslims, in der Hoffnung,
+dass mein Glaube zurückkehren würde.
+Doch dieser Schein machte mich nur depressiv
+und ich verlor jegliche Motivation.
+Das Problem ist, dass man sich das Glauben nicht aussuchen kann.
+Entweder man glaubt oder nicht, und wenn es einen Gott gibt,
+dann wäre das letzte, was er von mir wollen würde,
+dass ich zum Schein etwas glaube, was ich nicht glauben konnte.
+Es war eine riesige Erleichterung als ich mir endlich eingestand,
+dass ich an den Islam nicht mehr glaubte.
+
+Doch die Tatsache, dass ich nicht mehr an den Islam glaube,
+bedeutet nicht, dass ich auf einmal zum Islamhasser geworden bin.
+Ich weiß, dass der Islam dem Leben einer Unzahl von Menschen sehr viel Hilfe,
+Trost und gute Werte bringt.
+Ich weiß, dass die meisten Muslime gute und anständige Leute sind.
+Wie könnte ich jemals Muslime hassen, wenn meine Familie doch muslimisch ist?
+Wenn ich mit meinen älteren Kindern darüber spreche, was ich denke,
+so erzähle ich ihnen, dass sie für sich selbst herausfinden müssen,
+was sie glauben, und wenn sie sich als Muslime glücklich fühlen,
+dann soll es so sein.
+Ich empfinde es sicherlich nicht als Notwendigkeit,
+meine eigenen Ansichten bezüglich Gott und Religion weiterzugeben –
+etwas, wozu ich mich verpflichtet fühlte, als ich Muslim war.
+
+Während ich nicht daran glaube, anderen zu sagen was sie glauben sollen,
+denke ich, dass man den Mut haben sollte die Ansichten ehrlich zu prüfen,
+die essentiell für das eigene Leben sind und die eigenen Taten leiten.
+Wenn man wirklich mit ihnen zufrieden ist,
+dann sollte man sie vollständig mit Herz und Verstand annehmen,
+aber wenn sie der genauen Prüfung nicht standhalten,
+dann sollte man sie verwerfen.
+Das Leben ist zu kurz, um es von Ansichten diktieren zu lassen,
+an die man nicht aufrichtig glaubt.
+
+\hfill Copyright © 2008–2010 by Hassan
+
+\hfill Copyright © 2008–2010 Übersetzung von Aziz
+
+\mainmatter
+
+% Chapters:
+
+%Chapter 1:
+\chapter{Hast du den \Quran\ gelesen?}
+
+\img{scale=0.7}{Baby_Hassan.jpg}{}
+
+Jede Nacht, bevor wir zu Bett gingen, sagten wir die \emph{Al-Fatiha} auf –
+das kurze erste Kapitel des \Quran.
+Ich fühlte, dass Gott über mich wachte.
+Mein Vater, öfter jedoch meine Mutter, würde an der Türe stehen,
+während ich und meine zwei Brüder unsere Arme verschränkten
+und aufrecht im Bett saßen.
+Wir sagten es blitzschnell auf Arabisch und Englisch auf,
+dann Kopf aufs Kissen und Licht aus.
+Manchmal fügte ich mein spezielles Gebet hinzu:
+„Lieber Gott, bitte mach, dass alles gut wird.“
+Ich war zu müde, um die Einzelheiten aufzuzählen.
+Gott verstand schon.
+
+Nur bei besonderen Anlässen mussten wir
+die offiziellen täglichen Gebete verrichten,
+w.z.B. beim Besuch vom Großvater,
+wo wir als Wohltat für ihn eine große Schau der Frömmigkeit abziehen mussten.
+Nach dem Gebet zeigten mir meine ältesten Schwestern, Kamelia und Susi,
+wie man Du\`a (Bittgebet) macht, um Gott um etwas, das ich wollte, zu bitten.
+
+\begin{quote}
+„Halte deine Hände auf und lass keine Lücken offen!“ sagte Kamelia.
+
+„Warum muss ich meine Hände so halten?“ fragte ich.
+
+„Damit du die Geschenke auffangen kannst, die Gott dir schickt!“
+antwortete Kamelia.
+\end{quote}
+
+Ich akzeptierte diese Antwort kritiklos,
+obwohl ich keine Geschenke sehen konnte.
+Ich begann mit der Art und Weise vertraut zu werden,
+in der Gott die Dinge handhabte.
+Wenn ich Gott um ein Fahrrad bat, wusste ich,
+dass ich es nicht gleich bekommen würde,
+oder es vielleicht überhaupt nicht bekommen würde.
+Es war nicht Gottes Schuld, sondern meine,
+denn ich war auf irgendeine Art ungezogen und verdiente es nicht.
+Wenn ich etwas unbedingt wollte,
+würde ich mir große Mühe geben so lange wie möglich artig zu sein.
+Ich tat dies, als ich Gott darum bat,
+meine Mamma und meinen Papa dazu zu bringen,
+mit dem Streiten aufzuhören.
+Als sie nicht aufhörten, wusste ich, dass ich nicht artig genug war.
+
+\img{scale=1}{Hassan_Boy.jpg}{}
+
+Als ich älter wurde, rückte der Islam mehr und mehr in den Hintergrund
+und im Alter von zwölf, während des langen heißen Sommers im Jahre 1971,
+war mein einziges Interesse so wie Marc Bolan zu sein.
+Mit meinem Lockenkopf, meiner Samtjacke und meinen Plateaustiefeln,
+dachte ich auch, dass ich aussah wie er.
+Ein bisschen Glitter auf meinen Wangen und ich war weg,
+schmollend und tänzelnd vor dem Spiegel zu ‚Hot Love‘ und ‚Get it On‘.
+Ich zeichnete Bilder von ihm und Mickey Finn und hängte sie an die Wand
+im Schlafzimmer auf, das ich mit meinen zwei Brüdern teilte.
+Unser Schlafzimmer war so sehr zugedeckt mit Zeichnungen
+und Bildern von Männern mit Make-Up und hautengen Trikots,
+dass mein Vater überzeugt war, dass wir langsam schwul wurden.
+
+\begin{quote}
+„Was um alles in der Welt haben all diese Homosexuellen
+an euren Wänden zu suchen?“
+
+„Das sind keine Homosexuellen.“
+
+„Natürlich sind sie das. Schau mal seine Augen an,“ sagte er,
+und zeigte auf ein Bild von Dave Hill an der Wand,
+dem Gitarrist von ‚\href{http://de.wikipedia.org/wiki/Slade}{Slade}‘.
+
+Ich betrachtete seine Augen genau, und versuchte festzustellen
+was genau meinem Vater so deutlich den Eindruck „HOMOSEXUELL“ vermittelte.
+
+„Alle tragen Glitzer. Es ist nur Show!“
+
+„Ich möchte, dass ihr sie herunternimmt. Sofort!“
+\end{quote}
+
+Wir taten, wie uns geheißen wurde. Man diskutierte nicht mit meinem Vater.
+
+\img{scale=0.8}{Hassans_Father.jpg}
+{Mein Vater Aziz (ganz rechts),
+während des Krieges gegen Israel im Jahre 1948.}
+
+Mein Vater, geboren als Sohn einer wohlhabenden, ägyptischen Familie,
+sprach selten über das Land und die Kultur, aus der er gekommen war.
+Er war auch nicht besonders religiös.
+Lange Zeit wusste ich nicht, dass er aus Ägypten kam.
+Als er zum ersten Mal nach England kam,
+nannte er sich \emph{Jean Pierre} und erzählte jedem, dass er ein Franzose ist.
+Meine Mutter, Mary Magson, war die Tochter von Horace Magson,
+eine Buchhalterin aus Darlington.
+Ihre Familie war methodistisch, aber ähnlich wie mein Vater,
+war auch sie nicht religiös.
+Die beiden begegneten sich in Paris im Jahre 1951.
+Er studierte an der Universität von Lausanne, während sie in der ATS war,
+wo sie Rettungswagen während des Krieges fuhr.
+Nachdem sie geheiratet hatten, zogen sie nach Ägypten, um dort zu leben,
+aber infolge der ägyptischen Revolution von 1952 und der Sueskrise,
+holte sie die britische Regierung zurück,
+zusammen mit anderen anglo-ägyptischen Familien.
+Sie wurden in eine alte Tudorhütte umgesiedelt,
+mitten in Suffolk in Coddenham, wo ich am 12.\ Mai 1959 geboren wurde,
+als fünftes Kind in einer achtköpfigen Familie.
+
+\img{scale=0.7}{Hassans_Mother.jpg}
+{Meine Mutter Mary Magson (stehend) in der ATS im 2.\ WK.}
+
+Als ich 6 Jahre alt war, zogen wir nach Finchley in Nord-London um.
+Das war der Ort, wo ich den Großteil
+meiner Kindheit und Jugendjahre verbrachte.
+Während der 60er Jahre war es ein sehr bürgerlicher, weißer Bezirk,
+und bald wurde mir bewusst, dass wir nicht ganz hierher passten.
+Ich hasste es jemandem meinen Namen zu sagen.
+Es war immer die selbe Reaktion;
+peinliche Stille und verwirrte oder spöttische Blicke.
+Mein Klassenlehrer erstellte einmal eine Liste der Religionszugehörigkeit.
+Als er meinen Namen aufrufte, zögerte ich lange,
+was natürlich nur mehr Aufmerksamkeit auf mich zog.
+Schließlich flüsterte ich „Muslim“.
+
+\begin{quote}
+„Was?“ sagte der Lehrer.
+
+„Muslim, Herr Lehrer.“
+\end{quote}
+
+Einige Kinder kicherten.
+Ein Junge bestand darauf, dass ‚Muslim‘ überhaupt keine echte Religion sei,
+und dass ich es ausgedacht hätte.
+Meine Geschwister und ich wurden zum Ziel von bigotten Personen und Raufbolden.
+Die Beharrlichkeit meines Vaters,
+dass wir von Schulversammlungen ausgenommen werden mussten,
+machte die Dinge nicht besser.
+Ich weiß nicht genau, warum er uns abmeldete.
+Ich könnte es besser verstehen, wenn er religiös gewesen wäre,
+aber das einzige Ergebnis davon war, dass es jedem bestätigte,
+dass wir ‚anders‘ waren und auch so behandelt werden sollten.
+Anstatt dem Gleichnis in der Geschichte von ‚The Little Red Hen‘
+(Die kleine rote Henne) zuzuhören oder ‚All Things Bright and Beautiful‘
+(Alle heiteren und schönen Dinge) zu singen – mein Vater dachte,
+dass dies meinen Verstand mit dem Christentum infizieren würde –
+wurde ich den Freuden eines pornografischen Romans ausgesetzt,
+welches der ältere Junge neben mir las, als wir in dem Raum saßen,
+der jenen zugewiesen wurde, die von der Versammlung abgemeldet waren.
+
+Mein Vater war voller Paradoxien und Widersprüche.
+In manchen Bereichen war er sehr liberal
+und in anderen Bereichen ultra-konservativ.
+Seine Einstellung zu Frauen war sehr altmodisch und er erwartete,
+dass meine Mutter zu Hause blieb, kochte, putzte und für seine Kinder sorgte,
+und er wurde gewalttätig, wenn er dachte,
+dass sie nicht all seinen Befehlen gehorchte.
+Nachdem sie eine lange Zeit gelitten hatte, klagte meine Mutter auf Scheidung.
+Der Rechtsstreit um das Sorgerecht war erbittert und hielt lange an.
+
+\img{scale=0.3}{Hassan_and_Diane.jpg}
+{Ich \& Diane (1978)}
+
+Im Alter von 18 Jahren begann ich ein Soziologiestudium
+am Polytechnikum in Nord-London,
+das ein Hort von Marxisten und militanten trotzkistischen Studenten war.
+Ich trat der „Broad Left“ (Breite Linke Partei) bei,
+eine der zwei sozialistischen Hauptparteien im Nord-Londoner Polytechnikum,
+und wurde als Karikaturist für das Magazin „Fuse“ eingestellt.
+Unser Hauptrivale am Polytechnikum war „The Socialist Workers Party“
+(Die Sozialistische Arbeiterpartei) und ich zeichnete
+viele bissige Karikaturen über die Führerschaft,
+verhöhnte die lächerlichen Dinge, die sie sagten,
+und verhöhnte ihren Kleidergeschmack und ihre dürftige Körperpflege.
+Meine Karikaturen wurden einstimmig hochgelobt, bis ich eine zeichnete,
+die meine eigene Partei – die Breite Linke – kritisierte.
+Der Herausgeber fühlte sich so sehr beleidigt,
+dass ich auf der Stelle gefeuert wurde.
+Ich verstieß gegen eine der grundlegendsten Regeln der Politik:
+Ordne dich der Parteilinie unter.
+Aber ich war nie jemand, der sich irgendeiner Parteilinie unterordnete,
+und meine Erfahrung mit linker Studentenpolitik verstimmte mich nur dagegen.
+Ich war viel mehr daran interessiert,
+wie ich Diane zu einem Rendezvous einladen könnte.
+Diane war eine Soziologiestudentin im ersten Jahr, genau wie ich,
+und wir wurden fast augenblicklich ziemlich gute Freunde.
+Sie hatte einen quirligen und fröhlichen Charakter,
+mit dem man sich leicht gut verstehen konnte.
+Sie liebte Fußball, hatte Freude an guten Debatten
+und wir teilten einen ähnlichen Musikgeschmack.
+
+Nach ein paar Wochen meiner schüchternen und stümperhaften Versuche
+etwas anderes außer nur „Hallo“ zu sagen, lud sie mich ein.
+
+\begin{quote}
+„Hast du Lust heute Nacht zum Stapleton zu gehen?
+Die haben eine Live-Band gebucht.“
+
+„Klar! Um welche Zeit?“
+
+„Komm zu mir um acht Uhr.“
+\end{quote}
+
+Ich war dort um sieben, in meinen besten zerrissenen Jeans,
+und duftete nach indischem Patschuli.
+
+Es war nur ein Ausflug zur Kneipe,
+aber es war der Beginn meiner ersten Beziehung.
+Wir wurden zu regelmäßigen Gefährten
+und begannen eine Wohnung mit einander zu teilen.
+
+Am Ende des ersten Jahres wurden wir den langweiligen Vorträgen über
+Auguste Comte, Max Weber und Karzl Marx überdrüssig.
+Wir beide erhofften uns, dass ein Soziologiestudium
+eine kreative Erfahrung sein würde,
+und vielleicht Antworten auf die großen Fragen des Lebens liefern würde.
+Wir fanden enttäuschend heraus, dass es bloß eine Übung im Wiederkäuen
+einer Auswahl von langweiligen Büchern war.
+Wir entschieden uns das Studium abzubrechen und nach Wales zu trampen.
+Darüber hinaus hatten wir keinen anderen Plan.
+Nachdem wir mehrere Tage lang in Aberystwyth
+psychoaktive Pilze gepflückt hatten,
+machten wir uns auf den Weg zum Haus ihrer Eltern in Warrington,
+um zu entscheiden was wir als nächstes vorhatten.
+
+Diane hatte mal als Schwester im Calderstones-Hospital für körperlich
+und geistig Behinderte gearbeitet, also schlug sie vor,
+dass wir beide dort einen Job bekommen sollten.
+Calderstones befand sich in einem malerischen Lancashire-Dorf
+am Fuße von Pendle Hill, ein Hügel,
+der berüchtigt für die Verbrennung von Hexen im Mittelalter war.
+Ich dachte es wäre eine wunderbare Idee
+und wir mieteten einen kleinen Wohnwagen auf dem Feld eines Bauers,
+das sich am Höhenrücken von Pendle Hill befand.
+Nur zu Fuß konnte der Wohnwagen über einen sehr langen
+und steilen Weg erreicht werden,
+der im Dorf begann und sich in die Nebel von Pendle Hill hineinschlängelte.
+Der Wohnwagen stand in einer abgeschiedenen Ecke,
+umgeben von einem Mist bedeckten Morast,
+wo der Wind und der Regen nie aufhörten.
+Ich liebte es, aber Diane war nicht so sehr begeistert,
+besonders nach der Nacht, in der ich einen Geist sah.
+Ich wurde mitten in der Nacht durch das schlagende Geräusch
+der Wohnwagentür aufgeweckt.
+In meiner schläfrigen Benommenheit schaute ich auf zur Eingangstür
+und erblickte was so ähnlich aussah wie ein junges Mädchen –
+wahrscheinlich im frühen Jugendalter –
+das am Fußende des Bettes stand.
+Sie sah so aus, als ob sie Lumpen anhatte,
+mit einem traurigen Lächeln im Gesicht.
+Sie lehnte ihren Kopf leicht gegen die Trennwand des Wohnwagens
+und starrte mich an.
+Vielleicht war es die Tochter des Bauers, dachte ich,
+und ich konnte nicht verstehen warum sie zu dieser späten Stunde
+im eiskalten Winterregen außer Haus war.
+Bevor ich meinen Kopf heben und etwas sagen konnte,
+erschien hinter ihr ein Mann mit einem Dreispitz.
+Er rannte durch den Wohnwagen und mich hindurch,
+und verschwand wieder auf der anderen Seite.
+Ich sprang nun auf und rufte Dianes Namen, um sie aufzuwecken.
+Das Mädchen war weg und alles war still, abgesehen vom Wind.
+Diane war verständlicherweise total erschrocken,
+und obwohl ich ihr versicherte, dass es nur ein Traum war,
+ausgelöst durch die örtlichen Geschichten von Hexenverbrennungen
+und außerdem durch den Konsum von großen Mengen an Dope und Alkohol,
+wollte sie dennoch nicht mehr im Wohnwagen bleiben.
+Wir zogen später in eine kleine Wohnung in Blackburn um.
+
+Es war nun das Jahr 1979 und ich hatte eine Gruppe
+von engen Freunden und ein gutes Sozialleben.
+Doch im Inneren fühlte ich mich ruhelos und unsicher über meine Identität.
+Dies wurde ab und an durch die negative Reaktion
+von ein paar bigotten Menschen unterstrichen,
+die deutlich machten, dass jemand mit einem lustigen Namen
+und einer fremden Religion, obwohl ich nicht praktizierend war,
+niemals als Engländer akzeptiert werden würde.
+Eine Stationsschwester des Krankensaals, in dem ich arbeitete,
+machte es sich zur Gewohnheit mich mit „Dreckiger Araber!“ zu rufen.
+Sie fing an, es ab dem Moment zu sagen, an dem sie meinen Namen erfuhr.
+Sie schrieb auf mein Zeugnis, dass ich „dreckig, faul und ineffizient“ sei,
+etwas das ich nur viel später herausfand,
+als eine sympathische Stationsschwester mir das Zeugnis zeigte.
+Nichts was sie sagte stimmte.
+Sie mochte mich nicht, einfach nur weil mein Name Hassan war.
+Es gab keinen anderen Grund.
+Die Ironie war, dass ich mich bis zu diesem Zeitpunkt
+nie als Araber gesehen hatte.
+
+Dann geschahen eine Reihe von Ereignissen,
+die das Überdenken meiner Ansichten über die Kultur und die Religion anregten,
+die ich mit großer Mühe versuchte zu meiden.
+Das erste war die Islamische Revolution im Iran.
+Ich erinnere mich an die Fernseh-Berichterstattung
+über die laufenden Straßenschlachten in Teheran,
+zwischen den einfachen Leuten und der schwer bewaffneten Garde des Schahs.
+Ich fand die Bilder inspirierend:
+trotzende Zivilisten, die sich gegen die Macht eines Tyranns erhoben.
+Der revolutionäre Geist aus meiner Studienzeit war in mir geblieben,
+und ich sah es instinktiv als Kampf eines Volkes gegen die mächtige Elite an,
+aber mir war auch bewusst welche Rolle die Religion spielte – eine Religion,
+zu der ich eine Verbindung fühlte – wenn auch nur eine schwache.
+
+Ich wurde mit einem weiteren Beispiel der Kraft der Religion konfrontiert,
+als mein enger Freund John Shackleton von einem Campingausflug zurückkam,
+um zu verkünden, dass er nun ein wiedergeborener Christ sei.
+Es war ein enormer Schock,
+da er sich immer so verächtlich über Religion äußerte.
+Jetzt weigerte er sich mit mir zur Kneipe um die Ecke zu gehen
+oder Musik anzuhören – außer es war Musik über Jesus.
+Er war auf nervige Weise frohlockend wegen seiner Religion,
+und versuchte ständig mich und Diane zu konvertieren.
+
+\begin{quote}
+„Jesus liebt dich und möchte dir verzeihen,“ sagte er.
+
+„Aber ich habe nichts verbrochen,“ sagte ich.
+
+„Wir sind alle Sünder.
+Jesus kann dich wieder zu dem machen, wie Gott dich haben wollte.“
+
+„Warum? Hat Gott beim ersten Mal etwa einen Fehler gemacht?“
+\end{quote}
+
+Das ständige Bombardement mit religiösem Eifer zwang mich dazu,
+Stellung zum Christentum und Religion im Allgemeinen zu beziehen,
+etwas worüber ich zuvor nicht lange nachgedacht hatte.
+Je mehr John über Dinge wie die Trinität,
+die Erbsünde und das Erlösungswerk sprach, desto mehr verstand ich,
+dass dies Konzepte waren, an die ich niemals glauben könnte.
+Der Gedanke, dass Gott „Drei in Einem“ ist,
+und dass der Mensch in Sünde geboren wird,
+oder dass Sünden vergeben werden können,
+nicht wegen irgendeiner verdienstvollen Tat einer Person,
+sondern weil jemand an ein Stück Holz genagelt wurde –
+all das stand im Widerspruch mit meinem Verstand und meinem Gerechtigkeitssinn.
+John trat einer kleinen,
+wenige Kilometer entfernten Gemeinschaft von wiedergebohrenen Christen bei,
+aber er besuchte uns weiterhin und betete,
+dass wir mit dem Heiligen Geist erfüllt werden mögen.
+
+Ich fühlte mich unberührt von der Idee eines Heiligen Geistes
+oder irgendeiner übernatürlichen Kraft.
+Ich ging immer davon aus, dass es im Universum mit rechten Dingen zuging,
+und hatte nie selbst eine mystische Erfahrung.
+Doch im Einklang mit dem religiösen Thema in dieser Reihe von Ereignissen
+würde mir bald etwas sehr Mystisches passieren.
+Ich campte mit Diane am Musikfestival von Deeply Vale in Lancashire,
+und wir unternahmen einen Spaziergang an einer Talseite hinauf.
+Als wir an der Spitze standen, hörte ich einen Klang,
+den ich nie erwartet hätte.
+
+\begin{quote}
+„Kannst du das hören?“ fragte ich.
+
+„Was? Ich höre gar nichts.“
+
+„Es ist der muslimische Gebetsruf… Hör zu!“ sagte ich.
+\end{quote}
+
+Ich konnte deutlich diese Worte hören:
+\emph{„Asch-hadu an la ilahe illah, asch-hadu anna Muhammad Rasul-allah!“}
+(Ich bezeuge, dass es keinen Gott außer Gott gibt, ich bezeuge,
+dass Muhammad der Prophet Gottes ist!)
+Sie ertönten mit einer ungewohnten Klarheit
+über dem Trubel unten beim Festival.
+Diane hörte überhaupt nichts.
+Ich konnte nicht verstehen warum.
+Weder konnte ich verstehen, warum jemand bei einem Musikfestival
+den muslimischen Gebetsruf rezitierte.
+Ich suchte nach einer vernünftigen Erklärung, aber konnte keine finden,
+die mich überzeugte.
+Ich fing an zu denken, dass vielleicht doch übernatürliche Dinge passierten,
+und dass dies mein persönlicher Weckruf zum Glauben sein könnte.
+
+Ein paar Monate später sah ich Cat Stevens im Fernsehen,
+als er ein Abschiedskonzert gab.
+Er war Muslim geworden und gab das Musikgeschäft auf,
+wandte Ruhm und Reichtum den Rücken zu,
+um sein Leben seinem neugewonnen Glauben zu widmen.
+Die Öffentlichkeit war verblüfft.
+Warum würde jemand, der alles im Leben besaß, es wegen der Religion wegwerfen?
+Religion war nicht cool; es war für naive, unsichere Menschen.
+Ein Teil von mir hatte die selbe Reaktion.
+Aber ein anderer Teil von mir war stolz und inspiriert.
+Wenn so eine kreative und angesehene Person wie Cat Stevens
+etwas Wertvolles im Islam sah,
+vielleicht sollte ich es selbst viel ernster nehmen,
+als jemand, der mit islamischem Erbe zur Welt kam.
+
+Die letzte Episode in dieser Folge von Ereignissen war,
+als mein Vater unerwarteterweise vor meiner Tür aufkreuzte,
+und mich einlud mit ihm für ein paar Wochen nach Ägypten zu gehen.
+Ich hatte meinen Vater nicht sehr viel zu Gesicht bekommen,
+seitdem ich sein Haus verlies.
+Er war nun ins Dorf von Ramsbottom umgezogen,
+wo er als Direktor einer örtlichen Schule eingestellt wurde.
+Da ich ziemlich in der Nähe wohnte, nahm ich Diane mit, um ihn zu treffen.
+Er empfand eine sofortige Abneigung gegen Diane.
+Sie war eine unabhängige, willensstarke, junge Frau,
+die sich nicht scheute zu sagen, was sie dachte.
+Das gefiel mir an ihr, meinem Vater aber nicht.
+Er mochte keine Frauen, die widersprachen;
+es war gegen die natürliche Ordnung der Dinge.
+Frauen sollten eigentlich das tun, was Männer ihnen befahlen –
+mein Vater dachte, dass Gott sie in dieser Art erschuf und mein Vater wollte,
+dass es auch so bleibt.
+Er fing an zwischen uns auf seine übliche Art und Weise Zwietracht zu säen,
+indem er negative Randbemerkungen, Andeutungen und abfällige Witze machte,
+und behauptete, dass sie gegenüber ihm unhöflich war, und ihr sogar vorwarf,
+dass sie aus seinem Haus stahl.
+Ich bin mir nicht sicher, ob sein Angebot einer Reise nach Ägypten
+ein Teil dieses Bestrebens war.
+Er hatte dort wichtige Geschäfte zu erledigen,
+bezüglich der Erbschaft seines Vaters.
+Aber ich vermute, dass er dies auch für eine wunderbare Gelegenheit hielt,
+um mich von Diane wegzukriegen.
+Ich sagte zu mir selbst, dass es unsere Beziehung nicht beeinflussen würde,
+und dass ein Pauschalurlaub nach Ägypten ein Angebot war,
+das ich nicht ablehnen konnte.
+Ich denke im Unterbewusstsein fühlte ich mich auch gelangweilt und ruhelos.
+Der Ort, zu dem ich und Diane umgezogen waren,
+ein Neubau am Stadtrand von Blackburn, war langweilig und seelenlos.
+Unser Leben füllte sich mit Routinen und unsere Beziehung
+verfiel in den alltäglichen Trott.
+Ich war begierig auf einen Szenenwechsel – zumindest für zwei Wochen.
+
+Bevor wir zum Flughafen fuhren,
+hielt mein Vater beim Haus meiner Schwester Susi in London an,
+um sich zu verabschieden.
+
+\begin{quote}
+„Was willst du in Ägypten unternehmen, Hassan?“ fragte sie.
+
+„Ich habe darüber nachgedacht, nach Möglichkeit Ägyptologie
+an der Amerikanischen Universität von Cairo zu studieren.“
+
+„Inscha-Allah,“ (So Gott will) ermunterte Susi.
+
+„Ich verstehe nicht, warum ich das sagen sollte, Susi,“ antwortete ich barsch.
+„Entweder werde ich Ägyptologie studieren, oder ich werde es nicht.
+Was hat Gott damit zu tun?“
+
+„Nichts geschieht ohne den Willen Gottes.“
+
+„Macht er, dass Mörder andere Menschen töten?“
+
+„Er lässt es zu, weil er uns einen freien Willen gibt,“ erwiderte Susi.
+
+„Na dann sehe ich nicht ein, warum Gott sich einmischen sollte,
+wenn ich Ägyptologie studieren wollte!“
+
+„Wenn du meinst, Hassan,“ erwiderte Susi müde.
+Ich dachte darüber nach, was ich eben gesagt hatte,
+als wir zum Flughafen fuhren;
+es war arrogant und ich bedauerte, es gesagt zu haben.
+\end{quote}
+
+Es war ein langer Flug mit einem zweistündigen Zwischenaufenthalt
+in einer trostlosen osteuropäischen Stadt,
+in der es anscheinend nichts außer graue Betonmauern
+und Polizisten mit Schlagstöcken gab.
+Ich war erleichtert, als wir endlich in Ägypten landeten.
+Sobald ich aus dem Flugzeug stieg und in die heiße,
+feuchte Atmosphäre des Kairoer Flughafen gelangte, erkannte ich,
+dass ich in einem anderen Universum war.
+Der Duft von Weihrauch wanderte durch ein kunstvolles Gitterfenster.
+Eseln beladen mit Gemüse bahnten sich den Weg
+durch ein Orchestra von Autogehupe;
+Straßenverkäufer priesen lautstark ihre Waren mit Sirenentönen an,
+die mich hochschrecken ließen;
+Männer beteten auf dem Gehsteig in Pyjamas;
+und Frauen warfen Kübel voller Schalen von Balkonen herunter.
+Es war ein verrücktes, chaotisches Flickwerk von Gerüchen,
+Geräuschen und Farben und es war wie ein großer Kulturschock für mich.
+Doch trotz der Fremdartigkeit fühlte ich mich bald wie zu Hause.
+Zum ersten Mal in meinem Leben musste ich meine Herkunft nicht verstecken
+oder über sie beschämt sein.
+Überdies bewunderte und respektierte jeder beide Hälften
+meiner kulturellen Herkunft.
+
+\img{scale=0.3}{Hassan_Cousins.jpg}
+{Ich \& zwei Cousins in Ägypten (1981)}
+
+Wir übernachteten im Haus meines Onkels in Kairo.
+Die Ägypter trugen westliche Kleidung,
+schauten synchronisierte Hollywoodfilme an
+und besaßen viele der modernen Annehmlichkeiten, die man aus England kannte.
+Doch während ich auf dem französischen Einrichtungsstück –
+eine Replika aus dem 18.\ Jahrhundert – saß,
+begann der Gebetsruf aus dem Lautsprecher draußen auf der Straße zu heulen.
+Dies löste eine Welle von Gebetsrufen aus,
+die sich langsam über die Dächer in Kairo und in die weite Ferne ausbreiteten.
+Selbst im Fernsehen unterbrach man Clark Gable mitten im Satz,
+als ein Hinweis auf Arabisch kam, der das Gebet ankündigte.
+Als alle für das Gebet aufstanden,
+und ich am Tisch alleine sitzen gelassen wurde,
+fühlte ich mich etwas unangenehm.
+
+Nach dem Gebet kam meine Cousine Nihal,
+die meinem Tantchen in der Küche dabei geholfen hatte Essen zu braten,
+mit einem dampfenden Gericht ins Zimmer herein.
+
+\begin{quote}
+„Magst du ‚Beetles‘?“
+
+„Ähm… Ich habe nie welche probiert!“ sagte ich und fühlte mich etwas mulmig.
+
+„Ich liebe sie viel zu sehr!“
+Sie legte den Teller auf den Tisch.
+„Vor allem mag ich Paul; er ist viel zu süß!“
+
+„Ach so…“ sagte ich mit einem Seufzer der Erleichterung.
+„Ja, ich mag sie, aber sie haben sich vor ein paar Jahren aufgelöst, weißt du!“
+Ägypter lieben alles Englische und wissen eine Menge über England,
+jedoch scheinen ihre Informationen etwa ein Jahrzehnt alt zu sein.
+
+„Aufgelöst?“
+
+„Sie spielen nicht mehr zusammen.“
+
+„Ach? Warum?“
+
+„Na ja, nach einer Weile geschieht das mit Bands…“
+
+„Georgie der Beste!“ unterbrach Hamdy und gab mir die Daumen hoch.
+„Manchester United! Gut.“
+
+„Na ja, eigentlich bin ich Fan der Spurs.“
+
+„Sopurs? Was ist Sopurs?“
+
+„Tottenham Hotspur – das ist ein Fußballteam.“
+
+Nihal zeigte mir ein Bild in einer ägyptischen Zeitung von Ayatollah Khomeini,
+wo er ein kleines Mädchen umarmt. „Ohhh wie süß, er ist so ein guter Mann!“
+
+„Die Leute scheinen ihn zu lieben.“
+
+„Er sagt, dass es keinen Unterschied zwischen den Sunniten
+und den Schiiten gibt.
+Er sagt, wir sind alle Muslime und sollten vereint sein.“
+\end{quote}
+
+Nihal war eine sehr willensstarke, unabhängige Frau, die ihre Freiheit,
+das zu tun was sie beliebte, für selbstverständlich hielt.
+Sie trug kein Kopftuch und hatte sehr westliche Gewohnheiten und Vorlieben.
+Dennoch schien sie sich dabei völlig wohl zu fühlen sich mit traditionellen,
+orthodoxen Ansichten zu identifizieren – etwas, womit die meisten Ägypter,
+die ich kennenlernte, überhaupt keine Probleme hatten,
+obwohl sie relativ verwestlicht waren.
+
+\begin{quote}
+„Iss, Hassan!“ sagte Tantchen Ola, während sie sich neben mich setzte.
+„Wir haben für dich englisches Essen zubereitet: Fish and Chips!“
+
+„Sprichst du deine Gebete, Hassan?“ fragte mein Onkel.
+
+„Um ehrlich zu sein: nein, das tue ich nicht.“
+
+„Oh, du musst beten! Der Prophet Mohammed sagte,
+dass ‚das Gebet der Schlüssel zum Paradies ist‘.“
+
+„Ich bin mir nicht sicher, ob ich an all das glaube.
+Ich meine, warum braucht Gott unsere Gebete?“
+
+„Gott braucht unsere Gebete nicht. Aber wir haben das Bedürfnis zu beten.
+Um Dank zu sagen, und um seine Hilfe zu ersuchen.“
+
+„Ich verstehe immer noch nicht,
+warum wir Dank sagen oder in Gebeten um Hilfe bitten müssen.“
+
+„Hast du den \Quran\ gelesen, Hassan?“
+
+„Ein wenig.“
+\end{quote}
+
+Onkel Fouad nahm ein Buch aus dem Regal.
+
+\begin{quote}
+„Hier ist eine englische Übersetzung für dich.
+Ich möchte, dass du mir versprichst, es zu lesen.“
+\end{quote}
+
+Ich sträubte mich etwas zu versprechen, das ich nicht tun wollte,
+aber da ich ein Gast in seinem Haus war, konnte ich kaum ablehnen.
+Ich dachte, ich könnte ein paar Seiten lesen,
+und es dann höflich zur Seite legen.
+
+\begin{quote}
+„Danke. Okay, mach ich.“
+
+„Insha-Allah,“ ermunterte Onkel Fouad.
+
+„Insha-Allah,“ erwiderte ich.
+\end{quote}
+
+Am nächsten Tag gingen mein Vater und mein Onkel hinaus,
+und ließen mich zu Hause mit Tantchen Ola zurück.
+Also nahm ich den \Quran\ in die Hand, wie ich versprach, und begann zu lesen.
+Zu meiner Überraschung konnte ich es nicht weglegen.
+Der \Quran\ ist kein Buch wie jedes andere.
+Es befolgt überhaupt keine der Grundsätze der normalen Prosa.
+Es hat keinen klaren Anfang und kein klares Ende.
+Es gibt keine lineare Handlung und keine saubere Lösung.
+Es scheint von einer Schilderung sehr plötzlich zur anderen zu springen.
+Selbst sein Stil ändert sich ohne Vorwarnung von einer stetigen Erzählung
+zu einer temporeichen Reimprosa.
+Dennoch fand ich es seltsamerweise unwiderstehlich.
+
+\begin{quote}
+„Elif Lam Mim.“
+\end{quote}
+
+Ich sah auf zu Tantchen Ola, die still sitzend eine Zigarette rauchte,
+während sie ein Magazin las,
+das schöne Frauen beim Stolzieren über einen Laufsteg zeigte.
+
+\begin{quote}
+„Was bedeuted ‚Elif Lam Mim‘?“
+
+„Niemand weiß es.“ Sie lächelte.
+„Manche Kapitel im \Quran\ beginnen mit Buchstaben des Alphabets.
+Gelehrte haben versucht sie zu erklären.
+Aber niemand weiß es genau.“
+
+„Meinst du, es ist ein Mysterium?“
+
+„Ja.“
+\end{quote}
+
+Mir gefielen Mysterien.
+
+\begin{quote}
+\itshape
+„Allah ist das Licht der Himmel und der Erde.
+Das Gleichnis Seines Lichts ist wie eine Nische,
+worin sich eine Lampe befindet.
+Die Lampe ist in einem Glas.
+Das Glas ist gleichsam ein glitzernder Stern –
+angezündet von einem gesegneten Baum, einem Ölbaum,
+weder vom Osten noch vom Westen, dessen Öl beinah leuchten würde,
+auch wenn das Feuer es nicht berührte.
+Licht über Licht. …“
+(\QRef{24:35})
+
+„Und wenn Meine Diener dich nach Mir fragen (sprich):
+‚Ich bin nahe. Ich antworte dem Gebet des Bittenden, wenn er zu Mir betet. …‘“
+(\QRef{2:186})
+
+„Wahrlich, Wir erschufen den Menschen, und Wir wissen alles,
+was sein Fleisch ihm zuflüstert; denn Wir sind ihm näher als die Halsader.“
+(\QRef{50:16})
+
+„Allahs ist der Osten und der Westen; wohin immer ihr also euch wendet,
+dort ist Allahs Angesicht. Wahrlich, Allah ist freigebig, allwissend.“
+(\QRef{2:115})
+
+„Und weise deine Wange nicht verächtlich den Menschen
+und wandle nicht hochmütig auf Erden;
+denn Allah liebt keine eingebildeten Prahler.“
+(\QRef{31:18})
+
+„Und (gedenket der Zeit) da Wir einen Bund schlossen mit den Kindern Israels:
+‚Ihr sollt nichts anbeten denn Allah;
+und Güte (erzeigen) den Eltern und den Verwandten und den Waisen und den Armen;
+und redet Gutes zu den Menschen
+und verrichtet das Gebet und zahlet die Zakat.‘ …“
+(\QRef{2:83})
+
+„O ihr Menschen, Wir haben euch von Mann und Weib erschaffen
+und euch zu Völkern und Stämmen gemacht, dass ihr einander kennen möchtet.
+Wahrlich, der Angesehenste von euch ist vor Allah der,
+der unter euch der Gerechteste ist. …“
+(\QRef{49:13})
+\end{quote}
+
+Ich fing an zu weinen.
+Ich fühlte mich dumm und versuchte meine Tränen vor Tantchen Ola zu verstecken.
+Aber ich konnte nicht aufhören.
+Ich fühlte eine seltsame Kraft in meinem tiefsten Inneren.
+Gewiss, es war die sanfte und liebevolle Gegenwart Gottes, die zu mir sprach.
+Es war so, als ob ein Schleier von meinem Gesicht fiel
+und ich die Wahrheit entdeckte, nach der ich von Kindheit an suchte.
+Es war eine zutiefst spirituelle und emotionale Zeit für mich.
+Ich konnte kaum den \Quran\ erkennen,
+so wie er heute von den Medien zitiert wird,
+mit seinen heftigen und schlimmen Passagen.
+Nie sah ich solche Verse zu dieser Zeit.
+Nicht dass sie da gewesen wären,
+aber sie sprachen mich nicht auf wörtliche Weise an.
+
+Ich unternahm eine Fahrt zur Amerikanischen Universität,
+aber der Leiter der Abteilung für Ägyptologie war zu der Zeit nicht anwesend.
+Ich ging nicht noch einmal, denn ich hatte das Interesse verloren.
+Die meiste Zeit meiner zwei Wochen in Ägypten verbrachte ich damit,
+nur den \Quran\ zu lesen, und ich machte außerdem gelegentlich Besuche,
+um andere Mitglieder meiner neu entdeckten Großfamilie kennenzulernen.
+Auch dort wandten sich die Gespräche ständig der Religion zu.
+
+\begin{quote}
+„Ein Freund von mir sagt,
+dass ich nur durch den Glauben an Jesus erlöst werden kann,
+weil er für unsere Sünden gestorben ist.“
+
+„Der Islam sagt das Gegenteil,“ sagte Magdi. „Der \Quran\ sagt:
+
+‚Wer den rechten Weg befolgt, der befolgt ihn nur zu seinem eignen Heil;
+und wer irregeht, der geht irre allein zu seinem eignen Schaden.
+Und keine Lasttragende trägt die Last einer andern.‘
+(\QRef{17:15})“
+
+„Der Islam ist die Religion unserer
+‚\href{http://de.wikipedia.org/wiki/Fitra}{Fitra}‘ (Natur);
+es ist in völligem Einklang mit unserem natürlichen Instinkt.“
+
+„Warum kann es dann nicht jeder einsehen?“
+
+„Der Prophet sagte:
+\emph{‚Die Menschen sind im Schlaf und nur wenn sie sterben, wachen sie auf.‘}
+Das ist die Natur dieser Welt, Hassan.
+Wenn alles klar und einfach wäre, dann gäbe es keine Prüfung.“
+\end{quote}
+
+Magdi gab mir ein Buch von Hadithen (Aussprüche des Propheten Mohammed),
+das ich von der ersten bis zur letzten Seite las.
+Ein Hadith im Besonderen berührte mich tief:
+
+\begin{quote}
+„(Gott sagt) Ich bin wie Mein Diener über Mich denkt.
+Ich bin mit ihm, wenn er Meiner gedenkt.
+Wenn er sich Mir um eine Handspanne nähert,
+nähere Ich Mich ihm um eine Armlänge.
+Wenn er sich Mir um eine Armlänge nähert,
+nähere Ich Mich ihm um zwei Armlängen.
+Wenn er zu Mir gehend kommt, komme Ich ihm eilend entgegen.“
+(Bukhari 8/171)
+\end{quote}
+
+Als es Zeit wurde nach England zurückzukehren,
+wollte ich Ägypten nicht verlassen und schwor bald wieder zurück zu sein.
+Es war ein unglaubliches Erlebnis und ich fühlte ein Gefühl des Überschwangs –
+so als ob sich eine magische Tür geöffnet hätte.
+Ich hatte endlich Gott gefunden.
+Ich kehrte zurück nach England voller Eifer und Entschlossenheit,
+um mehr über meinen wiederentdeckten Glauben zu erfahren.
+Diane war schockiert über meine plötzliche Konvertierung und war sich sicher,
+dass es bloß eine vorübergehende Modeerscheinung war.
+Sie gab mir nach und hoffte, dass ich wieder zur Vernunft kommen würde.
+Aber das einzige worüber ich reden konnte, war der Islam.
+Ich erklärte, dass der Islam Sex vor der Ehe verbietet und bestand darauf,
+dass wir aufhören zusammen zu schlafen.
+Ich hörte auf zu trinken und zu rauchen, und fing an regelmäßig zu beten.
+Ich belehrte Diane über den Tag des Jüngsten Gerichts und Himmel und Hölle
+und die Aussprüche des Propheten Mohammed,
+und versuchte sie verzweifelt vom Islam zu überzeugen.
+Schließlich haben wir beide erkannt, dass wir unsere Zeit verschwendeten.
+Diane hatte kein Interesse daran Muslimin zu werden
+und ich machte auch keine Phase durch.
+Unsere Beziehung war zu Ende.
+Ich zog aus unserer Wohnung aus,
+und ließ unter anderem meine Plattensammlung und meine Gemälde zurück.
+Ich hatte keine Notwendigkeit
+für götzendienerische Dinge, die mich vom Pfad Allahs ablenkten.
+
+
+%Chapter 2:
+\chapter{Der Pfad Allahs}
+
+\img{scale=1}{Hassan_1980.jpg}{}
+
+...
+
+%Chapter 3:
+\chapter{Der Pfad des Sufi}
+
+\img{scale=0.7}{Members_SOAS_Islamic_Society.jpg}
+{Mitglieder der SOAS Islamic Society, Oktober 1980.}
+
+...
+
+%Chapter 4:
+\chapter{Die Zunahme des Aktivismus}
+
+\img{scale=0.7}{Assassination_of_Sadat.jpg}{}
+
+...
+
+%Chapter 5:
+\chapter{Die Islamia-Schule}
+
+...
+
+%Chapter 6:
+\chapter{Scheich Faisal}
+
+...
+
+%Chapter 7:
+\chapter{Dienstag Nachmittag}
+
+\img{scale=0.4}{911_Second_Plane.jpg}{}
+
+...
+
+
+%Chapter 8:
+\chapter{Offenbarung \& Vernunft}
+
+\img{scale=0.6}{Man_Reading_Koran.jpg}{}
+
+...
+
+%Chapter 9:
+\chapter{Bombenanschläge in London}
+
+\img{scale=1.2}{London_Bombings.jpg}{}
+
+...
+
+%Chapter 10:
+\chapter{Das Unreformierbare reformieren}
+
+\img{scale=0.4}{Quranic_Script.jpg}{}
+
+...
+
+%Chapter 11:
+\chapter{Religion}
+
+\img{scale=0.6}{Neasden_Temple.jpg}{}
+
+...
+
+%Chapter 12:
+\chapter{Die Büchse der Pandora}
+
+\img{scale=0.5}{Pandoras_Box.jpg}{}
+
+...
+
+\backmatter
+
+\chapter{Index}
+...
+
+\end{document}
