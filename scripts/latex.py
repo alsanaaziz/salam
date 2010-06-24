@@ -5,13 +5,15 @@ from __future__ import unicode_literals
 import re
 
 def tokenize_tex(text):
-  rx = re.compile(r"\\[a-z]+|\\.|\{|\}|%.+(?:\n|$)|[^\\%{}]+", re.I)
+  rx = re.compile(
+    r"\\[a-z]+|\\(?:.|\n|\r\n)|\{|\}|%.+(?:\n|$)|[^\\%{}]+", re.I)
   #print "\n".join([repr(x) for x in rx.findall(text)]).encode("utf-8")
 
 def replace_QRef(text, url = None):
   # Match: \QRef{\d+:\d+(–\d+)?}
   # Note: alt_text can't contain LaTeX macro arguments, i.e. '}'.
-  rx = re.compile(r"\\QRef\{((\d+)(?::(\d+)(?:–(\d+))?)?)\}(?:\{([^}])\})?")
+  rx = re.compile(r"\\QRef\{((\d+)(?::(\d+)(?:–(\d+))?)?)\}"
+    r"(?:\{([^}]+)\})?")
   # Note: '#' must be escaped due to LaTeX (hyperref package).
   url = url or \
     'http://www.usc.edu/dept/MSA/quran/{0:03}.qmt.html\#{0:03}.{1:03}'
