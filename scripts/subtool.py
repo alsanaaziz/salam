@@ -35,14 +35,18 @@ def parse_srt(text):
   """ Simple SubRip format parser. """
   subs = []
   subs_append = subs.append
-  fragments = text.strip().split("\n\n")
+  # Split on the subtitle number:
+  fragments = re.split(r"\d+\n(?=\d{2}:\d{2}:\d{2},\d{3} -->)",
+    text.strip())[1:]
   for f in fragments:
-    f = f.split("\n", 2)
-    if len(f) == 3:
+    f = f.split("\n", 1)
+    if len(f) == 2:
       # E.g.: "00:15:55,093 --> 00:15:59,421" to "00:15:55.093 00:15:59.421"
-      t = f[1].replace(",", ".").split(" --> ")
-      subs_append( (to_ms(t[0]), to_ms(t[1]),
-                    f[2].replace("\n", "\\n")) )
+      t = f[0].replace(",", ".").split(" --> ") # t0 and t1
+      # Strip last \n\n and replace \n with \\n.
+      substext = (f[1][:-2] if f[1].endswith("\n\n") else f[1]) \
+        .replace("\n", "\\n")
+      subs_append( (to_ms(t[0]), to_ms(t[1]), substext) )
   return subs
 
 def parse_sub(text):
@@ -59,8 +63,8 @@ def parse_sub(text):
     if len(f) == 2:
       # E.g.: "00:15:55.09,00:15:59.42" to "00:15:55.093 00:15:59.421"
       t = f[0].split(",")
-      subs_append( (to_ms(t[0]), to_ms(t[1]),
-                    f[1].replace("[br]", "\\n")) )
+      substext = f[1].replace("[br]", "\\n")
+      subs_append( (to_ms(t[0]), to_ms(t[1]), substext) )
   return subs
 
 def convert_xyz(src, dest, parse_func):
