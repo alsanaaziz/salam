@@ -74,12 +74,23 @@
 % Qur'an reference numbers. TODO: link to web page.
 \newcommand{\QRef}[1]{{\color{darkblue}#1}}
 
+% Macros for custom footnote marks.
+\let \oldtfn=\thefootnote
+\def\fnmarksym[#1]{\def\thefootnote{#1}\footnotemark%
+\addtocounter{footnote}{-1}}
+\def\fntextsym#1{\footnotetext{#1}\let \thefootnote=\oldtfn}
+
 % "Nota bene" macro.
 \newcommand{\NB}[1]{\emph{\small NB: #1}}
 
 % Paragraph spacing:
 \setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
 
+% Hanging numbers for chapters and sections.
+% \chapterstyle{hangnum}
+\hangsecnum
+
+% Default page style.
 \pagestyle{plain}
 
 \def\arabictitle{مِحْنَتِي مَعَ القُرْآن ومَعَ اللَّهِ فِي القُرْآن}
@@ -2252,13 +2263,17 @@ each part adhering to and supporting the other so as to arrive exactly
 at what the author intends and desires, without interruption,
 aberration or anomaly in the eloquent, miraculous speech.
 
-9. After relating the story of the People of the Cave
+9. After relating the story of the People of the Cave\fnmarksym[*]{}
 and how God raised them from their sleep,
 the \Quran\ turned to the question of their number
 and the people’s dispute about it.
 But instead of telling us this number —
 this mystery, this unusual curiosity, this hidden secret —
 it withheld it from us, so that it would make our hearts sad.
+
+\fntextsym{\hyperref[apdx:cave]
+{See Appendix \ref*{apdx:cave} for Ibn Ishaq’s account of the Asbabu\–Nuzul
+(Reasons for Revelation) of this story.}}
 
 \begin{quote}
 “(Some) will say: three, the fourth being their dog; (some) say:
@@ -2322,10 +2337,7 @@ unrestrained linguistic flapping\–about.
 Would that He had never mentioned this story at all,
 for it is a story that is cut-off,
 I don’t know what the masters of the art of story telling
-think about it.\footnotemark
-
-\footnotetext{\hyperref[apdx:cave]
-{See appendix \ref*{apdx:cave} for the story.}}
+think about it.
 
 10. Amongst the strangest verses of the \Quran\ and most disordered,
 confused and furthest from fluency, soundness, and harmony,
@@ -2501,11 +2513,12 @@ TODO:
 \section{God. An Ineffective God}
 TODO:
 
-
+% Start of appendices:
+\clearpage
 \appendix
 \addappheadtotoc
 
-\chapter{Story of The Cave and The Sleepers}
+\chapter{Asbab al\–Nuzul of “The People of The Cave”}
 \label{apdx:cave}
 
 “When Al\–Nadr said that to them, they sent him and \`Uqba b.\ Abu Mu\`ayt
@@ -2551,7 +2564,8 @@ in which he reproaches him for his sadness,
 and told him the answers of their questions, the youths,
 the mighty traveller, and the spirit.”
 
-Quote from: Sirat, Ibn Ishaq.
+\emph{Ibn Ishaq's account of the Asbab al\–Nuzul
+(Reasons for Revelation) for the story of the “People of the Cave”.}
 
 
 \backmatter
