@@ -81,7 +81,7 @@ $(function linkifyVideos() {
 />' :
 '<a href="'+a.href+'"><img src="http://soundcloud.com/images/soundcloud-logo-sc.png"/></a>';
     return ['SoundCloud:', tag];
-  },
+  }
   };
   //handlers['google.co.uk'] = handlers['google.com'];
 

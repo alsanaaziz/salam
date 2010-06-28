@@ -3,12 +3,12 @@
 
 function COEM_enableSplitting(checkbox)
 {
-  var form = document.getElementById("postmodify");
-  var textarea = form.elements.namedItem("message");
+  if (!window.$) return;
+  var textarea = $('#postmodify textarea.editor');
   var handleEvent = COEM_enableSplitting.handler;
-  var add_or_rm = textarea[checkbox.checked ? 'addEventListener' : 'removeEventListener'];
-  add_or_rm('keyup', handleEvent, false);
-  add_or_rm('click', handleEvent, false);
+  var un_bind = checkbox.checked?'bind':'unbind';
+  textarea[un_bind]('keyup', handleEvent)
+          [un_bind]('click', handleEvent);
 }
 
 COEM_enableSplitting.handler = function handleEvent(e) {
