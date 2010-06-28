@@ -44,6 +44,7 @@ users = [
   (1110, "BlackDog", "♂", "Canada", "Pantheist", (), "Was a Shia-Muslim; speaks Arabic; raised in Europe"),
   (409, "BluLox", "♀", "", "", ()),
   (970, "Bobonaut", "♂", "USA", "Atheist", (), "Apostatized because of good, atheist YouTube videos"),
+  (1467, "brummie", "♂", "UK", "", (), "ex-Shia"),
   (1274, "CahitKaya", "♂", "Austria", "Atheist", (), 'Head of the Austrian Council of Ex-Muslims; <a href="http://www.facebook.com/kayacahit">Facebook</a>'),
   (1189, "canex", "♂", "Canada", "", ()),
   (180, "carolineislands", "♀", "USA", "", (), "Converted but flip-flopped shortly after"),
@@ -58,8 +59,10 @@ users = [
   #(1186, "Dain Bramaged", "♂", "", "Atheist", ()), # Double account for his anonymous autobiography.
   (850, "darkone", "♂", "UK", "Agnostic", ()),
   (842, "Diem", "♀", "Canada", "", ()),
+  (1576, "DigDug", "♂", "Canada", "", (), 'ex-Convert'),
   (345, "DivineMercy", "♀", "USA", "Christian", ()),
   (346, "Dr Diavolo", "♂", "UK", "Atheist", (), "Real Doctor"),
+  (1553, "Dreamer", "♀", "USA", "Agnostic", (), "Convert Muslimah for 1 1/2 years."),
   #(1161, "Eazy", "♂", "Egypt", "", ()), # Wavering Muslim.
   (510, "Eddy", "♂", "Turkey", "", ()),
   (1370, "Eliphaz", "♂", "", "", ()),
@@ -73,13 +76,16 @@ users = [
   (1087, "Farhad", "♂", "USA", "", ()),
   (785, "Farid92", "♂", "Netherlands", "Deist", ()),
   (756, "Ferrero", "♀", "UK", "", ()),
-  (725, "freakzilla", "♂", "UK", "Skeptic", ()),
+  (725, "freakzilla", "♂", "UK", "Sceptic", ()),
   (1155, "Gallasadeq", "♂", "Kuwait", "Atheist", (), "Ex-Shia"),
-  (980, "Godot", "♂", "", "", (), "Wasn't really devout, but took faith seriously."),
+  (980, "Godot", "♂", "UK", "Atheist", ("Violent punishments", "slavery", "gender inequality"), "Wasn't really devout, but took faith seriously. Strong existentialist, and a secular humanist."),
   (397, "Goldie", "♂", "UK", "", (), "Apostatized in our forum; ⚣"),
   (150, "green_eyes", "♀", "UK", "Atheist", ()),
   (909, "Hadugh", "♂", "UK", "Atheist", ()),
+  (1582, "hafiz", "♂", "India", "Agnostic", ()),
   (219, "Haji Murad", "♂", "", "", ()),
+  (1575, "Hanan_x3", "♀", "USA", "Agnostic Theist", ()),
+  (1494, "Haroon", "♂", "Pakistan", "Atheist", ()),
   (1024, "Haroun", "♂", "USA", "Atheist", (), "Ex-Salafi"),
   (8, "Hassan", "♂", "UK", "Agnostic", ("Hell", "slavery", "4:34"), 'Former teacher at an Islamic school; studied Arabic; <a href="http://www.youtube.com/user/discussislam">YouTube channel</a>'),
   (383, "Hedaya", "♀", "", "Agnostic", ()),
@@ -89,7 +95,7 @@ users = [
   (898, "HighOctane", "♂", "UK", "Atheist", ()),
   (918, "Human", "♀", "Bangladesh", "", ()),
   (114, "Humanoid", "♂", "UK", "Apatheist", ()),
-  (826, "humblesoul", "♂", "Nigeria", "Deist", (), "Apostatized in our forum; Considers himself an agnostic deist"),
+  (826, "humblesoul", "♂", "Nigeria", "Sceptic", (), "Was a devout Sunni. Dawkins, YouTube atheists and COEM forum helped him become an apostate"),
   (1082, "Iblis", "♂", "Canada", "Atheist", (), "Born to Bengali family; was a devout Muslim, now atheist/agnostic"),
   (80, "ibnishaq", "♂", "USA", "", (), "Apostatized in our forum"),
   (594, "identitas", "♂", "UK", "Agnostic", ()),
@@ -109,6 +115,7 @@ users = [
   (727, "jamshed raja", "♂", "UK", "Atheist", ()),
   (969, "Kafir-Supersta", "♂", "UK", "", ()),
   (1353, "Kansuke", "♂", "UK", "", ()),
+  (1353, "kero-zen", "♂", "", "Humanist", ("Islam is immoral", "and illogical", "desire to be free to think for himself")),
   (819, "khalid saeed", "♂", "Pakistan", "", (), "His brother is also an ex-Muslim, humanist atheist"),
   #(641, "KhalilF", "♂", "", "", ()), # Same account as Haji Murad.
   (93, "Kid A", "♂", "UK", "", ()),
@@ -126,6 +133,7 @@ users = [
   (557, "mangostan", "", "", "", ()), # Registered long time ago. First posting 28.9.2009.
   (1057, "MangoStar", "♀", "USA", "", (), "Raised Southern Baptist. Converted when she was 17, apostatized when she was 18."), # Guessed country.
   (32, "Marmalade-Lady", "♀", "UK", "", ()),
+  (1453, "Marxist", "♂", "USA", "", ()),
   (11, "Maryam Namazie", "♀", "UK", "Atheist", (), "Head of the Council of Ex-Muslims of Britain"),
   (1194, "mateen", "♂", "Pakistan", "", ()),
   (960, "mattb", "♂", "", "", ()),
@@ -137,7 +145,7 @@ users = [
   (1436, "msshama", "♀", "Egypt", "", (), '<a href="http://www.councilofexmuslims.com/index.php?topic=10382">Her story</a>.'),
   (1235, "Mughal", "♂", "UK", "", ()),
   (1243, "mujahid", "♀", "UK", "", (), '<a href="http://www.councilofexmuslims.com/index.php?topic=8959">Her introduction</a>'),
-  (1188, "Naerys", "♀", "North-Africa", "", ()),
+  (1188, "Naerys", "♀", "North-Africa", "Atheist", ("Coming to the realization that Islam is merely a bad rip-off of other religions", "Women's status in Islam", "God's pettiness and irrational punishment")),
   (710, "ned", "♀", "Pakistan", "Panentheist", (), '"Strictly speaking, I\'m a non-religious, neo-Vedantist, panentheistic mystic."'),
   (1297, "nessrriinn", "♀", "Canada", "", ()),
   (712, "Nite Owllll", "♂", "USA", "Atheist", ()),
@@ -153,7 +161,7 @@ users = [
   (408, "Orion", "♂", "", "", ()),
   (260, "pakman", "♂", "", "", ()), # UK?
   (249, "panoptic", "♂", "UK", "Atheist", ()),
-  (734, "Pariah", "♀", "UK", "Agnostic", ()), # Guessed beliefs.
+  (734, "Pariah", "♀", "UK", "Atheist", ("I bow to no one",), "Wife of thinkfree"),
   (160, "Pazuzu", "♂", "UK", "Atheist", ()),
   (554, "PeruvianSkies", "♀", "UK", "Atheist", ()),
   (1312, "Prince Spinoza", "♂", "UK", "Pantheist", ()),
@@ -198,7 +206,7 @@ users = [
   (485, "whatabastor", "♂", "Saudi Arabia", "", ()),
   (19, "Witzbold", "♂", "Pakistan", "Atheist", ()),
   (924, "youcansee", "♀", "UK", "Atheist", ()),
-  (1138, "z10", "♂", "UK", "Atheist", (), "Was raised in a British Pakistani home with Muslim values"),
+  (1138, "z10", "♂", "Canada", "Atheist", (), "Was raised in a British Pakistani home with Muslim values"),
   (42, "Zaephon", "♂", "Turkey", "Atheist", ()),
   (888, "ZBS", "♂", "USA", "Atheist", ()),
   (58, "ZiaZ", "♂", "UK", "Humanist", ()),
@@ -427,11 +435,11 @@ def print_Wiki():
 def escape(s):
   return s.replace("&", "&amp;")
 
-def write_XHTML():
+def write_XHTML(dest):
   def write(text):
     xhtml.write(text.encode("utf-8"))
 
-  xhtml = open("COEM_ex-Muslims.xhtml", "w")
+  xhtml = open(dest, "w")
   write(get_xhtml_head())
 
   for u in users:
@@ -464,7 +472,9 @@ def main():
   elif "--check" in argv:
     check_list()
   else:
-    write_XHTML()
+    dest = "COEM_ex-Muslims.xhtml"
+    if len(argv) > 1: dest = argv[1]
+    write_XHTML(dest)
 
 if __name__ == '__main__':
   main()
