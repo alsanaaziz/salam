@@ -1,0 +1,46 @@
+% Common macros:
+
+% Use Scheherazade for Arabic. Use \ar{...} for inline Arabic text.
+\newfontfamily{\arabicfont}[Script=Arabic,Scale=1.7]{Scheherazade}
+\newcommand{\ar}[1]{\RL{\arabicfont#1}}
+
+% Transliterated "hamza".
+\def\´{ʾ} % ˀ
+\let \hamza=\´ % Needed in \footnotetext.
+
+% Transliterated "`ayin".
+\def\`{ʿ} % ˁ
+\let \ayin=\` % Needed in \footnotetext.
+
+% Aliases for subscript and superscript:
+\let \Sub=\textsubscript
+\let \Sup=\textsuperscript
+
+% Corrective comments.
+\newcommand{\cmt}[2]{#1} % #2 comments on #1.
+\newcommand{\cor}[2]{#2} % #2 corrects #1.
+
+% Macros for the word Qur'an.
+\def \Quran{Qur\-\´ān} % Used when followed by a punctuation mark.
+
+% Breakable forward slash.
+% \def\/{\discretionary{/}{}{/}}
+\def\/{\hskip0pt/\hskip0pt}
+
+% For hyphenation: Trick TeX into thinking al\–XYZ are two separate words.
+\def\–{\hskip0pt-\hskip0pt}
+
+% Macros for custom footnote marks.
+\let \oldtfn=\thefootnote
+\def\fnmarksym[#1]{\def\thefootnote{#1}\footnotemark%
+\addtocounter{footnote}{-1}}
+\def\fntextsym#1{\footnotetext{#1}\let \thefootnote=\oldtfn}
+
+% Prints symbols for dividing paragraphs.
+\def\pardivider{\centerline{***}} % \ar{۞۞۞} ❧❦
+
+% Qur'an reference numbers. TODO: link to web page.
+\newcommand{\QRef}[1]{{\color{darkblue}#1}}
+
+% "Nota bene" macro.
+\newcommand{\NB}[1]{\emph{\small NB: #1}}
