@@ -1,0 +1,147 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[12pt]{memoir}
+\usepackage[
+  xetex,bookmarksnumbered=true,pdfborder=0,hyperfootnotes=true
+]{hyperref}
+\usepackage{xltxtra}
+\usepackage{polyglossia}
+\usepackage{bidi}
+\usepackage{xunicode}
+\usepackage{graphicx}
+
+\usepackage{fontspec}
+\usepackage{color}
+
+\setdefaultlanguage[variant=british]{english}
+\setmainfont{DejaVu Serif}
+
+\hypersetup{
+  pdfauthor = {Hassan},
+  pdftitle = {},
+  pdfsubject = {},
+  pdfkeywords = {Islam},
+}
+
+\input{books/common}
+
+\definecolor{darkblue}{rgb}{0,0,0.5}
+
+% Hyphenation rules:
+\hyphenation{Mau-la-na Za-kar-ya Kan-dha-la-wi}
+\hyphenation{Shu-\`ay-bee}
+
+% Image macro. #1 Optional params. #2 File name. #3 Optional caption.
+\newcommand{\img}[3]{\begin{center}%
+\includegraphics[#1]{#2}\\{\small\em#3}%
+\end{center}}
+\graphicspath{{books/imgs/}}
+
+% Paragraph spacing:
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+\pagestyle{plain}
+
+\title{Un livre sur la vie}
+\author{\emph{d’Hassan}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document begin %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\frontmatter
+
+% Title:
+\maketitle
+\thispagestyle{empty}
+\cleardoublepage
+
+% Table of Contents:
+\setcounter{page}{1}
+\tableofcontents
+
+% Preface:
+\chapter{Préface}
+
+\img{scale=0.1}{Tunis_Hassan.jpg}{}
+
+
+\hfill Copyright © 2008–2010 by Hassan
+
+\mainmatter
+
+% Chapters:
+
+%Chapter 1:
+\chapter{As-tu lu le Coran?}
+
+\img{scale=0.7}{Baby_Hassan.jpg}{}
+
+
+%Chapter 2:
+\chapter{Le chemin d’Allah}
+
+\img{scale=1}{Hassan_1980.jpg}{}
+
+
+%Chapter 3:
+\chapter{Le chemin Soufi}
+
+\img{scale=0.7}{Members_SOAS_Islamic_Society.jpg}
+{Members of SOAS Islamic Society, October 1980.}
+
+
+%Chapter 4:
+\chapter{La Croissance de l’activisme}
+
+\img{scale=0.7}{Assassination_of_Sadat.jpg}{}
+
+
+%Chapter 5:
+\chapter{Islamia School}
+
+
+%Chapter 6:
+\chapter{Cheikh Fayçal}
+
+
+%Chapter 7:
+\chapter{Mardi après-midi}
+
+\img{scale=0.4}{911_Second_Plane.jpg}{}
+
+
+%Chapter 8:
+\chapter{Révélation et Raison}
+
+\img{scale=0.6}{Man_Reading_Koran.jpg}{}
+
+
+%Chapter 9:
+\chapter{Attentats de Londres}
+
+\img{scale=1.2}{London_Bombings.jpg}{}
+
+
+%Chapter 10:
+\chapter{Réformer l’irréformable}
+
+\img{scale=0.4}{Quranic_Script.jpg}{}
+
+
+%Chapter 11:
+\chapter{Religion}
+
+\img{scale=0.6}{Neasden_Temple.jpg}{}
+
+
+%Chapter 12:
+\chapter{La boite de Pandore}
+
+\img{scale=0.5}{Pandoras_Box.jpg}{}
+
+
+\backmatter
+
+\chapter{Index}
+TODO:
+
+\end{document}
