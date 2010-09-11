@@ -78,9 +78,9 @@
 
 % Macros for custom footnote marks.
 \let \oldtfn=\thefootnote
-\def\fnmarksym[#1]{\def\thefootnote{#1}\footnotemark%
+\def\fnmarksym[#1]{\renewcommand{\thefootnote}{#1}\footnotemark%
 \addtocounter{footnote}{-1}}
-\def\fntextsym#1{\footnotetext{#1}\let \thefootnote=\oldtfn}
+\def\fntextsym#1{\footnotetext{#1}\renewcommand{\thefootnote}{\oldtfn}}
 % Aliases for footnote macros:
 \let \fnmark=\footnotemark
 \let \fntext=\footnotetext
@@ -2274,7 +2274,7 @@ each part adhering to and supporting the other so as to arrive exactly
 at what the author intends and desires, without interruption,
 aberration or anomaly in the eloquent, miraculous speech.
 
-9. After relating the story of the People of the Cave\fnmarksym[*]\
+9. After relating the story of the People of the Cave\fnmarksym[*]{}\
 and how God raised them from their sleep,
 the \Quran\ turned to the question of their number
 and the people’s dispute about it.
@@ -2529,7 +2529,7 @@ Suyuti relates many examples of what Uthman left out
 when he was collecting the \Quran, on the basis that it was abrogated.
 Regarding this is the Hadith of Aysha who said:
 “When Sura al\–Ahzab was recited at the time of the prophet
-it had two hundred verses,”\fnmark\
+it had two hundred verses,”\fnmark%
 \fntext{Ibidem.}
 though now it has 73 verses only.
 Just as al\–Suyuti also mentioned that a whole sura
@@ -3603,9 +3603,13 @@ And you did your deed which you did...
 He (Moses) said: I did it...
 So I fled from you when I feared you,
 then my Lord granted me wisdom and made me of the messengers.
-And that is a favour of which you bestowed upon me
+And that is a favour of which you bestowed upon me\fnmarksym[*]\
 that you have enslaved the children of Israel.” (\QRef{26:18–22})
-\end{quote}\fnmarksym[*]\
+\end{quote}
+
+% Quick fix: a number appears in fntext, instead of the '*';
+% fnmark is in a quote environment, that's why this command is needed.
+\renewcommand{\thefootnote}{*}
 
 \fntextsym{The verb “Manna” (\ar{مَنَّ}) means;
 “To bestow favours, blessings, be kind, gracious etc...”
@@ -3618,13 +3622,11 @@ How can one reproach someone for something they didn’t do?
 Not to mention that the person doing the reproaching
 is the one who did the act himself!!??}
 
-\fnmark{}The puzzle here is in the last verse, the verses that precede it lead to it.
+The puzzle here is in the last verse, the verses that precede it lead to it.
 Read it and then read it again, two, three,
 four and ten times and keep on reading it as long as you want.
 Then tell me honestly and sincerely if you understand anything —
 and I will be most grateful.
-
-\fntext{dsfasfd}
 
 I don’t understand how enslavement can be a blessing
 bestowed by Pharaoh upon Moses?
