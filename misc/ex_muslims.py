@@ -2,7 +2,23 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
+# Format: (UserID, NickName, Gender, Location, Belief, ("Three", "Reasons", "ForApostasy"), OptionalAnnotation)
 users = [
+  # (2671, "LondonGirl", "♀", "UK", "", ()), # Doubting.
+  (1470, "noallah", "♂", "UK", "Atheist", (), "⚤⚣"),
+  (2648, "muddy", "♂", "Canada", "", ("Muslims bash gays", "Quran has many contradictions among different verses. I have always questioned them.", "Islam is very anti women")),
+  (2649, "Zeeman", "♂", "Canada", "", ()),
+  (2491, "Sameh", "♂", "UK", "Agnostic", ("Lack of evidence", "eternal punishment", "immoral teachings")),
+  (2693, "infidelicious", "♂", "", "", ()),
+  (2743, "musivore", "♂", "UK", "", ()),
+  (2901, "Madig", "♂", "UK", "Atheist", ()),
+  (2328, "Damian_Gray", "♂", "UK", "Atheist", ("Because it is a hateful religion which worships the waste of sperm that is Mohammed", "It's incompatible with science", "Has barbaric punishments for miniscule things that it considers sins.")),
+  (2784, "Kafir", "♂", "Norway", "", ()),
+  (2811, "Planetlestar", "♂", "Algeria", "", ()),
+  (2973, "Mount A Bison", "♂", "UK", "", ()),
+  (2375, "armanduk2010", "♂", "UK", "Christian", ()),
+  (2975, "Lukatic", "♀", "Malaysia", "", ()),
+  # Users below are sorted alphabetically:
   (658, "[C*]", "♂", "UK", "Atheist", ()),
   (1108, "_truth_", "♂", "USA", "Atheist", (), "Was raised as a Sunni Salafi"),
   (558, "a.ghazali", "♂", "UK", "Atheist", ()),
@@ -17,6 +33,7 @@ users = [
   (884, "AisaLagtaHAI", "♂", "Canada", "Agnostic", ()),
   (975, "aj566", "♂", "UK", "Atheist", ()),
   (370, "Al Razi", "♂", "UK", "Atheist", (), "Occasionally writes funny, Arabic revelations"),
+  (2101, "Al-Razi", "♂", "Egypt", "", ()),
   (668, "al-uzza", "♀", "", "", ()),
   (1825, "algebra", "", "Canada", "Theist", ()),
   (1023, "Ali Marwa", "♂", "", "Christian", ()),
@@ -62,7 +79,6 @@ users = [
   #(1186, "Dain Bramaged", "♂", "", "Atheist", ()), # Double account for his anonymous autobiography.
   (850, "darkone", "♂", "UK", "Agnostic", ()),
   (842, "Diem", "♀", "Canada", "", ()),
-  (1576, "DigDug", "♂", "Canada", "", (), 'ex-Convert'),
   (345, "DivineMercy", "♀", "USA", "Christian", ()),
   (346, "Dr Diavolo", "♂", "UK", "Atheist", (), "Real Doctor"),
   (1553, "Dreamer", "♀", "USA", "Agnostic", (), "Convert Muslimah for 1 1/2 years."),
@@ -82,10 +98,11 @@ users = [
   (725, "freakzilla", "♂", "UK", "Sceptic", ()),
   (1987, "GAIMANPALMERR", "♀", "UK", "Agnostic", ()),
   (1155, "Gallasadeq", "♂", "Kuwait", "Atheist", (), "Ex-Shia"),
-  (1807, "GodIsNotGreat", "", "UK", "Atheist", ()),
+  (1807, "GodIsNotGreat", "♂", "UK", "Atheist", ()),
   (980, "Godot", "♂", "UK", "Atheist", ("Violent punishments", "slavery", "gender inequality"), "Wasn't really devout, but took faith seriously. Strong existentialist, and a secular humanist."),
   (397, "Goldie", "♂", "UK", "", (), "Apostatized in our forum; ⚣"),
   (150, "green_eyes", "♀", "UK", "Atheist", ()),
+  (2426, "grudgydiablo", "♂", "UK", "", ()),
   (909, "Hadugh", "♂", "UK", "Atheist", ()),
   (1582, "hafiz", "♂", "India", "Agnostic", ()),
   (219, "Haji Murad", "♂", "", "", ()),
@@ -111,7 +128,9 @@ users = [
   (917, "insiaiftiqhar", "♂", "USA", "", ()),
   (1141, "Iraqi Atheist", "♂", "UK", "Atheist", (), "Fled Iraq because of the war and settled in the UK; became atheist thanks to the popular ('new') atheists"),
   (141, "Iris", "♀", "UK", "", ()),
+  (2452, "Irzyad", "♂", "Indonesia", "Atheist", ()),
   (194, "Isaac Schrodinger", "♂", "Canada", "", ()),
+  (2366, "Ishina", "♀", "UK", "Atheist", ()),
   (574, "IsLame", "♂", "UK", "Humanist", ("God's invisibility and cruelty", "existence of polytheism", "net effect of the Qur'an on Muslims"), '<a href="http://www.youtube.com/user/ExMuslimUK">YouTube channel</a>'),
   (1111, "iThink", "♂", "Syria", "Atheist", ()),
   (336, "ItStartedInCollege", "♂", "USA", "", ()),
@@ -131,6 +150,7 @@ users = [
   (381, "ladyofshalott", "♀", "UK", "Atheist", ()),
   (634, "li", "♂", "Singapore", "Atheist", ()),
   (1126, "liberated", "♂", "Pakistan", "Agnostic", ()),
+  (760, "Loki", "♀", "UK", "Agnostic", ()),
   (215, "Luthiel", "♀", "USA", "Atheist", ()),
   (197, "Maghrebi", "♂", "Morocco", "", ()),
   (854, "Malik", "♂", "UK", "Atheist", ()),
@@ -142,18 +162,20 @@ users = [
   (11, "Maryam Namazie", "♀", "UK", "Atheist", (), "Head of the Council of Ex-Muslims of Britain"),
   (1194, "mateen", "♂", "Pakistan", "", ()),
   (960, "mattb", "♂", "", "", ()),
-  (760, "Meredith", "♀", "UK", "", ()),
   (325, "Mia Bella", "♀", "Canada", "", ()),
   (1255, "MoeAlharbi", "♂", "Canada", "Atheist", ()),
+  (2076, "mohsinali32", "♂", "UK", "", ()),
   (1410, "Morpheus", "♂", "", "", ()),
   (1131, "Mowgli", "♂", "UK", "", (), "⚣"),
   (1436, "msshama", "♀", "Egypt", "", (), '<a href="http://www.councilofexmuslims.com/index.php?topic=10382">Her story</a>.'),
+  (1695, "mufa9a", "♀", "Saudi Arabia", "", ()),
   (1235, "Mughal", "♂", "UK", "", ()),
   (1243, "mujahid", "♀", "UK", "", (), '<a href="http://www.councilofexmuslims.com/index.php?topic=8959">Her introduction</a>'),
   (1188, "Naerys", "♀", "North-Africa", "Atheist", ("Coming to the realization that Islam is merely a bad rip-off of other religions", "Women's status in Islam", "God's pettiness and irrational punishment")),
   (1630, "Naija Infidel", "♂", "Nigeria", "Deist", ()),
   (710, "ned", "♀", "Pakistan", "Panentheist", (), '"Strictly speaking, I\'m a non-religious, neo-Vedantist, panentheistic mystic."'),
   (1297, "nessrriinn", "♀", "Canada", "", ()),
+  (2483, "newsoul", "♀", "USA", "", ()),
   (712, "Nite Owllll", "♂", "USA", "Atheist", ()),
   (623, "Nizar", "♂", "Sweden", "Agnostic", ()),
   (880, "nothingthere", "♂", "", "Atheist", ()), # Guessed the gender.
@@ -215,8 +237,11 @@ users = [
   (1328, "thinkfree", "♂", "UK", "Atheist", (), "Husband of Pariah"),
   (562, "Tommy", "♂", "USA", "Atheist", ()),
   (244, "Uppercut", "♂", "UK", "Humanist", ()),
+  (1694, "Urahara Kissuk", "♂", "Oman", "Humanist", ()),
   (1103, "virav5", "♀", "Indonesia", "Agnostic", ()),
   (485, "whatabastor", "♂", "Saudi Arabia", "", ()),
+  (2516, "whyabadi", "♂", "UAE", "Atheist", (), "⚣"),
+  #(2444, "whyme89", "♀", "", "", ()),
   (19, "Witzbold", "♂", "Pakistan", "Atheist", ()),
   (1898, "xantar", "♂", "Belgium", "Atheist", ()),
   (924, "youcansee", "♀", "UK", "Atheist", ()),
@@ -225,9 +250,14 @@ users = [
   (888, "ZBS", "♂", "USA", "Atheist", ()),
   (58, "ZiaZ", "♂", "UK", "Humanist", ()),
   (1013, "zizo", "♂", "Egypt", "Atheist", ()),
+  (2494, "Zodiac", "♂", "Kuwait", "Atheist", ()),
   (913, "Zuber", "♂", "New Zealand", "Atheist", ()),
-  #(1694, "Urahara Kissuk", "♂", "Oman", "", ()),
 ]
+
+def sort_user_list():
+  # Sort the list by user name in lower case.
+  users.sort(key=lambda x: x[1].lower())
+sort_user_list()
 
 
 def get_xhtml_head(copy_jquery=False):
@@ -471,6 +501,7 @@ def write_XHTML(dest):
 
 def check_list():
   # Check for correct alphabetic order.
+  # NB: not necessary any more; see sort_user_list().
   names = [u[1] for u in users]
   names_ = names[:]
   names.sort(lambda a, b: cmp(a.lower(), b.lower()))
