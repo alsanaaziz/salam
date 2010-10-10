@@ -32,9 +32,13 @@
 
 % Macros for custom footnote marks.
 \let \oldtfn=\thefootnote
-\def\fnmarksym[#1]{\def\thefootnote{#1}\footnotemark%
-\addtocounter{footnote}{-1}}
-\def\fntextsym#1{\footnotetext{#1}\let \thefootnote=\oldtfn}
+\newcommand{\fnmarksym}[1][*]{\renewcommand{\thefootnote}{#1}%
+\footnotemark\addtocounter{footnote}{-1}}
+\newcommand{\fntextsym}[1]{%
+\footnotetext{#1}\renewcommand{\thefootnote}{\oldtfn}}
+% Aliases for footnote macros:
+\let \fnmark=\footnotemark
+\let \fntext=\footnotetext
 
 % Prints symbols for dividing paragraphs.
 \def\pardivider{\centerline{***}} % \ar{۞۞۞} ❧❦
